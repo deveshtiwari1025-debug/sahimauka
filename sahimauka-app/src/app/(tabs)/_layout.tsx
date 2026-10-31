@@ -1,19 +1,21 @@
 import { Feather } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
-import { COLORS } from "@/constants";
+import { BRAND, COLORS } from "@/constants";
 
 export default function TabsLayout() {
   return (
     <Tabs
       screenOptions={{
         headerShown: true,
-        headerTitle: "SahiMauka",
+        headerTitle: BRAND.name,
         headerStyle: { backgroundColor: COLORS.bg },
         headerTintColor: COLORS.ink,
-        headerTitleStyle: { fontWeight: "800" },
+        headerShadowVisible: false,
+        headerTitleStyle: { fontWeight: "800", fontSize: 20 },
         tabBarActiveTintColor: COLORS.accent,
         tabBarInactiveTintColor: COLORS.muted,
+        tabBarLabelStyle: { fontSize: 11, fontWeight: "600" },
         tabBarStyle: {
           backgroundColor: COLORS.card,
           borderTopColor: COLORS.line,
@@ -26,7 +28,7 @@ export default function TabsLayout() {
         options={{
           title: "Home",
           tabBarIcon: ({ color, size }) => (
-            <Feather name="home" size={size} color={typeof color === "number" ? COLORS.accent : (color ?? undefined)} />
+            <Feather name="home" size={size} color={typeof color === "string" ? color : COLORS.accent} />
           ),
         }}
       />
@@ -35,7 +37,7 @@ export default function TabsLayout() {
         options={{
           title: "Deadlines",
           tabBarIcon: ({ color, size }) => (
-            <Feather name="clock" size={size} color={typeof color === "number" ? COLORS.accent : (color ?? undefined)} />
+            <Feather name="clock" size={size} color={typeof color === "string" ? color : COLORS.accent} />
           ),
         }}
       />
@@ -44,11 +46,7 @@ export default function TabsLayout() {
         options={{
           title: "Saved",
           tabBarIcon: ({ color, size }) => (
-            <Feather
-              name="bookmark"
-              size={size}
-              color={typeof color === "number" ? COLORS.accent : (color ?? undefined)}
-            />
+            <Feather name="bookmark" size={size} color={typeof color === "string" ? color : COLORS.accent} />
           ),
         }}
       />
@@ -57,11 +55,7 @@ export default function TabsLayout() {
         options={{
           title: "More",
           tabBarIcon: ({ color, size }) => (
-            <Feather
-              name="settings"
-              size={size}
-              color={typeof color === "number" ? COLORS.accent : (color ?? undefined)}
-            />
+            <Feather name="settings" size={size} color={typeof color === "string" ? color : COLORS.accent} />
           ),
         }}
       />

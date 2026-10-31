@@ -1,14 +1,14 @@
 import * as Notifications from "expo-notifications";
-import { DefaultTheme, Stack, ThemeProvider } from "expo-router";
+import { DefaultTheme, Stack, ThemeProvider, useRouter, type Href } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 
-import Tour from "@/components/Tour";
+import { TourProvider } from "@/components/Tour";
 import { COLORS } from "@/constants";
+import { registerBackgroundRefresh } from "@/lib/background";
 
 SplashScreen.preventAutoHideAsync();
 
-// Show scheduled alerts as normal banners while the app is in the foreground.
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowBanner: true,
@@ -32,28 +32,39 @@ const navTheme = {
 };
 
 export default function RootLayout() {
+  const router = useRouter();
+
   useEffect(() => {
     void SplashScreen.hideAsync().catch(() => {
-      // Hiding twice or too early is harmless; nothing to recover.
+      // Hiding twice or too early is harmless.
     });
+    void registerBackgroundRefresh();
   }, []);
+
+  useEffect(() => {
+    const sub = Notifications.addNotificationResponseReceivedListener(() => {
+      router.navigate("/(tabs)" as Href);
+    });
+    return () => sub.remove();
+  }, [router]);
 
   return (
     <ThemeProvider value={navTheme}>
-      <Stack screenOptions={{ contentStyle: { backgroundColor: COLORS.bg } }}>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen
-          name="opp/[id]"
-          options={{
-            headerShown: true,
-            title: "Opportunity",
-            headerBackTitle: "Back",
-            headerStyle: { backgroundColor: COLORS.bg },
-            headerTintColor: COLORS.ink,
-          }}
-        />
-      </Stack>
-      <Tour />
+      <TourProvider>
+        <Stack screenOptions={{ contentStyle: { backgroundColor: COLORS.bg } }}>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen
+            name="opp/[id]"
+            options={{
+              headerShown: true,
+              title: "Opportunity",
+              headerBackTitle: "Back",
+              headerStyle: { backgroundColor: COLORS.bg },
+              headerTintColor: COLORS.ink,
+            }}
+          />
+        </Stack>
+      </TourProvider>
     </ThemeProvider>
   );
 }

@@ -1,6 +1,8 @@
 import * as Notifications from "expo-notifications";
 import { Platform } from "react-native";
 
+import { COLORS } from "@/constants";
+
 /**
  * Local deadline reminders. Offsets (days before the deadline, and the day
  * itself) fire at 09:00 local time. Identifiers are deterministic —
@@ -72,7 +74,7 @@ export async function scheduleDeadlineReminders(
       await Notifications.setNotificationChannelAsync("deadlines", {
         name: "Deadline reminders",
         importance: Notifications.AndroidImportance.HIGH,
-        lightColor: "#7C3AED",
+        lightColor: COLORS.accent,
       });
     } catch {
       // Channel creation is best-effort; scheduling still proceeds.
@@ -93,7 +95,7 @@ export async function scheduleDeadlineReminders(
     const body = `${daysLeftLabel(daysLeft)} — ${fireAt.toLocaleDateString(
       undefined,
       { weekday: "short", day: "numeric", month: "short" }
-    )}. Open SahiMauka for the official link.`;
+    )}. Open DastakDe for the official link.`;
     try {
       await Notifications.scheduleNotificationAsync({
         identifier: `rem-${item.id}-${offset}`,

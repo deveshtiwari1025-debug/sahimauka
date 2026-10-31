@@ -14,31 +14,97 @@ export type CountdownInfo = {
   bg: string;
 };
 
-/** Pure countdown computation from an ISO deadline (or null = rolling). */
-export function countdownInfo(deadline: string | null): CountdownInfo {
-  if (!deadline) {
-    return { label: "Open", color: COLORS.ok, bg: "#E7F5EF" };
+export type DeadlineItem = Pick<OppItem, "deadline" | "deadline_status">;
+
+function parseDay(iso: string): Date | null {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso.trim());
+  if (!m) return null;
+  const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+export function formatDay(iso: string): string {
+  const d = parseDay(iso);
+  if (!d) return iso;
+  return d.toLocaleDateString(undefined, {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+export function daysUntil(iso: string | null): number | null {
+  if (!iso) return null;
+  const deadlineDay = parseDay(iso);
+  if (!deadlineDay) return null;
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.round((deadlineDay.getTime() - startOfToday.getTime()) / DAY_MS);
+}
+
+export function isExpired(item: DeadlineItem): boolean {
+  if (item.deadline_status !== "fixed") return false;
+  const days = daysUntil(item.deadline);
+  return days != null && days < 0;
+}
+
+export function countdownInfo(item: DeadlineItem): CountdownInfo {
+  if (item.deadline_status === "check_official") {
+    return {
+      label: "Dates on portal",
+      color: COLORS.accent,
+      bg: COLORS.accentSoft,
+    };
   }
-  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(deadline.trim());
-  if (!m) return { label: "Open", color: COLORS.ok, bg: "#E7F5EF" };
-  const deadlineDay = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
-  if (Number.isNaN(deadlineDay.getTime())) {
-    return { label: "Open", color: COLORS.ok, bg: "#E7F5EF" };
+  if (item.deadline_status === "notice") {
+    return {
+      label: "Official notice",
+      color: COLORS.accent2,
+      bg: COLORS.accent2Soft,
+    };
   }
-  const today = new Date();
-  const startOfToday = new Date(
-    today.getFullYear(),
-    today.getMonth(),
-    today.getDate()
-  );
-  const daysLeft = Math.round((deadlineDay.getTime() - startOfToday.getTime()) / DAY_MS);
+  if (item.deadline_status === "seasonal") {
+    return {
+      label: "Seasonal",
+      color: COLORS.accent2,
+      bg: COLORS.accent2Soft,
+    };
+  }
+  if (item.deadline_status === "rolling" || !item.deadline) {
+    return { label: "Always open", color: COLORS.ok, bg: COLORS.okSoft };
+  }
+
+  const daysLeft = daysUntil(item.deadline);
+  if (daysLeft == null) {
+    return { label: "Check date", color: COLORS.accent2, bg: COLORS.accent2Soft };
+  }
   if (daysLeft < 0) {
-    return { label: "Ended", color: COLORS.muted, bg: COLORS.chipIdle };
+    return { label: "Closed", color: COLORS.muted, bg: COLORS.chipIdle };
   }
   const label = daysLeft === 0 ? "Due today" : `${daysLeft}d left`;
-  if (daysLeft <= 2) return { label, color: COLORS.danger, bg: "#FDEAEA" };
-  if (daysLeft <= 7) return { label, color: COLORS.accent2, bg: "#FEF3DD" };
-  return { label, color: COLORS.ok, bg: "#E7F5EF" };
+  if (daysLeft <= 2) return { label, color: COLORS.danger, bg: COLORS.dangerSoft };
+  if (daysLeft <= 7) return { label, color: COLORS.accent2, bg: COLORS.accent2Soft };
+  return { label, color: COLORS.ok, bg: COLORS.okSoft };
+}
+
+export function deadlineLine(item: OppItem): string {
+  if (item.deadline_status === "fixed" && item.deadline) {
+    const days = daysUntil(item.deadline);
+    if (days != null && days < 0) return `Closed ${formatDay(item.deadline)}`;
+    return `Closes ${formatDay(item.deadline)}`;
+  }
+  if (item.deadline_status === "notice") {
+    return item.published_at
+      ? `Official notice · ${formatDay(item.published_at)}`
+      : "Official notice — open for dates";
+  }
+  if (item.deadline_status === "check_official") {
+    return "Dates and eligibility are on the official portal";
+  }
+  if (item.deadline_status === "seasonal") {
+    return "Seasonal window — check the official portal";
+  }
+  return "No fixed deadline — check the official portal";
 }
 
 function categoryChip(category: string): { emoji: string; label: string } {
@@ -61,13 +127,13 @@ function OppCardImpl({
     () => saved.some((s) => s.id === item.id),
     [saved, item.id]
   );
-  const countdown = countdownInfo(item.deadline);
+  const countdown = countdownInfo(item);
   const cat = categoryChip(item.category);
 
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`${item.title} — ${cat.label}`}
+      accessibilityLabel={`${item.title} — ${cat.label}, ${deadlineLine(item)}`}
       onPress={() => onPress?.(item)}
       style={({ pressed }) => [
         styles.card,
@@ -95,9 +161,20 @@ function OppCardImpl({
         {item.title}
       </Text>
 
-      <Text style={styles.meta} numberOfLines={1}>
-        {item.org} · {item.source_label}
+      <Text style={styles.org} numberOfLines={1}>
+        {item.org}
       </Text>
+
+      <View style={styles.dateRow}>
+        <Feather
+          name={item.deadline_status === "fixed" ? "calendar" : "info"}
+          size={12}
+          color={COLORS.inkSoft}
+        />
+        <Text style={styles.dateText} numberOfLines={1}>
+          {deadlineLine(item)}
+        </Text>
+      </View>
 
       <View style={styles.bottomRow}>
         {item.verification.source_verified ? (
@@ -110,12 +187,16 @@ function OppCardImpl({
         ) : (
           <View />
         )}
-        <Feather
-          name="bookmark"
-          size={16}
-          color={isSaved ? COLORS.accent : COLORS.line}
-          style={isSaved ? styles.bookmarkSaved : undefined}
-        />
+        <View style={styles.sourceRow}>
+          <Text style={styles.sourceText} numberOfLines={1}>
+            {item.source_label}
+          </Text>
+          <Feather
+            name="bookmark"
+            size={16}
+            color={isSaved ? COLORS.accent : COLORS.line}
+          />
+        </View>
       </View>
     </Pressable>
   );
@@ -130,24 +211,24 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: COLORS.line,
     padding: 14,
-    gap: 8,
-    shadowColor: "#1C1330",
-    shadowOpacity: 0.04,
-    shadowRadius: 8,
-    shadowOffset: { width: 0, height: 2 },
+    gap: 6,
+    shadowColor: COLORS.shadow,
+    shadowOpacity: 0.05,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 3 },
     elevation: 1,
   },
   cardCompact: {
     padding: 12,
-    gap: 6,
+    gap: 5,
   },
   pressed: {
-    opacity: 0.85,
+    opacity: 0.86,
   },
   topRow: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 8,
+    gap: 6,
     flexWrap: "wrap",
   },
   chip: {
@@ -169,30 +250,52 @@ const styles = StyleSheet.create({
   titleCompact: {
     fontSize: 15,
   },
-  meta: {
+  org: {
     fontSize: 12,
     color: COLORS.muted,
+  },
+  dateRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+    backgroundColor: COLORS.chipIdle,
+    borderRadius: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+  },
+  dateText: {
+    flex: 1,
+    fontSize: 11,
+    color: COLORS.inkSoft,
+    fontWeight: "600",
   },
   bottomRow: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
+    gap: 8,
     marginTop: 2,
   },
   verifiedRow: {
     flexDirection: "row",
     alignItems: "center",
     gap: 4,
+    flexShrink: 1,
   },
   verifiedText: {
     fontSize: 11,
     color: COLORS.ok,
     fontWeight: "600",
   },
-  bookmarkSaved: {
-    // Filled look for the outline Feather glyph: heavier weight via tint.
-    shadowColor: COLORS.accent,
-    shadowOpacity: 0.9,
-    shadowRadius: 1,
+  sourceRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+    flexShrink: 1,
+  },
+  sourceText: {
+    fontSize: 10,
+    color: COLORS.muted,
+    maxWidth: 130,
   },
 });

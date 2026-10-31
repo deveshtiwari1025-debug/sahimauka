@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "SahiMauka",
-    "slug": "sahimauka",
+    "name": "DastakDe",
+    "slug": "dastakde",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "sahimauka",
+    "scheme": "dastakde",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
-      "package": "app.sahimauka.android",
+      "package": "app.dastakde.android",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#4C1D95",
@@ -30,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#1C1330",
+          "backgroundColor": "#191033",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 140
         }
@@ -38,11 +38,12 @@
       [
         "expo-notifications",
         {
-          "color": "#7C3AED"
+          "color": "#6D28D9"
         }
       ],
       "expo-web-browser",
-      "expo-video"
+      "expo-video",
+      "expo-background-task"
     ],
     "experiments": {
       "typedRoutes": true,

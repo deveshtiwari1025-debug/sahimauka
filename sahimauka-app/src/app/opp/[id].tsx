@@ -6,13 +6,19 @@ import {
   Linking,
   Pressable,
   ScrollView,
+  Share,
   StyleSheet,
   Text,
   View,
 } from "react-native";
 
-import { countdownInfo } from "@/components/OppCard";
-import { CATEGORIES, COLORS } from "@/constants";
+import {
+  countdownInfo,
+  daysUntil,
+  deadlineLine,
+  formatDay,
+} from "@/components/OppCard";
+import { CATEGORIES, COLORS, DEADLINE_LABELS, reportUrl } from "@/constants";
 import type { OppItem } from "@/lib/feed";
 import { toggleSaved, useSaved } from "@/lib/persistence";
 import {
@@ -28,6 +34,47 @@ function categoryChip(category: string): { emoji: string; label: string } {
   return { emoji: "📌", label: category };
 }
 
+function deadlinePanel(item: OppItem): { value: string; note: string } {
+  if (item.deadline_status === "fixed" && item.deadline) {
+    const days = daysUntil(item.deadline);
+    return {
+      value: formatDay(item.deadline),
+      note:
+        days == null
+          ? "Check the official page for the exact deadline."
+          : days < 0
+            ? "This deadline has passed. The official page may still have details."
+            : days === 0
+              ? "Closes today. Confirm the exact cut-off time on the official page."
+              : `Closes in ${days} day${days === 1 ? "" : "s"}. Confirm the exact cut-off time on the official page.`,
+    };
+  }
+  if (item.deadline_status === "notice") {
+    return {
+      value: "Official notice",
+      note: item.published_at
+        ? `Published ${formatDay(item.published_at)}. This notice may announce dates, results or instructions — open it for the authoritative detail.`
+        : "This is an official notice, not a single application deadline. Open it for the authoritative detail.",
+    };
+  }
+  if (item.deadline_status === "check_official") {
+    return {
+      value: "Dates on the official portal",
+      note: "This programme page does not publish one fixed deadline in the feed. Check the current dates, eligibility and application window on the official portal.",
+    };
+  }
+  if (item.deadline_status === "seasonal") {
+    return {
+      value: "Seasonal window",
+      note: "Applications run in a seasonal window. Check the official portal for the current opening and closing dates.",
+    };
+  }
+  return {
+    value: "No fixed deadline",
+    note: "Check the official portal for current availability and any cut-off dates.",
+  };
+}
+
 export default function OppDetailScreen() {
   const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -35,10 +82,8 @@ export default function OppDetailScreen() {
   const [saved] = useSaved();
 
   const item: OppItem | undefined = items.find((it) => it.id === id);
-
   const isSaved = saved.some((s) => s.id === id);
 
-  // Reminders state is async-derived; never set synchronously during render.
   const [remindersOn, setRemindersOn] = useState(false);
   const [reminderBusy, setReminderBusy] = useState(false);
   const [reminderCount, setReminderCount] = useState<number | null>(null);
@@ -88,8 +133,14 @@ export default function OppDetailScreen() {
     );
   }
 
-  const countdown = countdownInfo(item.deadline);
+  const cd = countdownInfo(item);
   const cat = categoryChip(item.category);
+  const panel = deadlinePanel(item);
+  const canRemind =
+    item.deadline_status === "fixed" &&
+    item.deadline != null &&
+    (daysUntil(item.deadline) ?? -1) >= 0;
+
   const fetchedDate = new Date(item.fetched_at);
   const fetchedLabel = Number.isNaN(fetchedDate.getTime())
     ? item.fetched_at
@@ -106,6 +157,27 @@ export default function OppDetailScreen() {
       await Linking.openURL(item.url).catch(() => {
         // No browser available; nothing else to do.
       });
+    }
+  };
+
+  const openReport = async () => {
+    const url = reportUrl(item);
+    try {
+      await openBrowserAsync(url);
+    } catch {
+      await Linking.openURL(url).catch(() => {
+        // No browser available.
+      });
+    }
+  };
+
+  const onShare = async () => {
+    try {
+      await Share.share({
+        message: `${item.title}\n${item.org}\n${deadlineLine(item)}\n${item.url}\n\nFound on DastakDe.`,
+      });
+    } catch {
+      // The share sheet was dismissed.
     }
   };
 
@@ -128,8 +200,6 @@ export default function OppDetailScreen() {
     if (count > 0) {
       setRemindersOn(true);
       setReminderCount(count);
-    } else if (item.deadline == null) {
-      setReminderCount(0);
     }
   };
 
@@ -149,9 +219,9 @@ export default function OppDetailScreen() {
             {cat.emoji} {cat.label}
           </Text>
         </View>
-        <View style={[styles.chip, { backgroundColor: countdown.bg }]}>
-          <Text style={[styles.countChipText, { color: countdown.color }]}>
-            {countdown.label}
+        <View style={[styles.chip, { backgroundColor: cd.bg }]}>
+          <Text style={[styles.countChipText, { color: cd.color }]}>
+            {cd.label}
           </Text>
         </View>
       </View>
@@ -159,17 +229,14 @@ export default function OppDetailScreen() {
       <Text style={styles.title}>{item.title}</Text>
       <Text style={styles.org}>{item.org}</Text>
 
-      <View style={styles.bigCountdown}>
-        <Text style={styles.bigCountdownLabel}>Deadline</Text>
-        <Text style={[styles.bigCountdownValue, { color: countdown.color }]}>
-          {item.deadline
-            ? `${new Date(`${item.deadline}T00:00:00`).toLocaleDateString(undefined, {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })} · ${countdown.label}`
-            : "Rolling — no fixed date"}
+      <View style={styles.deadlineCard}>
+        <Text style={styles.deadlineLabel}>
+          {DEADLINE_LABELS[item.deadline_status].toUpperCase()}
         </Text>
+        <Text style={[styles.deadlineValue, { color: cd.color }]}>
+          {panel.value}
+        </Text>
+        <Text style={styles.deadlineNote}>{panel.note}</Text>
       </View>
 
       <Text style={styles.description}>{item.description}</Text>
@@ -183,13 +250,16 @@ export default function OppDetailScreen() {
           />
           <Text style={styles.evidenceTitle}>
             {item.verification.source_verified
-              ? "Source verified ✓"
+              ? "Official source verified"
               : "Source listed, verification pending"}
           </Text>
         </View>
         <Text style={styles.evidenceLine}>
-          Source: {item.source_label} · domain {item.verification.domain} ·
-          fetched {fetchedLabel}
+          {item.source_label} · {item.verification.domain}
+        </Text>
+        <Text style={styles.evidenceLine}>
+          Feed fetched {fetchedLabel}
+          {item.published_at ? ` · Published ${formatDay(item.published_at)}` : ""}
         </Text>
         <Text style={styles.evidenceUrl} numberOfLines={1}>
           {item.url}
@@ -207,36 +277,41 @@ export default function OppDetailScreen() {
         <Text style={styles.primaryBtnText}>Open official page</Text>
       </Pressable>
 
-      <Pressable
-        accessibilityRole="button"
-        disabled={reminderBusy}
-        style={({ pressed }) => [
-          styles.button,
-          remindersOn ? styles.okBtn : styles.secondaryBtn,
-          pressed && styles.pressed,
-          reminderBusy && styles.disabled,
-        ]}
-        onPress={() => {
-          void onRemind();
-        }}
-      >
-        <Feather
-          name={remindersOn ? "bell" : "bell-off"}
-          size={16}
-          color={remindersOn ? "#FFFFFF" : COLORS.accent}
-        />
-        <Text
-          style={
-            remindersOn ? styles.primaryBtnText : styles.secondaryBtnText
-          }
+      {canRemind ? (
+        <Pressable
+          accessibilityRole="button"
+          disabled={reminderBusy}
+          style={({ pressed }) => [
+            styles.button,
+            remindersOn ? styles.okBtn : styles.secondaryBtn,
+            pressed && styles.pressed,
+            reminderBusy && styles.disabled,
+          ]}
+          onPress={() => {
+            void onRemind();
+          }}
         >
-          {remindersOn
-            ? "Reminders on ✓ (tap to cancel)"
-            : reminderCount === 0
-              ? "No reminders possible (no upcoming deadline)"
+          <Feather
+            name={remindersOn ? "bell" : "bell-off"}
+            size={16}
+            color={remindersOn ? "#FFFFFF" : COLORS.accent}
+          />
+          <Text
+            style={
+              remindersOn ? styles.primaryBtnText : styles.secondaryBtnText
+            }
+          >
+            {remindersOn
+              ? "Reminders on ✓ (tap to cancel)"
               : "Remind me"}
+          </Text>
+        </Pressable>
+      ) : (
+        <Text style={styles.noReminder}>
+          Reminders are available for fixed deadlines. For this item, confirm
+          the dates on the official page.
         </Text>
-      </Pressable>
+      )}
       {remindersOn && reminderCount != null ? (
         <Text style={styles.okNote}>
           {reminderCount} reminder{reminderCount === 1 ? "" : "s"} scheduled at
@@ -244,24 +319,67 @@ export default function OppDetailScreen() {
         </Text>
       ) : null}
 
+      <View style={styles.secondaryRow}>
+        <Pressable
+          accessibilityRole="button"
+          style={({ pressed }) => [
+            styles.halfButton,
+            isSaved ? styles.savedBtn : styles.secondaryBtn,
+            pressed && styles.pressed,
+          ]}
+          onPress={() => {
+            void onSave();
+          }}
+        >
+          <Feather
+            name="bookmark"
+            size={15}
+            color={isSaved ? COLORS.ink : COLORS.accent}
+          />
+          <Text style={isSaved ? styles.savedBtnText : styles.secondaryBtnText}>
+            {isSaved ? "Saved" : "Save"}
+          </Text>
+        </Pressable>
+        <Pressable
+          accessibilityRole="button"
+          style={({ pressed }) => [
+            styles.halfButton,
+            styles.secondaryBtn,
+            pressed && styles.pressed,
+          ]}
+          onPress={() => {
+            void onShare();
+          }}
+        >
+          <Feather name="share-2" size={15} color={COLORS.accent} />
+          <Text style={styles.secondaryBtnText}>Share</Text>
+        </Pressable>
+      </View>
+
+      <View style={styles.checkCard}>
+        <Text style={styles.checkTitle}>Before you apply</Text>
+        <Text style={styles.checkLine}>
+          • Confirm the deadline and eligibility on the official page.
+        </Text>
+        <Text style={styles.checkLine}>
+          • Never pay anyone to “confirm” an internship or scholarship.
+        </Text>
+        <Text style={styles.checkLine}>
+          • The official domain is shown above — check it before sharing
+          documents.
+        </Text>
+      </View>
+
       <Pressable
-        accessibilityRole="button"
-        style={({ pressed }) => [
-          styles.button,
-          isSaved ? styles.savedBtn : styles.secondaryBtn,
-          pressed && styles.pressed,
-        ]}
+        accessibilityRole="link"
         onPress={() => {
-          void onSave();
+          void openReport();
         }}
+        style={({ pressed }) => [styles.reportBtn, pressed && styles.pressed]}
       >
-        <Feather
-          name="bookmark"
-          size={16}
-          color={isSaved ? COLORS.ink : COLORS.accent}
-        />
-        <Text style={isSaved ? styles.savedBtnText : styles.secondaryBtnText}>
-          {isSaved ? "Saved ✓ (tap to remove)" : "Save"}
+        <Feather name="flag" size={13} color={COLORS.muted} />
+        <Text style={styles.reportText}>
+          Wrong or expired? Report this listing
         </Text>
       </Pressable>
     </ScrollView>
@@ -308,7 +426,7 @@ const styles = StyleSheet.create({
     color: COLORS.muted,
     marginTop: -6,
   },
-  bigCountdown: {
+  deadlineCard: {
     backgroundColor: COLORS.card,
     borderWidth: 1,
     borderColor: COLORS.line,
@@ -316,16 +434,20 @@ const styles = StyleSheet.create({
     padding: 14,
     gap: 4,
   },
-  bigCountdownLabel: {
-    fontSize: 11,
-    fontWeight: "700",
-    color: COLORS.muted,
-    textTransform: "uppercase",
-    letterSpacing: 0.5,
-  },
-  bigCountdownValue: {
-    fontSize: 17,
+  deadlineLabel: {
+    fontSize: 10,
     fontWeight: "800",
+    color: COLORS.muted,
+    letterSpacing: 0.7,
+  },
+  deadlineValue: {
+    fontSize: 18,
+    fontWeight: "800",
+  },
+  deadlineNote: {
+    fontSize: 12,
+    lineHeight: 18,
+    color: COLORS.muted,
   },
   description: {
     fontSize: 14,
@@ -367,6 +489,20 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     paddingHorizontal: 14,
   },
+  secondaryRow: {
+    flexDirection: "row",
+    gap: 10,
+  },
+  halfButton: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 7,
+    borderRadius: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+  },
   secondaryBtn: {
     backgroundColor: COLORS.accentSoft,
   },
@@ -384,12 +520,20 @@ const styles = StyleSheet.create({
   secondaryBtnText: {
     color: COLORS.accent,
     fontWeight: "700",
-    fontSize: 15,
+    fontSize: 14,
   },
   savedBtnText: {
     color: COLORS.ink,
     fontWeight: "700",
-    fontSize: 15,
+    fontSize: 14,
+  },
+  noReminder: {
+    fontSize: 12,
+    lineHeight: 18,
+    color: COLORS.muted,
+    backgroundColor: COLORS.chipIdle,
+    borderRadius: 10,
+    padding: 10,
   },
   okNote: {
     fontSize: 12,
@@ -397,6 +541,37 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     textAlign: "center",
     marginTop: -6,
+  },
+  checkCard: {
+    backgroundColor: COLORS.card,
+    borderWidth: 1,
+    borderColor: COLORS.line,
+    borderRadius: 14,
+    padding: 14,
+    gap: 5,
+  },
+  checkTitle: {
+    fontSize: 13,
+    fontWeight: "800",
+    color: COLORS.ink,
+    marginBottom: 2,
+  },
+  checkLine: {
+    fontSize: 12,
+    lineHeight: 18,
+    color: COLORS.muted,
+  },
+  reportBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 6,
+    paddingVertical: 8,
+  },
+  reportText: {
+    fontSize: 12,
+    color: COLORS.muted,
+    fontWeight: "600",
   },
   pressed: {
     opacity: 0.85,

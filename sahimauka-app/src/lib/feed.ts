@@ -1,4 +1,4 @@
-import { FEED_BASE } from "@/constants";
+import { FEED_BASE, type DeadlineStatus } from "@/constants";
 
 export type OppItem = {
   id: string;
@@ -6,7 +6,8 @@ export type OppItem = {
   org: string;
   category: string;
   url: string;
-  deadline: string | null; // ISO date (YYYY-MM-DD) or null = rolling/open
+  deadline: string | null;
+  deadline_status: DeadlineStatus;
   description: string;
   source: string;
   source_label: string;
@@ -17,6 +18,7 @@ export type OppItem = {
     domain: string;
     source_verified: boolean;
     deadline_future: boolean | null;
+    deadline_status?: DeadlineStatus;
     flags: string[];
     [k: string]: unknown;
   };
@@ -24,20 +26,61 @@ export type OppItem = {
 
 export type FeedIndex = {
   generated_at: string;
+  schema_version?: number;
   total: number;
   counts: Record<string, number>;
-  sources: Record<string, { status: string; items: number; label?: string }>;
+  sources: Record<
+    string,
+    { status: string; items: number; label?: string; error?: string }
+  >;
   honesty_note: string;
 };
 
 const INDEX_URL = `${FEED_BASE}/index.json`;
 const ALL_URL = `${FEED_BASE}/all.json`;
-const CACHE_KEY = "feed.cache.v1";
-const CACHE_TTL_MS = 15 * 60 * 1000; // 15 min
+const CACHE_KEY = "feed.cache.v2";
+const CACHE_TTL_MS = 15 * 60 * 1000;
+const FETCH_TIMEOUT_MS = 20_000;
 
 type CacheShape = { fetched_at: number; index: FeedIndex; items: OppItem[] };
 
 let memoryCache: CacheShape | null = null;
+
+function normalizeDeadlineStatus(
+  raw: string | undefined,
+  deadline: string | null
+): DeadlineStatus {
+  const allowed: DeadlineStatus[] = [
+    "fixed",
+    "rolling",
+    "check_official",
+    "notice",
+    "seasonal",
+  ];
+  if (raw && allowed.includes(raw as DeadlineStatus)) {
+    return raw as DeadlineStatus;
+  }
+  return deadline ? "fixed" : "rolling";
+}
+
+function normalizeItem(raw: OppItem): OppItem {
+  const deadline = raw.deadline ?? null;
+  return {
+    ...raw,
+    deadline,
+    deadline_status: normalizeDeadlineStatus(raw.deadline_status, deadline),
+    tags: Array.isArray(raw.tags) ? raw.tags : [],
+    verification: {
+      ...raw.verification,
+      domain: raw.verification?.domain ?? "",
+      source_verified: Boolean(raw.verification?.source_verified),
+      deadline_future: raw.verification?.deadline_future ?? null,
+      flags: Array.isArray(raw.verification?.flags)
+        ? raw.verification.flags
+        : [],
+    },
+  };
+}
 
 async function readCache(): Promise<CacheShape | null> {
   if (memoryCache) return memoryCache;
@@ -60,8 +103,14 @@ async function writeCache(c: CacheShape): Promise<void> {
       .default;
     await AsyncStorage.setItem(CACHE_KEY, JSON.stringify(c));
   } catch {
-    // storage full/unavailable — memory cache still works for this session
+    // Storage unavailable: the in-memory cache still serves this session.
   }
+}
+
+async function fetchJson(url: string, signal: AbortSignal): Promise<unknown> {
+  const res = await fetch(url, { signal, headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error(`feed HTTP ${res.status}`);
+  return res.json();
 }
 
 export type FeedResult = {
@@ -73,30 +122,34 @@ export type FeedResult = {
 /**
  * Loads the live verified feed. Serve-then-refresh: cached data renders
  * instantly (marked stale); a network refresh updates it. If the network
- * fails, the last real data still shows — we never substitute fake items.
+ * fails, the last real data still shows — never fabricated items.
  */
-export async function loadFeed(): Promise<FeedResult> {
+export async function loadFeed(options?: { force?: boolean }): Promise<FeedResult> {
   const cached = await readCache();
   const now = Date.now();
-  if (cached && now - cached.fetched_at < CACHE_TTL_MS) {
+  if (!options?.force && cached && now - cached.fetched_at < CACHE_TTL_MS) {
     return { items: cached.items, index: cached.index, stale: false };
   }
 
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   let result: FeedResult | null = null;
   try {
-    const [idxRes, allRes] = await Promise.all([
-      fetch(INDEX_URL),
-      fetch(ALL_URL),
+    const [rawIndex, rawAll] = await Promise.all([
+      fetchJson(INDEX_URL, controller.signal),
+      fetchJson(ALL_URL, controller.signal),
     ]);
-    if (!idxRes.ok || !allRes.ok) throw new Error(`feed HTTP ${allRes.status}`);
-    const index = (await idxRes.json()) as FeedIndex;
-    const items = (await allRes.json()).items as OppItem[];
+    const index = rawIndex as FeedIndex;
+    const items = (rawAll as { items?: OppItem[] }).items;
     if (!Array.isArray(items)) throw new Error("feed shape invalid");
-    const fresh: CacheShape = { fetched_at: now, index, items };
+    const normalized = items.map(normalizeItem);
+    const fresh: CacheShape = { fetched_at: now, index, items: normalized };
     await writeCache(fresh);
-    result = { items, index, stale: false };
+    result = { items: normalized, index, stale: false };
   } catch {
     result = null;
+  } finally {
+    clearTimeout(timer);
   }
 
   if (result) return result;

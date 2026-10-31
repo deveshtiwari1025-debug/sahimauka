@@ -9,7 +9,7 @@ import { create } from "./store-core";
 const KEYS = {
   saved: "saved.ids.v1",
   tracked: "tracked.cats.v1",
-  tourSeen: "tour.seen.v1",
+  tourSeen: "tour.seen.v2",
 };
 
 export type SavedItemMeta = { id: string; saved_at: string; deadline: string | null };
@@ -17,7 +17,10 @@ export type SavedItemMeta = { id: string; saved_at: string; deadline: string | n
 const savedStore = create<SavedItemMeta[]>(KEYS.saved, []);
 const trackedStore = create<string[]>(KEYS.tracked, [
   "hackathons",
+  "internships",
   "scholarships",
+  "fellowships",
+  "exams",
   "schemes",
 ]);
 const tourStore = create<boolean>(KEYS.tourSeen, false);
@@ -26,6 +29,14 @@ export const useSaved = () => savedStore.hook();
 export const useTracked = () => trackedStore.hook();
 export const useTourSeen = () => tourStore.hook();
 export const tourActions = { markSeen: () => tourStore.set(true) };
+
+export async function getTourSeen(): Promise<boolean> {
+  try {
+    return (await AsyncStorage.getItem(KEYS.tourSeen)) === "true";
+  } catch {
+    return false;
+  }
+}
 
 export async function toggleSaved(meta: SavedItemMeta): Promise<void> {
   const cur = await AsyncStorage.getItem(KEYS.saved);

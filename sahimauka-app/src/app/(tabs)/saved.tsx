@@ -42,12 +42,20 @@ export default function SavedScreen() {
         )}
         contentContainerStyle={styles.list}
         ListHeaderComponent={
-          !loading && missing > 0 ? (
-            <Text style={styles.pruneNote}>
-              {missing} saved{" "}
-              {missing === 1 ? "item is" : "items are"} no longer in the live
-              feed and are hidden.
-            </Text>
+          !loading ? (
+            <View style={styles.header}>
+              <Text style={styles.headerTitle}>Your shortlist.</Text>
+              <Text style={styles.headerBody}>
+                Saved on this device only. Open an item to set deadline
+                reminders or visit the official page.
+              </Text>
+              {missing > 0 ? (
+                <Text style={styles.pruneNote}>
+                  {missing} saved {missing === 1 ? "item is" : "items are"} no
+                  longer in the live feed and are hidden.
+                </Text>
+              ) : null}
+            </View>
           ) : undefined
         }
         ListEmptyComponent={
@@ -92,6 +100,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingBottom: 24,
     gap: 10,
+  },
+  header: {
+    gap: 6,
+    paddingTop: 6,
+  },
+  headerTitle: {
+    fontSize: 22,
+    fontWeight: "800",
+    color: COLORS.ink,
+  },
+  headerBody: {
+    fontSize: 13,
+    lineHeight: 19,
+    color: COLORS.muted,
   },
   pruneNote: {
     fontSize: 12,
