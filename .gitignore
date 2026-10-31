@@ -7,4 +7,13 @@ app/android/.gradle/
 app/android/build/
 app/android/app/build/
 *.keystore
+keystores/
 store/keystore/
+store/KEYSTORE_INFO.txt
+tools/
+sahimauka-app/android/
+sahimauka-app/dist/
+sahimauka-app/brag-output/
+sahimauka-app/node_modules/
+sahimauka-app/.expo/
+*.aab

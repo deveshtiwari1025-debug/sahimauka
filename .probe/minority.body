@@ -1,0 +1,2458 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+    <meta name="source" content="" >
+    <meta name="author" content="" >
+    <meta name="description" content="" >
+    <meta name="keywords" content="" >
+	<meta name="referrer" content='strict-origin'>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+    <title>Ministry of Minority Affairs</title>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	
+	<!-- Site Icons -->
+    <!--<link rel="stylesheet" href="./sidebar.css">-->
+  
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./dbim/assets/bootstrap/css/bootstrap.min.css" >
+    <!-- Pogo Slider CSS -->
+   
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="./dbim/assets/css/style.css" >
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" integrity="sha384-VY3F8aCQDLImi4L+tPX4XjtiJwXDwwyXNbkH7SHts0Jlo85t1R15MlXVBKLNx+dj" crossorigin="anonymous">
+</head>
+<body class="theme-navy">
+<a class="skip" href="#main">Skip to Main Content</a>
+	<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+<!--Tob Bar-->
+			
+<header class="site-header">
+
+    <!-- LEFT: Emblem + Ministry -->
+    <div class="header-brand d-flex align-items-center">
+	
+		
+
+        <a href="index.php?lang=1"
+           class="brand d-flex align-items-center text-decoration-none">
+
+            <img
+                src="./dbim/assets/img/emblem.png"
+                alt="Emblem of India"
+                class="flex-shrink-0"
+            >
+
+            <span class="brand-text d-flex flex-column justify-content-center">
+
+                <span class="l1">
+                   Government of India
+                </span>
+
+                <span class="l2">
+				Ministry of Minority Affairs
+                   
+                </span>
+
+            </span>
+
+        </a>
+
+    </div>
+
+
+    <!-- CENTER: SEARCH -->
+    <div class="header-search d-flex align-items-center justify-content-center">
+
+        <form
+            class="search position-relative w-100"
+            action="web_search.php?lang=1"
+            method="post"
+            role="search"
+			name="web_search" id="web_search"
+        ><input type='hidden' name='_token' value="sid:ba12a36b96c8fe0cdc2591b3a846880f7e6f4930,1793478693;ip:e5ea2856df8a0ce55d6b5c6fe5c6641a441f5a40,1793478693" />
+
+            <label class="sr" for="q">Search</label>
+
+            <input
+                id="kval"
+                name="kval"
+                type="text"
+                class="form-control"
+                placeholder="Search" onkeypress="return alpha(event)" maxlength="100" value="" aria-label="Search keywords"
+            >
+
+            <button
+                type="submit"
+                aria-label="Search"
+                class="btn p-0 d-flex align-items-center justify-content-center" id="web-search"
+            >
+                <svg class="i"
+                     viewBox="0 0 24 24"
+                     aria-hidden="true">
+                    <circle cx="11" cy="11" r="7"/>
+                    <path d="M20 20l-4-4"/>
+                </svg>
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- RIGHT CENTER: CAMPAIGN LOGOS -->
+    <div class="header-logos d-flex align-items-center justify-content-center">
+
+        <a href="https://e-hrms.gov.in/" target="_blank"
+           aria-label="eHRMS 2.0"
+           class="d-flex align-items-center justify-content-center text-decoration-none">
+            <img
+                src="./dbim/assets/img/ehrms_logo.png"
+                alt="eHRMS 2.0"
+            >
+        </a>
+
+
+        <a href="https://amritmahotsav.nic.in/"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Azadi Ka Amrit Mahotsav"
+           class="d-flex align-items-center justify-content-center text-decoration-none">
+            <img
+                src="./dbim/assets/img/logoakm.png"
+                alt="Azadi Ka Amrit Mahotsav"
+            >
+        </a>
+
+        <a href="https://swachhbharatmission.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Swachh Bharat Mission"
+           class="d-flex align-items-center justify-content-center text-decoration-none">
+            <img
+                src="./dbim/assets/img/swach-bharat.jpg"
+                alt="Swachh Bharat Mission"
+            >
+        </a>
+
+    </div>
+
+
+    <!-- FAR RIGHT: ACCESSIBILITY -->
+    <div class="header-tools d-flex align-items-center justify-content-end">
+
+        <a
+            href="#main"
+            aria-label="Skip to main content"
+            title="Skip to main content"
+            class="d-flex align-items-center justify-content-center text-decoration-none"
+        >
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="16" rx="1"/>
+                <path d="M12 9h6M12 13h6M12 17h6M5 12h5M8 9l2 3-2 3"/>
+            </svg>
+        </a>
+<button class="btn p-0 d-flex align-items-center justify-content-center rounded-0 bhashini-plugin-container" role="button" tabindex="0" aria-label="Change language"></button>
+ 
+
+        <button
+            type="button"
+            id="a11yBtn"
+            aria-label="Accessibility options"
+            aria-expanded="false"
+            aria-controls="a11yPanel"
+            class="btn p-0 d-flex align-items-center justify-content-center rounded-0"
+        >
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="4.5" r="1.8"/>
+                <path d="M5 8.5l7 1.5 7-1.5M12 10v5M12 15l-3.5 6M12 15l3.5 6"/>
+            </svg>
+        </button>
+
+        <div
+            class="a11y-panel"
+            id="a11yPanel"
+            role="group"
+            aria-label="Accessibility tools"
+        >
+            <button type="button" data-font="up">A+</button>
+            <button type="button" data-font="reset">A</button>
+            <button type="button" data-font="down">A-</button>
+            <button type="button" id="contrastBtn">Contrast</button>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- BHASHINI all-pages loader: minimal fix. Existing header/menu/accessibility markup is untouched. -->
+<style>
+/* Keep the existing BHASHINI slot visible on every page, including submenu/detail pages. */
+.header-tools .bhashini-plugin-container{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    pointer-events:auto !important;
+    position:relative !important;
+    z-index:2 !important;
+}
+</style>
+<script>
+(function () {
+    'use strict';
+
+    function ensureBhashiniPlugin() {
+        var existing = document.querySelector('script[src*="translation-plugin.bhashini.co.in/v3/website_translation_utility.js"]');
+        if (existing) return;
+
+        var script = document.createElement('script');
+        script.id = 'momaBhashiniGlobalPlugin';
+        script.src = 'https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js';
+        script.setAttribute('initial_preferred_language', 'en');
+        script.async = true;
+        document.head.appendChild(script);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', ensureBhashiniPlugin, { once: true });
+    } else {
+        ensureBhashiniPlugin();
+    }
+})();
+</script>
+
+		
+					
+    <!--<div class="row common tobbar_main" >
+                      <div style="width: 97%; margin: 0px auto;">
+                            <div class="skipto" role="navigation" aria-label="Skip Links">
+							<a title="Government of India" href="javascript:void(0);" tabindex="-1" class="bhashini-skip-translation">&#2349;&#2366;&#2352;&#2340;  &#2360;&#2352;&#2325;&#2366;&#2352; | Government of India</a>
+							</div>
+							
+                        <div class="common-right clearfix">
+                            
+							
+							
+							
+                          <ul id="header-nav" role="navigation" aria-label="Site Navigation">
+                           <li class="hindi" title="Skip to main content" style="padding: 0px 8px 0px 8px;" class="bhashini-skip-translation" role="none">
+						   <a title="Skip to Main Content" href="#skip-content" id="skip-content" aria-label="Go to Skip to Main Content" class="bhashini-skip-translation skip-link">Skip to Main Content</a>
+						   </li>
+                           
+						   	<li role="none"> <a class="bhashini-skip-translation" style="color:#000000;" href="javascript:void(0);" title="Increase font size"  id="In" aria-label="Increase font size">A<sup class="bhashini-skip-translation">+</sup></a> </li>
+
+							<li role="none"> <a class="bhashini-skip-translation" style="color:#000000;" href="javascript:void(0);" title="Reset font size" id="Normal" aria-label="Reset font size">A<sup class="bhashini-skip-translation">&nbsp;</sup></a> </li>
+							<li role="none"> <a class="bhashini-skip-translation" style="color:#000000;" href="javascript:void(0);" title="Decrease font size" id="Out" aria-label="Decrease font size">A<sup class="bhashini-skip-translation">-</sup></a> </li>
+
+                            
+							<li role="none"><a class="bhashini-skip-translation" title="Color Scheme" id="toggleSocial1" href="javascript:void(0);" aria-label="Select Color Scheme"><img role="img" src="images/color_scheems.png" alt="color schems logo" ></a>
+                              
+							  <ul role="menu" aria-label="Site Menu">
+                                <li role="menuitem"><a class="bhashini-skip-translation" href="javascript:void(0);" id="sch_1" aria-label="Site Color Default"><img role="img" class="normal"  src="img/d1.jpg"  alt="Default color logo" ></a></li>
+                                <li role="menuitem"><a class="bhashini-skip-translation" href="javascript:void(0);"  id="sch_2" aria-label="Site Color Yellow"><img role="img"  class="yellow" src="img/d2.jpg" alt="Yellog color logo"></a></li>
+                                <li role="menuitem"><a class="bhashini-skip-translation" href="javascript:void(0);"  id="sch_3" aria-label="Site Color Fuchsia"><img role="img" class="fuchsia" src="img/d3.jpg" alt="Fuchsia color logo" ></a></li>
+                              </ul>
+                              
+                            </li>
+							
+							<li class="ico-accessibility" role="none"><a title="Accessibility Options" id="toggleAccessibility" href="show_content.php?lang=1&level=0&ls_id=624&lid=787" aria-label="Accessibility Options" ></a>
+                              
+                            </li>
+							
+                            <li class="ico-social" aria-label="social icon list" role="none"><a class="bhashini-skip-translation" title="Social Media" id="toggleSocial" href="javascript:void(0);" aria-label="Go to Social Media Link"></a>
+                              <ul role="menu" aria-label="Site Menu">
+                                <li role="menuitem"><a class="bhashini-skip-translation" href="https://www.facebook.com/MOMAIndia?mibextid=ZbWKwL" rel = "noopener noreferrer" title="Facebook, External Link that opens in a new window" target="_blank" aria-label="Go to Facebook, External Link that opens in a new window"><img role="img" src="images/ico-facebook.png" alt="facebook"></a></li>
+                                <li role="menuitem"><a class="bhashini-skip-translation" title="Twitter, External Link that opens in a new window" href="https://twitter.com/MOMAIndia?t=f7il7JXpi-ZtDg9qRWXt4w&s=09" rel = "noopener noreferrer" target="_blank" aria-label="Go to Twitter, External Link that opens in a new window"><img role="img" src="images/ico-twitter.png" alt="Twitter, External Link that opens in a new window"></a></li>
+                                <li role="menuitem"><a class="bhashini-skip-translation" title="Youtube, External Link that opens in a new window" href="https://youtube.com/@MoMAIndia" rel = "noopener noreferrer" target="_blank" aria-label="Go to YouTube, External Link that opens in a new window"><img role="img" src="images/ico-youtube.png" alt=""></a></li>
+                                <li role="menuitem"><a class="bhashini-skip-translation" rel = "noopener noreferrer" title="Instagra, External Link that opens in a new window" href="https://instagram.com/momaindia?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="Go to instagra, External Link that opens in a new window"><img role="img" src="images/ico-instagram.png" alt=""></a></li>
+							
+							</ul>
+                             </li>							 
+                            <li class="ico-sitemap" aria-label="website accessibility link" role="none"><a class="bhashini-skip-translation" title="Sitemap" href="sitemap.php?lang=1"aria-label="Go to Sitemap" ></a></li>
+							<li></li>
+							<li class="hindi" role="none"><a class="bhashini-skip-translation" title=""  href="javascript:void(0);" aria-label="Select Language"></a>
+                               <ul role="menu" aria-label="Site Menu">
+                                <li role="menuitem"><a class="bhashini-skip-translation" title="Link to English version" href="https://minorityaffairs.gov.in/index.php?lang=1" aria-label="Go to English version of the site">English</a></li>      
+								<li role="menuitem"><a class="bhashini-skip-translation" title="Link to Hindi version" href="https://xn--i1bah9dae5hvb1bhcdiesm4gsfg9zefe.xn--11b7cb3a6a.xn--h2brj9c/index.php?lang=2" aria-label="Go to Hindi version of the site">&#2361;&#2367;&#2306;&#2342;&#2368;&#32;&#2350;&#2375;&#2306;</a></li>  
+
+                              </ul>
+                            </li>
+                          </ul>
+						  
+                        </div>
+                      </div>
+                    </div>-->
+                    <!--Tob <Bar-->
+                          
+<!-- Start header -->
+    
+    
+    
+
+
+<!--<div style="width: 95%; margin: 0px auto;">
+	<div class="row header_main">
+		<div class=" emblemb text-center" style="width: 4%;" role="region" aria-label="Go to State Emblem">
+			<a class="bhashini-skip-translation" href="index.php" title="Emblem of India" aria-label="State Emblem of India">
+				<img id='normal_img' alt="" src="img/emblemb.png" >
+			</a>
+		</div>
+                        
+		<div class=" headerpanelmain_box "  id="dvContents" role="banner">
+			<h1 class="bhashini-skip-translation" id="hindi-title">&#2309;&#2354;&#2381;&#2346;&#2360;&#2306;&#2326;&#2381;&#2351;&#2325; &#2325;&#2366;&#2352;&#2381;&#2351; &#2350;&#2306;&#2340;&#2381;&#2352;&#2366;&#2354;&#2351;</h1>
+			 
+			<span class="bhashini-skip-translation" id="text-logo-id"><a class="bhashini-skip-translation" href="index.php" aria-labelledby="hindi-title text-logo-id" style="font-size: 25px; color: #a37d0d; font-weight: bold; letter-spacing: normal;"> Ministry of Minority Affairs</a></span>
+			
+		</div>
+
+		
+		<div class="emblemb text-center mobile_view_dispalaynone" style="width: 5%;" role="region" aria-label="International Year of Cooperatives logo">
+		  <img src="images/iyc.png" alt="Logo of International Year of Cooperatives">
+		</div>
+		
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 5%;" role="region" aria-label="Go to Beti Bachao Beti Padhao">
+				<a target='_blank' title="BBBP" href='https://wcd.nic.in/bbbp-schemes/' rel = "noopener noreferrer" aria-label="Logo of Beti Bachao Beti Padhao"><img src="images/Beti-Bachao-S.png" alt=""></a>
+		</div>
+
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 6%;" role="region" aria-label="Go to G20">
+				<a target='_blank' title="G20" href='https://www.g20.in/' rel = "noopener noreferrer" aria-label="Logo of G20"><img src="images/g-20-logo.png" alt=""></a>
+		</div>
+	   
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 5%;" role="region" aria-label="Go to Azadi ka Amrit mahotsav">
+				<a target='_blank' title="Azadi ka Amrit mahotsav" rel = "noopener noreferrer" href='https://amritmahotsav.nic.in/' aria-label="Logo of Azadi ka Amrit mahotsav"><img  src="images/logoakm.png" alt=""></a>
+		</div>
+		
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 5%;" role="region" aria-label="Go to 150 years of celebrating the mahatma">
+				
+				<a target='_blank' title="150 years of celebrating the mahatma" rel = "noopener noreferrer"  href='#' aria-label="Logo of 150 years of celebrating the mahatma"><img src="images/logo-gandhi.png" alt=""></a>
+				
+		</div>
+
+		
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 6%;" role="region" aria-label="Go to Swaksha Bharat">
+				<a target='_blank' title="Swaksha Bharat" href='https://swachhbharatmission.gov.in/' rel = "noopener noreferrer" aria-label="Logo of Swaksha Bharat"><img src="images/swach-bharat.jpg" alt=""></a>
+		</div>
+		
+		
+		<div class=" emblemb text-center mobile_view_dispalaynone" style="width: 5%;" role="region" aria-label="Go to Dashboard">
+				<a target='_blank' title="Dashboard" href='https://moma.dashboard.nic.in/' rel = "noopener noreferrer" aria-label="Logo of Dashboard"><img src="images/dashboard.jpg" alt=""></a>
+		</div>
+                        
+                        
+	</div>
+  
+</div> -->
+    <!-- End header -->       
+
+	
+	
+
+<!--Navigation bar-->
+        
+<noscript>    
+    <p class="">         
+        This page is trying to run JavaScript and your browser either does not support JavaScript or you may have turned-off JavaScript. 
+        If you have disabled JavaScript on your computer, please turn on JavaScript, to have proper access to this page.        
+    </p>
+</noscript>
+
+    
+
+<nav class="nav dbim-dynamic-nav" role="navigation" aria-label="Main Navigation">
+<button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navList">Menu</button>
+<ul id="navList">
+          <li class="nav-item active" role="none">
+            <a class="nav-link bhashini-skip-translation" href="index.php?lang=1" role="menuitem" aria-label="Home">Home</a>
+          </li>
+<li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="About Us&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=1&amp;lid=1' aria-label="Go to About Us" role="menuitem" aria-haspopup="true" aria-expanded="false">About Us</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="About the Ministry&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=37&amp;lid=36' aria-label="About the Ministry" role="menuitem" >About the Ministry </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Vision and Mission&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=36&amp;lid=37' aria-label="Vision and Mission" role="menuitem" >Vision and Mission </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Allocation of Business Rules&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=38&amp;lid=38' aria-label="Allocation of Business Rules" role="menuitem" >Allocation of Business Rules </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Who's Who &nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=45&amp;lid=40' aria-label="Who's Who " role="menuitem" >Who's Who  </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="List of Secretaries since 2006&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=42&amp;lid=41' aria-label="List of Secretaries since 2006" role="menuitem" >List of Secretaries since 2006 </a>
+                </li></ul></li><li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="Act/Rules&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=202&amp;lid=208' aria-label="Go to Act/Rules" role="menuitem" aria-haspopup="true" aria-expanded="false">Act/Rules</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Acts&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=312&amp;lid=249' aria-label="Acts" role="menuitem" >Acts </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Rules&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=314&amp;lid=248' aria-label="Rules" role="menuitem" >Rules </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Internal Gazette Notifications&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=313&amp;lid=247' aria-label="Internal Gazette Notifications" role="menuitem" >Internal Gazette Notifications </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Manuals&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=1081&amp;lid=1244' aria-label="Manuals" role="menuitem" >Manuals </a>
+                </li></ul></li><li class='nav-item' role='none'>								<a class="nav-link"    title="Achievements&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=963&amp;lid=210' aria-label="Go to Achievements" role="menuitem" aria-haspopup="true" aria-expanded="false">Achievements</a>
+								</li><li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="Budget&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=203&amp;lid=209' aria-label="Go to Budget" role="menuitem" aria-haspopup="true" aria-expanded="false">Budget</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="CCA (Min. of Minority Affairs)&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=552&amp;lid=339' aria-label="CCA (Min. of Minority Affairs)" role="menuitem" >CCA (Min. of Minority Affairs) </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Detailed Demands for Grants&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=553&amp;lid=340' aria-label="Detailed Demands for Grants" role="menuitem" >Detailed Demands for Grants </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Output-Outcome Framework&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=557&amp;lid=236' aria-label="Output-Outcome Framework" role="menuitem" >Output-Outcome Framework </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Expenditure Statements&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=555&amp;lid=343' aria-label="Expenditure Statements" role="menuitem" >Expenditure Statements </a>
+                </li></ul></li><li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="Reports&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=3&amp;lid=4' aria-label="Go to Reports" role="menuitem" aria-haspopup="true" aria-expanded="false">Reports</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="PM VIKAS&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=1026&amp;lid=239' aria-label="PM VIKAS" role="menuitem" >PM VIKAS  (1.05 MB)</a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Annual Reports&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=339&amp;lid=273' aria-label="Annual Reports" role="menuitem" >Annual Reports </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Prime Minister’s New 15 Points Programme&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=338&amp;lid=271' aria-label="Prime Minister’s New 15 Points Programme" role="menuitem" >Prime Minister’s New 15 Points Programme </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Pradhan Mantri Jan Vikas Karyakram (PMJVK)&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=337&amp;lid=258' aria-label="Pradhan Mantri Jan Vikas Karyakram (PMJVK)" role="menuitem" >Pradhan Mantri Jan Vikas Karyakram (PMJVK) </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Waqf Reports&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=1032&amp;lid=1228' aria-label="Waqf Reports" role="menuitem" >Waqf Reports </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Research/Studies, Monitoring and Evaluation of Development Schemes including Publicity&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=332&amp;lid=256' aria-label="Research/Studies, Monitoring and Evaluation of Development Schemes including Publicity" role="menuitem" >Research/Studies, Monitoring and Evaluation of Development Schemes including Publicity </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="NCRLM&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=327&amp;lid=263' aria-label="NCRLM" role="menuitem" >NCRLM </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Sachar Committee Report&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=355&amp;lid=14' aria-label="Sachar Committee Report" role="menuitem" >Sachar Committee Report </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Maulana Azad Education Foundation (MAEF)&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=323&amp;lid=261' aria-label="Maulana Azad Education Foundation (MAEF)" role="menuitem" >Maulana Azad Education Foundation (MAEF) </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="National Minorities Development &amp; Finance Corporation (NMDFC)&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=325&amp;lid=260' aria-label="National Minorities Development &amp; Finance Corporation (NMDFC)" role="menuitem" >National Minorities Development &amp; Finance Corporation (NMDFC) </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Miscellaneous Reports&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=322&amp;lid=259' aria-label="Miscellaneous Reports" role="menuitem" >Miscellaneous Reports </a>
+                </li></ul></li><li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="Media&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=866&amp;lid=7' aria-label="Go to Media" role="menuitem" aria-haspopup="true" aria-expanded="false">Media</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Press Release&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=1089&amp;lid=1252' aria-label="Press Release" role="menuitem" >Press Release </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Photo Gallery&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=868&amp;lid=18&amp;vmod=2' aria-label="Photo Gallery" role="menuitem" >Photo Gallery </a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item '  title="Video Gallery&nbsp;" href='show_content.php?lang=1&amp;level=1&amp;ls_id=943&amp;lid=112&amp;vmod=3&amp;vid=1' aria-label="Video Gallery" role="menuitem" >Video Gallery </a>
+                </li></ul></li><li class='nav-item dropdown' role='none'>								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"   title="Related Links&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=534&amp;lid=19' aria-label="Go to Related Links" role="menuitem" aria-haspopup="true" aria-expanded="false">Related Links</a>
+										
+        <ul class=' dropdown-menu' role="menu">
+		<li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Haj Deputation&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1082&amp;lid=1245' aria-label="Haj Deputation" role="menuitem" >Haj Deputation <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Haj PTO&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1041&amp;lid=1223' aria-label="Haj PTO" role="menuitem" >Haj PTO <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Haj PTO pilgrimage packages&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1083&amp;lid=1246' aria-label="Haj PTO pilgrimage packages" role="menuitem" >Haj PTO pilgrimage packages <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="HAJ COMMITTEE OF INDIA&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1040&amp;lid=1219' aria-label="HAJ COMMITTEE OF INDIA" role="menuitem" >HAJ COMMITTEE OF INDIA <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="PMJVK&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1004&amp;lid=1225' aria-label="PMJVK" role="menuitem" >PMJVK <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="PM VIKAS Scheme&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1018&amp;lid=212' aria-label="PM VIKAS Scheme" role="menuitem" >PM VIKAS Scheme<img role='img' alt='New Content' border=0 src='images/new.gif'> <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="UMEED CENTRAL PORTAL 2025&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=996&amp;lid=1173' aria-label="UMEED CENTRAL PORTAL 2025" role="menuitem" >UMEED CENTRAL PORTAL 2025 <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Jiyo Parsi&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=995&amp;lid=1218' aria-label="Jiyo Parsi" role="menuitem" >Jiyo Parsi <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Maulana Azad Education Foundation&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1003&amp;lid=1224' aria-label="Maulana Azad Education Foundation" role="menuitem" >Maulana Azad Education Foundation <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="National Commission for Minorities&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=1000&amp;lid=1222' aria-label="National Commission for Minorities" role="menuitem" >National Commission for Minorities <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="Durgah Khwaja Saheb Ajmer, Rajasthan&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=999&amp;lid=1221' aria-label="Durgah Khwaja Saheb Ajmer, Rajasthan" role="menuitem" >Durgah Khwaja Saheb Ajmer, Rajasthan <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li><li class='dbim-submenu-item' role='none'>				                <a class='dropdown-item ' target="_blank" title="National Minorities Development and Finance Corporation&nbsp;" href='showlink.php?lang=1&amp;level=1&amp;ls_id=998&amp;lid=1220' aria-label="National Minorities Development and Finance Corporation" role="menuitem" >National Minorities Development and Finance Corporation <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></a>
+                </li></ul></li><li class='nav-item' role='none'>								<a class="nav-link"    title="THE WAQF (AMENDMENT) ACT, 2025&nbsp;" href='show_content.php?lang=1&amp;level=0&amp;ls_id=986&amp;lid=1163' aria-label="Go to THE WAQF (AMENDMENT) ACT, 2025" role="menuitem" aria-haspopup="true" aria-expanded="false">THE WAQF (AMENDMENT) ACT, 2025</a>
+								</li>		</ul>
+</nav>
+<!-- #nav-menu-container -->
+       
+<!--Navigation bar-->
+
+
+
+<main id="main" class="container-fluid px-0">
+		<!-- STEP 1: HERO BANNER -->
+
+<section class="hero w-100"
+         aria-roledescription="carousel"
+         aria-label="Featured banners">
+
+    <!-- Promotional banner: first slide -->
+    <article class="slide active"
+             role="group"
+             aria-roledescription="slide"
+             aria-label="1 of 5"
+             aria-hidden="false">
+
+        <a href="https://cbpssubscriber.mygov.in/aff/RRw9EzaChlM0ppJK"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Open featured promotional banner">
+
+            <picture>
+                <img
+                    src="https://cbpssubscriber.mygov.in/assets/uploads/flYHd7E7b2W2XRtP"
+                    alt="Featured promotional banner"  >
+            </picture>
+
+        </a>
+    </article>
+
+    <!-- Database banners -->
+            <article class="slide"
+                 role="group"
+                 aria-roledescription="slide"
+                 aria-label="2 of 5"
+                 aria-hidden="true">
+
+            
+            <picture>
+                <img
+                    src="WriteReadData/MD32145/1784530734.jpg"
+                    alt=""
+                    
+       
+                    loading="lazy">
+            </picture>
+
+            
+        </article>
+            <article class="slide"
+                 role="group"
+                 aria-roledescription="slide"
+                 aria-label="3 of 5"
+                 aria-hidden="true">
+
+            
+            <picture>
+                <img
+                    src="WriteReadData/MD32145/1784530707.jpg"
+                    alt=""
+                    
+       
+                    loading="lazy">
+            </picture>
+
+            
+        </article>
+            <article class="slide"
+                 role="group"
+                 aria-roledescription="slide"
+                 aria-label="4 of 5"
+                 aria-hidden="true">
+
+            
+            <picture>
+                <img
+                    src="WriteReadData/MD32145/1791787872.jpeg"
+                    alt=""
+                    
+       
+                    loading="lazy">
+            </picture>
+
+            
+        </article>
+            <article class="slide"
+                 role="group"
+                 aria-roledescription="slide"
+                 aria-label="5 of 5"
+                 aria-hidden="true">
+
+            
+            <picture>
+                <img
+                    src="WriteReadData/MD32145/1748339076.jpg"
+                    alt="Sanchar Sathi Mobile APP"
+                    
+       
+                    loading="lazy">
+            </picture>
+
+            
+        </article>
+    
+    <!-- Previous and next controls -->
+    <button class="ar prev btn p-0"
+            type="button"
+            aria-label="Previous slide">
+        <svg class="i"
+             viewBox="0 0 24 24"
+             aria-hidden="true">
+            <path d="M15 5l-7 7 7 7"/>
+        </svg>
+    </button>
+
+    <button class="ar next btn p-0"
+            type="button"
+            aria-label="Next slide">
+        <svg class="i"
+             viewBox="0 0 24 24"
+             aria-hidden="true">
+            <path d="M9 5l7 7-7 7"/>
+        </svg>
+    </button>
+
+    <!-- Slide indicators and pause control -->
+    <div class="hero-ctl">
+
+        <div class="dots">
+                            <button
+                    type="button"
+                    class="on"
+                    aria-label="Go to slide 1"
+                    aria-current="true">
+                </button>
+                            <button
+                    type="button"
+                    class=""
+                    aria-label="Go to slide 2"
+                    >
+                </button>
+                            <button
+                    type="button"
+                    class=""
+                    aria-label="Go to slide 3"
+                    >
+                </button>
+                            <button
+                    type="button"
+                    class=""
+                    aria-label="Go to slide 4"
+                    >
+                </button>
+                            <button
+                    type="button"
+                    class=""
+                    aria-label="Go to slide 5"
+                    >
+                </button>
+                    </div>
+
+        <button id="heroPause"
+                class="btn p-0"
+                type="button"
+                aria-label="Pause slideshow">
+
+            <svg viewBox="0 0 24 24"
+                 width="16"
+                 height="16"
+                 fill="currentColor"
+                 aria-hidden="true">
+                <rect x="5" y="4" width="4.5" height="16"/>
+                <rect x="14.5" y="4" width="4.5" height="16"/>
+            </svg>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- STEP 1: ANNOUNCEMENTS -->
+
+ 		<section class="ticker container-fluid" aria-label="Announcements">
+		  <strong><span class="t-label">Announcements</span>
+			<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9c1.5 1.5 1.5 4.500 0 6"/></svg>
+		  </strong>
+		  <div class="ticker-view"><div class="ticker-track" id="tickerTrack">
+		 
+		  			<!--<li role="option"></li>-->
+			
+			<a target="_blank" 
+                   title="Announcement of Haj Policy - 2027" 
+                   href="showfile.php?lang=1&amp;level=1&amp;ls_id=1103&amp;lid=1257"
+                   aria-label="Announcement of Haj Policy - 2027">
+                    Announcement of Haj Policy - 2027                    <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (455.47 KB) 
+                </a> 
+                			<!--<li role="option"></li>-->
+			
+			<a target="_blank" 
+                   title="Announcement of Haj Policy - 2027(Hindi)" 
+                   href="showfile.php?lang=1&amp;level=1&amp;ls_id=1104&amp;lid=1258"
+                   aria-label="Announcement of Haj Policy - 2027(Hindi)">
+                    Announcement of Haj Policy - 2027(Hindi)                    <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (3.49 MB) 
+                </a> 
+                			<!--<li role="option"></li>-->
+			
+			<a target="_blank" 
+                   title="HGO Policy for Haj 2027" 
+                   href="showfile.php?lang=1&amp;level=1&amp;ls_id=1106&amp;lid=1259"
+                   aria-label="HGO Policy for Haj 2027">
+                    HGO Policy for Haj 2027                    <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (1.06 MB) 
+                </a> 
+                			
+		  </div></div>
+		  <button id="tickerPause" class="btn p-0" aria-label="Pause announcements">
+			<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><rect x="5" y="4" width="4.5" height="16"/><rect x="14.5" y="4" width="4.5" height="16"/></svg>
+		  </button>
+		</section>
+
+<!-- STEP 2: LEADER QUOTE -->
+
+                        
+						
+						<section class="quote-band container-fluid" aria-label="Message">
+						  <div class="quote-in container-fluid d-flex flex-column flex-lg-row align-items-center">
+							<img class="quote-photo" src="WriteReadData/IC1425/1792405553.jpg" alt="Shri Narendra Modi " >
+							<div class="quote-body">
+							  <blockquote class="quote-text">
+								<span class="qm" aria-hidden="true">&#8220;</span>
+								<p>Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas.</p>
+								<span class="qm end" aria-hidden="true">&#8221;</span>
+							  </blockquote>
+							  <!--<div class="quote-meta">
+								<span></small></span>
+								<a class="btn-event d-inline-flex align-items-center gap-2" href="#">
+								  <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+								  View Event
+								</a>
+							  </div>-->
+							</div>
+						  </div>
+						</section>
+                        
+
+<!-- STEP 2: ABOUT US -->
+<section class="about-section" aria-labelledby="about-h">
+
+    <div class="container-fluid about-container">
+
+        <div class="row g-0">
+
+            <!-- =========================================
+                 LEFT SIDE - ABOUT
+            ========================================== -->
+
+            <div class="col-12 col-lg-8 about-content">
+
+                <!-- About heading -->
+
+                <h2 id="about-h"
+                    class="about-heading d-flex align-items-center">
+					<svg class="about-heading-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="8" r="4"/><path d="M24 12v10M8 30v-8h32v8"/><rect x="3" y="30" width="10" height="9" rx="1"/><rect x="19" y="30" width="10" height="9" rx="1"/><rect x="35" y="30" width="10" height="9" rx="1"/></svg>
+					
+											<a class="d-flex align-items-center"   
+							   title="About Us " 
+							   aria-labelledby="link-label-1" 
+							   href='show_content.php?lang=1&amp;level=0&amp;ls_id=1&amp;lid=1'>About Us							</a>
+						
+											
+					
+                </h2>
+
+                <!-- About description -->
+
+                <div class="about-description">
+				
+										 <p>
+                        <p style="text-align: justify;">The Ministry of Minority Affairs was carved out of Ministry of Social Justice & Empowerment and created on 29th January, 2006 to ensure a more focused approach towards issues relating to the notified minority communities namely Muslim, Christian, Budhist, Sikhs, Parsis and Jain. The mandate of the Ministry includes formulation of overall policy and planning, coordination, evaluation and review of the regulatory framework and development programmes for the benefit of the minority communities.</p>
+<p style="text-align: justify;"> </p>						</p>
+						
+						
+                   
+
+                </div>
+
+
+                <!-- =====================================
+                     THREE ABOUT BUTTONS
+                ====================================== -->
+
+                <div class="row g-3 about-actions">
+
+                    <div class="col-12 col-md-4">
+
+                        <a href="our-team.php"
+                           class="about-action d-flex flex-column
+                                  align-items-center
+                                  justify-content-center
+                                  text-decoration-none">
+							<svg class="about-action-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20v-1.5A4.5 4.5 0 0 1 7.500 14h3A4.5 4.500 0 0 1 15 18.500V20M17 11.500l1.700 1.700 3.300-3.400"/></svg>
+
+                            <span>Our Team</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+
+                        <a href="our-organisations.php"
+                           class="about-action d-flex flex-column
+                                  align-items-center
+                                  justify-content-center
+                                  text-decoration-none">
+							<svg class="about-action-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.500" height="6.500"/><rect x="13.500" y="4" width="6.500" height="6.500"/><rect x="4" y="13.500" width="6.500" height="6.500"/><rect x="13.500" y="13.500" width="6.500" height="6.500"/></svg>
+
+                            <span>Our Organisations</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+
+                        <a href="#"
+                           class="about-action d-flex flex-column
+                                  align-items-center
+                                  justify-content-center
+                                  text-decoration-none">
+							<svg class="about-action-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M10 20V4M15 20v-7M20 20V8M3 20h18"/></svg>
+
+                            <span>Our Performance</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================================
+                 RIGHT SIDE - DYNAMIC MINISTERS
+            ========================================== -->
+
+            <div class="col-12 col-lg-4 ministers-section">
+
+                <div class="row row-cols-1 row-cols-sm-2 g-3">
+
+					                        
+						 <div class="col">
+
+                            <article class="minister-card">
+							
+                                <div class="minister-image">
+
+                                    <img src="WriteReadData/IC1425/1792405521.jpeg" alt="Shri Kiren Rijiju ">
+
+                                </div>
+
+
+                                <h3 class="minister-name">
+                                    <a                                            aria-label="Shri Kiren Rijiju" 
+                                           title="Shri Kiren Rijiju " 
+                                           href="show_content.php?lang=1&amp;level=0&amp;ls_id=865&amp;lid=1090">
+                                           Shri Kiren Rijiju                                        </a>
+                                </h3>
+
+
+                                <p class="minister-designation">
+                                    Hon’ble Minister                                </p>
+
+                            </article>
+
+                        </div>
+                        
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STEP 3: KEY OFFERINGS + WHAT'S NEW -->
+<section class="offerings container-fluid" aria-label="Key offerings and what's new">
+
+    <div class="row g-4 mx-auto offerings-container">
+
+        <!-- =========================
+             LEFT : 60%
+        ========================== -->
+      <div class="col-12 col-lg-7 offerings-left">
+
+            <h2 class="about-title d-flex align-items-center gap-2 mb-4">
+
+                <svg class="i flex-shrink-0"
+                     viewBox="0 0 48 48"
+                     aria-hidden="true">
+                    <path d="M18 22l5 5 9-11"/>
+                    <path d="M6 32h6v12H6zM12 34l9-3h8a3 3 0 0 1 0 6h-7M12 42l13 3 16-9a3 3 0 0 0-3.500-4.800L32 35"/>
+                    <circle cx="8" cy="12" r="1.500"/>
+                    <circle cx="41" cy="10" r="1.500"/>
+                    <circle cx="32" cy="5" r="1"/>
+                </svg>
+                       <span>Programmes</span>
+
+                    
+
+
+            </h2>
+
+
+
+
+
+
+            <!-- FOUR TABS -->
+            <div
+                class="programme-tabs d-grid w-100 mb-2"
+                role="tablist"
+                aria-label="Key Offerings"
+            >
+
+<button type="button"
+class="programme-tab active"
+role="tab"
+id="tab-t1"
+aria-selected="true"
+aria-controls="t1"
+tabindex="0"
+data-tab="t1">Education Empowerment</button><button type="button"
+class="programme-tab "
+role="tab"
+id="tab-t2"
+aria-selected="false"
+aria-controls="t2"
+tabindex="-1"
+data-tab="t2">Economic Empowerment</button><button type="button"
+class="programme-tab "
+role="tab"
+id="tab-t3"
+aria-selected="false"
+aria-controls="t3"
+tabindex="-1"
+data-tab="t3">Infrastructure Development</button><button type="button"
+class="programme-tab "
+role="tab"
+id="tab-t4"
+aria-selected="false"
+aria-controls="t4"
+tabindex="-1"
+data-tab="t4">Special Needs</button>            </div>
+
+     <!-- TAB  List -->
+<div
+    id="t1"
+    class="tabpanel offer-list w-100 programme-list-compact"
+    role="tabpanel"
+    aria-labelledby="tab-1"
+    >
+    <ul class="list-unstyled mb-0"><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="PM VIKAS Education component" aria-label="Go to PM VIKAS Education component" href='show_content.php?lang=1&amp;level=2&amp;ls_id=657&amp;lid=819'>
+<span>PM VIKAS Education component</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Scholarship Schemes" aria-label="Go to Scholarship Schemes" href='show_content.php?lang=1&amp;level=2&amp;ls_id=661&amp;lid=823'>
+<span>Scholarship Schemes</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li></ul></div><div
+    id="t2"
+    class="tabpanel offer-list w-100 programme-list-compact"
+    role="tabpanel"
+    aria-labelledby="tab-2"
+    hidden>
+    <ul class="list-unstyled mb-0"><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="PM VIKAS Skilling and Training Component" aria-label="Go to PM VIKAS Skilling and Training Component" href='show_content.php?lang=1&amp;level=2&amp;ls_id=658&amp;lid=820'>
+<span>PM VIKAS Skilling and Training Component</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li></ul></div><div
+    id="t3"
+    class="tabpanel offer-list w-100 programme-list-compact"
+    role="tabpanel"
+    aria-labelledby="tab-3"
+    hidden>
+    <ul class="list-unstyled mb-0"><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Pradhan Mantri Jan Vikas Karyakram" aria-label="Go to Pradhan Mantri Jan Vikas Karyakram" href='show_content.php?lang=1&amp;level=2&amp;ls_id=254&amp;lid=103'>
+<span>Pradhan Mantri Jan Vikas Karyakram</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li></ul></div><div
+    id="t4"
+    class="tabpanel offer-list w-100"
+    role="tabpanel"
+    aria-labelledby="tab-4"
+    hidden>
+    <ul class="list-unstyled mb-0"><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="PM VIKAS Leadership and Entrepreneurship Component" aria-label="Go to PM VIKAS Leadership and Entrepreneurship Component" href='show_content.php?lang=1&amp;level=2&amp;ls_id=659&amp;lid=821'>
+<span>PM VIKAS Leadership and Entrepreneurship Component</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Jiyo Parsi" aria-label="Go to Jiyo Parsi" href='show_content.php?lang=1&amp;level=2&amp;ls_id=242&amp;lid=61'>
+<span>Jiyo Parsi</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Haj" aria-label="Go to Haj" href='show_content.php?lang=1&amp;level=2&amp;ls_id=239&amp;lid=8'>
+<span>Haj</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Qaumi Waqf Board Taraqqiati Scheme" aria-label="Go to Qaumi Waqf Board Taraqqiati Scheme" href='show_content.php?lang=1&amp;level=2&amp;ls_id=237&amp;lid=59'>
+<span>Qaumi Waqf Board Taraqqiati Scheme</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Shahari Waqf Sampatti VIkas Yojana" aria-label="Go to Shahari Waqf Sampatti VIkas Yojana" href='show_content.php?lang=1&amp;level=2&amp;ls_id=238&amp;lid=58'>
+<span>Shahari Waqf Sampatti VIkas Yojana</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li><li>
+<a class="d-flex align-items-center justify-content-between w-100 text-decoration-none"  title="Research and Studies" aria-label="Go to Research and Studies" href='show_content.php?lang=1&amp;level=2&amp;ls_id=244&amp;lid=231'>
+<span>Research and Studies</span><svg class="i flex-shrink-0"
+                                     viewBox="0 0 24 24"
+                                     aria-hidden="true">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg></a>
+
+                </li></ul></div>
+        </div>
+
+
+
+
+        <!-- =========================
+             RIGHT : 30%
+        ========================== -->
+        <div class="col-12 col-lg-5 offerings-right">
+
+            <h2 class="about-title d-flex align-items-center gap-2 mb-4">
+
+                <svg class="i flex-shrink-0"
+                     viewBox="0 0 48 48"
+                     aria-hidden="true">
+                    <path d="M18 8c1 9 5 13 14 14-9 1-13 5-14 14-1-9-5-13-14-14 9-1 13-5 14-14z"/>
+                    <path d="M37 3c.5 4 2 5.500 6 6-4 .5-5.500 2-6 6-.5-4-2-5.500-6-6 4-.5 5.500-2 6-6z"/>
+                </svg>
+
+<span>WHAT'S NEW</span>
+
+            </h2>
+
+
+            <div class="news-panel w-100">
+
+
+                <div
+                    class="news-scroll w-100 overflow-auto"
+                    tabindex="0"
+                    role="region"
+                    aria-label="What's new list"
+                >
+
+<ul class='list-unstyled mb-0'>
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Combined Haj Group Organisers (CHGOs) for Haj-2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1122&amp;lid=1273">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Combined Haj Group Organisers (CHGOs) for Haj-2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (1.35 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                05/10/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Corrigendum to Tender Notice dated 25.08.2026  regarding Haj 2027 Air Charter &nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1117&amp;lid=1268">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Corrigendum to Tender Notice dated 25.08.2026  regarding Haj 2027 Air Charter             </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (237.49 KB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                03/09/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Tender Notice for Air Charter Tender for Haj 2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1116&amp;lid=1267">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Tender Notice for Air Charter Tender for Haj 2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (1.14 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                03/09/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="List of Eligible HGOs for Haj 2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1115&amp;lid=1266">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                List of Eligible HGOs for Haj 2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (1.69 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                27/08/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Selected HGOs of Category 1 Lead for Haj 2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1114&amp;lid=1265">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Selected HGOs of Category 1 Lead for Haj 2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.46 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                13/08/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Declaration of eligible HGOs of Category 1 Lead for Haj 2027 &nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1111&amp;lid=1262">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Declaration of eligible HGOs of Category 1 Lead for Haj 2027             </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (789.61 KB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                06/08/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Temporary deputation of Coordinators (Admin) / Haj Officers (HO) / Haj Superintendents (HS) to Consulate General of India, Jeddah, Saudi Arabia for Haj-2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1110&amp;lid=1261">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Temporary deputation of Coordinators (Admin) / Haj Officers (HO) / Haj Superintendents (HS) to Consulate General of India, Jeddah, Saudi Arabia for Haj-2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (9.69 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                05/08/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Clarification to the queries on HGO Policy 2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1107&amp;lid=1260">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Clarification to the queries on HGO Policy 2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.68 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                17/07/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="HGO Policy for Haj 2027&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1105&amp;lid=1259">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                HGO Policy for Haj 2027            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (1.06 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                03/07/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Regarding medical screening and vaccination of HGO pilgrims&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1096&amp;lid=1255">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Regarding medical screening and vaccination of HGO pilgrims            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (645.88 KB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                30/03/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="NRI pilgrims Health screening and Vaccination for Haj 2026&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1095&amp;lid=1254">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                NRI pilgrims Health screening and Vaccination for Haj 2026            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (4.34 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                19/03/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Addendum of Request For Proposal - Field Level Inspection and Concurrent Monitoring of projects under PM VIKAS Scheme &nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1094&amp;lid=1253">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Addendum of Request For Proposal - Field Level Inspection and Concurrent Monitoring of projects under PM VIKAS Scheme             </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.55 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                19/03/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Health Requirements and Immunization of Haj Pilgrims for Haj - 2026&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1086&amp;lid=1249">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Health Requirements and Immunization of Haj Pilgrims for Haj - 2026            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.32 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                04/02/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Extention for submission of certificate by CHGOs for accomodation and pilgrim booking by 27.01.2026&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1085&amp;lid=1248">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Extention for submission of certificate by CHGOs for accomodation and pilgrim booking by 27.01.2026            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.54 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                27/01/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                
+<li class="whats-new-item">
+    <a class="d-block w-100 text-decoration-none whats-new-link"
+       target="_blank"       title="Addendum - Extension of last date of RFP - Field Level Inspection and Concurrent Monitoring of the PM-VIKAS scheme&nbsp;"
+       href="showfile.php?lang=1&amp;level=1&amp;ls_id=1084&amp;lid=1247">
+
+        <!-- Row 1: content title + file icon/size -->
+        <span class="d-flex align-items-start justify-content-between gap-3 w-100 whats-new-main-row">
+            <span class="whats-new-title flex-grow-1">
+                Addendum - Extension of last date of RFP - Field Level Inspection and Concurrent Monitoring of the PM-VIKAS scheme            </span>
+            <span class="whats-new-file d-inline-flex align-items-center gap-1 flex-shrink-0">
+                <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i>                 (2.80 MB)            </span>
+        </span>
+
+        <!-- Row 2: publish date + arrow -->
+        <span class="d-flex align-items-center justify-content-between gap-3 w-100 mt-2 whats-new-meta-row">
+            <small class="whats-new-date">
+                19/01/2026            </small>
+            <svg class="i flex-shrink-0 whats-new-arrow"
+                 viewBox="0 0 24 24"
+                 aria-hidden="true">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </span>
+    </a>
+</li>
+
+                </ul>
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT VIEW MORE -->
+            <div class="d-flex justify-content-end mt-2">
+
+                <a class="btn-more d-inline-flex align-items-center justify-content-center gap-2 text-decoration-none" href="show_content.php?lang=1&amp;level=0&amp;ls_id=10&amp;lid=10"
+           aria-label="View recent content"><span>
+            View More</span>
+<svg class="i"
+                         viewBox="0 0 24 24"
+                         aria-hidden="true">
+                        <path d="M9 5l7 7-7 7"/>
+                    </svg>
+        </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STEP 4: RECENT DOCUMENTS + USER PERSONAS + IMPORTANT LINKS -->
+<section class="docs-band container-fluid" aria-label="Recent documents, user personas and important links">
+  <div class="docs-grid row g-4">
+
+    <div class="col-docs col-12 col-lg-6">
+                           
+  <h2 class="about-title">
+        <svg class="i" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 6h20l8 8v22M10 6v34h16"/><path d="M30 6v8h8M16 20h16M16 26h16M16 32h8"/><path d="M28 40l5 5 11-12"/></svg>
+        Recent Documents      </h2>
+ 
+
+                    
+
+
+<div class="doc-cards">
+<a class="doc-card d-block text-decoration-none" target="_blank" title="Confirmation regarding activation of CHGO account on Nusuk Portal and availability of sufficient funds in electronic wallet for Haj 2027&nbsp;" href="showfile.php?lang=1&amp;level=1&amp;ls_id=1133&amp;lid=1269">
+<h3>Confirmation regarding activation of CHGO account on Nusuk Portal and availability of sufficient funds in electronic wallet for Haj 2027 <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (656.08 KB)</h3>
+</a>
+
+                
+<a class="doc-card d-block text-decoration-none" target="_blank" title="Filling up the post of Secretary, Central Waqf Council, New Delhi, a statutory body under the Ministry of Minority Affairs&nbsp;" href="showfile.php?lang=1&amp;level=1&amp;ls_id=1134&amp;lid=1270">
+<h3>Filling up the post of Secretary, Central Waqf Council, New Delhi, a statutory body under the Ministry of Minority Affairs <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (13.17 MB)</h3>
+</a>
+
+                
+<a class="doc-card d-block text-decoration-none" target="_blank" title="Selection of Haj Group Organisers (HGOs) for Haj 2027 &nbsp;" href="showfile.php?lang=1&amp;level=1&amp;ls_id=1135&amp;lid=1272">
+<h3>Selection of Haj Group Organisers (HGOs) for Haj 2027  <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (1.18 MB)</h3>
+</a>
+
+                
+<a class="doc-card d-block text-decoration-none" target="_blank" title="Combined Haj Group Organisers (CHGOs) for Haj-2027&nbsp;" href="showfile.php?lang=1&amp;level=1&amp;ls_id=1136&amp;lid=1273">
+<h3>Combined Haj Group Organisers (CHGOs) for Haj-2027 <i class="fas fa-file-pdf" aria-hidden="true" role="presentation" ></i> (1.35 MB)</h3>
+</a>
+
+                </div>      <div class="more-row d-flex justify-content-end align-items-center gap-2"><a class="btn-more d-inline-flex align-items-center gap-2" href="#">View More <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a></div>
+    </div>
+
+    <div class="col-personas col-12 col-md-6 col-lg-3">
+      <h2 class="about-title">
+        <svg class="i" viewBox="0 0 48 48" aria-hidden="true"><circle cx="17" cy="15" r="7"/><path d="M4 41v-4a11 11 0 0 1 11-11h4a11 11 0 0 1 11 11v4z"/><circle cx="35" cy="13" r="5.500"/><path d="M34 24h2a9 9 0 0 1 9 9v5h-9"/></svg>
+        Explore User Personas
+      </h2>
+      <div class="persona-stage" aria-live="polite">
+                <figure class="persona">
+          <img src="/dbim/assets/img/personas/persona1.svg" alt="Illustration of a student" width="208" height="208">
+          <figcaption>For Students</figcaption>
+        </figure>
+                <figure class="persona" hidden>
+          <img src="/dbim/assets/img/personas/persona2.svg" alt="Illustration of an institution representative" width="208" height="208">
+          <figcaption>For Institutions</figcaption>
+        </figure>
+                <figure class="persona" hidden>
+          <img src="/dbim/assets/img/personas/persona3.svg" alt="Illustration of a citizen" width="208" height="208">
+          <figcaption>For Citizens</figcaption>
+        </figure>
+                <figure class="persona" hidden>
+          <img src="/dbim/assets/img/personas/persona4.svg" alt="Illustration of a pilgrim" width="208" height="208">
+          <figcaption>For Haj Pilgrims</figcaption>
+        </figure>
+              </div>
+      <div class="pager d-flex align-items-center justify-content-center gap-2">
+        <button type="button" class="pager-prev btn p-0" aria-label="Previous persona"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <span class="pdots">
+          <button type="button" class="on" aria-label="Show persona 1: For Students"></button><button type="button" class="" aria-label="Show persona 2: For Institutions"></button><button type="button" class="" aria-label="Show persona 3: For Citizens"></button><button type="button" class="" aria-label="Show persona 4: For Haj Pilgrims"></button>        </span>
+        <button type="button" class="pager-next btn p-0" aria-label="Next persona"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+
+<div class="col-links col-12 col-md-6 col-lg-3">
+      <h2 class="about-title">
+        <svg class="i" viewBox="0 0 48 48" aria-hidden="true"><circle cx="29" cy="19" r="14"/><path d="M19 29L6 42"/><path d="M29 11l2.500 5.500 6 .7-4.500 4 1.300 6-5.300-3.100-5.300 3.100 1.300-6-4.500-4 6-.7z"/></svg>
+        
+						<span>Important Links</span>
+						
+      </h2>
+      <div class="link-scroll w-100" tabindex="0" role="region" aria-label="Important links list">
+	  
+	  <ul>
+
+		<li><a  title="PM 15 Points Programme&nbsp;" href="show_content.php?lang=1&amp;level=1&amp;ls_id=1126&amp;lid=13">
+		
+		<span>PM 15 Points Programme </span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                
+
+		<li><a  title="Sachar Committee Report&nbsp;" href="show_content.php?lang=1&amp;level=1&amp;ls_id=1127&amp;lid=14">
+		
+		<span>Sachar Committee Report </span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                
+
+		<li><a  title="Archives&nbsp;" href="show_content.php?lang=1&amp;level=1&amp;ls_id=1128&amp;lid=24&amp;vmod=4">
+		
+		<span>Archives </span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                
+
+		<li><a  title="Feedback&nbsp;" href="feedback.php?lang=1&amp;level=1&amp;ls_id=1129&amp;lid=23">
+		
+		<span>Feedback </span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                
+
+		<li><a  title="Rajbhasha Activities&nbsp;" href="show_content.php?lang=1&amp;level=1&amp;ls_id=1130&amp;lid=218">
+		
+		<span>Rajbhasha Activities </span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                
+
+		<li><a target="_blank" title="UMEED CENTRAL PORTAL 2025&nbsp;" href="showlink.php?lang=1&amp;level=1&amp;ls_id=1131&amp;lid=1173">
+		
+		<span>UMEED CENTRAL PORTAL 2025 <i class="fas fa-up-right-from-square" aria-hidden="true" role="presentation"></i></span>
+		
+		<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+		
+		</a></li>
+
+                </ul>	  
+
+	  </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- STEP 5: SOCIAL MEDIA -->
+<section class="social-band container-fluid" aria-labelledby="social-h">
+  <h2 class="social-title" id="social-h">
+    <svg class="i" viewBox="0 0 48 48" aria-hidden="true"><circle cx="20" cy="20" r="16"/><path d="M4 20h32M20 4c-6 5-6 27 0 32M20 4c6 5 6 27 0 32"/><rect x="26" y="27" width="18" height="14" rx="2" fill="currentColor" stroke="none" opacity=".25"/><rect x="26" y="27" width="18" height="14" rx="2"/><path d="M33 31l6 3-6 3z" fill="currentColor"/></svg>
+    In Social Media
+  </h2>
+  <div class="social-grid row g-4">
+        <div class="soc-panel">
+      <div class="soc-head">
+        <h3>X</h3>
+        <a href="https://x.com/MOMAIndia" target="_blank" rel="noopener noreferrer" aria-label="Visit Ministry of Minority Affairs on X (opens in a new window)">Visit
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      </div>
+      <div class="soc-body w-100" tabindex="0" role="region" aria-label="X feed" data-social='{&quot;type&quot;:&quot;x&quot;,&quot;handle&quot;:&quot;MOMAIndia&quot;,&quot;channel&quot;:&quot;&quot;,&quot;videos&quot;:[],&quot;posts&quot;:[&quot;https:\/\/x.com\/MOMAIndia\/status\/2107077418091794448&quot;],&quot;url&quot;:&quot;https:\/\/x.com\/MOMAIndia&quot;}'>
+        <p class="soc-fallback">Loading latest X updates&hellip;
+          <a href="https://x.com/MOMAIndia" target="_blank" rel="noopener noreferrer">Open the Ministry&rsquo;s X page</a> if it does not appear.</p>
+      </div>
+    </div>
+        <div class="soc-panel">
+      <div class="soc-head">
+        <h3>YouTube</h3>
+        <a href="https://www.youtube.com/@MoMAIndia/" target="_blank" rel="noopener noreferrer" aria-label="Visit Ministry of Minority Affairs on YouTube (opens in a new window)">Visit
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      </div>
+      <div class="soc-body w-100" tabindex="0" role="region" aria-label="YouTube feed" data-social='{&quot;type&quot;:&quot;youtube&quot;,&quot;handle&quot;:&quot;&quot;,&quot;channel&quot;:&quot;UCkSx-ISbhkZYzSZ2z8IoYhQ&quot;,&quot;videos&quot;:[],&quot;posts&quot;:[],&quot;url&quot;:&quot;https:\/\/www.youtube.com\/@MoMAIndia\/&quot;}'>
+        <p class="soc-fallback">Loading latest YouTube updates&hellip;
+          <a href="https://www.youtube.com/@MoMAIndia/" target="_blank" rel="noopener noreferrer">Open the Ministry&rsquo;s YouTube page</a> if it does not appear.</p>
+      </div>
+    </div>
+        <div class="soc-panel">
+      <div class="soc-head">
+        <h3>Facebook</h3>
+        <a href="https://www.facebook.com/MOMAIndia" target="_blank" rel="noopener noreferrer" aria-label="Visit Ministry of Minority Affairs on Facebook (opens in a new window)">Visit
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      </div>
+      <div class="soc-body w-100" tabindex="0" role="region" aria-label="Facebook feed" data-social='{&quot;type&quot;:&quot;facebook&quot;,&quot;handle&quot;:&quot;&quot;,&quot;channel&quot;:&quot;&quot;,&quot;videos&quot;:[],&quot;posts&quot;:[],&quot;url&quot;:&quot;https:\/\/www.facebook.com\/MOMAIndia&quot;}'>
+        <p class="soc-fallback">Loading latest Facebook updates&hellip;
+          <a href="https://www.facebook.com/MOMAIndia" target="_blank" rel="noopener noreferrer">Open the Ministry&rsquo;s Facebook page</a> if it does not appear.</p>
+      </div>
+    </div>
+        <div class="soc-panel">
+      <div class="soc-head">
+        <h3>Instagram</h3>
+        <a href="https://www.instagram.com/momaindia/" target="_blank" rel="noopener noreferrer" aria-label="Visit Ministry of Minority Affairs on Instagram (opens in a new window)">Visit
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+      </div>
+      <div class="soc-body w-100" tabindex="0" role="region" aria-label="Instagram feed" data-social='{&quot;type&quot;:&quot;instagram&quot;,&quot;handle&quot;:&quot;momaindia&quot;,&quot;channel&quot;:&quot;&quot;,&quot;videos&quot;:[],&quot;posts&quot;:[],&quot;url&quot;:&quot;https:\/\/www.instagram.com\/momaindia\/&quot;}'>
+        <p class="soc-fallback">Loading latest Instagram updates&hellip;
+          <a href="https://www.instagram.com/momaindia/" target="_blank" rel="noopener noreferrer">Open the Ministry&rsquo;s Instagram page</a> if it does not appear.</p>
+      </div>
+    </div>
+      </section>
+
+<!-- Stable social fallback override: cache-busted and independent from main.js -->
+<!--<script src="./dbim/assets/js/social-force.js?v=20261019-01"></script>-->
+
+<!-- STEP 5: PROMO BANNERS -->
+<section class="promo-row container-fluid" aria-label="Featured campaigns">
+    <a class="promo d-block" href="#"><img src="/dbim/assets/img/promos/promo1.svg" alt="Inviting feedback on draft guidelines" loading="lazy"></a>
+    <a class="promo d-block" href="#"><img src="/dbim/assets/img/promos/promo2.svg" alt="Scholarship information every student must know" loading="lazy"></a>
+    <a class="promo d-block" href="#"><img src="/dbim/assets/img/promos/promo3.svg" alt="Haj 2027 information" loading="lazy"></a>
+  </section>
+
+<!-- STEP 5: PARTNER LOGOS -->
+<section class="partners-band container-fluid" aria-label="Related portals">
+  <button type="button" class="pc-btn pc-prev btn p-0" aria-label="Previous logos"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <div class="pc-track d-flex align-items-center w-100" tabindex="0">
+    
+	                                
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="Samadhan Helpline " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=490&amp;lid=381'>
+                                        <img src="WriteReadData/IC1425/1660036663.jpg" 
+                                             alt="Samadhan Helpline"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="PMNRF " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=149&amp;lid=150'>
+                                        <img src="WriteReadData/IC1425/1647844974.jpg" 
+                                             alt="PMNRF"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="PM India " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=148&amp;lid=151'>
+                                        <img src="WriteReadData/IC1425/1647844946.jpg" 
+                                             alt="PM India"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="Women helpline " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=136&amp;lid=152'>
+                                        <img src="WriteReadData/IC1425/1647844885.jpg" 
+                                             alt="Women helpline"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="My visit " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=135&amp;lid=153'>
+                                        <img src="WriteReadData/IC1425/1647844505.jpg" 
+                                             alt="My visit"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="myGov " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=139&amp;lid=140'>
+                                        <img src="WriteReadData/IC1425/1647845409.jpg" 
+                                             alt="myGov"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="Make in India " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=138&amp;lid=141'>
+                                        <img src="WriteReadData/IC1425/1647845387.jpg" 
+                                             alt="Make in India"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="india gov in " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=140&amp;lid=142'>
+                                        <img src="WriteReadData/IC1425/1647845361.jpg" 
+                                             alt="india gov in"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="India Code " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=143&amp;lid=143'>
+                                        <img src="WriteReadData/IC1425/1647845294.jpg" 
+                                             alt="India Code"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="GOI web directory " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=142&amp;lid=144'>
+                                        <img src="WriteReadData/IC1425/1647845272.jpg" 
+                                             alt="GOI web directory"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="election commission of India  " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=141&amp;lid=145'>
+                                        <img src="WriteReadData/IC1425/1647845252.jpg" 
+                                             alt="election commission of India "
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="e gazette " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=144&amp;lid=146'>
+                                        <img src="WriteReadData/IC1425/1647845223.jpg" 
+                                             alt="e gazette"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="digital india " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=145&amp;lid=147'>
+                                        <img src="WriteReadData/IC1425/1647845053.jpg" 
+                                             alt="digital india"
+                                             height="160">
+                                    </a>
+                               
+                                                            
+                                    <a class="pc-card" target="_blank" 
+                                        
+                                       title="data gov in " 
+                                       href='showlink.php?lang=1&amp;level=0&amp;ls_id=146&amp;lid=148'>
+                                        <img src="WriteReadData/IC1425/1647845030.jpg" 
+                                             alt="data gov in"
+                                             height="160">
+                                    </a>
+                               
+                              </div>
+  <button type="button" class="pc-btn pc-next btn p-0" aria-label="Next logos"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</section>
+
+
+<footer class="footer">
+
+  <div class="foot-main">
+
+    <!-- Useful Links -->
+    <div>
+      <h2>Useful Links</h2>
+
+      <ul class="foot-links list-unstyled">
+		 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Website Policies" title="Website Policies" href="show_content.php?lang=1&amp;level=0&amp;ls_id=246&amp;lid=22">Website Policies</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Terms and Conditions" title="Terms and Conditions" href="show_content.php?lang=1&amp;level=0&amp;ls_id=778&amp;lid=994">Terms and Conditions</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Citizen Charter" title="Citizen Charter" href="show_content.php?lang=1&amp;level=0&amp;ls_id=271&amp;lid=238">Citizen Charter</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap" target="_blank" aria-label="Go to Public Grievance" title="Public Grievance" href="showlink.php?lang=1&amp;level=0&amp;ls_id=147&amp;lid=149">Public Grievance</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Help" title="Help" href="show_content.php?lang=1&amp;level=0&amp;ls_id=779&amp;lid=21">Help</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Parliament Questions" title="Parliament Questions" href="show_content.php?lang=1&amp;level=0&amp;ls_id=543&amp;lid=744">Parliament Questions</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to RTI" title="RTI" href="show_content.php?lang=1&amp;level=0&amp;ls_id=248&amp;lid=5">RTI</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Tenders" title="Tenders" href="show_tenders.php?lang=1&amp;level=0&amp;ls_id=250&amp;lid=27">Tenders</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Careers" title="Careers" href="show_content.php?lang=1&amp;level=0&amp;ls_id=251&amp;lid=9">Careers</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap" target="_blank" aria-label="Go to e-Office" title="e-Office" href="showlink.php?lang=1&amp;level=0&amp;ls_id=252&amp;lid=161">e-Office</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Contact us" title="Contact us" href="show_content.php?lang=1&amp;level=0&amp;ls_id=253&amp;lid=25">Contact us</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap"  aria-label="Go to Samadhan Helpline" title="Samadhan Helpline" href="show_content.php?lang=1&amp;level=0&amp;ls_id=33&amp;lid=26">Samadhan Helpline</a>
+                                           
+          </li>
+
+				 
+
+          <li>
+            <a class="text-decoration-none d-inline-flex align-items-center text-nowrap" target="_blank" aria-label="Go to eHRMS 2.0" title="eHRMS 2.0" href="showlink.php?lang=1&amp;level=0&amp;ls_id=1123&amp;lid=1274">eHRMS 2.0</a>
+                                           
+          </li>
+
+				      </ul>
+    </div>
+
+
+    <!-- Subscribe for Updates -->
+    <div class="foot-right">
+
+      <h2>Subscribe for Updates</h2>
+
+      <div class="foot-social d-flex align-items-center justify-content-end gap-3">
+
+        <a
+          href="#"
+          aria-label="X (opens in a new window)"
+          class="d-inline-flex align-items-center justify-content-center text-decoration-none"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="1em"
+            height="1em"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+
+        <a
+          href="#"
+          aria-label="YouTube (opens in a new window)"
+          class="d-inline-flex align-items-center justify-content-center text-decoration-none"
+        >
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="2.5" y="5.5" width="19" height="13" rx="4"/>
+            <path d="M10 9.5l5 2.5-5 2.5z"/>
+          </svg>
+        </a>
+
+        <a
+          href="#"
+          aria-label="Facebook (opens in a new window)"
+          class="d-inline-flex align-items-center justify-content-center text-decoration-none"
+        >
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/>
+          </svg>
+        </a>
+
+        <a
+          href="#"
+          aria-label="Instagram (opens in a new window)"
+          class="d-inline-flex align-items-center justify-content-center text-decoration-none"
+        >
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3.5" y="3.5" width="17" height="17" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17" cy="7" r=".8" fill="currentColor"/>
+          </svg>
+        </a>
+
+      </div>
+
+
+      <div class="foot-logos d-flex align-items-center justify-content-end gap-2">
+
+        <a
+          class="logo-box d-inline-flex align-items-center justify-content-center text-decoration-none"
+          href="#"
+          aria-label="MyGov"
+        >
+          MyGov
+        </a>
+
+        <a
+          class="logo-box d-inline-flex align-items-center justify-content-center text-decoration-none"
+          href="#"
+          aria-label="India.gov.in"
+        >
+          india.gov.in
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="foot-bottom">
+
+    <p class="crp" id="nic-link">Website Content owned by Ministry of Minority Affairs, Government of India<br> Designed, Developed and Hosted by   
+					
+					<a target='_blank' class="licls" aria-label="Visit National Informatics Centre (NIC)" title='National Informatics Center' href='https://www.nic.in/'>
+					
+					National Informatics Centre ( NIC )</a> 
+					
+					  
+					</p>
+
+    <p>
+      Visitor No.&nbsp;21760511      &nbsp;|&nbsp;
+      Last Updated On:&nbsp;29/10/2026    </p>
+
+  </div>
+   <!-- ALL JS FILES -->
+  
+    <script src="./dbim/assets/js/jquery.min.js"></script>
+	<script src="./dbim/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="./dbim/assets/js/main.js"></script>
+	<script src="https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js" initial_preferred_language="hi"> </script>
+<script>
+ $(function(){
+
+   // alert('ajit");
+ // jQuery.noConflict();   
+   $('#web_search').formChecks({ajaxSubFunc:frmAction1}).SetToFirstFocus();
+ 
+ //$('#web_search').formChecks({ajaxSubFunc:frmAction});
+    $('#kval').bind("keypress",function(event){
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+
+        if(keycode == '13'){
+            $('#web-search').trigger('click');
+            return false;
+        }
+    });
+ })
+
+ function frmAction1(){
+
+
+
+    var formData = new FormData();
+    var other_data = $('#web_search').serializeArray();
+    $.each(other_data,function(key,input){
+        formData.append(input.name,input.value);
+        
+    });
+    // jQuery.noConflict(); 
+    $.ajax({
+        type     : "POST",
+        dataType: "html",
+        cache    : false,
+        enctype: 'multipart/form-data',
+        url      : 'web_search.php?lang=1',
+        data     : formData/*{'frmType':frmType,'kval':$('#key_val').val()}*/,
+        processData: false,
+        contentType: false,
+        beforeSend: function(){
+            $.fn.ajaxLoading();
+        },
+        success  : function(data) {
+            try{
+                
+                if ($(data).find('#custom-search-input1').length>0) {
+                  data = 'Something went wrong, Please try after some time!';
+                }
+
+
+                $('#container-body').html(data);
+                $('#custom_search1').modal('toggle');
+            }
+            catch(err) {
+                
+                $('#ShowMsg1').ShowMsg({msg:"<strong>Error:</strong> Unexpected Response received, You may try again!",alertClass:'alert-warning'});
+            }
+
+        },
+        error:function(){
+            $.fn.custom_alert({msg:'Something went wrong, Please try again!'});
+        },
+        complete: function(){
+            $.fn.ajaxLoading({show:false});
+        },
+    });
+ }
+
+ $(document).delegate('.container','onload',function(){
+    $('.container').highlight('');
+ })
+ </script>
+
+<script>
+
+$(function(){
+
+	$('.fa-arrow-circle-left').click(function(event) {
+            history.go(-1);
+        });
+		
+		$('.showPop').click(function(){
+            if($(this).data('lid')!=undefined){
+            //console.log($(this).attr('href'))
+            $('.modal-container').html('');
+            $('.modal-container').OpenPop({
+                url:'show_ldetail.php?'+''+'&slid='+$(this).data('lid'),
+            });
+            return false;
+        }
+    });
+	
+
+		$('a, #l_feedback').click(function(){
+			
+        // console.log($(this).data('hrf'))
+        switch($(this).data('hrf')){
+            case 'feedback':
+            FeedType=1;
+            break;
+
+            /*case 'l_feedback':
+
+            break;*/
+
+            default:
+            FeedType=2;
+            break;
+        }
+        if($(this).data('hrf')!=undefined){
+            //console.log($(this).attr('href'))
+            $('.modal-container').html('');
+            $('.modal-container').OpenPop({
+                url:$(this).attr('href')+"&f_type="+FeedType,
+            });
+            return false;
+        }
+    })
+ 
+
+	 function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+var chkCont=getCookie("cs");
+   
+    if(chkCont!=null && chkCont!=""){
+     defCont=chkCont;
+ }
+ else{
+    setCookie("cs",'1');
+    chkCont=getCookie("cs");
+}
+chngeCol(chkCont);
+    //console.log('CS:'+chkCont);
+
+    //#######word space###########
+    var ts=getCookie("ts");
+
+    //console.log('TS:'+ts);
+    if((ts!=null && ts!="") && ts=='1'){
+        $("*").removeClass('wordspace2 wordspace3');
+    }
+    else{
+        //console.log('wordspace'+ts)
+
+        $("body").addClass('wordspace'+ts);
+    }
+    //###########################
+
+    if (window.top !== window.self){
+        //console.log('Reload by access default')
+        window.top.location.replace(window.self.location.href);
+        alert('For security reasons, frames are not allowed.');
+        setInterval(function(){document.body.innerHTML='';},1);
+    }
+
+
+
+    $zoomArr=[];
+    $zoomArr['1']=['0.75','75','0'];
+    $zoomArr['2']=['0.9','90','0'];
+    $zoomArr['3']=['1','100','0'];
+    $zoomArr['4']=['1.10','110','4'];
+    $zoomArr['5']=['1.25','125','10'];
+    /************************  DEFAULT SETTINGS START *******************************/
+    var ccount = getCookie("fs");
+    var currfftransform = getCookie("FFtransform");
+
+
+
+    if(ccount =='null' || ccount =='' ||  ccount == 'NaN' || typeof(ccount) == 'undefined')
+    {
+		
+        ccount = 3;
+        setCookie("fs",ccount);
+    }
+
+    if(currfftransform =='null' || currfftransform =='' ||  currfftransform == 'NaN' || typeof(currfftransform) == 'undefined')
+    {
+        currfftransform = 0;
+        setCookie("FFtransform",currfftransform);
+    }
+
+    generate_access_opt_css($zoomArr[ccount][0],$zoomArr[ccount][1],$zoomArr[ccount][2]);
+
+    /************************  DEFAULT SETTINGS END *******************************/
+
+
+    /************************  ZOOM IN SETTINGS START *******************************/
+
+    var ccount = getCookie("fs");
+    //console.log(ccount);
+    $("#In").click(function () {
+         
+        var ccount = getCookie("fs");
+        
+        // console.log('In:'+ccount);
+        ccount = parseInt(ccount) + 1;
+        
+        var currfftransform = getCookie("FFtransform");
+
+        if(ccount > 5){
+            return false;
+        }
+
+        generate_access_opt_css($zoomArr[ccount][0],$zoomArr[ccount][1],$zoomArr[ccount][2]);
+
+        Delete_Cookie("fs");
+        setCookie("fs",ccount);
+    });
+    /************************  ZOOM IN SETTINGS END *******************************/
+
+    /************************  ZOOM NORMAL SETTINGS START *******************************/
+    $('#Normal').click(function(){
+		
+        $('div#wrapper').removeAttr('style');
+        setCookie("FFtransform",0);
+        setCookie("fs",3);
+    });
+    /************************  ZOOM NORMAL SETTINGS END *******************************/
+
+    /************************  ZOOM OUT SETTINGS START *******************************/
+    $('#Out').click(function(){
+        var ccount = getCookie("fs");
+        //console.log('Out:'+ccount);
+        var currfftransform = getCookie("FFtransform");
+        ccount = parseInt(ccount) - 1;
+        if(ccount < 1){
+            return false;
+        }
+
+        generate_access_opt_css($zoomArr[ccount][0],$zoomArr[ccount][1],$zoomArr[ccount][2]);
+
+        Delete_Cookie("fs");
+        setCookie("fs",ccount);
+    });
+    /************************  ZOOM OUT SETTINGS END *******************************/
+
+
+    //for the color scheme
+    $('#sch_1,#sch_2,#sch_3').click(function(){
+
+        //console.log($(this).attr('id'))
+        switch($(this).attr('id')){
+
+            case 'sch_1':
+            chngeCol('1');
+            break;
+
+            case 'sch_2':
+            chngeCol('2');
+            break;
+
+            case 'sch_3':
+            chngeCol('3');
+            break;
+        }
+    })
+
+    /*var my_css_class = { 'word-spacing' : '30px' };
+    $("*").css(my_css_class);*/
+	
+	//for the accessability
+
+
+/************************  FUNCTION FOR ZOOM SETTINGS START *******************************/
+function generate_access_opt_css(ffcred,cromecred,trans)
+{
+
+    $ = jQuery.noConflict();
+   // $('div#wrapper').css('MozTransform','scale(' + ffcred + ') translate(' + trans + '%)');
+     
+    $('div#wrapper').css('-moz-transform-origin','center top');
+    $('div#wrapper').css('zoom', ' ' + cromecred + '%');
+    $('div#wrapper').css('-ms-transform','scale(' +ffcred + ') translate(' + trans + '%)');
+    $('div#wrapper').css('-ms-transform-origin','center top 0');
+}
+/************************  FUNCTION FOR ZOOM SETTINGS END *******************************/
+
+	
+function chngeCol(cokVal) {
+  var ContSch = getCookie("cs");
+
+  // Remove existing theme stylesheets
+  jQuery("[href*='yb.css'], [href*='fb.css']").remove();
+
+  // Create a base style string
+  const styleBase = document.createElement("style");
+  styleBase.type = "text/css";
+  styleBase.textContent = `
+    .common-right ul li.ico-accessibility > a {
+      background-image: url(./images/ico-accessibility.png);
+    }
+    .common-right ul li.ico-social > a {
+      background-image: url(./images/ico-social.png);
+    }
+    .common-right ul li.ico-site-search > a {
+      background-image: url(./images/ico-site-search.png);
+    }
+    .common-right ul li.ico-sitemap > a {
+      background-image: url(./images/ico-sitemap.png);
+    }
+  `;
+  document.head.appendChild(styleBase);
+
+  if (cokVal === "2") {
+    // Yellow theme
+    addThemeStylesheet("assets/css/yb.css");
+
+    applyCustomIconStyle("-y");
+    $("#normal_img").attr("src", "img/emblemb_yellow.png");
+
+  } else if (cokVal === "3") {
+    // Fuchsia theme
+    addThemeStylesheet("assets/css/fb.css");
+
+    applyCustomIconStyle("-p");
+    $("#normal_img").attr("src", "img/emblemb_pink.png");
+
+  } else if (cokVal !== ContSch) {
+    Delete_Cookie("cs");
+    setCookie('cs', cokVal);
+    $("#normal_img").attr("src", "img/emblemb.png");
+  }
+
+  Delete_Cookie("cs");
+  setCookie('cs', cokVal);
+}
+
+// Helper function to add stylesheet
+function addThemeStylesheet(href) {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.media = "screen";
+  link.href = href;
+  document.head.appendChild(link);
+}
+
+// Helper to apply icon styles based on suffix (-y or -p)
+function applyCustomIconStyle(suffix) {
+  const style = document.createElement("style");
+  style.type = "text/css";
+  style.textContent = `
+    .common-right ul li.ico-accessibility > a {
+      background-image: url(./images/ico-accessibility${suffix}.png);
+    }
+    .common-right ul li.ico-social > a {
+      background-image: url(./images/ico-social${suffix}.png);
+    }
+    .common-right ul li.ico-site-search > a {
+      background-image: url(./images/ico-site-search${suffix}.png);
+    }
+    .common-right ul li.ico-sitemap > a {
+      background-image: url(./images/ico-sitemap${suffix}.png);
+    }
+  `;
+  document.head.appendChild(style);
+}
+		
+});	
+</script>
+
+<script>
+function Delete_Cookie( name){
+        if ( getCookie( name ) )
+         document.cookie = name + "=" +";expires=Thu, 01-Jan-2008 00:00:01 GMT";
+    }
+
+
+    function getCookie(c_name){
+        var i,x,y,ARRcookies=document.cookie.split(";");
+        for (i=0;i<ARRcookies.length;i++){
+            x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+            y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+            x=x.replace(/^\s+|\s+$/g,"");
+            if (x==c_name){
+                return unescape(y);
+            }
+        }
+    }
+
+    function setCookie(c_name,value){
+        if(!isNaN(value)){
+            var c_value=escape(value);
+            document.cookie=c_name + "=" + c_value;
+        }
+    }
+	
+		
+	$('#skip-content').click(function(e){
+		e.preventDefault(); // prevent anchor jump
+		var $target = $('#container-body');
+
+		$('html, body').animate({
+			scrollTop: $target.offset().top
+		}, 500, function() {
+			$target.attr('tabindex', '-1').focus(); // set focus programmatically
+		});
+	});
+
+
+</script>
+
+
+</main>
+</body>
+</html>
+
+ 

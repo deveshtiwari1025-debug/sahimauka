@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="UpcwJEMo-H_Y-17Rn0uPZAYHuC2hO-C3_NzLaFiWpOs" />
+    <title>National Testing Agency</title>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-31EZHW5Q8Z"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-31EZHW5Q8Z');
+</script>
+
+    
+    <meta name="keywords" content="">
+    <!-- Bootstrap and Font Awesome css -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/css/theme-fonts.css" />
+    <link type="text/css" rel="stylesheet" href="/Resources/CSS/FontAwesomePro/css/all.css" />
+    <link href="/addcss?v=rD1jBewZ-SVUymwyXNpS6FfFBvWNO5GUWARN0NqwkfE1" rel="stylesheet"/>
+
+    
+</head>
+<body>
+    <div id="all">
+        
+<div class="top-bar">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="top-links label">
+                <ul style="float:left;padding-top:5px">
+                    <li><span class="time" id="PPCount"></span></li>
+                    
+                </ul>
+                <ul style="padding-top:5px">
+    <li>
+        <a href="#maincont"><span class="fa fa-arrow-down"> Skip To Main Content</span></a>
+    </li>
+    <li><a href="https://facebook.com/nta.exams" title="Facebook" target="_blank"><span style="color:white" class="fab fa-facebook-square"></span></a></li>
+    <li><a href="https://instagram.com/nta_india" title="Instagram" target="_blank"><span style="color:white" class="fab fa-instagram"></span> </a></li>
+    <li><a href="https://www.youtube.com/NationalTestingAgency" title="Youtube" target="_blank"><span style="color:white" class="fab fa-youtube"></span> </a></li>
+    <li><a href="https://whatsapp.com/channel/0029Vb7Q3TL9cDDZffD3Cx2j" title="Whatsapp" target="_blank"><span style="color:white" class="fab fa-whatsapp-square"></span> </a></li>
+    <li><a href="https://www.linkedin.com/company/nta-exams" title="Linkdin" target="_blank"><span style="color:white" class="fab fa-linkedin"></span> </a></li>
+    <li><a href="https://twitter.com/NTA_exams" title="Twitter" target="_blank"><span style="color:white" class="fab fa-twitter-square"></span> </a></li>
+    <li>
+        <a href="https://play.google.com/store/apps/dev?id=7746914636480815659" title="Play Store" target="_blank"><span style="color:white" class="fab fa-google-play"></span> </a>
+    </li>
+    <li>
+        <a href="https://apps.apple.com/in/developer/national-testing-agency/id1520417658" title="App Store" target="_blank"><span style="color:white" class="fab fa-app-store-ios"></span> </a>
+    </li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<script src='https://sampadak.aicte-india.org/static/extension/anuvadini_extension.js?origin=nta.ac.in'></script>
+<header class="main-header">
+    <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+        <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+            <div class="" style="margin-right:10!important;">
+                
+                <div class="navbar-header col-md-2" style="border-left-style: groove;">
+                    <a class="navbar-brand home pull-left" style="position:center;" href="/Home"> <img src="/img/NTA_logo.png" style="height:70px;width:auto" class="img-responsive"> </a>
+                    <div class="navbar-buttons">
+                        <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation"> <span class="sr-only">Toggle navigation</span> <i class="fa fa-align-justify"></i> </button>
+                    </div>
+                </div>
+                <!--/.navbar-header -->
+                <div class="navbar-collapse collapse col-md-6" id="navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active">
+                            <a href="/Home">Home </a>
+                        </li>
+                        <li class="dropdown
+                                    ||
+                                  ||
+                                   ||
+                                ||
+                                ||
+                                   ||
+                                   ||
+                            ">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a style=" font-size: 11px !important; " href="/about">About NTA</a>
+                                </li>
+                                
+                                <li><a style="font-size:11px !important;" href="/Vision">Vision</a> </li>
+                                <li><a style="font-size:11px !important;" href="/object">Objectives</a> </li>
+                                <li><a style="font-size:11px !important;" href="/functions">Functions</a> </li>
+                                <li><a style="font-size:11px !important;" href="/governing">Governing Body</a> </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <!-- ========== FULL WIDTH MEGAMENU ================== -->
+                        <li class="dropdown use-yamm yamm-fw  ||
+                            ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Exams<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div style="border-right:1px solid #3d3d3d;" class="col-md-12 col-xs-12 p0">
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                    <h4 class="text-center mt0 boxMenu-title"><span>NTA Exams</span></h4>
+                                                </div>
+
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+
+    <!-- Priority 1 -->
+    <ul>
+        <li><a href="https://neet.nta.nic.in/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            National Eligibility Cum Entrance Test (NEET)
+        </a></li>
+    </ul>
+
+    <!-- Priority 2 -->
+    <ul>
+        <li><a href="https://jeemain.nta.nic.in" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Joint Entrance Examination (JEE)
+         <img src="/img/newicon.gif" alt="New" class="new-icon" />
+        </a></li>
+    </ul>
+
+    <!-- Priority 3 -->
+    <ul>
+        <li><a href="https://cuet.nta.nic.in/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Common University Entrance Test-UG (CUET-UG)
+        </a></li>
+    </ul>
+
+    <!-- Priority 4 -->
+    <ul>
+        <li><a href="https://ugcnet.nta.nic.in" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            UGC National Eligibility Test (UGC-NET)
+        <img src="/img/newicon.gif" alt="New" class="new-icon" />
+        </a></li>
+    </ul>
+
+    <!-- Priority 5 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/cuet-pg/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Common University Entrance Test-PG (CUET-PG)
+        </a></li>
+    </ul>
+
+    <!-- Priority 6 -->
+    <ul>
+        <li><a href="https://csirnet.nta.nic.in/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Joint CSIR-UGC - National Eligibility Test (Joint CSIR-UGC NET)
+        <img src="/img/newicon.gif" alt="New" class="new-icon" />
+        </a></li>
+    </ul>
+
+    <!-- Priority 7 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/sainik-school-society/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            All India Sainik School Entrance Exam (AISSEE)
+        </a></li>
+    </ul>
+
+    <!-- Priority 8 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/swayam/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Study Web of Active learning by Young and Aspiring Minds (SWAYAM)
+        <img src="/img/newicon.gif" alt="New" class="new-icon" />
+        </a></li>
+    </ul>
+
+    <!-- Priority 9 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/ncet/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            National Common Entrance Test (NCET)
+        </a></li>
+    </ul>
+
+    <!-- Priority 10 -->
+    <ul>
+        <li><a href="https://cmat.nta.nic.in/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Common Management Admission Test (CMAT)
+        </a></li>
+    </ul>
+ <!-- Priority 20 -->
+    
+ <ul>
+        <li><a href="https://exams.nta.nic.in/rimcee/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Rashtriya Indian Military College Entrance Examination (RIMCEE)
+         <img src="/img/newicon.gif" alt="New" class="new-icon" />
+        </a></li>
+    </ul>
+
+    <!-- Priority 21 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/rmscet/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Rashtriya Military School Common Entrance Test (RMS CET)
+       <img src="/img/newicon.gif" alt="New" class="new-icon" /></a>         
+    </li>
+    </ul>
+
+</div>
+
+
+<div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+
+    <!-- Priority 11 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/AIAPGET/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            All India AYUSH Post Graduate Entrance Test (AIAPGET)
+        </a></li>
+    </ul>
+
+    <!-- Priority 12 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/icar/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            ICAR's All India Entrance Examination (ICAR-AIEEA/AICE-JRF/SRF-Ph.D.)
+        </a></li>
+    </ul>
+
+    <!-- Priority 13 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/shreshta/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Residential Education for Students in High Schools in Targeted Areas (SHRESHTA-NETS)
+        </a></li>
+    </ul>
+
+    <!-- Priority 14 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/gat-bet/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Graduate Aptitude Test – Biotechnology (GAT-B) & Biotechnology Eligibility Test (BET) – 2026 (GAT-B & BET)
+        </a></li>
+    </ul>
+
+    <!-- Priority 15 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/niftee/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            National Institute of Fashion Technology Entrance Examination (NIFTEE)
+        </a></li>
+    </ul>
+
+    <!-- Priority 16 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/jipmat/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Joint Integrated Programme in Management Admission Test (JIPMAT)
+        </a></li>
+    </ul>
+
+    <!-- Priority 17 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/nchm-jee/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Hotel Management Joint Entrance Examination (NCHM-JEE)
+        </a></li>
+    </ul>
+
+    <!-- Priority 18 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/ntet/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            National Teachers Eligibility Test (NTET)
+        </a></li>
+    </ul>
+
+    <!-- Priority 19 -->
+    <ul>
+        <li><a href="https://exams.nta.nic.in/nssnet/" target="_blank">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            Navayug School Sarojini Nagar Entrance Test (NSSNET)
+        </a></li>
+    </ul>
+
+
+   <style>
+    .new-icon {
+        height: 14px; /* adjust to match your text size */
+        width: auto;
+        margin-left: 6px;
+        vertical-align: middle;
+        border: 0;
+    }
+</style>
+
+</div>
+                                            </div>
+                                            <!--<div class="col-md-6 col-xs-12 p0">
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                    <h4 class="text-center mt0 boxMenu-title"><span>Test Practice</span></h4>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/Student"><i class="fa fa-caret-right" aria-hidden="true"></i> Information For Students</a> </li>
+                                                    </ul>
+                                                    <br />-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/Quiz"><i class="fa fa-caret-right" aria-hidden="true"></i> Mock Test</a> </li>
+                                                    </ul>
+                                                    <br />-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/Centre/Download/MockTest?f=Home" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>Download Test</a> </li>
+                                                    </ul>
+                                                    <br />-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/LecturesContent"><i class="fa fa-caret-right" aria-hidden="true"></i>Content Based Lectures by [IIT PAL]</a> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="https://tpcsr.nta.ac.in/" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>Registration For Mock Test @TPC</a> </li>
+                                                    </ul>
+                                                    <br />-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/Download/AboutTPC.pdf" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>About Test Practice Centre</a> </li>
+                                                    </ul>
+                                                    <br />-->
+                                                    
+                                                    <!--<ul>
+                                                        <li><a style="font-size:11px !important;" href="/Download/AboutCBT.pdf" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i>About Computer Based Test</a> </li>
+                                                    </ul>
+													
+                                                </div>
+                                            </div>-->
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- ========== FULL WIDTH MEGAMENU END ================== -->
+                        <li class="dropdown use-yamm yamm-fw  ">
+                            
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                                <h5><span><i class="fa fa-laptop engg_color"></i></span>Test Practice Centre [TPC]</h5>
+                                                <ul>
+                                                    <li><a style="font-size:11px !important;" href="/TPC"><i class="fa fa-caret-right" aria-hidden="true"></i> Information For School/College/Institute</a> </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                                <h5><span><i class="fa fa-user collg_color"></i></span>Test Practice Centre Profile</h5>
+                                                <ul>
+                                                    <li><a style="font-size:11px !important;" href="/Centre/Login" target="_blank"><i class="fa fa-caret-right" aria-hidden="true"></i> TPC Logins</a> </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- /.yamm-content -->
+                                </li>
+                            </ul>
+                            <!--===================-->
+                            
+
+                        <li class=" ||
+                             ||
+                             ||
+                              ||
+                             ||
+                             ||
+                             ||
+                             ||
+                             ||
+                             ||
+                            ">
+                        </li>
+                        <li class=" ||
+                             ||
+                             ||
+                             ||
+                             "> <a href="/RTI">RTI</a> </li>
+                        <li class=""> <a href="/Tender">Tender</a> </li>
+                        <li class=""> <a href="/Downloads">Downloads</a> </li>
+
+
+       <li class="dropdown ">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+        Empanelment <span class="caret"></span>
+    </a>
+
+    <ul class="dropdown-menu">
+        
+
+        <li>
+            <a href="https://examinationservices.nic.in/RecSys26Part2/root/login.aspx?enc=Ei4cajBkK1gZSfgr53ImFdyjti2m8EDkNwdDoyf3gQN44sKc4A2OTdr3CwBmKcrN"
+               target="_blank">
+               Apply for Subject Matter Experts
+            </a>
+        </li>
+<li>
+            <a href="https://examinationservices.nic.in/RecSys26Part2/root/login.aspx?enc=Ei4cajBkK1gZSfgr53ImFdyjti2m8EDkNwdDoyf3gQPNdKQkm/2Z06V2MrU0Aj37"
+               target="_blank">
+                Apply for Translation Reviewers
+            </a>
+        </li>
+    </ul>
+</li>
+
+                        <li class=""> <a href="/ContactUs">Contact Us</a> </li>
+                        
+			
+                           
+
+
+
+
+
+
+			
+                    </ul>
+                    
+                    <a class="navbar-brand home" style="position:center;padding-top:5px" href="https://amritmahotsav.nic.in/" target="_blank"><img src="/img/akam.png" style="height:50px;width:auto" class="img-responsive"> </a>
+                </div>
+                <!--/.nav-collapse -->
+                <div class="collapse clearfix" id="search">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+        <!-- /#navbar -->
+    </div>
+    <!-- *** NAVBAR END *** -->
+<script src='https://sampadak.aicte-india.org/static/extension/anuvadini_extension.js?origin=nta.ac.in'></script>
+</header>
+
+
+
+
+        <div>
+            
+
+<div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+            </div>
+            <div class="col-md-5">
+                <ul class="breadcrumb"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-xs-12 align_centre">
+                    <div id="notfound">
+                        <div class="notfound">
+                            <div class="notfound-404">
+                                <h1>:(</h1>
+                            </div>
+                            <h2>404 - Page not found</h2>
+                            <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+                            <a href="/Home">home page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <h4><i class="fa fa-link" aria-hidden="true"></i> Quick Links</h4>
+                <ul class="link-list">
+    <li><i class="fa fa-laptop"></i><a href="/Quiz">Mock Test</a></li>
+    <!--li><i class="fa fa-book"></i><a href="https://cbtc.nta.ac.in/ypro" target="_blank">Recruitment (Young Professionals)</a></!--li>
+    <!--li><i class="fa fa-book"></i><a href="https://ntarecruitment.ntaonline.in/" target="_blank">Recruitment (on Deputation)</a></li-->
+    <li>
+        <i class="fab fa-instagram"></i>
+        <a href="https://instagram.com/nta_india" title="Instagram" target="_blank">Instagram</a>
+    </li>
+    <li><i class="fab fa-facebook-square"></i> <a href="https://facebook.com/nta.exams" title="Facebook" target="_blank">Facebook</a></li>
+    <li><i class="fab fa-whatsapp-square"></i> <a href="https://whatsapp.com/channel/0029Vb7Q3TL9cDDZffD3Cx2j" title="Whatsapp Channel" target="_blank">Whatsapp Channel</a></li>
+    <li>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/company/nta-exams" title="LinkedIn" target="_blank">LinkedIn</a>
+    </li>
+    <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/NationalTestingAgency" title="Youtube" target="_blank">Youtube</a></li>
+    <li><i class="fab fa-twitter-square"></i> <a href="https://twitter.com/NTA_exams" title="Twitter" target="_blank">X</a></li>
+    <li><i class="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/dev?id=7746914636480815659" title="Play Store" target="_blank">Play Store</a></li>
+    <li><i class="fab fa-app-store-ios"></i> <a href="https://apps.apple.com/in/developer/national-testing-agency/id1520417658" title="App Store" target="_blank">App Store</a></li>
+    <!--li><i class="fa fa-question"></i> <a href="/FAQ">FAQs</a></!--li-->
+    <li><i class="fa fa-file-pdf"></i> <a href="/Download/NTARegistrationandMOA.pdf" target="_blank">NTA Registration and MoA</a></li>
+</ul>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 contact-address">
+                <h4><i class="fa fa-phone" aria-hidden="true"></i> Contact</h4>
+                <ul class="ContactLeft-ul">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>National Testing Agency (NTA),<br />5th Floor, Government of India Press Building <br />Minto Road, New Delhi - 110002</li>
+                    
+                    <li><a href="Tel:01169227700"><i class="fa fa-phone" aria-hidden="true"></i><span class="white-text">011-69227700</span></a></li>
+                    <li><a href="Mailto:genadmin@nta.ac.in"><i class="fa fa-envelope"></i><span class="white-text">genadmin[at]nta[dot]ac[dot]in</span></a></li>
+                </ul>
+                <a class="navbar-brand home pull-left" style="position:left;" href="https://education.gov.in" target="_blank"><img src="/img/moe1.png" style="width:240px;background:white" class="img-responsive"> </a>
+            
+</div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <h4><i class="fa fa-book" aria-hidden="true"></i> Location</h4>
+                <div class="widget-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4952.380418738738!2d77.22599585118866!3d28.633904491318724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6c78ae002dec2277%3A0xc2753446b137fe86!2sNational%20Testing%20Agency%20(NTA)!5e0!3m2!1sen!2sin!4v1789543802660!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                    
+                    
+                    <div id="gmap" class="gmap3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            <p class="text-center">&copy; All Rights Reserved - National Testing Agency</p>
+        </div>
+    </div>
+</div>
+
+        
+    </div>
+    <script src="/addjs?v=-N0iqJFGS-XjqcbVXI1yZa4UqwzKwJIeB6RjAv-u41Q1"></script>
+
+
+    
+    <input type="hidden" id="hdfBaseUrl" value="/" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128392821-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-128392821-1');
+    </script>
+    <script src='https://sampadak.aicte-india.org/static/extension/anuvadini_extension.js?origin=nta.ac.in'></script>
+    
+
+
+
+
+ <button id="scrollTopBtn" title="Go to top">↑</button>
+ <script>
+     const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+     window.onscroll = function () {
+         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+             scrollTopBtn.style.display = "block";
+         } else {
+             scrollTopBtn.style.display = "none";
+         }
+     };
+
+     scrollTopBtn.onclick = function () {
+         window.scrollTo({
+             top: 0,
+             behavior: "smooth"
+         });
+     };
+
+ </script>
+ <style>
+
+     html {
+         scroll-behavior: smooth;
+     }
+
+     #scrollTopBtn {
+         display: none;
+         position: fixed;
+         bottom: 20px;
+         right: 20px;
+         z-index: 99;
+         font-size: 20px;
+         border: none;
+         outline: none;
+         background-color: burlywood;
+         color: #fff;
+         cursor: pointer;
+         padding: 10px 15px;
+         border-radius: 50%;
+     }
+
+         #scrollTopBtn:hover {
+             background-color: #555;
+         }
+ </style>
+
+
+
+
+
+
+
+
+</body>
+</html>

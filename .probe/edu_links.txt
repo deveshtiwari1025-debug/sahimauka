@@ -1,0 +1,2 @@
+len 6924
+<!DOCTYPE html><html class="default-theme" lang="en"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><script id="__CHATBOT_DEBUG__" type="application/json">{"enabled":false,"cssUrl":"","scriptUrl":"","debugStatus":"ERROR on SSR: Invalid URL","attemptedUrl":"wp-json/custom/chatbot/settings"}</script><link rel="icon" href="/favicon

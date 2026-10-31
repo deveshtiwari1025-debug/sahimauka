@@ -1,0 +1,135 @@
+--- nta-archive.html links 2042 ---
+{"href": "https://facebook.com/nta.exams", "title": "Facebook", "class": "", "text": ""}
+{"href": "https://www.linkedin.com/company/nta-exams", "title": "Linkdin", "class": "", "text": ""}
+{"href": "https://twitter.com/NTA_exams", "title": "Twitter", "class": "", "text": ""}
+{"href": "#", "title": "", "class": "dropdown-toggle", "text": "Exams"}
+{"href": "https://jeemain.nta.nic.in", "title": "", "class": "", "text": "Joint Entrance Examination (JEE)"}
+{"href": "https://exams.nta.nic.in/cuet-pg/", "title": "", "class": "", "text": "Common University Entrance Test-PG (CUET-PG)"}
+{"href": "https://exams.nta.nic.in/sainik-school-society/", "title": "", "class": "", "text": "All India Sainik School Entrance Exam (AISSEE)"}
+{"href": "https://exams.nta.nic.in/swayam/", "title": "", "class": "", "text": "Study Web of Active learning by Young and Aspiring Minds (SWAYAM)"}
+{"href": "https://exams.nta.nic.in/ncet/", "title": "", "class": "", "text": "National Common Entrance Test (NCET)"}
+{"href": "https://exams.nta.nic.in/rimcee/", "title": "", "class": "", "text": "Rashtriya Indian Military College Entrance Examination (RIMCEE)"}
+{"href": "https://exams.nta.nic.in/rmscet/", "title": "", "class": "", "text": "Rashtriya Military School Common Entrance Test (RMS CET)"}
+{"href": "https://exams.nta.nic.in/AIAPGET/", "title": "", "class": "", "text": "All India AYUSH Post Graduate Entrance Test (AIAPGET)"}
+{"href": "https://exams.nta.nic.in/icar/", "title": "", "class": "", "text": "ICAR's All India Entrance Examination (ICAR-AIEEA/AICE-JRF/SRF-Ph.D.)"}
+{"href": "https://exams.nta.nic.in/shreshta/", "title": "", "class": "", "text": "Residential Education for Students in High Schools in Targeted Areas (SHRESHTA-NETS)"}
+{"href": "https://exams.nta.nic.in/gat-bet/", "title": "", "class": "", "text": "Graduate Aptitude Test – Biotechnology (GAT-B) & Biotechnology Eligibility Test (BET) – 2026 (GAT-B & BET)"}
+{"href": "https://exams.nta.nic.in/niftee/", "title": "", "class": "", "text": "National Institute of Fashion Technology Entrance Examination (NIFTEE)"}
+{"href": "https://exams.nta.nic.in/jipmat/", "title": "", "class": "", "text": "Joint Integrated Programme in Management Admission Test (JIPMAT)"}
+{"href": "https://exams.nta.nic.in/nchm-jee/", "title": "", "class": "", "text": "Hotel Management Joint Entrance Examination (NCHM-JEE)"}
+{"href": "https://exams.nta.nic.in/ntet/", "title": "", "class": "", "text": "National Teachers Eligibility Test (NTET)"}
+{"href": "https://exams.nta.nic.in/nssnet/", "title": "", "class": "", "text": "Navayug School Sarojini Nagar Entrance Test (NSSNET)"}
+{"href": "https://examinationservices.nic.in/RecSys26Part2/root/login.aspx?enc=Ei4cajBkK1gZSfgr53ImFdyjti2m8EDkNwdDoyf3gQN44sKc4A2OTdr3CwBmKcrN", "title": "", "class": "", "text": "Apply for Subject Matter Experts"}
+{"href": "https://examinationservices.nic.in/RecSys26Part2/root/login.aspx?enc=Ei4cajBkK1gZSfgr53ImFdyjti2m8EDkNwdDoyf3gQPNdKQkm/2Z06V2MrU0Aj37", "title": "", "class": "", "text": "Apply for Translation Reviewers"}
+{"href": "/Download/Notice/Notice_20261031153254.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261030202143.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261028220547.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261027235155.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261027133408.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261026114247.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261024220013.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf", "title": "", "class": "", "text": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination"}
+{"href": "/Download/Notice/Notice_20261016183525.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261009123259.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261008212430.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261008083141.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261007204855.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261007203421.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20261005203634.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260925215817.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260924172919.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260924163325.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260921194816.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260918193820.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260918174205.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260918000302.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260917235839.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260917231934.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260917191931.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260917165604.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260917131651.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260916195948.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260915213027.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260915212856.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260915113220.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260911000627.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260910210851.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260909172041.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260908120656.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260904214736.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260903212505.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+{"href": "/Download/Notice/Notice_20260902173831.pdf", "title": "", "class": "orange-text", "text": "Read More"}
+matches shown 60
+
+
+=== AICTE anchors ===
+--- aicte.html links 939 ---
+{"href": "/internships", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "All Internships Live Every live opening across Bharat"}
+{"href": "/internships?mode=Remote", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Remote & Hybrid Work from your hostel room"}
+{"href": "/internships?smin=30000&sort=stipend", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Highest Stipend ₹₹₹ Best-paid postings first"}
+{"href": "/internships?due=7&sort=deadline", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Closing This Week Apply before the gate shuts"}
+{"href": "/internships?q=AI", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "AI / ML & Data Hot The most-applied domain of 2026"}
+{"href": "/internships", "title": "", "class": "mt-2 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-saffron/12 via-marigold/12 to-leaf/12 py-2.5 text-[11px] font-black uppercase tracking-wider text-saffron-deep transition-colors hover:from-saffron/20 hover:to-leaf/20", "text": "See all live openings"}
+{"href": "/dashboards/indianarmy", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Indian Army Internship Cyber defence & engineering cell"}
+{"href": "/dashboards/tulip", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "TULIP Smart Cities Internship Ministry of Housing & Urban Affairs"}
+{"href": "/dashboards/cpwd", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "CPWD Internship New Central Public Works Department — MoHUA"}
+{"href": "/dashboards/nhai", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "National Highways Authority of India Internship NHAI — MoRTH Highways & Infrastructure"}
+{"href": "/dashboards/rural", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Panchayati Raj & Rural Internship 2.5 Lakh Gram Panchayats & Jal Jeevan"}
+{"href": "/dashboards/amrut", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "AMRUT 2.0 Water Mission Internship New MoHUA Urban Water & Sanitation Mission"}
+{"href": "/dashboards/cdac", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "C-DAC Dashboard Internships via C-DAC, NIELIT & ERNET"}
+{"href": "/dashboards/morth", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "MoRTH Road Transport Internship Road safety, VAHAN & green mobility"}
+{"href": "/dashboards/lpai", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Land Ports Authority Internship Integrated Check Posts & border trade"}
+{"href": "/dashboards/maharashtra", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Government of Maharashtra Internship Higher & Technical Education Dept (HTED)"}
+{"href": "/report/report_final.pdf", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "Internship Report 2025-26 National placement & state metrics"}
+{"href": "https://internship.aicte-india.org/well-management/web/admin-login", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "AMRUTAM 2.0 Pin Well Login Login Well Management Web Admin Portal"}
+{"href": "/dashboards/super-admin/login", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "AICTE Super Admin Admin National Governance & Employer KYC Desk"}
+{"href": "/dashboards/state-admin/login", "title": "", "class": "group/i flex items-start gap-3 rounded-2xl px-3 py-2.5 transition-all duration-300 hover:bg-slate-100/90 hover:shadow-soft", "text": "State Admin Desk Nodal State Nodal Directorate & Approvals"}
+{"href": "/auth/login?role=employer", "title": "", "class": "hidden xl:flex items-center gap-1.5 rounded-full px-4 py-2.5 text-[13px] font-extrabold text-ink transition-all duration-300 hover:bg-white/80 hover:text-amber-700 border border-slate-200/80 bg-white/50 shadow-2xs", "text": "Hire Interns"}
+{"href": "/auth/register", "title": "", "class": "flex items-center gap-1.5 rounded-full bg-[#8CC63F] px-2 py-1.5 text-[10.5px] max-[359px]:px-1.5 font-black text-white shadow-md hover:bg-[#7DB531] hover:shadow-lg active:scale-95 transition-all duration-300 border border-[#7DB531] sm:px-6 sm:py-2.5 sm:text-[12.5px]", "text": "Register Free"}
+{"href": "/internships?sort=newest", "title": "", "class": "group hidden shrink-0 items-center gap-1.5 whitespace-nowrap text-[11.5px] font-bold text-ink transition-colors hover:text-saffron-deep lg:flex", "text": "Recently Posted Internships"}
+{"href": "/report/report_final.pdf", "title": "", "class": "group/belt inline-flex h-[26px] shrink-0 cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full border border-white/70 bg-white/75 py-0 pl-[3px] pr-2.5 text-[11px] font-bold leading-none text-ink shadow-2xs transition-all hover:border-saffron/45 hover:bg-white hover:text-saffron-deep hover:shadow-soft focus-visible:outline-non
+{"href": "https://internship.aicte-india.org/well-management/web/admin-login", "title": "", "class": "group/belt inline-flex h-[26px] shrink-0 cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full border border-white/70 bg-white/75 py-0 pl-[3px] pr-2.5 text-[11px] font-bold leading-none text-ink shadow-2xs transition-all hover:border-saffron/45 hover:bg-white hover:text-saffron-deep h
+{"href": "/dashboards/indianarmy", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "Indian Army Internship"}
+{"href": "/dashboards/tulip", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "TULIP Smart Cities Internship"}
+{"href": "/dashboards/cpwd", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "CPWD Internship"}
+{"href": "/dashboards/nhai", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "National Highways Authority of India Internship"}
+{"href": "/dashboards/rural", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "Panchayati Raj & Rural Internship"}
+{"href": "/dashboards/amrut", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "AMRUT 2.0 Water Mission Internship"}
+{"href": "/dashboards/morth", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "MoRTH Road Transport Internship"}
+{"href": "/dashboards/lpai", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "Land Ports Authority Internship"}
+{"href": "/dashboards/maharashtra", "title": "", "class": "flex items-center gap-2 rounded-xl border border-white bg-white/80 px-2.5 py-2 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift", "text": "Government of Maharashtra Internship"}
+{"href": "/internships", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "All Internships Every live opening across Bharat"}
+{"href": "/internships?mode=Remote", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Remote & Hybrid Work from your hostel room"}
+{"href": "/internships?smin=30000&sort=stipend", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Highest Stipend Best-paid postings first"}
+{"href": "/internships?due=7&sort=deadline", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Closing This Week Apply before the gate shuts"}
+{"href": "/internships?q=AI", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "AI / ML & Data The most-applied domain of 2026"}
+{"href": "/dashboards/indianarmy", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Indian Army Internship Cyber defence & engineering cell"}
+{"href": "/dashboards/tulip", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "TULIP Smart Cities Internship Ministry of Housing & Urban Affairs"}
+{"href": "/dashboards/cpwd", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "CPWD Internship Central Public Works Department — MoHUA"}
+{"href": "/dashboards/nhai", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "National Highways Authority of India Internship NHAI — MoRTH Highways & Infrastructure"}
+{"href": "/dashboards/rural", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Panchayati Raj & Rural Internship 2.5 Lakh Gram Panchayats & Jal Jeevan"}
+{"href": "/dashboards/amrut", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "AMRUT 2.0 Water Mission Internship MoHUA Urban Water & Sanitation Mission"}
+{"href": "/dashboards/cdac", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "C-DAC Dashboard Internships via C-DAC, NIELIT & ERNET"}
+{"href": "/dashboards/morth", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "MoRTH Road Transport Internship Road safety, VAHAN & green mobility"}
+{"href": "/dashboards/lpai", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Land Ports Authority Internship Integrated Check Posts & border trade"}
+{"href": "/dashboards/maharashtra", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Government of Maharashtra Internship Higher & Technical Education Dept (HTED)"}
+{"href": "/report/report_final.pdf", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "Internship Report 2025-26 National placement & state metrics"}
+{"href": "https://internship.aicte-india.org/well-management/web/admin-login", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "AMRUTAM 2.0 Pin Well Login Well Management Web Admin Portal"}
+{"href": "/dashboards/super-admin/login", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "AICTE Super Admin National Governance & Employer KYC Desk"}
+{"href": "/dashboards/state-admin/login", "title": "", "class": "flex items-center gap-3 rounded-2xl border border-white bg-white/80 px-3 py-2.5 shadow-soft", "text": "State Admin Desk State Nodal Directorate & Approvals"}
+{"href": "/auth/login?role=employer", "title": "", "class": "btn-ghost w-full py-3 text-xs", "text": "Hire Interns"}
+{"href": "/auth/login?role=student", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "Student login"}
+{"href": "/auth/login?role=university", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "Institute / University (TPO)"}
+{"href": "/auth/login?role=employer", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "Industry / Employer"}
+{"href": "/auth/login?role=army", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "Indian Army"}
+{"href": "/auth/login?role=cpwd_dg", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "CPWD — Directorate General"}
+{"href": "/auth/login?role=cpwd_rd", "title": "", "class": "rounded-xl border px-2.5 py-2 text-[11px] font-extrabold border-white bg-white/80 text-inkSoft", "text": "CPWD — SDG / ADG"}
+matches shown 60
+
+=== AICTE JSON markers ===
+__NEXT_DATA__ 0 []
+window.__ 0 []
+application/ld+json 0 []
+api/internship 0 []
+/api/ 0 []
+<!DOCTYPE html><html lang="en" class="__variable_7f7cc1 __variable_3d75df"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/images/logo_internship_transparent.png"/><link rel="preload" as="image" href="/images/aicte-logo.webp"/><link rel="preload" as="image" href="/images/moe-emblem.webp"/><link rel="preload" as="image" href="/images/hero_leadership_bg.jpg" fetchPriority="high"/><link rel="stylesheet" href="/_next/static/css/45981a71e73acb98.css" data-precedence="next"/><link rel="stylesheet" href="/_next/st

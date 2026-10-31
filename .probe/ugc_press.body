@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" async src="https://www.googletagmanager.com/gtag/js?id=G-FGHYECNLXB"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FGHYECNLXB');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to UGC, New Delhi, India</title>
+    <link rel="shortcut icon" href="/Content/images/MainPage/favicon.ico" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="University Grants Commission (UGC) - Statutory body of the Government of India for coordination, determination and maintenance of standards of higher education in India." />
+    <meta name="keywords" content="UGC, University Grants Commission, higher education, India, government, colleges, universities, regulations" />
+    <meta name="author" content="University Grants Commission, India" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="University Grants Commission" />
+    <meta property="og:title" content="University Grants Commission - Government of India" />
+    <meta property="og:description" content="Statutory body for coordination, determination and maintenance of standards of higher education in India." />
+    <meta property="og:url" content="https://www.ugc.gov.in/" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json" nonce="NcJjyLOH3Sux4tLEy5Bk">
+        {
+          "@context": "https://schema.org",
+          "@type": "GovernmentOrganization",
+          "name": "University Grants Commission",
+          "alternateName": "UGC",
+          "url": "https://www.ugc.gov.in",
+          "logo": "https://www.ugc.gov.in/Content/images/MainPage/ugc-logo.png",
+          "description": "Statutory body of the Government of India for coordination, determination and maintenance of standards of higher education.",
+          "parentOrganization": {
+            "@type": "GovernmentOrganization",
+            "name": "Ministry of Education, Government of India"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New Delhi",
+            "addressCountry": "IN"
+          },
+          "sameAs": [
+            "https://twitter.com/ugc_india",
+            "https://www.facebook.com/UniversityGrantsCommission",
+            "https://www.linkedin.com/company/ugc-india/",
+            "https://www.instagram.com/ugcindia/"
+          ]
+        }
+    </script>
+    <link href="/Content/css?v=ivlulmn7gQY3psvlcngalgJ3ouY4p41vfhQTHRuAKHg1" rel="stylesheet"/>
+
+    <script src="/bundles/jquery" nonce="NcJjyLOH3Sux4tLEy5Bk"></script>
+    <script src="/bundles/bootstrap" nonce="NcJjyLOH3Sux4tLEy5Bk"></script>
+
+    
+    <link href="/Content/assets/css/layout.css" rel="stylesheet" />
+
+</head>
+<body>
+    <input type="hidden" id="hdfBaseUrl" value="/" />
+
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <img src="/Content/images/MainPage/twitter.ico" width="32" height="32" />
+                <p><a href="https://twitter.com/ugc_india?ref_src=twsrc%5Etfw" rel="noopener noreferrer" target="_blank">Follow Us on<br>Twitter</a></p>
+            </li>
+            <li>
+                <img src="/Content/images/MainPage/facebook.ico" width="32" height="32" />
+                <p><a href="https://www.facebook.com/UniversityGrantsCommission" rel="noopener noreferrer" target="_blank">Like Us on<br>Facebook</a></p>
+            </li>
+            <li>
+                <img src="/Content/images/MainPage/linkedin.ico" width="32" height="32" />
+                <p><a href="https://www.linkedin.com/company/ugc-india/" rel="noopener noreferrer" target="_blank">Follow Us on<br>LinkedIn</a></p>
+            </li>
+            <li>
+                <img src="/Content/images/MainPage/insta.ico" width="32" height="32" />
+                <p><a href="https://www.instagram.com/ugcindia/" rel="noopener noreferrer" target="_blank">Follow Us on<br>Instagram</a></p>
+            </li>
+
+            <li>
+                <img src="/Content/images/MainPage/youtube.ico" width="32" height="32" />
+                <p><a href="https://www.youtube.com/channel/UClbbWYTjSiXnhShJ0Z1-05g" rel="noopener noreferrer" target="_blank">Subscribe on<br>YouYube</a></p>
+            </li>
+            <li>
+                <img src="/Content/images/MainPage/Whatsapp.ico" width="32" height="32" />
+                <p><a href="https://whatsapp.com/channel/0029VaCh6c50gcfMkcXzgq1w" rel="noopener noreferrer" target="_blank">Follow Us on<br>WhatsApp group</a></p>
+            </li>
+
+        </ul>
+    </div>
+    <!-- *** TOPBAR ***
+_______________________________________________________ -->
+
+
+<div class="top_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="topHeader_links">
+                    <a href="/Home" class="topHome"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    <a href="#all" class="topHome"><i class="fa fa-arrow-down"></i>Skip to main content</a>
+                    <a href="#navbar" class="topHome"><i class="fa fa-arrow-down"></i>Skip to Navigation</a>
+                    <a href="/Home/screen_reader" class="topHome"><i class="fa fa-volume-up" aria-hidden="true"></i>Screen Reader</a>
+                    <div class="textInrDec topHome">
+                        <a>Text Size:</a>
+                        <a href="#" id="btn-decrease">A<sup>-</sup></a>
+                        <a href="#" id="btn-orig">A</a>
+                        <a href="#" id="btn-increase">A<sup>+</sup></a>
+                    </div>
+                    <a href="https://ugchindi.ugc.ac.in/">Hindi</a>
+                    <a href="/Home/contact">Contact Us</a>
+                    <a href="/Home/faq">FAQs</a>
+                    <a href="https://eprocure.gov.in/eprocure/app" target="_blank">e-Procurement</a>
+                    <a href="/Tenders/Index">Tenders</a>
+                    
+                    <a href="/Tenders/Jobs">Jobs</a>
+                    <a href="/Search/Index" data-toggle="collapse" data-bs-target="#search"><span class="sr-only">Toggle search</span> <i class="fa fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear-both"></div>
+<div id="top" class="no-padding" >
+    <div class="container">
+        <div class="col-md-9 col-xs-12 col-sm-12">
+            <a class="header-logo" href="/">
+                <img src="/Content/images/Header/ugc_logo.png" alt="UGC Logo" class="img-responsive display-unset" >
+            </a>
+        </div>
+
+        <div class="col-md-2 pr0">
+            <a class="navbar-brand home" href="/">
+                <img src="/Content/images/Header/G20_India_Logo.png" alt="UGC Logo" class="img img-responsive extra_logo">
+            </a>
+        </div>
+        <div class="col-md-1 hidden-xs pr0">
+            <div class="ugc-title">
+                <a href="http://www.ugc.ac.in/" target="_blank">
+                    <img alt="INFLIBNET Logo"
+                         src="/Content/images/Header/MHRD_logo.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- *** TOP BAR END *** -->
+<!-- *** NAVBAR ***
+ _________________________________________________________ -->
+<div class="bg_orange" id="navbar">
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-header">
+                <div class="navbar-toggle">
+                    <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navigation"><span class="sr-only">Toggle navigation</span> <i class="fa fa-align-justify"></i></button>
+                </div>
+            </div>
+            <!--/.navbar-header -->
+            <div class="collapse navbar-collapse js-navbar-collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href='/Home'><i class="fa fa-home"></i>Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                           aria-expanded="false"><i class="fa fa-info-circle"></i>About Us<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href='/Aboutus/Genesis'><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Genesis</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Aboutus/Mandate'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Mandate
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Aboutus/UGC_ACT'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    UGC Act
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Aboutus/Logo'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Logo
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="https://www.ugc.gov.in/pdfnews/UGC Organisational Chart.pdf" target="_blank">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    UGC Organisational Chart
+                                </a>
+                            </li>
+
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Bureaus/Index' target="_blank">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    UGC Bureaus
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Aboutus/UGC_Offices'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    UGC Offices
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href='/Aboutus/Inter_University_Centres'><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Inter University Centres</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/Aboutus/National_Facilities'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    National Facilities
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="https://www.ugc.gov.in/oldpdf/certificate/UGC_Certificate.pdf" target="_blank">
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Website Security Audit Certificate
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-building-o"
+                               aria-hidden="true"></i>Organization<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-4">
+                                <ul>
+                                    <li class="dropdown-header">Commission</li>
+                                    <li>
+                                        <a href='/Commission/CommissionMembers'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Commission Members
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Commission/Decision_by_the_Commission'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Commission Decisions
+                                        </a>
+                                    </li>
+                                    <li>
+                                </ul>
+                            </li>
+
+
+                            <li class="col-sm-4">
+                                <ul>
+                                    <li class="dropdown-header">Administration</li>
+
+                                    <li>
+                                        <a href='/Administration/Chairman'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Chairman
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/Vice_Chairman'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Vice Chairman
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/Secretary'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Secretary
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/Financial_Advisor'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Financial Advisor
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/Additional_Secretaries'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Additional Secretaries
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-4">
+                                <ul>
+                                    <li class="dropdown-header"></li>
+                                    <li>
+                                    <li>
+                                        <a href='/Administration/js'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Joint Secretaries
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/ds'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Deputy Secretaries
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/eo'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Education Officers
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/Administration/us'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>Under Secretaries
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <div class="clearfix"></div>
+                            <hr />
+                            <li class="col-sm-12">
+                                <ul>
+                                    <li>
+                                        <a href='/Administration/Former_Commission_Members' class="d_unset">Former Chairpersons</a> |
+                                        <a href='/Administration/Former_Commission_Members' class="d_unset">Former Vice - Chairpersons </a>|
+                                        <a href='/Administration/Former_Commission_Members' class="d_unset">Former Secrataries </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
+
+                    </li>
+                    <li><a href="/MajorInitatives" target="_blank"><i class="fa fa-pencil" aria-hidden="true"></i>Key Initiatives</a>
+                    <li><a href='/Guideline'><i class="fa fa-info-circle" aria-hidden="true"></i>Guidelines</a>
+                    <li><a href='/regulations'><i class="fa fa-list" aria-hidden="true"></i>Regulations</a>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-institution" data-bs-toggle="dropdown">
+                            <i class="fa fa-building-o"
+                               aria-hidden="true"></i>HEIs<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Universities</li>
+                                    <li>
+                                        <a href='/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ=='>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Central Universities
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA=='>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            State Universities
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href='/universitydetails/university?type=UCL6fMspL2LJS89kv++N3A=='>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Deemed to be Universities
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href='/universitydetails/university?type=0wBmFB1Rb4JGVzq9UP/iOg=='>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            State Private Universities
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/universitydetails/Fakeuniversity'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Fake Universities
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Colleges</li>
+                                    <li>
+                                        <a href='/colleges'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Colleges (12(B)/2(f))
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href='/colleges/Autonomous_Colleges'>
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Autonomous  Colleges
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Institution</li>
+                                    <li>
+                                        <a href='https://www.dohe-education.gov.in/static/uploads/2026/01/9de3a363f1e3ca10e9645b323f76738e.pdf' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Institutions of National Importance
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='https://ioe.ugc.ac.in/' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            Institutions of Eminence
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">HEIs Violating Regulations</li>
+                                    <li>
+                                        <a href='/universitydetails/HEIs_Violating_Regulations?tab=fakeuni' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            List of Fake Universities
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/universitydetails/HEIs_Violating_Regulations?tab=phd-regulations' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            List of HEIs not Following Ph.D Regulations
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/universitydetails/HEIs_Violating_Regulations?tab=ombudsperson' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            List of HEIs not appointed Ombudsperson
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='/universitydetails/HEIs_Violating_Regulations?tab=Defaulter' target="_blank">
+                                            <i class="fa fa-long-arrow-right"
+                                               aria-hidden="true"></i>
+                                            List of Defaulter State (Private) Universities
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href='/FHEI'><i class="fa fa-university"></i>FHEI List</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                           aria-expanded="false"><i class="fa fa-book"></i>e-Publications<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href='/publication/ebook'>
+                                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    e-Books
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/publication/Annual_Reports'>
+                                    <i class="fa fa-long-arrow-right"
+                                       aria-hidden="true"></i>Annual Reports/ Annual Accounts
+                                </a>
+                            </li>
+                            <!--<li class="divider"></li>
+            <li>
+                <a href='/Home/Newsletter'>
+                    <i class="fa fa-long-arrow-right"
+                       aria-hidden="true"></i>UGC Newsletter
+                </a>
+            </li>-->
+
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/publication/ugc_pressrelease'>
+                                    <i class="fa fa-long-arrow-right"
+                                       aria-hidden="true"></i>Press Release
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href='/publication/Other_Publications'>
+                                    <i class="fa fa-long-arrow-right"
+                                       aria-hidden="true"></i>Archives Publications
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href='/universitydetails/university?type=MuOh4z0uqRaY2k8Ag10I0g=='><i class="fa fa-search"></i>Search HEI</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+            <!--/.nav-collapse -->
+        </nav>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /#navbar -->
+<!-- *** NAVBAR END *** -->
+
+    
+
+
+<link href="/Content/jQueryConfirm/jquery-confirm.min.css" rel="stylesheet" />
+
+<link href="/Content/Datatables/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="/Content/Datatables/dataTables.responsive.css" rel="stylesheet" />
+<link href="/Content/Datatables/buttons.dataTables.min.css" rel="stylesheet" />
+<link href="/Content/Datatables/datatables.min.css" rel="stylesheet" />
+<div class="header1 services-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-container text-left">
+                    <a href="default.aspx">Home / </a>
+                    <a href="#">e - Publications/ Press Release </a>
+                    <h2>University Grants Commission</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="text-image bg3 faq-section">
+    <div class="container">
+
+        <table id="tbl" class="display table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Title</th>
+                    <th>Published On</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                                <tr>
+                                    <td>
+                                        1
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/0663433_Press-SWAYAM.pdf target="_blank" class="red-color">UGC Press Release regarding: SWAYAM Courses for July 2022 Semester</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2022-06-28
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/8801557_UGC-Press-Release-NET-Exam.pdf target="_blank" class="red-color">UGC Press release regarding: Declaration of UGC-NET results</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2022-02-16
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        3
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/2408398_Press-Release.pdf target="_blank" class="red-color">UGC Press Release regarding: SWAYAM Courses for January 2022 Semester</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2021-12-10
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        4
+
+                                    </td>
+                                    <td>
+                                        <span>UGC Press Release regarding:Celebration of 7th International Day of Yoga on 21st June, 2021<br/><a href=../pdfnews/0001261_Hindi.pdf target="_blank" class="red-color">Hindi</a><br/><a href=../pdfnews/6141979_English.pdf target="_blank" class="red-color">English</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2021-06-20
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        5
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/8360645_Press-Release-SWAYAM.pdf target="_blank" class="red-color">UGC Press Release regarding: 78 UG and 46 PG Non-Engineering SWAYAM MOOCS to be offered in January-2021 semester</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2020-12-24
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        6
+
+                                    </td>
+                                    <td>
+                                        <span>UGC Press Release regarding: Terminal Semester(s)/Final Year Examinations for the Universities<br/><a href=../pdfnews/1836697_Hindi.pdf target="_blank" class="red-color">Hindi</a><br/><a href=../pdfnews/9514949_English.pdf target="_blank" class="red-color">English</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2020-07-18
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        7
+
+                                    </td>
+                                    <td>
+                                        <span>UGC Press Release on : Examinations and Academic Calendar for the Universities in view of COVID-19 Pandemic<br/><a href=../pdfnews/9037307_Press-Release-English.pdf target="_blank" class="red-color">Press-Release-English</a><br/><a href=../pdfnews/7177968_Press-Release-Hindi.pdf target="_blank" class="red-color">Press-Release-Hindi</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2020-07-06
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        8
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/7199161_Press-Release-UGC-NET-CSIR.pdf target="_blank" class="red-color">Press Release for Inviting Online Information regarding Minority Status of candidates qualified in the UGC-NET and Joint CSIR-UGC Test held in June 2019</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2020-06-02
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        9
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/3400308_Press-Release-regarding-Examinations-and-Academic-Calendar-pdf.pdf target="_blank" class="red-color">UGC Press Release on : Examinations & Academic Calendar</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2020-04-25
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        10
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/9878902_PRESS-RELEASE.pdf target="_blank" class="red-color">University Grants Commission organized a 3 days Conference on ‘Research and Innovation’ for the Vice-Chancellors & Directors of Higher Educational Institutions from 26th July, 2018 to 28th July, 2018.</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2018-07-28
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11
+
+                                    </td>
+                                    <td>
+                                        <span>UGC observes the fourth International Day of Yoga, 2018<br/><a href=../pdfnews/9473279_English-Press-Release-IDY-2018.pdf target="_blank" class="red-color">English-Press-Release-IDY-2018</a><br/><a href=../pdfnews/4596232_Hindi-Press-Release-IDY-2018.pdf target="_blank" class="red-color">Hindi-Press-Release-IDY-2018</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2018-06-25
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12
+
+                                    </td>
+                                    <td>
+                                        <span>Flag Hoisting by Prof D P Singh, Chairman UGC to mark the 69th Republic Day<br/><a href=../pdfnews/0530046_Press-Release-English.pdf target="_blank" class="red-color">Press-Release-English</a><br/><a href=../pdfnews/1902880_Press-Release-Hindi.pdf target="_blank" class="red-color">Press-Release-Hindi</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2018-01-26
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        13
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/2686174_UGC-Press-Release.pdf target="_blank" class="red-color">UGC Press Release reg. : Prof. D. P. Singh assuming charge as Chairman, UGC on 01/01/2018</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2018-01-01
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        14
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/7622095_Press-release-IoE-final.pdf target="_blank" class="red-color">UGC Press Release reg. : Initiative for recognition/establishment of Institutions of Eminence</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2017-09-12
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/9840927_Press-release7june16.pdf target="_blank" class="red-color">Press Release reg.: UGC clarification on Reservation Policy for SC/ST/OBC in faculty positions</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2016-06-08
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        16
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/8160527_PressRelease.pdf target="_blank" class="red-color">Press Release reg.: Appointment of 102 New Faculty under Faculty Recharge Program of the UGC</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2015-05-29
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        17
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/5102049_press-releaseNET.pdf target="_blank" class="red-color">Press Release regarding Result of UGC-NET June 2013</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2013-10-30
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        18
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/8177625_Press-Release-UGC-NET-June-2013.pdf target="_blank" class="red-color">Press Release Reg.: Result of NET held on 30th June, 2013</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2013-10-21
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        19
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/6611538_Press-Release.pdf target="_blank" class="red-color">Press Release UGC NET June 2013</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2013-06-30
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        20
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/6249091_UGC--PRESS-RELEASE.pdf target="_blank" class="red-color">UGC Press Release</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2013-06-24
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        21
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/0740546_pressrelease.pdf target="_blank" class="red-color">UGC Press Release re : Appointment of Prof. Ved Prakash, as Chairman, University Grants Commission, New Delhi</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2013-01-19
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        22
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/4539591_Press-Release-net.pdf target="_blank" class="red-color">Press Release regarding Notification for procedure and criteria for declaration of result of UGC NET December, 2012</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2012-12-26
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        23
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/4699712_Press-Release.pdf target="_blank" class="red-color">Press Release: Status regarding UGC Online Registration December 2012</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2012-11-17
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        24
+
+                                    </td>
+                                    <td>
+                                        <span><a href=../pdfnews/1170776_Press-Release-NET-Result.pdf target="_blank" class="red-color">Press Release Reg: UGC declared the Result of NET held on 24th June, 2012</a><br/></span>                   
+
+
+                                    </td>
+                                    <td>
+                                        2012-09-20
+
+                                    </td>
+                                </tr>
+
+
+            </tbody>
+        </table>
+
+    </div>
+</section>
+
+
+
+    <div class="colors">
+    <div class="no-padding container-fluid">
+        <span class="col-sm-3 col-xs-3 color1"></span>
+        <span class="col-sm-3 col-xs-3 color3"></span>
+        <span class="col-sm-3 col-xs-3 color2"></span>
+        <span class="col-sm-3 col-xs-3 color4"></span>
+    </div>
+</div>
+<footer class="footer-1">
+    <div class="container">
+        <div class="row">
+            <div class="footer-container">
+                <div class="col-md-4">
+                    <div class="footer-title">
+                        <h4>For UGC Officials</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-list">
+                                <ul>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://parichay.nic.in/" target="_blank">e-Office</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://email.gov.in/" target="_blank">NIC mail</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://rtionline.gov.in/RTIMIS/login/index.php" target="_blank">RTI online</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://pgportal.gov.in" target="_blank">PG portal</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="footer-list">
+                                <ul>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="/UGCofficials/Professional_Councils">Professional Councils</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="/UGCofficials/State_Higher_Education_Councils">State Higher Education Councils</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://www.education.gov.in/" target="_blank">MoE</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://www.aicte-india.org/" target="_blank">AICTE</a></li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://www.nta.ac.in/" target="_blank">National Testing Agency (NTA)</a>
+
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="footer-title">
+                        <h4>Quick links </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="footer-list">
+                                <ul>
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://scholarship.canarabank.bank.in/" target="_blank">
+                                            Web portal for
+                                            Fellowship/Scholarship Legacy Cases
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="http://rusa.nic.in/" target="_blank">
+                                            Rashtriya Uchchatar Shiksha
+                                            Abhiyan
+                                        </a>
+                                    </li>
+
+                                    
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://uamp.ugc.ac.in/" target="_blank">
+                                            University Activity
+                                            Monitoring Portal
+                                        </a>
+                                    </li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://deemed.ugc.ac.in/" target="_blank">Deemed to be University Portal </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-list">
+                                <ul>
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://deb.ugc.ac.in/" target="_blank"> DEB</a>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="http://www.ugcnetonline.in/" target="_blank"> UGC NET Online</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="/regulations" target="_blank">
+                                            UGC
+                                            Regulations
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i><a href="/Circulars" target="_blank">
+                                            UGC
+                                            Circulars
+                                        </a>
+                                    </li>
+
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 contacts">
+                    <div class="footer-title">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>
+                                University Grants Commission (UGC)<br />
+                                Bahadur Shah Zafar Marg,<br />
+                                New Delhi - 110002.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>Phone: 011-23604446, 011-23604200</p>
+                        </li>
+                        <li><a href="#">Email: contact.ugc@nic.in</a></li>
+                    </ul>
+                    <div class="visitor_text">
+                        <span>
+                            <b>Total Visitors</b><small>
+                                <Label ID="lblcount" Text="Hit Counter">261650319</Label>
+                            </small>
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container footer-img">
+
+                <div class="col-md-1 col-sm-4 col-xs-6"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="https://india.gov.in/" target="_blank" title="india.gov.in">
+                        <img alt="india.gov.in" src="/Content/images/MainPage/india_gov_logo.png" class="img-responsive" width="137" height="51">
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="http://mygov.in/" target="_blank" title="MyGov.in">
+                        <img alt="MyGov.in" src="/Content/images/MainPage/my_gov_logo.png" width="61" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="http://evisitors.nic.in" target="_blank" title="MyVisit">
+                        <img alt="MyVisit" src="/Content/images/MainPage/my_visit.png" width="98" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+
+                    <a href="http://digitalindia.gov.in/" target="_blank" title="Digital India">
+                        <img alt="Digital India" src="/Content/images/MainPage/digital_india.png" width="78" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="/rti" title="Right to Information">
+                        <img alt="Right to Information" src="/Content/images/MainPage/rti_logo.png" width="78" height="51">
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-1 col-sm-4 col-xs-6"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="https://data.gov.in/" target="_blank" title="data.gov.in">
+                        <img alt="data.gov.in" src="/Content/images/MainPage/datagov_logo.png" width="110" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="http://www.nvsp.in/" target="_blank" title="Online Services for Voters">
+                        <img alt="Online Services for Voters" src="/Content/images/MainPage/onlineservice_logo.png" width="113" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="http://dial.gov.in/" target="_blank" title="Dial.gov">
+                        <img alt="Dial.gov" src="/Content/images/MainPage/dialgov-logo.png" width="64" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="web_information_manager" title="Web Information Manager">
+                        <img alt="Web Information Manager" src="/Content/images/MainPage/web-info-manager.png" width="110" height="51">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 bg_white">
+                    <a href="http://www.goidirectory.gov.in/index.php" target="_blank" title="Government of India Web Directory">
+                        <img alt="GOI" src="/Content/images/MainPage/GOI.png" height="51">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="under-footer">
+    <div class="container">
+        <div class="text-container">
+            <div class="col-md-5 col-xs-13 xs-padding0">
+                <p class="pull-left">Copyright &copy; 2023 University Grants Commission New Delhi, India</p>
+            </div>
+            <div class="col-md-4 col-xs-13 xs-padding0">
+			<p class="text-center">
+                    
+					Website last updated on:
+                    
+                    01-11-2026
+                </p>
+            </div>
+            <div class="col-md-3 col-xs-13 xs-padding0">
+                <p class="pull-right">
+                    <!-- <a href="#">Feedback </a> | <a href="#">Webmaster</a> |-->
+                    <a href="/Home/Disclaimer">Disclaimer</a> |
+                    <a href="/Home/PrivacyPolicy">Privacy Policy</a> |
+                    <a href="/Home/contact">Contact Us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/bundles/bootstrap" nonce="NcJjyLOH3Sux4tLEy5Bk"></script>
+    
+    
+
+
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Areas/UGC_Admin/Datatables/jquery-min.js"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Areas/UGC_Admin/Datatables/jquery.dataTables.min.js"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Areas/UGC_Admin/Datatables/dataTables.buttons.min.js"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Areas/UGC_Admin/Datatables/jszip.min.js"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Areas/UGC_Admin/Datatables/buttons.html5.min.js"></script>
+    <script nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Pages/Notices.js"></script>
+
+    <script  nonce="NcJjyLOH3Sux4tLEy5Bk" src="/Scripts/Pages/sliderlayout.js"></script>
+</body>
+</html>

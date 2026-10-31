@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--========= Basic Page Needs =========-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--========== Specific Meta ==========-->
+  <meta name="description" content="Online Education template Based on HTML5.">
+  <meta name="keywords" content="HTML5, Template, Design, Development, education, edulab, online cources, training, online education, best education template">
+  <!--======== Page Title===========-->
+  <title>Recruitment | Central Board of Secondary Education</title>
+  <link rel="icon" type="image/x-icon" href="images/cbse_logo.png">
+  <!--========== Favicons =========-->
+  <!--======== Font icon Css ============-->
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/themify-icons.css" rel="stylesheet">
+  <!--======= Bootstrap Main Css =============-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--====== Plugins Css ================-->
+  <link href="css/plugins.css" rel="stylesheet">
+  <!--====== Custom CSS for themes =======-->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/css1/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/css1/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/newNavStyle.css" />
+  <script src="js/js2/modernizr.custom.js"></script> <!--  images before media-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function showTime(){
+        var date = new Date();
+        var h = date.getHours(); // 0 - 23
+        var m = date.getMinutes(); // 0 - 59
+        var s = date.getSeconds(); // 0 - 59
+            var session = "PM";
+            
+            if(h == 0){
+                h = 12;
+            }
+            
+            if(h > 12){
+               
+                session = "PM";
+            }
+            if(h < 12) {
+        session = "AM"
+        }
+        
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+        
+        var time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("MyClockDisplay").innerText = time;
+        document.getElementById("MyClockDisplay").textContent = time;
+        
+        setTimeout(showTime, 1000);
+        
+    }
+    
+  </script>
+  <script>
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+  <script type="text/javascript">
+    function confirm_alert(node) {
+        return confirm("This link will take you to an external website. \nयह लिंक आपको एक बाहरी वेबसाइट पर ले जायेगा | ");
+    }
+  </script>
+  <style>
+    input[type=text] {
+    width: 30px;
+    box-sizing: border-box;
+    border: 0px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('img//searchicon.png');
+    background-color: #fff;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+    }
+    
+    input[type=text]:focus {
+      
+    width: 100%;
+    }
+    *[tabindex]:focus {
+     border: solid rgb(34, 34, 34) 1px;
+    }
+  </style>
+</head>
+
+<body onload="showTime()" id="fontSize">
+  <!--code goes here-->
+  <!--Start code for top strip header-->
+  <section class="top-header">
+    <div class="container-fluid">
+      <div id="myTopSection" class="row align-items-center">
+        <!----Top Header---->
+      </div>
+    </div>
+  </section>
+  <!--End code for top strip header-->
+  <!--====Header Area
+  ====================================-->
+  <!--copy starts here -->
+  <header id="site-header" class="header-area">
+    <div class="header-inner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="myHeaderLogo" class="logo-menu-wrap hidden-xs hidden-sm">
+              <!---Header Logo----->
+            </div>
+          </div>
+          <!--/.logo-menu-wrap-->
+        </div>
+        <!--/.col-lg-12-->
+        <div class="row navigation" id="skipCont">
+          <div class="col-lg-12">
+            <nav id="myNewNav" class="navbar navbar-expand-lg myNewNavMain"> <a class="navbar-brand" href="#"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!--Header Navigation-->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--/.container-fluid-->
+    </div>
+    <!--/.headier-inner-->
+    <div id="sticky-header"></div>
+    <!--/#sticky-header-->
+    <!--Mobile Menu-->
+    <div class="mobile-menu"> <a class="mobile-logo" href="#"><img src="img/cbse-logo-with-name.png" alt="CBSE logo" style="height:40px; width:200px;"></a> </div>
+  </header>
+  <!--/.header-area-->
+  <!-- Page Content Starts Here-->
+  <div class="courses-page page-wrapper">
+    <div class="courses-page-content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12 breadcrumb">Recruitment @ CBSE </div>
+        </div>
+      </div>
+      <div class="container">
+          <table class="TFtable" role="presentation">
+              <tr>
+                  <th colspan="4" style="text-align:center; background-color: #3db7c7; ">
+                      <h4 style="font-size:20px;color:#fff;">NOTICE / ANNOUNCEMENTS</h4>
+                  </th>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Supdt_Reserv_Panel_24092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Superintendent (Reserve Panel) (1.68 MB)</a> 24/09/2026</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;">Direct Recruitment Quota Examination 2026 - <a href="documents/Result_Notice_JTO_21092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice (Junior Translation Officer) (198 KB) 21/09/2026 </a> <img src="img//new.gif" alt="New_img" /> | <a href="documents/Public_Notice_Admit_Card_Skill_DRQ2026_08072026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Download of Admit Card for DRQ2026 (Skill Test)-reg. (302 KB) 08/07/2026 </a> | <a href="https://examinationservices.nic.in/recsys2025/downloadadmitcard/LoginDOB.aspx?enc=Ei4cajBkK1gZSfgr53ImFSuabJtfdyH7GsL2cij2dPKFqA5XsHH8yMmK+6SEPU/E" onclick="return confirm_alert(this);" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Click here</a> | <a href="documents/Public_Notice_City_Information_Skill_DRQ2026_30062026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>City Intimation to candidates for DRQ2026 (Skill Test) (314 KB) 30/06/2026 </a> | <a href="https://examinationservices.nic.in/recsys2025/downloadadmitcard/frmAuthforCityPhaseIII.aspx?enc=Ei4cajBkK1gZSfgr53ImFSuabJtfdyH7GsL2cij2dPKFqA5XsHH8yMmK+6SEPU/E" onclick="return confirm_alert(this);" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Click here for City Intimation DRQ2026 (Skill Test)</a> | <a href="documents/DRQ2026_Tier-II_Result_notice_15052026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for DRQ2026 (Tier-II) examination (358 KB) 15/05/2026 </a> | <a href="documents/Corrigendum_DRQ2026_04062026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum (162 KB) 04/06/2026 </a> | <a href="documents/City_Intimation_DRQ2026_Tier_II_07042026 .pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (City Intimation for DRQ2026 Tier-2) (54 KB) 07/04/2026 </a> | <a href="documents/Public_Notice_DRQ2026_Tier_2_07032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Tier-2 Examination ) (589 KB) 07/03/2026  </a> | <a href="documents/Final_Answer_Key_DRQ26_07032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Final Answer Key (DRQ2026 Tier-1) (84 KB) 07/03/2026  </a> | <a href="documents/Result_Notice_DRQ2026_02032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice (Tier-1 Examination ) (395 KB) 02/03/2026 </a> | <a href="documents/PUBLIC_NOTICE_KEY_CHALLANGE_DRQ2026_11022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (OMR and Answer Keys ) (427 KB) </a> | <a href="documents/Public_Notice_Admit_Card_DRQ2026_28012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Admit Card) Dated : 28/01/2026 (423 KB)</a> | <a href="documents/Public_Notice_City_Intimation_DRQ2026_15012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Exam City Intimation) Dated : 15/01/2026 (439 KB)</a> | <a href="documents/Public_Notice_Announcement_DRQ2026_30122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Tier-I Exam Schedule) Dated : 30/12/2025 (563 KB) </a> | <a href="documents/Public_Notice_Correction_Modification_DRQ2026_27122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 27/12/2025 (819 KB) | <a href="documents/Public_Notice_Extension_last_date_DRQ2026_22122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 22/12/2025 (433 KB) | <a href="documents/Corrigendum_DRQ2026_18122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum Dated : 18/12/2025 (742 KB) | <a href="documents/Pointer_Notification_02122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Vacancy Notification Dated : 02/12/2025 (630 KB)</a> | <a href="documents/Detailed_Advertisement_Direct_Recruitment_02122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement Dated : 02/12/2025 (1.70 MB)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://examinationservices.nic.in/AdmitCardService/Admitcard/Login?enc=jceiDD5eI/fkuWrvtzhL4GiAbRdIBC9VNVWQwCt8Pk+nHJTTxQTlLkr6AnxOT1qC" target="_blank" onclick="return confirm_alert(this);"><i style="color: #f00;" class="fa fa-link"></i>Admit Card Tier 2-Provisional for KVS/NVS Recruitment Drive - 2025 17/09/2026</a> <img src="img//new.gif" alt="New_img" /> | <a href="documents/Press_Note_12_KVS_NVS_2025_14092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (12th Phase) (311 KB) 14/09/2026</a> <img src="img//new.gif" alt="New_img" /> | <a href="documents/Final_Answer_Keys_12_14092026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-12 (120 KB) 14/09/2026 </a> <img src="img//new.gif" alt="New_img" /> | <a href="documents/Press_Note_11_KVS_NVS_2025_05092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (11th Phase) (312 KB) 05/09/2026</a> | <a href="documents/Final_Answer_Keys_11_05092026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-11 (181 KB) 05/09/2026 </a> | <a href="documents/Press_Note_10_KVS_NVS_2025_03092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (10th Phase) (312 KB) 03/09/2026</a> | <a href="documents/Final_Answer_Keys_10_03092026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-10 (368 KB) 03/09/2026 </a> | <a href="documents/Press_Note_9_KVS_NVS_2025_01092026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (9th Phase) (312 KB) 01/09/2026</a> | <a href="documents/Final_Answer_Keys_9_01092026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-9 (240 KB) 01/09/2026 </a> | <a href="documents/Press_Note_8_KVS_NVS_2025_30082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (8th Phase) (312 KB) 30/08/2026</a> | <a href="documents/Final_Answer_Keys_8_30082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-8 (362 KB) 30/08/2026 </a> | <a href="documents/Press_Note_7_KVS_NVS_2025_26082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (7th Phase) (312 KB) 26/08/2026</a> | <a href="documents/Final_Answer_Keys_7_26082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-7 (60 KB) 26/08/2026 </a> | <a href="documents/Press_Note_6_KVS_NVS_2025_25082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (6th Phase) (312 KB) 25/08/2026</a> | <a href="documents/Final_Answer_Keys_6_25082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-6 (241 KB) 25/08/2026 </a> | <a href="documents/Press_Note_5_KVS_NVS_2025_23082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (5th Phase) (312 KB) 23/08/2026</a> | <a href="documents/Final_Answer_Keys_5_23082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-5 (180 KB) 23/08/2026 </a> | <a href="documents/Press_Note_4_KVS_NVS_2025_21082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (Fourth Phase) (313 KB) 21/08/2026</a> | <a href="documents/Final_Answer_Keys_4_21082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-4 (181 KB) 21/08/2026 </a> | <a href="documents/Press_Note_3_KVS_NVS_2025_20082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (Third Phase) (311 KB) 20/08/2026</a> | <a href="documents/Final_Answer_Keys_3_20082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-3 (185 KB) 20/08/2026 </a> | <a href="documents/Press_Note_2_KVS_NVS_2025_18082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (Second Phase) (57 KB) 18/08/2026</a> | <a href="documents/Final_Answer_Keys_2_18082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-2 (1.40 MB) 18/08/2026 </a> | <a href="documents/KVS_NVS_Recruitment_2025_Press_Note_17082026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Press Release : KVS/NVS Recruitment Drive - 2025 (First Phase) (336 KB) 17/08/2026 </a> | <a href="documents/KVS_NVS_Recruitment_Final_answer_keys_17082026.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Final Answer Keys-1 (240 KB) 17/08/2026 </a>  | <a href="https://examinationservices.nic.in/recsys2025/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFbEsl0hvvhEEwgxfU0IzC28jtU4yhpqb3pomlo4g+VC8" target="_blank" onclick="return confirm_alert(this);"><i style="color: #f00;" class="fa fa-link"></i>Live Link 17/08/2026</a> <img src="img//new.gif" alt="New_img" /></td>
+              </tr>              
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_JA_23052026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation notice for the post of Junior Assistant (316 KB)</a> 23/05/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Supdt_Cancellation_Notification_12052026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature cancellation notice for the post of Superintendent (720 KB)</a> 12/05/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_notice_US_Legal_22042026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Under Secretary (Legal) (267 KB)</a> 21/04/2026</td>
+              </tr>              
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_AIAFA_16042026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Additional Internal Auditor & Financial Advisor (AIAFA) (450 KB)</a> 16/04/2026</td>
+              </tr>              
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_SAO_16042026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Senior Accounts Officer (502 KB)</a> 16/04/2026</td>
+              </tr>              
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancelation_JA_10042026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature cancellation notice for the post of Junior Assistant (317 KB)</a> 10/04/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">KVS-NVS Recruitment-2025 Number of Candidates Registered/Appeared/Shortlisted Candidate (Tier - 2) in Tier -1 Examination <a href="documents/KVS_NVS_Registered_Tier_1_2025_24032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Registered (300 KB) 24/03/2026 </a> | <a href="documents/KVS_NVS_Appeared_Tier_1_2025_24032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Appeared (299 KB) 24/03/2026 </a> | <a href="documents/KVS_NVS_Shortlisted_Tier_2_2025_24032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Shortlisted Candidate (Tier - 2) (247 KB) 24/03/2026 </a> | <a href="documents/Public_Notice_Tier_2_11032026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Display of City of Examination for Tier-2 Examination of KVS & NVS Recruitment Drive 2025 (376 KB) 10/03/2026 </a> | <a href="documents/PublicNotice_28022026_Tier-1Result28022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : The result of Tier-1 of KVS & NVS Recruitment Drive 2025 (434 KB)</a> | <a href="documents/FinalAnswerKey_Tier-1_KVSNVSRectt.2025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Answer Key of Tier-1 of KVS & NVS Recruitment Drive 2025 (511 KB)</a> 28/02/2026</td>
+              </tr>                            
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_Reserve_Panel_JA_20022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Assistant (Reserve Panel) (1.62 MB)</a>  20/02/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_Notification_Supdt_20022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature Cancellation Notification to the post of Superintendent (791 KB)</a>  20/02/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_Notification_Abhishek_Saini_13022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature to the post of Junior Assistant - regarding (Shri Abhishek Saini) (546 KB)</a>  13/02/2026</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_Notification_JA_13022026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature cancellation notice for the post of Junior Assistant (552 KB)</a>  13/02/2026</td>
+              </tr>              
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Detailed_Notification_KVS_NVS_2025_13112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Recruitment of Various Teaching & Non-teaching Posts in Kendriya Vidyalaya Sangathan and Navodaya Vidyalaya Samiti (915 KB) 13/11/2025</a> | <a href="documents/KVS_NVS_Corrigendum-1_21112025_new.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - I Dated : 21/11/2025 (382 KB)</a> | <a href="documents/Qualification_Corrigendum_05122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - 2 Dated :  05/12/2025 (444 KB)</a>  | <a href="documents/Corrigendum_3_10122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - 3 Dated :  10/12/2025 (376 KB)</a> | <a href="documents/Public_Notice_Key_Answer_31012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (OMR and Answer Keys ) Dated : 31/01/2026  (302 KB)</a> | <a href="documents/Public_Notice_KVS_NVS_Admit_Card_08012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 08/01/2026  (384 KB)</a>  | <a href="documents/Public_Notice_Compensatory_PwBD_05012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 05/01/2026  (384 KB)</a>  | <a href="documents/PublicNotice_ExaminationCityDisplay_26122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 26/12/2025  (383 KB)</a> | <a href="documents/Public_Notice_13122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 13/12/2025  (530 KB)</a> | <a href="documents/Public_Notice_Qualification_Date_Ext_KVS_NVS_05122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 05/12/2025  (542 KB)</a> | <a href="documents/KVS_NVS_Public_Notice_26112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 26/11/2025 (327 KB)</a> | <a href="documents/KVS_NVS_Public_Notice_21112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 21/11/2025  (281 KB)</a> | <a href="documents/KVS_NVS_FAQ_26112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>FAQ (209 KB) 26/11/2025</a></td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis 2026 | <a href="documents/Pointer_Notification_Deputation_15012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Pointer Notification (246 KB) </a> | <a href="documents/Details_Advertisement_Deputation_15012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (451 KB) | <a href="documents/Annexure_I_Deputation_19012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Annexure - 1 (109 KB)</a></td>
+              </tr>
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;">Direct Recruitment Quota Examination 2026 | <a href="documents/Public_Notice_City_Intimation_DRQ2026_15012026.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Exam City Intimation) Dated : 15/01/2026 (439 KB) </a> | <a href="documents/Public_Notice_Announcement_DRQ2026_30122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (Tier-I Exam Schedule) Dated : 30/12/2025 (563 KB) </a> | <a href="documents/Public_Notice_Correction_Modification_DRQ2026_27122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 27/12/2025 (819 KB) </a> | <a href="documents/Public_Notice_Extension_last_date_DRQ2026_22122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 22/12/2025 (433 KB) </a> | <a href="documents/Corrigendum_DRQ2026_18122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum Dated : 18/12/2025 (742 KB) | <a href="documents/Pointer_Notification_02122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Vacancy Notification Dated : 02/12/2025 (630 KB)</a> | <a href="documents/Detailed_Advertisement_Direct_Recruitment_02122025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement Dated : 02/12/2025 (1.70 MB)</a> | <a href="https://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFSuabJtfdyH7GsL2cij2dPKFqA5XsHH8yMmK+6SEPU/E" onclick="return confirm_alert(this);" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Apply Online 02/12/2025</a>| <a href="https://examinationservices.nic.in/recsys2025/downloadadmitcard/frmAuthforCityPhaseII.aspx?enc=Ei4cajBkK1gZSfgr53ImFSuabJtfdyH7GsL2cij2dPKFqA5XsHH8yMmK+6SEPU/E" onclick="return confirm_alert(this);" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Examination City 16/01/2026</a> </td>
+              </tr> -->                                          
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;">Recruitment of Various Teaching & Non-teaching Posts in Kendriya Vidyalaya Sangathan and Navodaya Vidyalaya Samiti <a href="documents/KVS_NVS_Corrigendum-1_21112025_new.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - I (382 KB)</a> | <a href="documents/KVS_NVS_Public_Notice_21112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 21/11/2025  (281 KB)</a> | <a href="documents/KVS_NVS_Public_Notice_26112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice Dated : 26/11/2025 (327 KB)</a> | <a href="documents/KVS_NVS_FAQ_26112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>FAQ (209 KB)</a> 26/11/2025</td>
+              </tr> -->
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Detailed_Notification_KVS_NVS_2025_13112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Recruitment of Teaching and Non teaching posts in KVS and NVS - 2025 (915 KB)</a> | <a href="https://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFbEsl0hvvhEEwgxfU0IzC28jtU4yhpqb3pomlo4g+VC8" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Apply Online</a> 13/11/2025</td>
+              </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Superintendent_03112025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notice for the post of Superintendent - regarding (2.87 MB)</a> 31/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_JA_Reserve_Panel_30102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notice for Junior Assistant (Reserve Panel) (1.45 MB)</a> 30/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notification_Cancellation_JA_30102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding candidature cancellation for the post of Junior Assistant  (721 KB)</a> 30/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Reserve_Panel_Junior_Accountant_24102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Accountant (Reserve Panel) (1.48 MB)</a> 23/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/result_notice_JE_16102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notice for Junior Engineer (Reserve Panel) (1.42 MB)</a> 16/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/notification_regarding_Junior_Engineer_16102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding candidature cancellation for the post of Junior Engineer - regarding (570 KB)</a> 16/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_JA_Reserve_Panel_08102025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation Notification for the post of Junior Accountant (Reserve Panel) - regarding (571 KB)</a> 07/10/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Skill_Test_Supdt_04092025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice regarding Skill (Typing Test) for the Post of Superintendent (658 KB)</a> 04/09/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Reserve_Panel_JE_03092025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Junior Engineer from reserve panel - regarding (764 KB)</a> 03/09/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_Notification_JE_29082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Engineer (268 KB)</a> 29/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_JA_29082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Assistant (1.93 MB)</a> 29/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_JS_Deputation_19082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notification for the post of Joint Secretary on deputation basis - regarding (368 KB)</a> 19/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_T2_08082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice - CBSE Recruitment Tier - 2 Examination July, 2025 (265 KB)</a> 08/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notice_JE_Result_Reserve_Panel_08082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Engineer from Reserve Panel - regarding (1.10 MB)</a> 08/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Accountant_JR_Accountant_06082025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Accountant and Junior Accountant from Reserve Panel - regarding (1.15 MB)</a> 06/08/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_JE_JTO_23072025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Engineer & Junior Translation Officer from Reserve Panel - regarding (1.01 MB)</a> 23/07/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notification_Cancellation_Accountant_17072025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding Cancellation of Candidature to the post of Accountant (203 KB)</a> 17/07/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Key_Challenge_Tier_2_Superintendent_17072025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice for Tier-2 Examination for the Post of Superintendent recruitment December 2024 (Key Challenge) (575 KB)</a> 17/07/2025</td>
+              </tr>
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://admissions.nic.in/CBSERecruitment/Applicant/root/welcome.aspx" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Download admit card for Typing Test for the post of Junior Assistant and Tier-2 examination for Superintendent in CBSE</a> 01/07/2025</td>
+              </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Last_Date_Extend_Joint_Sec_Admin_19062025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> Notice for Last Date Extension (353 KB)</a> 19/06/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Result_Notice_AS_Admin_Reserve_Panel_17062025.pdf" target="_blank">Result Notice for the post of Assistant Secretary (Administration) from Reserve Panel (697 KB)</a> 17/06/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Cancellation_Candidature_AS_ADMN_16062025.pdf" target="_blank">Candidature cancellation notification for the post of Assistant Secretary (Administration) - regarding  (422 KB)</a> 16/06/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Public_Notice_Tier_2_2024_2025_09062025.pdf" target="_blank">Public Notice for Tier-2 Skill Test CBSE recruitment 2024-2025 (712 KB)</a> 09/06/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/cancellation_notice_for_Accountant_and_Jr_Accountant_05062025.pdf" target="_blank">Candidature cancellation notice for the post of Accountant and Junior Accountant-regarding (454 KB)</a> 05/06/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Notice_empanelment_of_Retired_Officers_as_Inquiry_Officer_23052025.pdf" target="_blank">Notice inviting application for Empanelment of retired officers as the Inquiry Officer for conducting departmental inquiries in CBSE - reg. (242 KB)</a> 23/05/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Public Notice_CBSE_RECRUITMENT_14052025.pdf" target="_blank">Public Notice – CBSE Recruitment Examination April, 2025 (247 KB)</a> | <a href="documents/FinalAnswerKey_Superintendent_14052025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Final Answer Key - Superintendent (70 KB)</a> | <a href="documents/FinalAnswerKey_JuniorAssistant_14052025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Final Answer Key - Junior Assistant (69 KB)</a> 14/05/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Public_Notice_10052025.pdf" target="_blank">Public Notice - CBSE Recruitment Examination April, 2025 (239 KB)</a> 10/05/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Online Application for post on Deputation basis | <a href="documents/Notification_Dep_2025.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (269 KB) </a> | <a href="documents/Advertisement_dep_2025.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (442 KB) </a> | <a href="documents/AnnexureI_2025.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Annexure I (111 KB) </a> 11/05/2025 </td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Notice_Cancellation_recruitment_AS_ACAD_SKILL_TR_08052025.pdf" target="_blank">Cancellation Notification for the post of Assisstant Secretary (Academics), Assisstant Secretary (Skill Education) and Assisstant Secretary (Training) (399 KB)</a> 29/04/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/REC_2025_NOTICE_KEY_CHALLENGE_29042025.pdf" target="_blank">Public Notice - CBSE Recruitment Exam April - 2025 (Key Challenge) (705 KB)</a> 29/04/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Cancellation_Notice_JE_JTO_22042025.pdf" target="_blank">Cancellation Notification for the post of Junior Engineer and Junior Translation Officer (336 KB)</a> 22/04/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Cancellation_Notice_JR_Accountant_22042025.pdf" target="_blank">Cancellation Notification for the post of Junior Accountant (309 KB)</a> 22/04/2025</td>
+              </tr>
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-link"></i><a href="https://admissions.nic.in/CBSERecruitment/Applicant/Root/welcome.aspx" target="_blank">CBSE Recruitment 2025 : Download Admit Card with Centre Details</a> | <a href="https://admissions.nic.in/CBSERecruitment/Applicant/Root/CheckCandIdentity.aspx?enc=yVQCIiq12npg+pcvNJRdcxNUkIVheuTeuKIXIyd0SUzxwIU/21Y+lXhiS/+z2LAn" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Login with DOB</a> 18/04/2025</td>
+              </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Result_Notice_Assistant_Secretary_Administration_28032025.pdf" target="_blank">Result Notice for the post of Assistant Secretary (Administration) (966 KB)</a> 28/03/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><i style="color: #f00;" class="fa fa-file-pdf-o"></i> <a href="documents/Candidature_Cancelation_28032025.pdf" target="_blank">Cancellation  of candidature for the post of Junior Accountant (2.56 MB)</a> 28/03/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Question papers for the Tier 1 and Tier 2 examinations conducted in 2024 for the recruitment of various posts | <a href="documents/Tier_1_QP_28022025.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Tier 1 (8.41 MB)</a> | <a href="documents/Tier_2_QP_28022025.zip" target="_blank"><i style="color: #f00;" class="fa fa-file-zip-o"></i>Tier 2 (1.57 MB)</a> 28/02/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Supdt_JR_Assistant_25022025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public notice regarding the recruitment for the Post of Superintendent (Group B) and Junior Assistant (Group C) (245 KB)</a> 25/02/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Accountant_JR_Accountant_20022025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Accountant and Accountant (2.17 MB)</a> 20/02/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Tier_2_11022025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice - CBSE recruitment (Tier - 2 ) Examination November, 2024 (348 KB)</a> 11/02/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_for_Correction_CBSE_Recruitment_2025_06022025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : CBSE recruitment for Superintendent and Junior Assistant (353 KB)</a> 06/02/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Pre_RFP_Meeting_22012025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Pre-RFP meeting for CBT (Computer Based Test) (787 KB)</a> 22/01/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notice_Reserve_Panel_JE_JTO_21012025 .pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notification (reserve panel) for the post of Junior Engineer and Junior Translation Officer on direct recruitment basis - regarding (1.04 MB)</a> 21/01/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Candidature_Cancelation_JE_JTO_20012025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature cancellation notification for the post of Junior Engineer and Junior Translation Officer on direct recruitment basis - regarding (481 KB)</a> 20/01/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_AS_Vigilance_15012025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of recruitment process for the post of Assistant Secretary (Vigilance) on deputation basis advertised vide Vacancy Notification No. CBSE/RC/ADVT./01/2024 dated 14.06.2024-reg (368 KB)</a> 16/01/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Recruitment_2024_10012025.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice - CBSE recruitment Examination, 2024 (704 KB)</a> 10/01/2025</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Online applications for direct recruitment for the post of Superintendent and Junior Assistant | <a href="documents/Notification_SUPDT_JA_31122024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Vacancy Notification (522 KB)</a> | <a href="documents/Detailed_Notification_SUPDT_JA_31122024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (1.38 MB)</a> 31/12/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_JE_JTO_18122024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice regarding for the post of Junior Translation Officer and Junior Engineer (780 KB)</a> 18/12/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_US_SKILL_08112024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notification for the post of  Under Secretary (Skill Education) on deputation basis - regarding (404 KB)</a> 08/11/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_Various_Training_cadre_08112024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of recruitment process for various post of Training Cadre on deputation basis (355 KB)</a> 08/11/2024</td>
+              </tr>
+
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/AuthCandCBSEPhaseII.aspx?appformid=102112411" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Admit Card for Tier - 2 CBSE Recruitment 2024 for The Post of Assistant Secretary (Academics, Training and Skill Education)</a> 08/11/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/AuthCandCBSEPhaseII.aspx?appformid=102122411" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Admit Card for Tier - 2 CBSE Recruitment 2024 for The Post of Assistant Secretary (Administration) and Accounts Officer</a> 08/11/2024</td>
+              </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_AS_Skill_Edu_05112024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result notification for the post of  Assistant Secretary (Skill Education) on deputation basis - regarding (369 KB)</a> 04/11/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Cancellation_AS_MR_Deputation_05112024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of recruitment process for the post of Assistant Secretary (Media Relations) on deputation basis (379 KB)</a> 04/11/2024</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notice_Junior_Engineer_Junior_Translation_Officer_22102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice for document verification for the post of Junior Translation Officer and Junior Engineer (976 KB)</a> | <a href="documents/Corrigendum_JTO_JE_24102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum (682 KB)</a> 24/10/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notification_Regional_Director_10102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Regional Director on Deputation basis (280 KB)</a> 10/10/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notification_Assistant_Secy_Training_Education_10102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Assistant Secretary (Training) on Deputation basis (253 KB)</a> 10/10/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Notification_Depu_Various_Post_10102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the various post on Deputation basis (316 KB)</a> 10/10/2024</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_Depu_JS_03102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Joint Secretary on Deputation basis (450 KB)</a> 03/10/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Result_Notification_Depu_US_OL_03102024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Under Secretary (Official Language) on Deputation basis (356 KB)</a> 03/10/2024</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Tier_2_Examination_Schedule_25092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice - CBSE recruitment Examination, 2024(Tier-2 Examination Schedule) (622 KB)</a> 25/09/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Public Notice - Structure of question paper for Tier-2, CBSE recruitment Examination, 2024 | <a href="documents/QP_Str_Assistant_Secretary_Administration_25092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Assistant Secretary(Administration) (358 KB)</a> | <a href="documents/QP_Str_Assistant_Secretary_Academics_Training_SkillE_ducation_25092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Assistant Secretary(Academics/Training/Skill Education) (341 KB)</a> | <a href="documents/QP_Str_AccountsOfficer_25092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Accounts Officer (360 KB)</a> 25/09/2024</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents/Public_Notice_Rec_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice CBSE recruitment examination August - 2024 (Final Answer Key) (659 KB)</a> | <a href="documents/FinalAnswerKey_Accountant_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Accountant (204 KB)</a> | <a href="documents/FinalAnswerKey_Accounts_Officer_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Accounts Officer (203 KB)</a> | <a href="documents/FinalAnswerKey_Assistant_Secretary_Academics_Training_Skill_Education_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Assistant Secretary (Academics) (209 KB)</a> | <a href="documents/FinalAnswerKey_Assistant_Secretary_Administration_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Assistant Secretary (Admin) (203 KB)</a> | <a href="documents/FinalAnswerKey_Junior_Accountant_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Junior Accountant (169 KB)</a> | <a href="documents/FinalAnswerKey_Junior_Engineer_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Junior Engineer (210 KB)</a> | <a href="documents/FinalAnswerKey_Junior_Translation_Officer_18092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Junior Translation Officer (214 KB)</a> 18/09/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://examinationservices.nic.in/RecSys24/root/DownloadAdmitCard.aspx?appformid=102112411" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Download result for  Recruitment 2024 : Post of Assistant Secretary (Academics, Training and Skill Education)</a> 05/09/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="https://examinationservices.nic.in/RecSys24/root/DownloadAdmitCard.aspx?appformid=102122411" target="_blank"><i style="color: #f00;" class="fa fa-link"></i>Download result for Recruitment 2024 : Various Administrative Posts (Group A, B & C - except Junior Engineer and Junior Translation Officer)</a> 05/09/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Public_Notice_CBSE_Recruitment_Examination_August_2024_05092024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice:- CBSE Recruitment Examination August 2024 (409 KB)</a> 05/09/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Public_Notice_Key_Challenge_17082024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Display of scanned images of OMR Answer Sheets & display/Challenge of Answer Keys (CBSE Recruitment Examination August, 2024) (828 KB)</a> 17/08/2024</td>
+              </tr>
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;">Click here to download Admit Card | <a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/AuthCandCBSE.aspx?appformid=102112411" target="_blank" tabindex="0" style="color: #e51111;">for the Post of Assistant Secretary (Academics, Training and Skill Education)</a> | <a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/AuthCandCBSE.aspx?appformid=102122411" target="_blank" tabindex="0" style="color: #e51111;">for Various Administrative Posts (Group A, B & C)</a> 08/08/2024 <img src="img//new.gif" alt="img"></td>
+              </tr> -->
+              <!-- <tr>
+                  <td colspan="4" style="text-align: left;">Click here to download Admit Card with Examination City Display | <a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/frmAuthforCity.aspx?appformid=102112411" target="_blank" tabindex="0" style="color: #e51111;">for the Post of Assistant Secretary (Academics, Training and Skill Education)</a> | <a href="https://examinationservices.nic.in/recsys24/downloadAdmitCard/frmAuthforCity.aspx?appformid=102122411" target="_blank" tabindex="0" style="color: #e51111;">for Administrative Posts (Group A, B & C)</a> 25/07/2024 <img src="img//new.gif" alt="img"></td>
+              </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis | <a href="documents/Deputation_Public_Notice_14062024.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (360 KB) </a> | <a href="documents/Details_Advertisement_Deputation_14062024.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (494 KB) </a> | <a href="documents/Deputation_Annexure_I_14062024.pdf" target="_blank" tabindex="0"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Annexure I (109 KB) </a></td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Result_Notification_SAO_USL_16052024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the post of Senior Accounts Officer and Under Secretary (Legal) on Deputation basis (142 KB)</a> 16/05/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Public_Notice_Schedule_Recruitment_Examination_2024_09052024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice for Direct Recruitment Examination 2024 (927 KB)</a> 09/05/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Vacancy_Notification_CTET_05032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Vacancy Notification for various Post (536 KB)</a> | <a href="documents//CORRIGENDUM__VARIOUS_04042024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum (353 KB)</a> | <a href="documents//Detail_Notification_11032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Notification (1.42 MB)</a> | <a href="recruitment_syllabus.html" target="_blank" tabindex="0">Syllabus</a></td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_IAFA_04042024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of process of Internal Auditor and Financial Advisor vacancy on deputation basis invited against Vacancy Notification No. CBSE/RC/ADVT./02/2023 date : 04.01.2024 -reg (372 KB)</a> 03/04/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Extension_Last_Date_Notification_Various_Post_27022024_16032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding extension of Last date of submission of online applications for the post of Internal Auditor and Financial Advisor on deputation basis (368 KB)</a> 15/03/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Result_Young_Professional_SMM_13032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification to the Post of Young Professional (On Contract) (113 KB)</a> 13/03/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Recruitment of Young Professional in CBSE (Lastdate 07.03.2024 upto 6.00 pm)-reg (413 KB) | <a href="documents//Public_Notice_interview_Yung_Pro_01032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice</a> | <a href="documents//walkins_notice.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement</a> 01/03/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Notification_Dubai_Jurisdiction_29022024_UPD_12032024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding address and jurisdiction of Regional Office Dubai & COE (776 KB)</a> 29/02/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_Veerendra_Sharma_US_23022024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of Candidature to the post of Under Secretary (490 KB)</a> 23/02/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Notification_Dubai_21022024..pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding opening of new Regional office, Dubai (501 KB)</a> 21/02/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;"><a href="documents//Extension_Notification_Deputation_07022024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding extension of Last date of submission of online applications for various posts on Deputation basis (338 KB)</a> 07/02/2024</td>
+              </tr>
+              <tr>
+                  <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis | <a href="documents//Vacancy_Noti_Deputation_05012024.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement</a>05/01/2024 </td>
+              </tr>
+              <!-- <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_JA_Steno_30112023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature to the post of Stenographer and Junior Assistant (474 KB)</a> 30/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="https://edcilindia.co.in/Default/ViewFile/?id=1699294733376_Detail%20indicative%20ad%20(F).pdf&path=TCareer" onclick="return confirm_alert(this);" target="_blank">Online application for the Recruitment of Consultants on Contractual Basis in Technical Support Group - Samagra Shiksha (TSG - SS) Project, Department of School Education and Literacy, Ministry of Education, Government of India, New Delhi</a> 16/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_Assistant_Secretary_IT_10112023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature to the post of Assistant Secretary (IT) (393 KB)</a> 10/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_Post_US_09112023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding cancellation of candidature for the post of Under Secretary -reg. (136 KB)</a> 09/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Details_AD_MOE_Consultant_07112023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Recruitment of Consultant on Contractual basis for Technical Support Group (TSG) PM-SHRI, Department of School Education & Literacy, Ministry of Education, Government of India- reg. (253 KB)</a> 07/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_SA_02112023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature to the post of Senior Assistant (404 KB)</a> 02/11/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Canc_Notification_AS_ASIT_ANLT_23102023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding cancellation of candidature for the post of Assistant Secretary (now re-designated as Under Secretary), Assistant Secretary (IT) (now re-designated as Under Secretary-IT ) and Analyst (IT) (now re-designated as Assistant Secretary-IT ) (945 KB) (134 KB)</a> 23/10/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_Notice_US_USIT_AS_20102023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice (Reserve Panel) for the post of Under Secretary formerly Known as Assistant Secretary, Under Secretary (IT) formerly Known as Assistant Secretary (IT) and Assistant Secretary formerly Known as Analyst (IT) (447 KB)</a> 20/10/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_Notice_AIAFA_SRACCOUNT_US_SRT_20102023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notificition for the post AIAFA, Sr. Accounts Officer, Under Secretary (OL) and Sr. Translation Officer (1.39 MB)</a> 20/10/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Abhishek_K_Singh_US_09102023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature to the post of Under Secretary (134 KB)</a> 09/10/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_JA_05102023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of junior Assistant (215 KB)</a> 05/10/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_SA_JA_25092023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of Senior Assistant and junior Assistant (142 KB)</a> 25/09/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_JA_Sandeep_06092023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of junior Assistant (Sh. Sandeep) (148 KB)</a> 06/09/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_JA_SonaliKumari_06092023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of junior Assistant (Ms. Sonali Kumari) (150 KB)</a> 06/09/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_JA_AbhishekGupta_06092023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of junior Assistant (Sh. Abhishek Gupta) (160 KB)</a> 06/09/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis | <a href="documents//Pointer_Notification_16082023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (246 KB)</a> | <a href="documents//Details_ADVT_16082023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (319 KB) </a>16/08/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Junior_Asstt_Abhijeet_Singh_Cancellation_09082023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice regarding cancellation/withdrawal of Candidature for the post of Junior Assistant (137 KB)</a> 08/08/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_SA_01082023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice regarding cancellation/withdrawal of offer of appointment for the post of Senior Assistant -reg. (135 KB)</a> 01/08/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_Kashmir_Kumar_17072023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature in respect of Sh. Kashmir Kumar (CBSE1465228) for the post of Under Secretary (earlier known Assistant Secretary) - regarding (583 KB)</a> 17/07/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_Notice_Junior_Assistant_Result_Panel_11072023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice (Reserve Panel) for the post of Junior Assistant (392 KB)</a> 11/07/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Junior_Assistant_Cancellation_Notice_11072023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of Junior Assistant (134 KB)</a> 11/07/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_Rohit_27062023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of Assistant Secretary (IT) (133 KB)</a> 27/06/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_Notice_US_AS_AS_ANLST_05062023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Under Secretary formerly known as Assistant Secretary and Assistant Secretary (IT) formerly known as Analyst (IT) (441 KB)</a> 05/06/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_JA_17042023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Cancellation of candidature for the post of Junior Assistant (136 KB )</a> 13/04/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_Accountant_13042023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for the post of accountant on direct recruitment (1.33 MB)</a> 13/04/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_AS_17032023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Assistant Secretary (136 KB)</a> 17/03/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_SA_17032023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Senior Assistant (137 KB)</a> 17/03/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_SA_STENO_17032023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Senior Assistant and Stenographer (143 KB)</a> 17/03/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancel_DV_JA_SA_ACC_17032023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Senior Assistant and Junior Assistant (174 KB)</a> 17/03/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Extesntion_AIAFA_02032023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding extension of date for application for the post of Additional Internal Auditor and Financial Advisor (AIAFA) (1.22 MB)</a> 02/03/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_Notice_diff_Post_on_Deputation_24022023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the various Post on deputation (432 KB)</a> 24/02/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_of_AN_IT_10022023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Analyst (IT) (439 KB)</a> 09/02/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_of_Jr_Asstt_09022023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Junior Assistant (134 KB)</a> 09/02/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Online Application for Additional IAFA on Deputation basis | <a href="documents//Public_Notice_for_AIAFA _30012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (215 KB)</a> | <a href="documents//Detailed_Notification_Final_AIAFA_30012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (182 KB) </a> | <a href="documents//Annexure-I_30012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Annexure-I (109 KB) </a>30/01/2023</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Document_Verification_ Notice_SA_ACC_JA_31012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding document verification for the post of Senior Assistant, Accountant and Junior Assistant (211 KB)</a> 31/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Accountant_cancellation_Notification_30012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Accountant (147 KB)</a> 30/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result1.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notification for the Post of Joint Secretary, Senior Accounts Officer and Accounts Officer on Deputation (1.42 MB)</a> 27/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_Steno_JA_25012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Stenographer and Junior Assistant (138 KB)</a> 25/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_Stenographer_20012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Stenographer (132 KB)</a> 20/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Candidature_cancellation_notification_JA_19012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Junior Assistant (182 KB)</a> 19/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_candidature_cancelation_AS_AnalystIT_13012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Assistant Secretary and Analyst (IT) (1.39 MB)</a> 13/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Result_notice_for_post_Accountant_04012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the Post of Accoutant (1.50 MB)</a> 04/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Candidature_Cancellation_Notification_Accountant_04012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Candidature Cancellation Notification for the Post of Accoutant (1.36 MB)</a> 04/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//SR_Assistant_Steno_Junior Assistant_03012023.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result for the post of Senior Assistant and Junior Assistant (1.59 MB)</a> 03/01/2023 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_cancellation_candidature_JA_SA_Steno_28122022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Senior Assistant, Stenographer and Junior Assistant (3.06 MB)</a> 28/12/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//result_notice_walk_23122022.jpeg" target="_blank"><i style="color: #f00;" class="fa fa-file-image-o"></i>Result Notice : Walk-in-Interview (34.9 KB)</a> 23/12/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_JA_16122022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Junior Assistant (171 KB)</a> 16/12/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Walk_in_Interview_notice_details_final_14122022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Walk-in-Interview (481 KB)</a> 07/12/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_Document_JA_SA_Steno_02122022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding document verification for the post of Senior Assistant, Stenographer and Junior Assistant (419 KB) </a>02/12/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Group-A_candidature_cancellation_Notification_ASIT.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding cancellation of candidature for the post of Assistant Secretary (IT) (172 KB) 28/11/2022</a> </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notification_JA_25112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Junior Assistant (181 KB)</a>25/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Public_notice_Walk_in_Interview notice_16112022_postponed.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice : Walk-in-Interview (Postponed) (653 KB)</a> 18/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Result Notice (Reserve Panel) for the post of | <a href="documents//Result_Notice_Senior_Assistant_14112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Senior Assistant (473 KB)</a> | <a href="documents//Result_Notice_Stenographer_14112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Stenographer (433 KB) | <a href="documents//Result_Notice_Jr_Asstt_14112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Junior Assistant (428 KB) |</a> 14/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_Can_AS_ASIT_ANLT_11112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding cancellation of candidature for the post of Assistant Secretary, Assistant Secretary (IT) and Analyst (IT) (190 KB) </a>10/11/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_rec_Deputation_07112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding extension of last date of submission of online application through Deputation (127 KB) </a>07/11/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Notification for cancellation of candidature for the post of Stenographer | <a href="documents//Cancellation_Notification_Stenographer_Verification_04112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification - 1 (175 KB)</a> | <a href="documents//Cancellation_Notification_Stenographer_Join_04112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification - 2 (194 KB) | </a> 04/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Notification for cancellation of candidature for the post of Senior Assistant | <a href="documents//Cancellation_Notification_Senior_Assistant_Verification_04112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification - 1 (174 KB)</a> | <a href="documents//Cancellation_Notification_Senior_Assistant_Join_04112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification - 2 (188 KB) | </a>04/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_Notice_Junior_Assistant_02112022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for cancellation of candidature for the post of Junior Assistant (378 KB)</a>02/11/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Document_verification_JA_107102022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice for the documents Verification for post of Junior Assistant (Reserve Panel) (921 KB)</a>07/10/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis | <a href="documents//Pointer_Notification_Final_27092022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (222 KB)</a> | <a href="documents//Advertisement_for_deputation_27092022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (292 KB) </a> | <a href="documents//Annexure-I_27092022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Annexure-I (109 KB) </a> </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Rev_Panel_Junior_Assistant_22092022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Result Notice for the post of Junior Assistant (Reserve Panel) (727 KB)</a>22/09/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notification_Rec_14092022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding extension in last date of submission of online application for filling up of various post on Deputation basis in CBSE (343 KB)</a>14/09/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Corrigendum_Senior_Assistant_29082022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum for the post of Senior Assistant (2.09 MB)</a>29/08/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;">Online Application for various post on Deputation basis | <a href="documents//Public_Notification_Deputation_2022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Public Notice (221 KB)</a> | <a href="documents//Details_Advertisement_2022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Detailed Advertisement (319 KB) </a> </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Corrigendum_Group_A_posts_04082022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum for the Group A Posts (3.02 MB) 04/08/2022</a></td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Corrigendum_Stenopost_02082022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum for the revised result for the post of Stenographer (573 KB) </a> 01/08/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_notification_JA_01082022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for Cancellation of Candidature for the post of Junior Assistant (211 KB) </a>01/08/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Cancellation_notification_JA_29072022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for Cancellation of Candidature for the post of Junior Assistant (915 KB) </a>29/07/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Document_verification_AC_JA_25072022_HINDI.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification regarding document verification for the post of Accountant and Junior Assistant (209 KB ) </a> 25/07/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notice_AS_Analyst(IT)_24062022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice regarding for the conduct of Interview for the post of Assistant Secretary and Analyst (IT) (205 KB) </a> 24/06/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Re-conduct_Skill_Test_SA_Steno.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notice for Re-conduct of Skill Test for the Post of Senior Assistant and Stenographer (329 KB) </a> 13/06/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notice_for_DV_AC_JA_08062022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Document verification notification for the post of Accountant and Junior Assistant (2.49 MB)</a> 08/06/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Corrigendum_Accountant_03062022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - Post of Accountant- reg. (560 KB)</a> 03/06/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Corrigendumdt24052022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Corrigendum - Post of Junior Assistant- reg. (669 KB)</a> 24/05/2022 </td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Junior_Accountant_Notification_23022022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for the Place of posting - JUNIOR ACCOUNTANT- reg. (184 KB)</a> 23/02/2022</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: left;"><a href="documents//Notifications_regarding_Jr_Accountant_JHT_23022022.pdf" target="_blank"><i style="color: #f00;" class="fa fa-file-pdf-o"></i>Notification for the post of Junior Translation Officer and Junior Accountant (3.74 MB)</a> 23/02/2022</td>
+    </tr> -->
+              <tr>
+                  <td colspan="4" style="text-align: center;">
+                      <h3 style="color: #147988;"><a href="recr_archive.html" target="_blank">Archives</a></h3>
+                  </td>
+              </tr>
+          </table>
+        <div class="empty-space"> </div> <br>
+      </div>
+    </div>
+  </div>  
+  <!--footer Code Starts Here -->
+  <footer id="footerdiv"></footer> <!-- Footer Code Ends Here -->
+  <!--=========== JS FILE DECLARATION  ==============-->
+  <!-- jQuery Latest Version -->
+  <script src="js/modernizr-2.8.3.min.js"></script>
+  <!--<script src="js/jquery.slim.min.js"></script>-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--<script src="js/jquery-v3.2.1.min.js"></script>-->
+  <!--Latest JQuery v3.6.0-->
+  <script src="js/ui/jquery-3.7.1.slim.min.js"></script>
+  <script src="js/ui/jquery.min.js"></script> <!-- PopperJS -->
+  <script src="js/popper.min.js"></script> <!-- Bootstrap framework JS -->
+  <script src="js/bootstrap.min.js"></script> <!-- All JS plugins included in this file. -->
+  <script src="js/plugins.js"></script> <!-- Main JS file that contents all jQuery Plugins activation. -->
+  <script src="js/main.js"></script>
+  <script src="js/cbse-accordion.js"></script>
+  <script src="js/swithcer.js"></script>
+  <script src="js/font-size.js"></script>
+  <script src="header_logo_new.js"></script>
+  <script src="top_header_new.js"></script>
+  <script src="load_essentials_tabindex.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2557 @@
+
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+  <head>
+	
+    <meta charset="utf-8" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" data-toolbar-anti-flicker-loading>(function() {
+  const toolbarState = sessionStorage.getItem('Drupal.toolbar.toolbarState')
+    ? JSON.parse(sessionStorage.getItem('Drupal.toolbar.toolbarState'))
+    : false;
+  // These are classes that toolbar typically adds to <body>, but this code
+  // executes before the first paint, when <body> is not yet present. The
+  // classes are added to <html> so styling immediately reflects the current
+  // toolbar state. The classes are removed after the toolbar completes
+  // initialization.
+  const classesToAdd = ['toolbar-loading', 'toolbar-anti-flicker'];
+  if (toolbarState) {
+    const {
+      orientation,
+      hasActiveTab,
+      isFixed,
+      activeTray,
+      activeTabId,
+      isOriented,
+      userButtonMinWidth
+    } = toolbarState;
+
+    classesToAdd.push(
+      orientation ? `toolbar-` + orientation + `` : 'toolbar-horizontal',
+    );
+    if (hasActiveTab !== false) {
+      classesToAdd.push('toolbar-tray-open');
+    }
+    if (isFixed) {
+      classesToAdd.push('toolbar-fixed');
+    }
+    if (isOriented) {
+      classesToAdd.push('toolbar-oriented');
+    }
+
+    if (activeTray) {
+      // These styles are added so the active tab/tray styles are present
+      // immediately instead of "flickering" on as the toolbar initializes. In
+      // instances where a tray is lazy loaded, these styles facilitate the
+      // lazy loaded tray appearing gracefully and without reflow.
+      const styleContent = `
+      .toolbar-loading #` + activeTabId + ` {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.25) 20%, transparent 200%);
+      }
+      .toolbar-loading #` + activeTabId + `-tray {
+        display: block; box-shadow: -1px 0 5px 2px rgb(0 0 0 / 33%);
+        border-right: 1px solid #aaa; background-color: #f5f5f5;
+        z-index: 0;
+      }
+      .toolbar-loading.toolbar-vertical.toolbar-tray-open #` + activeTabId + `-tray {
+        width: 15rem; height: 100vh;
+      }
+     .toolbar-loading.toolbar-horizontal :not(#` + activeTray + `) > .toolbar-lining {opacity: 0}`;
+
+      const style = document.createElement('style');
+      style.textContent = styleContent;
+      style.setAttribute('data-toolbar-anti-flicker-loading', true);
+      document.querySelector('head').appendChild(style);
+
+      if (userButtonMinWidth) {
+        const userButtonStyle = document.createElement('style');
+        userButtonStyle.textContent = `#toolbar-item-user {min-width: ` + userButtonMinWidth +`px;}`
+        document.querySelector('head').appendChild(userButtonStyle);
+      }
+    }
+  }
+  document.querySelector('html').classList.add(...classesToAdd);
+})();</script>
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+
+    <title>मुख्य पृष्ठ | Council of Scientific &amp; Industrial Research</title>
+	
+    <meta name="keywords" content=", मुख्य पृष्ठ | Council of Scientific &amp; Industrial Research,csir official website, council of scientific and industrial research, csir, csir india, Scientific, Research">
+    <meta name="description" content="मुख्य पृष्ठ | Council of Scientific &amp; Industrial Research CSIR - Council of Scientific & Industrial Research covers a wide spectrum from radio and space physics, oceanography, chemicals,">
+
+    <meta name="title" content="मुख्य पृष्ठ | Council of Scientific &amp; Industrial Research">
+    <link rel="stylesheet" media="all" href="/libraries/slick/slick/slick.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/libraries/superfish/css/superfish.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/node/css/node.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/layout/slick.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views-responsive-grid.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/misc/vertical-tabs.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/blazy.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/contrib/video_embed_field/css/video_embed_field.responsive-video.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/components/blazy.loading.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/contrib/simple_popup_blocks/css/simple_popup_blocks.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/base.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/base-responsive.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/grid.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/font.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/font-awesome.min.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/flexslider.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/modules/custom/unee_header/css/print.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/bootstrap.min.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/slick.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/flexslider.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/style.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/responsive.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/font-awesome.css?tnlry8" />
+<link rel="stylesheet" media="all" href="/themes/csir/css/accesibility-style-v2.1.css?tnlry8" />
+
+    
+	<!-- No script -->
+   
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MT0RKVLZWL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MT0RKVLZWL');
+</script>
+
+  
+  </head>
+  <body id="fontSize" class="node path-frontpage">
+    	<!-- skip to main content 
+	<a class="skip-link screen-reader-text" href="#main-content">मुख्य सामग्री पर जाएं</a> -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <!-- -------------------- Top bar Start -------------------- -->
+
+   
+<section class="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                                                                                    
+                    <!-- E-Office Link -->
+                    <a href="/hi///eoffice" title="e-office">
+                        <img src="/themes/csir/img/logoēoffice.png" alt="e-office">
+                    </a>
+
+                    <!-- Accessibility Icons -->
+                    <ul class="accessibility-icons">
+                        <li class="pensioner">
+                            <a href="/hi///pensioners-corner">
+                                <img src="/themes/csir/img/user.svg" alt="पेंशनर्स कॉर्नर">
+                                पेंशनर्स कॉर्नर
+                            </a>
+                        </li>
+                        <li class="employer">
+                            <a href="/hi///user">
+                                <img src="/themes/csir/img/user.svg" alt="कर्मचारी कॉर्नर">
+                                कर्मचारी कॉर्नर
+                            </a>
+                        </li>
+
+                        <!-- Search Dropdown -->
+                        <li class="dropdown language search">
+                            <button class="btn btn-secondary dropdown-toggle p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/themes/csir/img/search.svg" style="width:25px;" alt="Search">
+                            </button>
+                            <ul class="dropdown-menu modal-search ps-2 pe-2" aria-labelledby="dropdownMenuButton1">
+                                <li class="ico-site-search cf">
+                                    <div class="input-group flex-nowrap">
+                                        <div class="search-drop">
+                                              <div>
+    <div class="search-block-form" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+  
+    
+      <form action="/hi/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">खोज</label>
+        <input title="आप जिसकी खोज करना चाहते हैं वह शब्द दर्ज करें ." data-drupal-selector="edit-keys" data-msg-maxlength="खोज field has a maximum length of 128." type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="खोज" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+                                        </div>
+                                    </div> <!-- Properly closed input-group div -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Sitemap Link -->
+                        <li>
+                            <span class="sitemap-csir">
+                                <a href="////sitemap">साइट मैप</a>
+                            </span>
+                        </li>
+                    </ul>
+
+                    <!-- Top Header Content -->
+                      <div>
+    <div id="block-uneeheaderdata">
+  
+    
+      
+
+ <!--<ul class="accessibility-icons float-end">
+ <li class="skip-content">
+                       <a href="#skipCont">मुख्य सामग्री पर जाएं</a>
+                    </li>
+                    <li class="sitemap-moca">
+                                      <a href="hi/sitemap">साइट मैप</a>
+                              </li>
+ <li class="theme-changer">
+    <span>Theme</span>
+    <div class="inner"><a href="javascript:void(0);" class="high-contrast light current" title="Normal Contrast" style="display: none;">A</a>
+    <a href="javascript:void(0);" class="high-contrast dark" title="High Contrast">A</a> </div>
+  </li> 
+    <li class="screen-reader">
+       <a href="https://www.csir.res.in/hi/help" title="स्क्रीन रीडर एक्सेस">स्क्रीन रीडर एक्सेस</a>
+    </li>
+    <li class="screen-reader">
+       <a class="fontdecrease test" title="Decrease font size" href="javascript:void(0);">A-</a></li>
+        <li><a class="fontreset" title="Reset font size" href="javascript:void(0);">A</a></li>
+        <li><a class="fontincrease" title="Increase font size" href="javascript:void(0);">A+</a>
+     </li>
+     
+  
+    
+  </ul> -->
+  
+   <ul class="accessibility-icons">
+      
+      
+                    
+                      <li class="screen-reader">
+                       
+             <a href="https://www.csir.res.in/hi/help" title="स्क्रीन रीडर एक्सेस"><img src="/themes/csir/img/screen-reader.svg" alt="स्क्रीन रीडर एक्सेस">स्क्रीन रीडर एक्सेस</a>
+                      </li>
+                      <li class="skip-content">
+            <a href="#skipCont" title="मुख्य सामग्री पर जाएं" ><img src="/themes/csir/img/skip-content.png" alt="मुख्य सामग्री पर जाएं">मुख्य सामग्री पर जाएं</a>
+                        
+                      </li>
+                      <li class="dropdown icon-drop bg">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="/themes/csir/img/disabled.svg" alt="Text Resize">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                         <li class="screen-reader">
+              <a class="fontdecrease test" title="Decrease font size" href="javascript:void(0);">A-</a></li>
+              <li><a class="fontreset" title="Reset font size" href="javascript:void(0);">A</a></li>
+              <li><a class="fontincrease" title="Increase font size" href="javascript:void(0);">A+</a>
+              </li>
+                  <li class="theme-changer">
+    
+    <a href="javascript:void(0);" class="high-contrast light current" title="Normal Contrast" style="display: none;">A</a>
+    <a href="javascript:void(0);" class="high-contrast dark" title="High Contrast">A</a> 
+  </li> 
+              </ul>
+                      </li>
+             <li class="dropdown icon-drop social">
+			            
+			            <a class="dropdown-item" href="https://www.whatsapp.com/channel/0029VaINdbL5q08ecWc8zV1P" target="_blank"> <img src="/themes/csir/img/ico-whatsapp.svg" title="whatsapp" alt="whatsapp" style="width: 30px !important;"> </a>  
+                      <!--  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="/themes/csir/img/ico-social.svg" alt="Social">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="https://www.facebook.com/INDIA.CSIR"> <img src="/themes/csir/img/fb.svg" alt="FB"> </a></li>
+                          <li><a class="dropdown-item" href="https://www.instagram.com/csirindia/?hl=en"> <img src="/themes/csir/img/insta.svg" alt="Insta"> </a></li>
+                          <li><a class="dropdown-item" href="https://twitter.com/csir_ind"> <img src="/themes/csir/img/twitter.svg" alt="Twitter"> </a></li>
+                          <li><a class="dropdown-item" href="https://www.youtube.com/channel/UC-ZY_sMrNWx-gNxtEA6L9Uw"> <img src="/themes/csir/img/yt.svg" alt="YouTube"> </a></li>
+                        </ul>  -->
+                      </li>
+                    
+            
+            </ul>
+  </div>
+
+  </div>
+
+                                            <div class="language-switcher">  <div>
+    <div class="language-switcher-language-url" id="block-languageswitcher" role="navigation">
+  
+    
+      <ul class="links"><li hreflang="en" data-drupal-link-system-path="node"><a href="/en/node" class="language-link" hreflang="en" data-drupal-link-system-path="node">English</a></li><li hreflang="hi" data-drupal-link-system-path="node" class="is-active"><a href="/hi/node" class="language-link is-active" hreflang="hi" data-drupal-link-system-path="node">Hindi</a></li></ul>
+  </div>
+
+  </div>
+</div>
+                                        <div>
+                      <div>
+    <div id="block-csir-popuphomepage-2">
+  
+    
+      
+            <div><script>
+//<![CDATA[
+
+  if (localStorage.getItem("language_selected") === "true") {
+    document.documentElement.classList.add("hide-popup");
+  }
+
+//]]>
+</script><style>
+/*<![CDATA[*/
+
+.mt-3 a {
+    text-decoration: none;}
+.spb-popup-main-wrapper {
+  background-color: #86bfffcf;
+  box-shadow: rgba(50,50,93,0.25) 0px 6px 12px -2px,rgba(0,0,0,0.3) 0px 3px 7px -3px;
+  border-radius:20px;
+  border:none;
+  top: 10%;
+}
+.spb_overlay {
+  background-color: rgba(227, 219, 223, 0.97);}
+#block-csir-popuphomepage-2 {
+  display: none;
+}
+.hide-popup #spb-block-csir-popuphomepage-2 {
+  display: none !important;
+}
+                 #popup-message-window {
+                 background: #caffda;
+                 }
+		.homepopup-lang {
+                   display: flex;
+                   align-items: center;
+                   gap: 1rem; /* spacing between image and text */
+                 }
+		         .homepopup-content {
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+               }
+		.popup-message-title {
+                  display: none;
+                }
+              .popup-logotext {
+               margin-bottom: 30px;
+               }
+				
+/*]]>*/
+</style><div class="container homepopup-lang text-center d-flex flex-column align-items-center justify-content-center"><div class="popup-logoimage me-3"><img src="/sites/default/files/inline-images/csir-logo_0.png" data-entity-uuid="864b6eb8-f042-4d49-8ba9-37954f3e7831" data-entity-type="file" width="141" /></div><div class="popup-logotext text-center"><center><h2>वैज्ञानिक तथा औद्योगिक अनुसंधान परिषद्          <br />Council of Scientific &amp; Industrial Research</h2><p><span style="color:#000;">विज्ञान एवं प्रौद्योगिकी मंत्रालय </span>       <br /><span style="color:#000;">Ministry of Science &amp; Technology</span></p></center></div></div><div class="homepopup-content"><center><h5 style="margin-bottom:20px;">सीएसआईआर में आपका स्वागत है          <br />Welcome to CSIR</h5><h5>वेबसाइट में प्रवेश करने के लिए अपनी पसंदीदा भाषा का चयन करें          <br />Select your Preferred Language to Enter the Website</h5></center></div><div class="mt-3"><a href="https://www.csir.res.in/hi"><button class="btn btn-success lang-select" type="button">हिन्दी</button></a>   <a href="https://www.csir.res.in/en"><button class="btn btn-info me-2 lang-select" type="button">English</button>  </a></div></div>
+      
+  </div>
+
+  </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!-- -------------------- Top bar End -------------------- -->
+      <!-- header bar start -->
+      <section class="wrapper header-wrapper">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-6 col-md-6 col-sm-8">
+                  <a href="/hi" title="Council of Scientific & Industrial Research" class="brand d-inline-flex align-items-center text-decoration-none">
+                     <span><img src="/themes/csir/img/csir-logo.png"  alt="CSIR Logo"></span>
+                     <div>
+                        <span class="fw-bold"> वैज्ञानिक तथा औद्योगिक अनुसंधान परिषद्</span>
+                        <span>  Council of Scientific & Industrial Research</span>
+						<span> वैज्ञानिक और औद्योगिक अनुसंधान विभाग </span> 
+                        <span> Department of Scientific and Industrial Research </span>
+                        <span> (विज्ञान एवं प्रौद्योगिकी मंत्रालय, भारत सरकार)  </span> 
+                        <span> Ministry of Science & Technology, Govt. of India </span>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-lg-6 col-md-6 col-sm-4 text-end img-head">
+                    <div>
+    <div class="views-element-container" id="block-views-block-csir-homepage-logos-block-1">
+  
+    
+      <div><div class="js-view-dom-id-21b020be05a3609e8b0d2195c18fa895e4538b0970b00b80b8dc5fa2092711bc">
+  
+  
+  
+
+  
+  
+  
+
+      <div><a href="/hi/csir-social-media" class="ext-department-logos" target="_blank">  <img loading="eager" src="/sites/default/files/2025-07/social_media_icon.png" width="67" height="67" alt="CSIR Social Media" title="CSIR Social Media" />
+
+</a></div>
+    <div><a href="https://shebox.wcd.gov.in/" class="ext-department-logos" target="_blank">  <img loading="eager" src="/sites/default/files/2026-10/she-box_1.jpeg" width="585" height="527" alt="SHe-Box" title="SHe-Box" />
+
+</a></div>
+    <div><a href="http://prabhass.gov.in" class="ext-department-logos" target="_blank">  <img loading="eager" src="/sites/default/files/2023-08/prabhas%20%281%29_0.png" width="67" height="67" alt="प्रभास" title="प्रभास" />
+
+</a></div>
+    <div><a href="https://innovateindia.mygov.in/csir-societal-platform-2024/" class="ext-department-logos" target="_blank">  <img loading="eager" src="/sites/default/files/2023-08/img-s%20%281%29_0.png" width="67" height="67" alt="सीएसआईआर सोसाइटी पोर्टल" title="सीएसआईआर सोसाइटी पोर्टल" />
+
+</a></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- -------------------- header bar end -------------------- -->
+      <!-- -------------------- Navbar start -------------------- -->
+     <section class="navigation-bar">
+         <div class="container-fluid">
+                          <div>
+    <div id="block-mainnavigation">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none">
+  
+
+
+  
+  <li id="main-standardfront-page" class="active-trail sf-depth-1 sf-no-children">
+              <a href="/hi" class="is-active sf-depth-1">मुख्य पृष्ठ</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-contentb2518584-137e-469b-b65d-921df0440f96" class="sf-depth-1 menuparent">
+              <span title="हमारे बारे में" class="sf-depth-1 menuparent nolink">हमारे बारे में</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentee79aca4-ae7b-40af-a0af-45d98b7381ba" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/about-csir" title="सीएसआईआर के बारे में" class="sf-depth-2">सीएसआईआर के बारे में</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content7a177111-5072-4b6e-94b3-b7c189b18568" class="sf-depth-2 sf-no-children">
+              <a href="/hi/vision-mission" title="विजन और मिशन" class="sf-depth-2">विजन और मिशन</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content89607d2e-03b9-494d-8ed5-005995359b3f" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/profile" title="प्रोफ़ाइल" class="sf-depth-2">प्रोफ़ाइल</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content9bb79da7-f007-4727-996f-0a7c9358c645" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/organisational-structure" title="संगठनात्मक संरचना" class="sf-depth-2">संगठनात्मक संरचना</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contente2e9c71c-5fd2-493b-8554-0c267e23db82" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/csir-network-map" title="सीएसआईआर नेटवर्क मानचित्र" class="sf-depth-2">सीएसआईआर नेटवर्क मानचित्र</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content3e0dd32d-53ab-4821-835d-8b4cbdb1ea76" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/csir-leader" title="सीएसआईआर लीडर्स" class="sf-depth-2">सीएसआईआर लीडर्स</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contenta1f7d08a-c1bc-486b-ba90-dab0f1553a1a" class="sf-depth-2 sf-no-children">
+              <a href="/hi/csir-directory" title="सीएसआईआर डायरेक्टरी" class="sf-depth-2">सीएसआईआर डायरेक्टरी</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content0d7fe955-09f3-4fef-ab8d-0face332a949" class="sf-depth-2 menuparent">
+              <span title="विज्ञान, प्रौद्योगिकी एवं नवोन्‍मेष प्रबन्‍धन संरचना" class="sf-depth-2 menuparent nolink">विज्ञान, प्रौद्योगिकी एवं नवोन्‍मेष प्रबन्‍धन संरचना</span>
+                  <ul>      
+
+
+            
+  <li id="main-menu-link-content28b9a301-42ad-4f8c-8ec5-87d8b15d5d64" class="sf-depth-3 menuparent">
+              <span title="केन्‍द्रीय येाजना निदेशालय" class="sf-depth-3 menuparent nolink">केन्‍द्रीय येाजना निदेशालय</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content2a26531b-0db8-40d5-a15b-9e1d393dcc64" class="sf-depth-4 sf-no-children">
+              <a href="/hi/mandate-cpd" title="सीपीडी का मैंडेट एवं गतिविधियाँ" class="sf-depth-4">सीपीडी का मैंडेट एवं गतिविधियाँ</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentc1425caa-bdf5-481d-af3b-d760cf1916a0" class="sf-depth-4 sf-no-children">
+              <a href="/hi/officials-and-staff-details" title="अधिकारियों और कर्मचारियों का विवरण" class="sf-depth-4">अधिकारियों और कर्मचारियों का विवरण</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content255b4179-450a-4496-86e8-3f09d718dcea" class="sf-depth-3 menuparent">
+              <span title="Innovation Management Directorate" class="sf-depth-3 menuparent nolink">नवोन्‍मेष प्रबन्‍धन निदेशालय</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content3e343c0e-1847-450b-a9b2-fef4cb12af52" class="sf-depth-4 sf-no-children">
+              <a href="/hi/mandate-imd" title="आईएमडी का मैनडेट" class="sf-depth-4">आईएमडी का मैनडेट</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content565c9a68-b101-4234-9bc2-6bd32591b49a" class="sf-depth-4 sf-no-children">
+              <a href="/hi/scientists-and-staff-imd" title="निदेशालय के कर्मचारियों का विवरण" class="sf-depth-4">निदेशालय के कर्मचारियों का विवरण</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-contentcf4e0086-7496-485a-be07-d7628bc43ac5" class="sf-depth-4 menuparent">
+              <span title="आईएमडी की गतिविधियां" class="sf-depth-4 menuparent nolink">आईएमडी की गतिविधियां</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content767bcc59-9de7-474e-ab78-e4b0af4d74b7" class="sf-depth-5 sf-no-children">
+              <a href="/hi/hcp-and-mlp-projects" title="एचसीपी और एमएलपी परियोजनाएं" class="sf-depth-5">एचसीपी और एमएलपी परियोजनाएं</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content07f3d509-5759-4fd0-baf8-91cabab662d7" class="sf-depth-5 sf-no-children">
+              <a href="/hi/mission-mode-project" title="मिशन मोड प्रोजेक्ट" class="sf-depth-5">मिशन मोड प्रोजेक्ट</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentb7ed27ae-5fe1-46a3-b3c0-55ab679b58a1" class="sf-depth-5 sf-no-children">
+              <a href="/hi/fast-track-translation-and-fast-track-commercialization-projects" title="फास्ट ट्रैक अनुवाद और फास्ट ट्रैक व्यावसायीकरण परियोजनाएं" class="sf-depth-5">फास्ट ट्रैक अनुवाद और फास्ट ट्रैक व्यावसायीकरण परियोजनाएं</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-menu-link-contentf25081fb-f3b4-4123-8766-764a5b949b1a" class="sf-depth-3 sf-no-children">
+              <a href="/hi/intellectual-property-directorate-ipd" title="नवाचार संरक्षण इकाई (आईपीयू)" class="sf-depth-3">नवाचार संरक्षण इकाई (आईपीयू)</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentd454317f-3089-4051-8ca6-f7ffa75518ef" class="sf-depth-3 sf-no-children">
+              <a href="/hi/technology-management-directorate" title="प्रौद्योगिकी प्रबंधन निदेशालय" class="sf-depth-3">प्रौद्योगिकी प्रबंधन निदेशालय</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content325c3894-aaf3-4cbc-8f6b-53e1e38ce56e" class="sf-depth-3 sf-no-children">
+              <a href="/hi/csir-unit-research-and-development-information-products-urdip" title="सूचना उत्पाद अनुसंधान एवं विकास यूनिट (यूआरडीआईपी)" class="sf-depth-3">सूचना उत्पाद अनुसंधान एवं विकास यूनिट (यूआरडीआईपी)</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-contente3cbd5fe-4278-4c50-ac43-ba391976e801" class="sf-depth-3 menuparent">
+              <span title="सीएसआईआर-अंतर्राष्‍ट्रीय विज्ञान एवं प्रौद्योगिकी कार्य निदेशालय" class="sf-depth-3 menuparent nolink">सीएसआईआर-अंतर्राष्‍ट्रीय विज्ञान एवं प्रौद्योगिकी कार्य निदेशालय</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content0767e898-4598-4d29-9e97-f29fd97f4adc" class="sf-depth-4 sf-no-children">
+              <a href="/hi/istad" title="इस्‍टैड के बारे में" class="sf-depth-4">इस्‍टैड के बारे में</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentac5876c4-c25e-4ea5-a832-88620f216ca7" class="sf-depth-4 sf-no-children">
+              <a href="/hi/csir-istad-forms" title="सीएसआईआर-इस्‍टैड फॉर्म" class="sf-depth-4">सीएसआईआर-इस्‍टैड फॉर्म</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content7f045a49-053f-41dc-8ba9-852eee21f1cd" class="sf-depth-4 menuparent">
+              <span title="अक्सर पूछे जाने वाले प्रश्न/कार्यालय ज्ञापन/प्रक्रियात्मक जानकारी" class="sf-depth-4 menuparent nolink">अक्सर पूछे जाने वाले प्रश्न/कार्यालय ज्ञापन/प्रक्रियात्मक जानकारी</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentc8248766-b107-4912-aa78-10994595c5c8" class="sf-depth-5 sf-no-children">
+              <a href="/hi/istad-accr-faqs" title="सामान्य प्रश्न" class="sf-depth-5">सामान्य प्रश्न</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content0d2138e4-bce9-434a-b80b-6433ac9db64b" class="sf-depth-5 sf-no-children">
+              <a href="/hi/information-istad" title="इस्‍टैड की प्रक्रियात्मक जानकारी" class="sf-depth-5">इस्‍टैड की प्रक्रियात्मक जानकारी</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content18871a80-4c0c-4ec0-b4e5-6044e5315292" class="sf-depth-5 sf-no-children">
+              <a href="/hi/om-issued-by-csir-and-various-ministries-departments" title="अंतर्राष्ट्रीय सहयोग से संबंधित ओएम" class="sf-depth-5">अंतर्राष्ट्रीय सहयोग से संबंधित ओएम</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-menu-link-contente8f46a34-33aa-48e0-92ef-bdd171b18cc0" class="sf-depth-4 sf-no-children">
+              <a href="/hi/International-R-and-D-Updates" title="अंतर्राष्ट्रीय अनुसंधान एवं विकास अद्यतन" class="sf-depth-4">अंतर्राष्ट्रीय अनुसंधान एवं विकास अद्यतन</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentb3c180ee-b805-445d-b4f0-d2fbd3251c62" class="sf-depth-4 sf-no-children">
+              <a href="/hi/news-call-for-proposals-announcements" title="प्रस्तावों के लिए कॉल/घोषणाएँ" class="sf-depth-4">प्रस्तावों के लिए कॉल/घोषणाएँ</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content74a16474-1985-400e-a276-b67a1e7a127c" class="sf-depth-4 sf-no-children">
+              <a href="/hi/team-istad-directory" title="टीम इस्‍टैड और निर्देशिका" class="sf-depth-4">टीम इस्‍टैड और निर्देशिका</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentec2e0326-2377-493b-ab4c-93c49eb6497c" class="sf-depth-4 sf-no-children">
+              <a href="/hi/csir-science-diplomacy-journal" title="साइंस डिप्लोमेसी जर्नल" class="sf-depth-4">साइंस डिप्लोमेसी जर्नल</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content7e001847-9e28-459d-be80-ddcc258af511" class="sf-depth-4 sf-no-children">
+              <a href="https://www.csir.res.in/csir-outreach" title="सीएसआईआर आउटरीच" class="sf-depth-4 sf-external">सीएसआईआर आउटरीच</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content8e3d1afa-87d1-4693-bd7f-99984faf1892" class="sf-depth-3 menuparent">
+              <span title="विज्ञान संचार और प्रसार निदेशालय (एससीडीडी)" class="sf-depth-3 menuparent nolink">विज्ञान संचार और प्रसार निदेशालय (एससीडीडी)</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentfaecc526-67d2-4c1f-a46a-56b38e5a5cad" class="sf-depth-4 sf-no-children">
+              <a href="/hi/science-communication-and-dissemination-directorate-scdd" title="एससीडीडी का अधिदेश" class="sf-depth-4">एससीडीडी का अधिदेश</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content5341d8ed-8e5a-4334-be28-06736c68327c" class="sf-depth-4 sf-no-children">
+              <a href="/hi/science-communication-and-dissemination-directorate-scdd/list-of-staff" title="Officials and Staff details" class="sf-depth-4">अधिकारियों और कर्मचारियों का विवरण</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-menu-link-contentf414bb99-9acc-48d5-ba04-2140fba272a9" class="sf-depth-3 sf-no-children">
+              <a href="/hi/DG%E2%80%99s-executive-directorate" title="महानिदेशक के कार्यकारी निदेशालय" class="sf-depth-3">महानिदेशक के कार्यकारी निदेशालय</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content04c40077-1f24-4ac2-8c16-b2c5174e4ec0" class="sf-depth-3 sf-no-children">
+              <a href="/hi/csir-innovation-complex-mumbai-c-icm" title="सीएसआईआर-इनोवेशन कॉम्प्लेक्स मुंबई (सी-आईसीएम)" class="sf-depth-3">सीएसआईआर-इनोवेशन कॉम्प्लेक्स मुंबई (सी-आईसीएम)</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-menu-link-content49072d35-bf12-47c6-b087-ff6a5d137a14" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/csir-annual-accounts" title="सीएसआईआर वार्षिक लेखा" class="sf-depth-2">सीएसआईआर वार्षिक लेखा</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content168fba04-cb4f-4c2c-9e29-a19ef26eb191" class="sf-depth-2 sf-no-children">
+              <a href="/hi/annual-report" title="वार्षिक विवरण" class="sf-depth-2">वार्षिक विवरण</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content616daaeb-2c49-47ed-881d-d51d56f70f03" class="sf-depth-2 sf-no-children">
+              <a href="/hi/csir-annual-grantsbudget" title="सीएसआईआर वार्षिक अनुदान/बजट" class="sf-depth-2">सीएसआईआर वार्षिक अनुदान/बजट</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentbc59d16b-e8b5-4898-bbed-b655af406e4f" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/former-director-generals" title="पूर्व निदेशक जेनरल" class="sf-depth-2">पूर्व निदेशक जेनरल</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content1381355c-0bcb-4c3a-8643-e4889f5bc17c" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-us/faqs" title="सामान्य प्रश्न" class="sf-depth-2">सामान्य प्रश्न</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content802a8351-f891-4e43-981c-6525bdd5797f" class="sf-depth-2 sf-no-children">
+              <a href="/hi/obituary" title="शोक सन्देश" class="sf-depth-2">शोक सन्देश</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content4037e071-01fc-40eb-a9f5-bb69bebe6f9d" class="sf-depth-2 sf-no-children">
+              <a href="/hi/flipbook/2" title="नियम और विनियम तथा उपविधियाँ" class="sf-depth-2">नियम और विनियम तथा उपविधियाँ</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content4d91304a-844b-4dbd-b45e-ce3780a454eb" class="sf-depth-2 sf-no-children">
+              <a href="https://guesthouse.csir.res.in" title="सीएसआईआर - एमबीएसए बुकिंग" class="sf-depth-2 sf-external">सीएसआईआर - एमबीएसए बुकिंग</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content20dd8b57-413d-48e1-9409-be2dc66e2f88" class="sf-depth-1 menuparent">
+              <span title="आर एंड डी गतिविधियॉ और आउटपुट" class="sf-depth-1 menuparent nolink">आर एंड डी गतिविधियॉ और आउटपुट</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content0119b944-500a-4d5f-acad-a47efae8e613" class="sf-depth-2 sf-no-children">
+              <a href="/hi/csir-theme-directorates" title="सीएसआईआर थीम डायेरेक्टोरेट्स" class="sf-depth-2">सीएसआईआर थीम डायेरेक्टोरेट्स</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content1b98f633-17af-4275-93a9-4f787432a859" class="sf-depth-2 sf-no-children">
+              <a href="/hi/research-publication" title="अनुसंधान प्रकाशन" class="sf-depth-2">अनुसंधान प्रकाशन</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content3a07479d-d4b5-4735-8529-6ea4f31b98cc" class="sf-depth-2 sf-no-children">
+              <a href="/hi/rd-projects-csir" title="सीएसआईआर की अनुसंधान एवं विकास परियोजनाएं" class="sf-depth-2">सीएसआईआर की अनुसंधान एवं विकास परियोजनाएं</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentc8a31508-26d7-4f41-975a-77f0204ba7ac" class="sf-depth-2 sf-no-children">
+              <a href="/hi/technology-transfer" title="तकनीकी हस्तांतरण" class="sf-depth-2">तकनीकी हस्तांतरण</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content849dd5e0-09f2-4cb3-8668-d7f6701dbb4c" class="sf-depth-2 sf-no-children">
+              <a href="/hi/r-d-activities/compendium-technologies" title="प्रौद्योगिकियों का संग्रह" class="sf-depth-2">प्रौद्योगिकियों का संग्रह</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content48fed5e4-7900-40d9-a6ba-b6bb3cb90f9c" class="sf-depth-2 menuparent">
+              <span title="रिपोर्ट" class="sf-depth-2 menuparent nolink">रिपोर्ट</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contenta7a1a47d-c1f1-4ffe-8a8f-2057d3261e91" class="sf-depth-3 sf-no-children">
+              <a href="https://www.csir.res.in/flipbook/44" title="सीएसआईआर योजनाओं के परिणाम की समीक्षा" class="sf-depth-3 sf-external">सीएसआईआर योजनाओं के परिणाम की समीक्षा</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content5218a703-c423-4ccc-bc1e-20d3b954f6a7" class="sf-depth-1 menuparent">
+              <span title="उपलब्धियाँ" class="sf-depth-1 menuparent nolink">उपलब्धियाँ</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentc2f8448d-a6ca-4414-b5ec-064e75910183" class="sf-depth-2 sf-no-children">
+              <a href="/hi/achievements/appreciation-letters" title="प्रशंसा पत्र" class="sf-depth-2">प्रशंसा पत्र</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content1860ce4b-7efe-4dc3-97db-af0f1e4a2018" class="sf-depth-2 sf-no-children">
+              <a href="/hi/latest-achievements" title="नवीनतम उपलब्धियाँ" class="sf-depth-2">नवीनतम उपलब्धियाँ</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contenta30a0146-c0ba-4bd7-8d73-4e90990a3b10" class="sf-depth-2 sf-no-children">
+              <a href="/hi/flipbook/59" title="सीएसआईआर@85: 85 चुनिंदा तकनीकें" class="sf-depth-2">सीएसआईआर@85: 85 चुनिंदा तकनीकें</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content43a47071-d035-4456-8150-f423ffeb6c17" class="sf-depth-2 menuparent">
+              <span title="सीएसआईआर की सफलता की कहानियां और सीएसआईआर नवोन्मेष" class="sf-depth-2 menuparent nolink">सीएसआईआर की सफलता की कहानियां और सीएसआईआर नवोन्मेष</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentb4323fac-cb9f-43a7-a95a-de9a68e66342" class="sf-depth-3 sf-no-children">
+              <a href="https://techindiacsir.anusandhan.net/online/Control.do?_sucstr=" title="सीएसआईआर की सफलता की कहानियां " class="sf-depth-3 sf-external">सीएसआईआर की सफलता की कहानियां </a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contenta19e5259-be96-4580-ab7e-5b0751259539" class="sf-depth-3 sf-no-children">
+              <a href="/hi/csir-milestones" title="सीएसआईआर नवोन्मेष" class="sf-depth-3">सीएसआईआर नवोन्मेष</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content7a8c3566-f9e1-4931-9ffd-886466ce5a6f" class="sf-depth-1 menuparent">
+              <span title="सहयोग" class="sf-depth-1 menuparent nolink">सहयोग</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentc5a38ee7-ed94-40c3-8b9c-00f2233b4fd7" class="sf-depth-2 sf-no-children">
+              <a href="/hi/collaborations/mous-signed" title="समझौतों पर हस्ताक्षर किए" class="sf-depth-2">समझौतों पर हस्ताक्षर किए</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content6dfa4293-d970-41fd-8909-beb75a984a33" class="sf-depth-2 menuparent">
+              <span title="निमितली" class="sf-depth-2 menuparent nolink">निमितली</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentb6a725d1-509a-46e8-9a7f-8a98cc8eca9f" class="sf-depth-3 sf-no-children">
+              <a href="/hi/NMITLI/about-nmitli" title="निमितली के बारे" class="sf-depth-3">निमितली के बारे</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content9cb33108-8535-4e7a-81f9-78f70bfde2fe" class="sf-depth-1 menuparent">
+              <span title="मीडिया में सीएसआईआर" class="sf-depth-1 menuparent nolink">मीडिया में सीएसआईआर</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content72eb07b7-fe37-4908-b024-626ac8deee72" class="sf-depth-2 sf-no-children">
+              <a href="/hi/news-bulletin" title="समाचार पत्रिका" class="sf-depth-2">समाचार पत्रिका</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentd7b474d9-37e3-4aa2-91d4-fb096c448864" class="sf-depth-2 sf-no-children">
+              <a href="/hi/press-release" title="प्रेस विज्ञप्ति" class="sf-depth-2">प्रेस विज्ञप्ति</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content14125403-137a-4440-8d80-08fabb9d280a" class="sf-depth-2 sf-no-children">
+              <a href="https://niscpr.res.in/periodicals/csirnews" title="सीएसआईआर न्यूज" class="sf-depth-2 sf-external">सीएसआईआर न्यूज</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentc0c69759-5e32-44fe-949a-c2b95806f5a1" class="sf-depth-2 sf-no-children">
+              <a href="https://niscpr.res.in/periodicals/csirsamachar" title="सीएसआईआर समाचार" class="sf-depth-2 sf-external">सीएसआईआर समाचार</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content4d69e75d-9949-436d-a3bd-1d8198b6e1dd" class="sf-depth-2 sf-no-children">
+              <a href="https://www.youtube.com/channel/UC-ZY_sMrNWx-gNxtEA6L9Uw" title="सीएसआईआर इंडिया यूट्यूब" class="sf-depth-2 sf-external">सीएसआईआर इंडिया यूट्यूब</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentc9679475-333e-49d7-9562-df6393b7147d" class="sf-depth-2 sf-no-children">
+              <a href="/hi/photo-gallery" title="फोटो गैलरी" class="sf-depth-2">फोटो गैलरी</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content9d8d53ef-b7d9-4585-b292-0865dd9ab1dd" class="sf-depth-2 sf-no-children">
+              <a href="https://newindiasamachar.pib.gov.in/" title="न्यू इंडिया समाचार" class="sf-depth-2 sf-external">न्यू इंडिया समाचार</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentf75b2be1-4016-4949-9958-6dca272d363a" class="sf-depth-2 sf-no-children">
+              <a href="/hi/csir-events" title="सीएसआईआर घटनाएँ" class="sf-depth-2">सीएसआईआर घटनाएँ</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content78be1d4c-2968-4048-9191-7dba7e7a635d" class="sf-depth-2 sf-no-children">
+              <a href="/hi/csirtechconnect" title="CSIR TechConnect" class="sf-depth-2">CSIR TechConnect</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-views-viewviewscommon-content-categorypage-3" class="sf-depth-1 sf-no-children">
+              <a href="/hi/corporate-social-responsibility-csr" title="कॉर्पोरेट सामाजिक उत्तरदायित्व (सीएसआर)" class="sf-depth-1">सीएसआर</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content1b0ca542-685c-4c89-8ebd-89b74ab78d87" class="sf-depth-1 sf-no-children">
+              <a href="/hi/scientific-social-responsibility" title="एसएसआर" class="sf-depth-1">एसएसआर</a>
+                      </li>
+
+
+            
+  <li id="main-menu-link-content08d3dbd1-2118-4d11-aa3b-80a4e4130b89" class="sf-depth-1 menuparent">
+              <span title="सीएसआईआर ब्लॉग" class="sf-depth-1 menuparent nolink">सीएसआईआर ब्लॉग</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-contentf692fb21-31bb-49b4-bbf5-cd4a033f6076" class="sf-depth-2 sf-no-children">
+              <a href="/hi/blog-csir/success-stories" title="सीएसआईआर की सफलता की कहानियां" class="sf-depth-2">सीएसआईआर की सफलता की कहानियां</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content5fca3081-c349-41f7-8333-ee45e7aacfbe" class="sf-depth-2 sf-no-children">
+              <a href="/hi/blog-csir/science-stories" title="सीएसआईआर विज्ञान की कहानियां" class="sf-depth-2">सीएसआईआर विज्ञान की कहानियां</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contenta5ee7dff-93c5-4a5d-a510-ccf6e89e070d" class="sf-depth-2 sf-no-children">
+              <a href="/hi/blog-csir/SciArt" title="सीएसआईआर विज्ञान कला" class="sf-depth-2">सीएसआईआर विज्ञान कला</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+            
+  <li id="main-menu-link-content8429761d-ac52-448f-8a2e-87fccee13f78" class="sf-depth-1 menuparent">
+              <span title="सीएसआईआर में नैतिकता" class="sf-depth-1 menuparent nolink">सीएसआईआर में नैतिकता</span>
+                  <ul>      
+
+
+  
+  <li id="main-menu-link-content03b8a28e-d80c-46d6-a42a-93727d66d1c0" class="sf-depth-2 sf-no-children">
+              <a href="/hi/about-sec-csir" title="एसईसी-सीएसआईआर के बारे में" class="sf-depth-2">एसईसी-सीएसआईआर के बारे में</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentdcce77c9-ce7d-4fdd-a53b-00dd9c3a5442" class="sf-depth-2 sf-no-children">
+              <a href="/hi/declaration-form" title="घोषणा पत्र" class="sf-depth-2">घोषणा पत्र</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentddcaadd0-33fc-49fd-bb88-ffcfaca0039b" class="sf-depth-2 sf-no-children">
+              <a href="/hi/ethics-csir/external-resources" title="बाहरी संसाधन" class="sf-depth-2">बाहरी संसाधन</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content5a6d0a91-f390-4e89-8263-d723b5510119" class="sf-depth-2 sf-no-children">
+              <a href="/hi/conflict-interest-statement-formats" title="हितों का टकराव विवरण प्रारूप" class="sf-depth-2">हितों का टकराव विवरण प्रारूप</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content3e380921-c010-4f1b-9e78-edbc96c53129" class="sf-depth-2 sf-no-children">
+              <a href="/hi/c-dis-template" title="सी-डीआईएस टेम्पलेट" class="sf-depth-2">सी-डीआईएस टेम्पलेट</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content676bbcca-2088-416d-8f9b-c8eae9ea0282" class="sf-depth-2 sf-no-children">
+              <a href="/hi/flipbook/40" title="सीएसआईआर नैतिकता दिशानिर्देश" class="sf-depth-2">सीएसआईआर नैतिकता दिशानिर्देश</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-contentb28ee031-a7da-4e56-beff-5ffb110371f6" class="sf-depth-2 sf-no-children">
+              <a href="/hi/list-csir-ethics-officers" title="सीएसआईआर नैतिकता और सुरक्षा अधिकारियों की सूची" class="sf-depth-2">सीएसआईआर नैतिकता और सुरक्षा अधिकारियों की सूची</a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content7a2026f2-3200-4644-8dcb-cf9ec308634f" class="sf-depth-2 sf-no-children">
+              <a href="/hi/ethics-at-CSIR/events" title="आयोजन" class="sf-depth-2">आयोजन</a>
+                      </li>
+
+
+
+      </ul>              </li>
+
+
+  
+  <li id="main-menu-link-content734e3c71-18f8-4b16-88a8-cf3bf7b66ae1" class="sf-depth-1 sf-no-children">
+              <a href="/hi/career-opportunities/recruitment" title="भर्ती" class="sf-depth-1">भर्ती </a>
+                      </li>
+
+
+  
+  <li id="main-menu-link-content76fa809c-6f02-4b38-b31a-a66570c3d273" class="sf-depth-1 sf-no-children">
+              <a href="/hi/video-gallery/amrit-lecture" title="सीएसआईआर आधुनिक अनुसंधान, नवाचार और प्रौद्योगिकी को गति प्रदान करना [अमृत] व्याख्यान" class="sf-depth-1">अमृत ​​व्याख्यान</a>
+                      </li>
+
+
+
+</ul>
+
+  </div>
+
+  </div>
+
+                     </div>
+      </section>
+      <!-- -------------------- Navbar end -------------------- -->
+      <!-- -------------------- banner start -------------------- -->
+      <section class="banner-wrapper">
+         <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12" style="padding-right: 0px;">
+               <div id="flexSlider" class="flexslider banner-slider" >
+                                      <div>
+    <div class="views-element-container" id="block-views-block-homepage-slider-block-1">
+  
+    
+      <div><div class="js-view-dom-id-cdff09bc4d483568f23f1018b1b36d8ab24099759d20111400b4e673baf45e79">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul class="slides">
+
+          <li><a href="/hi/homepage-slider/saiesaaiara-maukhayaalaya-maen-raasataraiya-ekataa-daivasa-kai-sapatha" title="सीएसआईआर मुख्यालय में राष्ट्रीय एकता दिवस की शपथ">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-10/slider31-10-2026.png?itok=zB2kUw3I" width="1063" height="414" alt="Rashtriya Ekta Divas Pledge in CSIR Hqrs." title="Rashtriya Ekta Divas Pledge in CSIR Hqrs." />
+
+
+</a>
+<p class="csir-slider-title">सीएसआईआर मुख्यालय में राष्ट्रीय एकता दिवस की शपथ</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/paraaudayaogaikai-hasataantarana-kaarayakarama" title="प्रौद्योगिकी हस्तांतरण कार्यक्रम">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-10/slider-30-10-2026b.png?itok=6kSNidy7" width="1063" height="414" alt="Technology Transfer Event" title="Technology Transfer Event" />
+
+
+</a>
+<p class="csir-slider-title">प्रौद्योगिकी हस्तांतरण कार्यक्रम</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/nai-dailalai-kae-bhaarata-mandapama-maen-ubharatae-vaijanaana-paraaudayaogaikai" title="नई दिल्ली के भारत मंडपम में उभरते विज्ञान, प्रौद्योगिकी और नवाचार सम्मेलन">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-10/slider-30-10-2026a.png?itok=8h-tytvk" width="1063" height="414" alt="Emerging Science, Technology and Innovation Conclave at Bharat Mandapam, New Delhi." title="Emerging Science, Technology and Innovation Conclave at Bharat Mandapam, New Delhi." />
+
+
+</a>
+<p class="csir-slider-title">नई दिल्ली के भारत मंडपम में उभरते विज्ञान, प्रौद्योगिकी और नवाचार सम्मेलन</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/saiesaaiara-aiaiaiema-kao-maananaiya-kaendaraiya-vaijanaana-aura-paraaudayaogaikai" title="सीएसआईआर-आईआईआईएम को माननीय केंद्रीय विज्ञान और प्रौद्योगिकी मंत्री और सीएसआईआर के उपाध्यक्ष डॉ. जितेंद्र सिंह का स्वागत करने का सम्मान मिला।">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-10/slider-14-10-2026.png?itok=qtxRNbBm" width="1063" height="414" alt="CSIR–IIIM, had the honour of welcoming Dr Jitendra Singh, Hon’ble Union Minister for Science and Technology and Vice President CSIR" title="CSIR–IIIM, had the honour of welcoming Dr Jitendra Singh, Hon’ble Union Minister for Science and Technology and Vice President CSIR" />
+
+
+</a>
+<p class="csir-slider-title">सीएसआईआर-आईआईआईएम को माननीय केंद्रीय विज्ञान और प्रौद्योगिकी मंत्री और सीएसआईआर के उपाध्यक्ष डॉ. जितेंद्र सिंह का स्वागत करने का सम्मान मिला।</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/saiesaaiara-saielaaraai-kaainpasa-maen-phautavaiyara-aura-laedara-saekatara-kae" title="सीएसआईआर-सीएलआरआई कैंपस में फ़ुटवियर और लेदर सेक्टर के लिए डिज़ाइन स्टूडियो का आधिकारिक तौर पर उद्घाटन किया गया">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-10/slider-12-10-2026.png?itok=1Y6lnWAW" width="1063" height="414" alt="Design Studio for Footwear &amp; Leather Sector has been officially inaugurated at the CSIR-CLRI campus!" title="Design Studio for Footwear &amp; Leather Sector has been officially inaugurated at the CSIR-CLRI campus!" />
+
+
+</a>
+<p class="csir-slider-title">सीएसआईआर-सीएलआरआई कैंपस में फ़ुटवियर और लेदर सेक्टर के लिए डिज़ाइन स्टूडियो का आधिकारिक तौर पर उद्घाटन किया गया</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/bhaarata-sarakaara-kae-vaijanaana-mantaraalayaonvaibhaagaon-kai-maasaika-sanyaukata" title="भारत सरकार के विज्ञान मंत्रालयों/विभागों की मासिक संयुक्त बैठक।">  <img loading="lazy" src="/sites/default/files/styles/home/public/2026-09/slider-22-09-2026.png?itok=r6WBE_Nz" width="1063" height="414" alt="Monthly Joint Meeting of Govt of India&#039;s Science Ministries/Departments." title="Monthly Joint Meeting of Govt of India&#039;s Science Ministries/Departments." />
+
+
+</a>
+<p class="csir-slider-title">भारत सरकार के विज्ञान मंत्रालयों/विभागों की मासिक संयुक्त बैठक।</p>
+
+</li>
+          <li><a href="/hi/homepage-slider/saiesaaiara-aba-vahaatasaepa-para-haai" title="सीएसआईआर अब व्हाट्सएप पर है">  <img loading="lazy" src="/sites/default/files/styles/home/public/2024-01/slider01-01-2024.png?itok=5B7neGqv" width="1063" height="414" alt="CSIR is now on WhatsApp" title="CSIR is now on WhatsApp" />
+
+
+</a>
+<p class="csir-slider-title">सीएसआईआर अब व्हाट्सएप पर है</p>
+
+</li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                 </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" style="padding-left: 0px;">
+               <div class="ticker-head">
+                  समाचार और कार्यक्रम
+               </div>
+               <div class="news-ticker-banner ps-4 pe-4">
+                    <div>
+    <div class="views-element-container" id="block-views-block-news-events-block-1">
+  
+    
+      <div><div class="js-view-dom-id-7193a93c9c08f07f826eb71ea9e1adeda5d4033f03b2b11d81a3fb0889976134">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list home-whatsnew-ticker">
+  
+  <ul>
+
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/career-opportunities/recruitment/saiesaaiara-taikaedaiela-yauunaita-nai-dailalai-maen-0" title="सीएसआईआर-टीकेडीएल यूनिट, नई दिल्ली में प्रोजेक्ट GAP-000001 के अंतर्गत फॉरेस्ट्री एंड इकोलॉजी और एनवायर्नमेंटल साइंसेज में &#039;वॉक-इन इंटरव्यू&#039; के माध्यम से प्रोजेक्ट कर्मियों की नियुक्ति (वॉक-इन इंटरव्यू 12/11/2026)">
+        सीएसआईआर-टीकेडीएल यूनिट, नई दिल्ली में प्रोजेक्ट GAP-000001 के अंतर्गत फॉरेस्ट्री एंड इकोलॉजी और एनवायर्नमेंटल साइंसेज में &#039;वॉक-इन इंटरव्यू&#039; के माध्यम से प्रोजेक्ट कर्मियों की नियुक्ति (वॉक-इन इंटरव्यू 12/11/2026) <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/career-opportunities/recruitment/vaijanaapana-sankhayaa-tkdl082026-saovaa-raigapaa-kae-sandarabha" title="विज्ञापन संख्या TKDL/08/2026 (सोवा रिग्पा) के संदर्भ में 15.10.2026 को आयोजित साक्षात्कार का परिणाम।">
+        विज्ञापन संख्या TKDL/08/2026 (सोवा रिग्पा) के संदर्भ में 15.10.2026 को आयोजित साक्षात्कार का परिणाम। <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/career-opportunities/recruitment/paraojaekata-karamaiyaon-kai-naiyaukatai-kae-laie-vaoka-ina" title="प्रोजेक्ट कर्मियों की नियुक्ति के लिए वॉक-इन-इंटरव्यू का विज्ञापन [दिनांक: 03/11/2026]">
+        प्रोजेक्ट कर्मियों की नियुक्ति के लिए वॉक-इन-इंटरव्यू का विज्ञापन [दिनांक: 03/11/2026] <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/career-opportunities/recruitment/saiesaaiara-kaendaraiya-kaanca-evan-sairaemaika-anausandhaana" title="सीएसआईआर-केंद्रीय कांच एवं सिरेमिक अनुसंधान संस्थान (सीएसआईआर-सीजीसीआरआई), कोलकाता में निदेशक के पद के लिए विज्ञापन [अंतिम तिथि: 30/11/2026]">
+        सीएसआईआर-केंद्रीय कांच एवं सिरेमिक अनुसंधान संस्थान (सीएसआईआर-सीजीसीआरआई), कोलकाता में निदेशक के पद के लिए विज्ञापन [अंतिम तिथि: 30/11/2026] <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/career-opportunities/recruitment/saiesaaiara-naesanala-kaemaikala-laebaoraetarai-saiesaaiara" title="सीएसआईआर-नेशनल केमिकल लेबोरेटरी (सीएसआईआर-एनसीएल), पुणे में डायरेक्टर के पद के लिए विज्ञापन [अंतिम तिथि: 30/11/2026]">
+        सीएसआईआर-नेशनल केमिकल लेबोरेटरी (सीएसआईआर-एनसीएल), पुणे में डायरेक्टर के पद के लिए विज्ञापन [अंतिम तिथि: 30/11/2026] <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/News/Call-for-proposals/Announcements/daiyauuo-saiaiemaie-italai-phaelaosaipa-kaarayakarama-2025-26" title="डीयूओ-सीआईएमईए / इटली फेलोशिप कार्यक्रम 2025-26 [अंतिम तिथि: 31/10/2026]">
+        डीयूओ-सीआईएमईए / इटली फेलोशिप कार्यक्रम 2025-26 [अंतिम तिथि: 31/10/2026] <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/News/Call-for-proposals/Announcements/raaidakalaipha-phaelaosaipa-2026-2027-paraiyaojanaa-avadhai-9" title="रैडक्लिफ़ फ़ेलोशिप 2026-2027 [परियोजना अवधि: 9 महीने (सितंबर 2026–मई 2027]">
+        रैडक्लिफ़ फ़ेलोशिप 2026-2027 [परियोजना अवधि: 9 महीने (सितंबर 2026–मई 2027] <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+          <li><div class="views-field views-field-nothing"><span class="field-content">
+
+
+
+    <a href="/hi/News/Call-for-proposals/Announcements/isapaata-mantaraalaya-sae-parasataava-amantaraita" title="इस्पात मंत्रालय से प्रस्ताव आमंत्रित">
+        इस्पात मंत्रालय से प्रस्ताव आमंत्रित <img src="https://www.csir.res.in/themes/csir/img/new.gif" alt="new">
+    </a>
+</span></div></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+               </div>
+               <div class="footer text-end pe-3 pt-4">
+                                    <a title="view-all" href="/hi/news-events" class="theme-btn-1">सभी को देखें</a>
+                                 </div>
+            </div>
+         </div>
+      </section>
+      <!-- -------------------- banner end -------------------- -->
+      <section class="content-wrapper">
+                   
+      </section>
+      <!-- -------------------- Minister -------------------- -->
+      <section class="min-banner">
+         <div class="container" id="skipCont">
+            <div class="row justify-content-center gap-5">
+               <div class="col-lg-4">
+                  <div class="min-box">
+                     <div class="card">
+                        <div class="card-body d-flex">
+                           <div class="w-25 me-3"><img src="/themes/csir/img/narednra-modi.png" alt="President"></div>
+                                                      <a title="सभी को देखें" href="https://www.pmindia.gov.in/hi/" class="vp-btn-1" target="_blank">
+                           <p class="w-75">श्री नरेन्द्र मोदी  <span>अध्यक्ष, सीएसआईआर</span></p>
+                           </a>
+                                                   </div> 
+					<!--	<div class="card-body d-flex">
+                           
+                           <a title="सभी को देखें" href="https://www.pmindia.gov.in/en/" class="vp-btn-1">
+                              <p class="w-75">Honourable Prime Minister,  <span>अध्यक्ष, सीएसआईआर</span></p>
+                           </a>
+                        </div> -->
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="min-box">
+                     <div class="card">
+                        <div class="card-body d-flex">
+                           <div class="w-25 me-3"><img src="/themes/csir/img/jitendra-singh.png" alt="Vice President"></div>
+                                                      <a title="सभी को देखें" href="/hi/minister/dr-jitendra-singh" class="vp-btn-1">
+                              <p class="w-75">डॉ. जितेंद्र सिंह  <span>उपाध्यक्ष, सीएसआईआर</span></p>
+                           </a>
+                                                   </div> 
+						
+					<!--	<div class="card-body d-flex">
+                          
+                              <p class="w-75">Honourable Minister of State for S & T,  <span>उपाध्यक्ष, सीएसआईआर</span></p>
+                           
+                         
+                        </div> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- -------------------- Minister End-------------------- -->
+      <!-- Home page main content start -->
+      <section class="useful-links mb-3">
+         <div class="container">
+            <div class="row text-center">
+                 <div>
+    <div class="views-element-container" id="block-views-block-csir-homepage-logos-block-2">
+  
+    
+      <div><div class="js-view-dom-id-e9fbe8a580cb2bf8e76dad6bf16790e0e3b36fcd097cc17673ed7a2d6f86eb7d">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+
+
+
+<div class="views-view-responsive-grid views-view-responsive-grid--horizontal" style="--views-responsive-grid--column-count:4;--views-responsive-grid--cell-min-width:80px;--views-responsive-grid--layout-gap:10px;">
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner">  <img loading="lazy" src="/sites/default/files/2025-06/eoffice.png" width="512" height="512" alt="eOffice" title="eOffice" />
+
+<p><a href="https://eoffice.csir.res.in/" title="ई-आफि़स" target="_blank">ई-आफि़स</a></p></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner">  <img loading="lazy" src="/sites/default/files/2023-02/web-mail.png" width="48" height="48" alt="वेब मेल" title="वेब मेल" />
+
+<p><a href="https://mail.gov.in/" title="वेब मेल" target="_blank">वेब मेल</a></p></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner">  <img loading="lazy" src="/sites/default/files/2023-02/network-icon.png" width="25" height="25" alt="सीएसआईआर लैब्स और यूनिट्स" title="सीएसआईआर लैब्स और यूनिट्स" />
+
+<p><a href="/hi/csir-labs-and-units" title="सीएसआईआर लैब्स और यूनिट्स" target="_blank">सीएसआईआर लैब्स और यूनिट्स</a></p></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner">  <img loading="lazy" src="/sites/default/files/2023-02/career.png" width="48" height="48" alt="करियर एवं अवसर" title="करियर एवं अवसर" />
+
+<p><a href="/hi/career-opportunities" title="करियर एवं अवसर" target="_blank">करियर एवं अवसर</a></p></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner">  <img loading="lazy" src="/sites/default/files/2023-09/AMS%20Portal_0.png" width="170" height="170" alt="एएमएस पोर्टल" title="एएमएस पोर्टल" />
+
+<p><a href="https://ams.csir.res.in/" title="एएमएस पोर्टल" target="_blank">एएमएस पोर्टल</a></p></div>
+    </div>
+  </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+            </div>
+         </div>
+      </section>
+      <section class="lab-card">
+         <div class="container">
+            <div class="row text-center">
+               <h2>  सीएसआईआर प्रयोगशालाएं क्लस्टरवाइज</h2>
+                 <div>
+    <div class="views-element-container" id="block-views-block-csir-homepage-logos-block-3">
+  
+    
+      <div><div class="js-view-dom-id-2953c551922cec748ee870785ceec2c6879bd88837f47babcc5d481f6abf5e04">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-view-grid horizontal cols-5 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="views-col col-1" style="width: 20%;"><div class="cards">
+<div class="card">
+<div class="card-body"><span class="icon">  <img loading="eager" src="/sites/default/files/2023-02/biological.png" width="48" height="48" alt="जैविक विज्ञान" title="जैविक विज्ञान" />
+
+     </span>   
+<h2>11</h2>       
+<p><a href="/hi/Biological-sciences" title="जैविक विज्ञान">जैविक विज्ञान</a></p>
+</div>
+</div>
+</div>
+
+
+</div>
+                  <div class="views-col col-2" style="width: 20%;"><div class="cards">
+<div class="card">
+<div class="card-body"><span class="icon">  <img loading="eager" src="/sites/default/files/2023-02/chemical.png" width="48" height="48" alt="रासायनिक विज्ञान" title="रासायनिक विज्ञान" />
+
+     </span>   
+<h2>09</h2>       
+<p><a href="/hi/Chemical-sciences" title="रासायनिक विज्ञान">रासायनिक विज्ञान</a></p>
+</div>
+</div>
+</div>
+
+
+</div>
+                  <div class="views-col col-3" style="width: 20%;"><div class="cards">
+<div class="card">
+<div class="card-body"><span class="icon">  <img loading="eager" src="/sites/default/files/2023-02/engineering.png" width="48" height="48" alt="इंजीनियरिंग विज्ञान" title="इंजीनियरिंग विज्ञान" />
+
+     </span>   
+<h2>10</h2>       
+<p><a href="/hi/Engineering-sciences" title="इंजीनियरिंग विज्ञान">इंजीनियरिंग विज्ञान</a></p>
+</div>
+</div>
+</div>
+
+
+</div>
+                  <div class="views-col col-4" style="width: 20%;"><div class="cards">
+<div class="card">
+<div class="card-body"><span class="icon">  <img loading="eager" src="/sites/default/files/2023-02/information.png" width="48" height="48" alt="सूचना विज्ञान" title="सूचना विज्ञान" />
+
+     </span>   
+<h2>02</h2>       
+<p><a href="/hi/Information-sciences" title="सूचना विज्ञान">सूचना विज्ञान</a></p>
+</div>
+</div>
+</div>
+
+
+</div>
+                  <div class="views-col col-5" style="width: 20%;"><div class="cards">
+<div class="card">
+<div class="card-body"><span class="icon">  <img loading="eager" src="/sites/default/files/2023-02/physical.png" width="48" height="48" alt="भौतिक विज्ञान" title="भौतिक विज्ञान" />
+
+     </span>   
+<h2>05</h2>       
+<p><a href="/hi/Physical-sciences" title="भौतिक विज्ञान">भौतिक विज्ञान</a></p>
+</div>
+</div>
+</div>
+
+
+</div>
+              </div>
+      </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+            </div>
+         </div>
+      </section>
+      <section class="social">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="card social-card">
+                     <div class="card-header">
+                        <h2 class="head">यूट्यूब</h2>
+                     </div>
+                     <div class="card-body" style="height:350px; overflow: hidden;">
+                          <div>
+    <div class="views-element-container" id="block-csir-views-block-video-gallery-block-2">
+  
+    
+      <div><div class="js-view-dom-id-cbace6143d92da2c71520c4dff0dd5c554c556758c29611f0d291ff4c85c15f4">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-video-link"><div class="field-content"><div class="video-embed-field-provider-youtube video-embed-field-responsive-video"><iframe width="854" height="480" allowfullscreen="allowfullscreen" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rf7SJ52e8h8?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+</div>
+</div></div></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+      <footer>
+      <div class="footer text-end-video"><a class="theme-btn-1" href="https://www.youtube.com/@CSIRINDIA1942/videos" title=" View More Videos">View More</a></div>
+    </footer>
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="card social-card">
+                     <div class="card-header">
+                        <h2 class="head">फेसबुक</h2>
+                     </div>
+                     <div class="card-body" style="height:350px; overflow: hidden;">
+                          <div>
+    <div id="block-facebookfeed">
+  
+    
+      
+            <div><p><iframe style="border:none;overflow:hidden;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FINDIA.CSIR%2F&amp;tabs=timeline&amp;width=600&amp;height=340&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="600" height="340" allow="encrypted-media" title="Facebook"></iframe></p></div>
+      
+  </div>
+
+  </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="gallery-wrapper">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="gallery">
+                     <ul class="nav nav-tabs nav-pills" id="myTab" role="tablist">
+                        <li class="nav-item first" role="presentation">
+                           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#gallery" type="button" role="tab" aria-controls="gallery" aria-selected="true">फोटो गैलरी</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#cast" type="button" role="tab" aria-controls="cast" aria-selected="false">वेब कास्ट</button>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="gallery" role="tabpanel" aria-labelledby="home-tab">
+                           <div class="slider gallery-slider">
+                                                              <div>
+    <div class="views-element-container" id="block-views-block-photo-gallery-block-1">
+  
+    
+      <div><div class="js-view-dom-id-4b21362d42e2318539447a5e8528327f600a18e3707f44e87765ceb9dcad666c">
+  
+  
+  
+
+  
+  
+  
+
+    <div class="slick blazy slick--view slick--view--photo-gallery slick--view--photo-gallery--block-1 slick--view--photo-gallery-block-block-1 slick--optionset--default" data-blazy="" id="slick-views-photo-gallery-block-block-1-1">
+      <div id="slick-views-photo-gallery-block-block-1-1-slider" data-slick="{&quot;autoplay&quot;:true,&quot;draggable&quot;:false,&quot;infinite&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;count&quot;:10}" class="slick__slider">
+  
+      
+  <div class="slick__slide slide slide--0 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image1.jpg?itok=KwsNtbhT" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--1 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image2.jpg?itok=pj34kvxt" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--2 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image3.jpg?itok=rlZgqwyU" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--3 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image4.jpg?itok=r6NkFy-P" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--4 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image5.jpg?itok=J7fX8LW2" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--5 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image6.jpg?itok=xUTy5mHY" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--6 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image55.jpg?itok=mhTL07wQ" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--7 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image7.jpg?itok=M0oFJfKs" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--8 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image8.jpg?itok=Hdv7A6hs" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--9 slide--text">
+  <div class="slide__content">
+  
+            
+        <div class="slide__caption">
+          
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-field-image-multiple"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/max_650x650/public/2026-10/red-pledge-image9.jpg?itok=g6jkeX3f" width="650" height="434" alt="Rashtriya Ekta Divas Pledge" title="Rashtriya Ekta Divas Pledge" />
+
+
+</div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  
+      </div>
+          <nav role="navigation" class="slick__arrow">
+        <button type="button" data-role="none" class="slick-prev" aria-label="पिछला" tabindex="0">पिछला</button>
+                <button type="button" data-role="none" class="slick-next" aria-label="अगला" tabindex="0">अगला</button>
+      </nav>
+      </div>
+
+
+    
+
+  
+  <div class="more-link"><a href="/hi/photo-gallery">सभी को देखें</a></div>
+
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                                         </div>
+                        </div>
+                        <div class="tab-pane fade" id="cast" role="tabpanel" aria-labelledby="profile-tab">
+                           <div class="slider gallery-slider">
+                                                              <div>
+    <div class="views-element-container" id="block-csir-views-block-video-gallery-block-1">
+  
+    
+      <div><div class="js-view-dom-id-327004c26faf9b3eca56a185506d30e81fb737eaf1bfa9620cfd95774fec86c0">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-field-video-link"><div class="field-content"><div class="video-embed-field-provider-youtube video-embed-field-responsive-video"><iframe width="854" height="480" allowfullscreen="allowfullscreen" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rf7SJ52e8h8?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+</div>
+</div></div></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  <div class="more-link"><a href="/hi/video-gallery">सभी को देखें</a></div>
+
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                                         </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                                      <div>
+    <div class="views-element-container" id="block-views-block-csir-homepage-logos-block-4">
+  
+    
+      <div><div class="js-view-dom-id-c046a9111499f689a348429b994d3d890fd591abf61d98848b45fa316153e784">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul class="bottom-info-list">
+
+          <li><a href="/hi/csir-directory-whos-who" title="कौन कौन है ">कौन कौन है <span>  <img loading="eager" src="/sites/default/files/2023-02/whos-who.png" width="46" height="46" alt="कौन कौन है " title="कौन कौन है " />
+
+</span></a>
+
+
+
+</li>
+          <li><a href="/hi/right-informations" title="सूचना का अधिकार">सूचना का अधिकार<span>  <img loading="eager" src="/sites/default/files/2023-02/training.png" width="46" height="46" alt="सूचना का अधिकार" title="सूचना का अधिकार" />
+
+</span></a>
+
+
+
+</li>
+          <li><a href="/hi/csir-highlights" title="सीएसआईआर हाइलाइट्स">सीएसआईआर हाइलाइट्स<span>  <img loading="eager" src="/sites/default/files/2023-02/highlight.png" width="46" height="46" alt="सीएसआईआर हाइलाइट्स" title="सीएसआईआर हाइलाइट्स" />
+
+</span></a>
+
+
+
+</li>
+          <li><a href="/hi/ebooklets" title="ई-पुस्तिकाएं">ई-पुस्तिकाएं<span>  <img loading="eager" src="/sites/default/files/2023-02/booklet-e.png" width="46" height="46" alt="ई-पुस्तिकाएं" title="ई-पुस्तिकाएं" />
+
+</span></a>
+
+
+
+</li>
+          <li><a href="/hi/csir-laboratories" title="सीएसआईआर प्रयोगशालाएं ">सीएसआईआर प्रयोगशालाएं <span>  <img loading="eager" src="/sites/default/files/2023-02/industrial-collaboration.png" width="46" height="46" alt="सीएसआईआर प्रयोगशालाएं " title="सीएसआईआर प्रयोगशालाएं " />
+
+</span></a>
+
+
+
+</li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                 </div>
+               <div class="col-lg-4">
+                  <div class="bottom-cards">
+                                            <div>
+    <div class="views-element-container" id="block-views-block-csir-homepage-logos-block-5">
+  
+    
+      <div><div class="js-view-dom-id-b615f7991ee4180bad04062b95ae2d0db05efc14f595de1b782ad18f5057579f">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="card bottom-card-img some-links pos-1">           <img loading="eager" src="/sites/default/files/2023-02/covid-19.png" width="196" height="156" alt="सीयूआरईडी" title="सीयूआरईडी" />
+
+
+<p>          <a href="https://www.iiim.res.in/cured/" title="सीयूआरईडी" target="_blank">सीयूआरईडी</a></p>
+
+</div>
+    <div class="card bottom-card-img some-links pos-1">           <img loading="eager" src="/sites/default/files/2023-02/patent.png" width="196" height="156" alt="सीएसआईआर पेटेंट" title="सीएसआईआर पेटेंट" />
+
+
+<p>          <a href="http://www.patestate.com/" title="सीएसआईआर पेटेंट" target="_blank">सीएसआईआर पेटेंट</a></p>
+
+</div>
+    <div class="card bottom-card-img some-links pos-1">           <img loading="eager" src="/sites/default/files/2023-02/network.png" width="196" height="156" alt="सीएसआईआर नेटवर्क मानचित्र" title="सीएसआईआर नेटवर्क मानचित्र" />
+
+
+<p>          <a href="/hi/about-us/csir-network-map" title="सीएसआईआर नेटवर्क मानचित्र" target="_blank">सीएसआईआर नेटवर्क मानचित्र</a></p>
+
+</div>
+    <div class="card bottom-card-img some-links pos-1">           <img loading="eager" src="/sites/default/files/2023-02/csirnew.png" width="196" height="156" alt="सीएसआईआर प्रौद्योगिकी शोकेस" title="सीएसआईआर प्रौद्योगिकी शोकेस" />
+
+
+<p>          <a href="https://techindiacsir.anusandhan.net/online/Control.do?_main=488t3s" title="सीएसआईआर प्रौद्योगिकी शोकेस" target="_blank">सीएसआईआर प्रौद्योगिकी शोकेस</a></p>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                       </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- -------------------- gallery end -------------------- -->
+	  <!-- -------------------- footer Social Media start -------------------- -->
+     <!-- <section class="media-links mb-3">
+         <div class="container">
+            <div class="row text-center">
+			<h2>  CSIR Social Media</h2>
+                 <div>
+    <div class="views-element-container" id="block-csir-views-block-basic-page-block-18">
+  
+    
+      <div><div class="js-view-dom-id-b3011481d7f2324f5c3942294cf90535cde368e65a8f46bec425871dd3f6e04f">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><div class="csir-social-page"><div class="social-links col-mb-2"><a class="twitter-logo" href="https://x.com/CSIR_IND" target="_blank"><svg class="bi bi-twitter-x" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path></svg>X </a><a class="youtube-logo" href="https://youtube.com/@CSIRINDIA1942?si=DG7FnR7tAgu4ZejQ" target="_blank"><svg class="bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"></path></svg>यूट्यूब </a><a class="whatsapp-logo" href="https://whatsapp.com/channel/0029VaINdbL5q08ecWc8zV1P" target="_blank"><svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>व्हाट्सप्प </a><a class="instagram-logo gradient " href="https://www.instagram.com/csirindia" target="_blank"><svg class="bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path></svg>इंस्टाग्राम </a><a class="facebook-logo" href="https://www.facebook.com/INDIA.CSIR" target="_blank"><svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path></svg>फेसबुक</a><a class="linkedin-logo" href="https://www.linkedin.com/company/csir-india/" target="_blank"><svg class="bi bi-linkedin" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zM3.743 5.15c.837 0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.343-1.248S2.4 3.192 2.4 3.902c0 .694.521 1.248 1.327 1.248h.016zM13.458 13.394v-3.604c0-1.929-1.03-2.827-2.404-2.827-1.108 0-1.604.608-1.881 1.035V6.169H6.772c.03.608 0 7.225 0 7.225h2.401v-4.037c0-.216.016-.432.08-.586.173-.432.568-.88 1.232-.88.869 0 1.216.664 1.216 1.636v3.867h2.401z"></path></svg>लिंक्डइन </a> <a class="spotify-logo" href="https://open.spotify.com/show/5roMIyv8jdBaDBKYgyJ193?si=IH2Tho5lSK-wlNHgrGWl4g&amp;nd=1&amp;dlsi=8d0ddfcb5caa4584" target="_blank"><svg class="bi bi-spotify" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.93 11.53a.5.5 0 0 1-.69.17c-1.89-1.16-4.27-1.42-7.07-.77a.5.5 0 1 1-.23-.97c3.05-.72 5.67-.42 7.82.89a.5.5 0 0 1 .17.68zm.99-2.2a.63.63 0 0 1-.86.21c-2.16-1.33-5.46-1.71-8.01-.92a.63.63 0 1 1-.36-1.21c2.89-.86 6.52-.44 8.99 1.07.29.18.38.57.21.85zm.09-2.29C10.63 5.7 6.63 5.56 4.4 6.3a.75.75 0 1 1-.47-1.42c2.56-.85 7.01-.68 9.7.98a.75.75 0 0 1-.61 1.38z"></path></svg>स्पॉटिफाई  </a></div></div></div></div><div class="views-field views-field-field-attachment"><div class="field-content"></div></div><div class="views-field views-field-field-image"><div class="field-content"></div></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+            </div>
+         </div>
+      </section> -->
+
+         <section class="lab-card">
+         <div class="container">
+            <div class="row text-center">
+               <h2>  सीएसआईआर सोशल मीडिया</h2>
+                 <div>
+    <div class="views-element-container" id="block-csir-views-block-basic-page-block-18">
+  
+    
+      <div><div class="js-view-dom-id-b3011481d7f2324f5c3942294cf90535cde368e65a8f46bec425871dd3f6e04f">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><div class="csir-social-page"><div class="social-links col-mb-2"><a class="twitter-logo" href="https://x.com/CSIR_IND" target="_blank"><svg class="bi bi-twitter-x" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path></svg>X </a><a class="youtube-logo" href="https://youtube.com/@CSIRINDIA1942?si=DG7FnR7tAgu4ZejQ" target="_blank"><svg class="bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"></path></svg>यूट्यूब </a><a class="whatsapp-logo" href="https://whatsapp.com/channel/0029VaINdbL5q08ecWc8zV1P" target="_blank"><svg class="bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>व्हाट्सप्प </a><a class="instagram-logo gradient " href="https://www.instagram.com/csirindia" target="_blank"><svg class="bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path></svg>इंस्टाग्राम </a><a class="facebook-logo" href="https://www.facebook.com/INDIA.CSIR" target="_blank"><svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path></svg>फेसबुक</a><a class="linkedin-logo" href="https://www.linkedin.com/company/csir-india/" target="_blank"><svg class="bi bi-linkedin" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zM3.743 5.15c.837 0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.343-1.248S2.4 3.192 2.4 3.902c0 .694.521 1.248 1.327 1.248h.016zM13.458 13.394v-3.604c0-1.929-1.03-2.827-2.404-2.827-1.108 0-1.604.608-1.881 1.035V6.169H6.772c.03.608 0 7.225 0 7.225h2.401v-4.037c0-.216.016-.432.08-.586.173-.432.568-.88 1.232-.88.869 0 1.216.664 1.216 1.636v3.867h2.401z"></path></svg>लिंक्डइन </a> <a class="spotify-logo" href="https://open.spotify.com/show/5roMIyv8jdBaDBKYgyJ193?si=IH2Tho5lSK-wlNHgrGWl4g&amp;nd=1&amp;dlsi=8d0ddfcb5caa4584" target="_blank"><svg class="bi bi-spotify" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewbox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.93 11.53a.5.5 0 0 1-.69.17c-1.89-1.16-4.27-1.42-7.07-.77a.5.5 0 1 1-.23-.97c3.05-.72 5.67-.42 7.82.89a.5.5 0 0 1 .17.68zm.99-2.2a.63.63 0 0 1-.86.21c-2.16-1.33-5.46-1.71-8.01-.92a.63.63 0 1 1-.36-1.21c2.89-.86 6.52-.44 8.99 1.07.29.18.38.57.21.85zm.09-2.29C10.63 5.7 6.63 5.56 4.4 6.3a.75.75 0 1 1-.47-1.42c2.56-.85 7.01-.68 9.7.98a.75.75 0 0 1-.61 1.38z"></path></svg>स्पॉटिफाई  </a></div></div></div></div><div class="views-field views-field-field-attachment"><div class="field-content"></div></div><div class="views-field views-field-field-image"><div class="field-content"></div></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+            </div>
+
+
+		 </div>
+		 
+      </section> 
+      <!-- -------------------- footer Social Media end -------------------- -->
+      <!-- -------------------- footer slider start -------------------- -->
+      <section class="footer-slider">
+         <div class="container">
+            <div id="flexCarousel" class="flexslider footer-corousel footer-slider-b">
+                                <div>
+    <div class="views-element-container" id="block-views-block-footer-banner-block-1">
+  
+    
+      <div><div class="js-view-dom-id-4a121e8f17063aed3b743ad5ae3a69dd54dbebb58f7e3f9e2e7756595fc9e1e5">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul class="slides">
+
+          <li><a href="https://apctt.org/" title="एपीसीटीटी" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-07/apctt1.png" width="200" height="87" alt="APCTT " title="APCTT " />
+
+ </a></li>
+          <li><a href="https://kheloindia.gov.in/" title="खेलो इंडिया" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-06/khelo-india-image4_0.png" width="200" height="87" alt="Khelo India" title="Khelo India" />
+
+ </a></li>
+          <li><a href="https://covid19csir.urdip.res.in/" title="सीओवीआईडी-19 के खिलाफ सीएसआईआर" target="_blank">  <img loading="lazy" src="/sites/default/files/2025-07/covid-banner.png" width="200" height="87" alt="सीओवीआईडी-19 के खिलाफ सीएसआईआर" title="सीओवीआईडी-19 के खिलाफ सीएसआईआर" />
+
+ </a></li>
+          <li><a href="https://www.cooperation.gov.in/" title="आईवाईसी" target="_blank">  <img loading="lazy" src="/sites/default/files/2025-06/iyc-logo-image.png.png" width="200" height="87" alt="IYC" title="IYC" />
+
+ </a></li>
+          <li><a href="/hi/csir-one-week-one-lab-program" title="एक सप्ताह एक लैब" target="_blank">  <img loading="lazy" src="/sites/default/files/2024-01/one-week%C5%8Dne-lab.png" width="200" height="87" alt="One Week one Lab" title="One Week one Lab" />
+
+ </a></li>
+          <li><a href="https://www.nvsp.in/" title="Online Services For Voters" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/img-3%201.png" width="200" height="87" alt="Online Services For Voters" title="Online Services For Voters" />
+
+ </a></li>
+          <li><a href="" title="Integrity Pledge" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/integrity-pledge%201.png" width="200" height="87" alt="Integrity Pledge" title="Integrity Pledge" />
+
+ </a></li>
+          <li><a href="https://www.g20.org/en/" title="G20" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/g20_banner1_0.png" width="200" height="87" alt="G20" title="G20" />
+
+ </a></li>
+          <li><a href="https://www.india.gov.in/" title="India Gov" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/india-govn_0_0.png" width="200" height="87" alt="India Gov" title="India Gov" />
+
+ </a></li>
+          <li><a href="/hi/cyber-jaagrookta" title="Cyber Jaagrookta" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/cyberjaagrokta_0.png" width="200" height="87" alt="Cyber Jaagrookta" title="Cyber Jaagrookta" />
+
+ </a></li>
+          <li><a href="https://www.mygov.in/" title="MyGov" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/mygov%201_0.png" width="200" height="87" alt="MyGov" title="MyGov" />
+
+ </a></li>
+          <li><a href="https://www.aarogyapath.in/" title="Aarogyapath" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/arogyapath_0.png" width="200" height="87" alt="Aarogyapath" title="Aarogyapath" />
+
+ </a></li>
+          <li><a href="https://pgportal.gov.in/" title="Portal For Public Grievances" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/pg-portal_0%201_0.png" width="200" height="87" alt="Portal For Public Grievances" title="Portal For Public Grievances" />
+
+ </a></li>
+          <li><a href="https://twitter.com/cyberdost?lang=en" title="Cyber Dost" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/cyber-dost%201_0.png" width="200" height="87" alt="Cyber Dost" title="Cyber Dost" />
+
+ </a></li>
+          <li><a href="https://services.india.gov.in/" title="National Government Services Portal" target="_blank">  <img loading="lazy" src="/sites/default/files/2023-08/services_portal-GSP1%201_0.png" width="200" height="87" alt="National Government Services Portal" title="National Government Services Portal" />
+
+ </a></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                           </div>
+         </div>
+      </section>
+      <!-- -------------------- footer slider end -------------------- -->
+
+      <!-- -------------------- footer bottom start -------------------- -->
+      <section class="footer-wrapper">
+         <div class="container-fluid footer-bottom">
+                          <div>
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul class="footer-menu container d-flex justify-content-center list-unstyled">
+              <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/website-policies" title="वेबसाइट नीति" data-drupal-link-system-path="node/3">वेबसाइट नीति</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/help" title="मदद" data-drupal-link-system-path="node/538">मदद</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/csir/contact" title="प्रतिक्रिया" data-drupal-link-system-path="webform/contact">प्रतिक्रिया</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/Contact-us" title="संपर्क करें" data-drupal-link-system-path="node/459">संपर्क करें</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/Web-Information-Manager" title="वेब सूचना प्रबंधक" data-drupal-link-system-path="node/477">वेब सूचना प्रबंधक</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/cyber-jaagrookta" title="साइबर जागरुकता" data-drupal-link-system-path="node/1615">साइबर जागरुकता</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/Public-Grievances" title="लोक शिकायतें" data-drupal-link-system-path="node/478">लोक शिकायतें</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/Terms-and-Conditions" title="नियम एवं शर्तें" data-drupal-link-system-path="node/481">नियम एवं शर्तें</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="http://spb.ncl.res.in/" title="स्पोर्ट्स प्रमोशन बोर्ड ">स्पोर्ट्स प्रमोशन बोर्ड </a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/tenders" title="निविदाएं" data-drupal-link-system-path="tenders">निविदाएं</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/csir-directory" title="सीएसआईआर निर्देशिका" data-drupal-link-system-path="csir-directory">सीएसआईआर निर्देशिका</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/forms" title="फार्म" data-drupal-link-system-path="forms">फार्म</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/about-us/faqs" title="सामान्य प्रश्न" data-drupal-link-system-path="about-us/faqs">सामान्य प्रश्न</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/knowledge-resource-center" title="ज्ञान संसाधन केंद्र" data-drupal-link-system-path="knowledge-resource-center">ज्ञान संसाधन केंद्र</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/notification" title="अधिसूचना" data-drupal-link-system-path="notification">अधिसूचना</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/IEM-Integrity-Pact" title="आईईएम/इंटीग्रिटी पैक्ट" data-drupal-link-system-path="node/482">आईईएम/इंटीग्रिटी पैक्ट</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/Disclaimer" title="अस्वीकरण" data-drupal-link-system-path="node/483">अस्वीकरण</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/covid-guidelines" title="कोविड दिशानिर्देश" data-drupal-link-system-path="taxonomy/term/84">कोविड दिशानिर्देश</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/archival-section" title="अभिलेखीय अनुभाग" data-drupal-link-system-path="taxonomy/term/376">अभिलेखीय अनुभाग</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/stores-purchase-universe" title="स्टोर - खरीद संपूर्ण जगत" data-drupal-link-system-path="node/1229">स्टोर - खरीद संपूर्ण जगत</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/finance-accounts-universe" title="वित्त एवं लेखा जगत" data-drupal-link-system-path="node/22672">वित्त एवं लेखा जगत</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/procurement-plan-of-csir-labs" title="खरीद योजनाएँ" data-drupal-link-system-path="procurement-plan-of-csir-labs">खरीद योजनाएँ</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/handling-of-complaints-of-sexual-harassment" title="Handling of Complaints of Sexual Harassment" data-drupal-link-system-path="handling-of-complaints-of-sexual-harassment">यौन उत्पीड़न की शिकायतों का निपटान</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/csir-logo" title="सीएसआईआर लोगो" data-drupal-link-system-path="node/6527">सीएसआईआर लोगो</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="https://sparrow-dsir.eoffice.gov.in/" title="स्मार्ट प्रदर्शन मूल्यांकन रिपोर्ट रिकॉर्डिंग ऑनलाइन विंडो">स्पैरो</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="https://onlinecomplaint.csir.res.in/home/complaint" title="Lodge complaint with CVO,CSIR">सीवीओ, सीएसआईआर के पास शिकायत दर्ज करें</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/debarred-firms-in-whole-of-csir" title="वर्जित फर्में" data-drupal-link-system-path="debarred-firms-in-whole-of-csir">वर्जित फर्में</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="https://e-hrms.gov.in/login" title="ई-एचआरएमएस">ई-एचआरएमएस</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/best-practices" title="सर्वश्रेष्ठ प्रणालियां" data-drupal-link-system-path="best-practices">सर्वश्रेष्ठ प्रणालियां</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="/hi/saiesaaiara-odabalayauuotai-laogao" title="सीएसआईआर ओडब्ल्यूओटी लोगो" data-drupal-link-system-path="node/18499">सीएसआईआर ओडब्ल्यूओटी लोगो</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="http://saraldata.csir.res.in/" title="सरल डाटा पोर्टल">सरल डाटा पोर्टल</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="https://datalink.csir.res.in/" title="एसएनपी डेटालिंक">एसएनपी डेटालिंक</a>
+              </li>
+          <li class="menu__item is-leaf leaf d-inline-block ms-2 me-2">
+        <a href="https://guesthouse.csir.res.in" title="सीएसआईआर-एमबीएसए गेस्ट हाउस ऑनलाइन वेब एप्लीकेशन">सीएसआईआर-एमबीएसए गेस्ट हाउस ऑनलाइन वेब एप्लीकेशन</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                        <div class="container m-auto d-flex justify-content-between">
+                 <div>
+    <div id="block-cbpsbanner">
+  
+    
+      
+            <div><div class="cbps-banner"><img style="cursor:pointer;" src="https://cbpssubscriber.mygov.in/assets/uploads/X0qP81f7lg3YqNFI?74?71" alt="Share your ideas" id="_bjvFE8DQEdO675zZ" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/bjvFE8DQEdO675zZ')" onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)" /></div></div>
+      
+  </div>
+
+  </div>
+
+                 <div>
+    <div id="block-footercontent">
+  
+    
+      
+            <div><p class="copyright-text">वैज्ञानिक तथा औद्योगिक अनुसंधान परिषद् द्वारा प्रबंधित सामग्री, राष्ट्रीय सूचना विज्ञान केंद्र (एनआईसी) द्वारा डिजाइन, विकसित और होस्ट किया गया</p><p class="copyright-text">यह साइट मोज़िला, क्रोम, एज ब्राउज़र में सबसे अच्छी तरह देखी जा सकती है।</p></div>
+      
+  </div>
+<div class="views-element-container" id="block-views-block-last-updated-block-1">
+  
+    
+      <div><div class="js-view-dom-id-2dc0c231b4cdaddcf9921c059a5154d09162d908a08119f142f86d4e55414858">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><span class="copyright-text">अंतिम अद्यतन : <time datetime="2026-10-31T21:14:27+05:30">31/अक्टूबर/2026</time>
+</span></span></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+                                <div>
+    <div id="block-csir-uneevisitorblock">
+  
+    
+      Total Visitor(hi): 278493
+  </div>
+<div id="block-csir-newslettersubscribeform-2">
+  
+      <h2>सीएसआईआर के दैनिक समाचार बुलेटिन की सदस्यता लेने के लिए, अपना ईमेल आईडी दर्ज करें</h2>
+    
+      <div><div id="newsletter-form-wrapper"><form class="node-newsletter-subscribe-form node-form" data-drupal-selector="node-newsletter-subscribe-form-2" action="/hi" method="post" id="node-newsletter-subscribe-form--2" accept-charset="UTF-8">
+  <input data-drupal-selector="edit-changed" type="hidden" name="changed" value="1793477100" />
+<div class="field--type-string field--name-title field--widget-string-textfield js-form-wrapper form-wrapper" data-drupal-selector="edit-title-wrapper" id="edit-title-wrapper--2">      <div class="js-form-item form-item js-form-type-textfield form-item-title-0-value js-form-item-title-0-value">
+      <label for="edit-title-0-value--2" class="js-form-required form-required">Email Address</label>
+        <input class="js-text-full text-full form-text required" data-drupal-selector="edit-title-0-value" data-msg-maxlength="Email Address field has a maximum length of 255." data-msg-required="Email Address field is required." type="text" id="edit-title-0-value--2" name="title[0][value]" value="" size="60" maxlength="255" placeholder="" required="required" aria-required="true" />
+
+        </div>
+
+  </div>
+<input autocomplete="off" data-drupal-selector="form-4rrsfat3o843fjmomf6nbcspqrks5tvn2eurib5mxek" type="hidden" name="form_build_id" value="form-4RrsfAt3o843FjMomf6NBCspqrKS5TvN2EUrib5Mxek" />
+<input data-drupal-selector="edit-node-newsletter-subscribe-form-2" type="hidden" name="form_id" value="node_newsletter_subscribe_form" />
+<div class="js-form-item form-item js-form-type-vertical-tabs form-item- js-form-item- form-no-label">
+      <label for="edit-advanced--3" class="visually-hidden">कार्यक्षेत्र टैब्स</label>
+        <div class="entity-meta" data-drupal-selector="edit-advanced" data-vertical-tabs-panes><input class="vertical-tabs__active-tab" data-drupal-selector="edit-advanced-active-tab" type="hidden" name="advanced__active_tab" value="" />
+</div>
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Subscribe" class="button button--primary js-form-submit form-submit" />
+</div>
+
+</form>
+</div></div>
+
+  </div>
+
+  </div>
+
+                              <div>
+                    <div>
+    <div id="block-stqclogo">
+  
+    
+      
+            <div><div class="stqc-logo"><a href="/sites/default/files/2023-08/CSIR-GIGW-2023-1.pdf" target="_blank" title="GIGW Certificate"><img src="/sites/default/files/inline-images/cqw_logo.png" data-entity-uuid="d9f28fab-69a3-4466-927b-bc0bc2bbf572" data-entity-type="file" alt="CQW Logo" width="71" height="66" loading="lazy" /></a>   <br /><a href="/sites/default/files/2025-09/security-audit-2025_d10.pdf" target="_blank" title="Security Audit Certificate"><img src="/sites/default/files/inline-images/security_audit.png" data-entity-uuid="a29efb40-81b1-4da6-a8e2-8befce01cdc3" data-entity-type="file" alt="Audit" width="71" height="66" loading="lazy" /></a></div></div>
+      
+  </div>
+
+  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+  
+<!-- </div> -->
+		<!-- accessibility panel --><div   class="uwaw uw-light-theme gradient-head uwaw-initial paid_widget"   id="uw-main"   >   <div class="relative second-panel">      <h3>Accessibility options by UX4G</h3>      <div class="uwaw-close" onclick="closeMain()"></div>   </div>   <div class="uwaw-body">      <div class="h-scroll">         <div class="uwaw-features">            <div class="uwaw-features__item reset-feature" id="featureItem_sp">               <button                  id="speak"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-speaker"> </span>               </span>               <span class="uwaw-features__item__name">Text To Speech</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon_sp"                  style="display: none"                  >               </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem">               <button                  id="btn-s9"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >                  <span class="uwaw-features__item__icon">                  <span class="ux4g-icon icon-bigger-text"> </span> </span                     ><span class="uwaw-features__item__name">Bigger Text</span>                  <span                     class="uwaw-features__item__steps reset-steps"                     id="featureSteps"                     >                     <!-- Steps span tags will be dynamically added here -->                  </span>                  <span                     class="tick-active uwaw-features__item__enabled reset-tick"                     id="tickIcon"                     style="display: none"                     >                  </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-st">               <button                  id="btn-small-text"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >                  <span class="uwaw-features__item__icon">                  <span class="ux4g-icon icon-small-text"> </span> </span                     ><span class="uwaw-features__item__name">Small Text</span>                  <span                     class="uwaw-features__item__steps reset-steps"                     id="featureSteps-st"                     >                     <!-- Steps span tags will be dynamically added here -->                  </span>                  <span                     class="tick-active uwaw-features__item__enabled reset-tick"                     id="tickIcon-st"                     style="display: none"                     >                  </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-lh">               <button                  id="btn-s12"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >                  <span class="uwaw-features__item__icon">                  <span class="ux4g-icon icon-line-hight"> </span>                  </span>                  <span class="uwaw-features__item__name">Line Height</span>                  <span                     class="uwaw-features__item__steps reset-steps"                     id="featureSteps-lh"                     >                     <!-- Steps span tags will be dynamically added here -->                  </span>                  <span                     class="tick-active uwaw-features__item__enabled reset-tick"                     id="tickIcon-lh"                     style="display: none"                     >                  </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-ht">               <button                  id="btn-s10"                  onclick="highlightLinks()"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-highlight-links"> </span>               </span>               <span class="uwaw-features__item__name">Highlight Links</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon-ht"                  style="display: none"                  >               </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-ts">               <button                  id="btn-s13"                  onclick="increaseAndReset()"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >                  <span class="uwaw-features__item__icon">                  <span class="ux4g-icon icon-text-spacing"> </span>                  </span>                  <span class="uwaw-features__item__name">Text Spacing</span>                  <span                     class="uwaw-features__item__steps reset-steps"                     id="featureSteps-ts"                     >                     <!-- Steps span tags will be dynamically added here -->                  </span>                  <span                     class="tick-active uwaw-features__item__enabled reset-tick"                     id="tickIcon-ts"                     style="display: none"                     >                  </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-df">               <button                  id="btn-df"                  onclick="toggleFontFeature()"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-dyslexia-font"> </span>               </span>               <span class="uwaw-features__item__name">Dyslexia Friendly</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon-df"                  style="display: none"                  >               </span>               </button>            </div>            <div class="uwaw-features__item reset-feature" id="featureItem-hi">               <button                  id="btn-s11"                  onclick="toggleImages()"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-hide-images"> </span>               </span>               <span class="uwaw-features__item__name">Hide Images</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon-hi"                  style="display: none"                  >               </span>               </button>            </div>            <div               class="uwaw-features__item reset-feature"               id="featureItem-Cursor"               >               <button                  id="btn-cursor"                  onclick="toggleCursorFeature()"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-cursor"> </span>               </span>               <span class="uwaw-features__item__name">Cursor</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon-cursor"                  style="display: none"                  >               </span>               </button>            </div>            <div               class="uwaw-features__item reset-feature"               id="featureItem-ht-dark"               >               <button                  id="dark-btn"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >                  <span class="uwaw-features__item__name">                     <span class="light_dark_icon">                        <input type="checkbox"                           class="light_mode uwaw-featugres__item__i"                           id="checkbox"                           />                        <label for="checkbox" class="checkbox-label">                           <!-- <i class="fas fa-moon-stars"></i> -->                           <i class="fas fa-moon-stars">                           <span class="ux4g-icon icon-moon"></span>                           </i>                           <i class="fas fa-sun">                           <span class="ux4g-icon icon-sun"></span>                           </i>                           <span class="ball"></span>                        </label>                     </span>                     <span class="uwaw-features__item__name">Light-Dark</span>                  </span>                  <span                     class="tick-active uwaw-features__item__enabled reset-tick"                     id="tickIcon-ht-dark"                     style="display: none; pointer-events: none"                     >                  </span>               </button>            </div>            <!-- Invert Colors Widget -->            <div class="uwaw-features__item reset-feature" id="featureItem-ic">               <button                  id="btn-invert"                  class="uwaw-features__item__i"                  data-uw-reader-content="Enable the UserWay screen reader"                  aria-label="Enable the UserWay screen reader"                  aria-pressed="false"                  >               <span class="uwaw-features__item__icon">               <span class="ux4g-icon icon-invert"> </span>               </span>               <span class="uwaw-features__item__name">Invert Colors</span>               <span                  class="tick-active uwaw-features__item__enabled reset-tick"                  id="tickIcon-ic"                  style="display: none"                  >               </span>               </button>            </div>         </div>      </div>      <!-- Reset Button -->   </div>   <div class="reset-panel">      <!-- copyright accessibility bar -->      <div class="copyrights-accessibility">         <button class="btn-reset-all" id="reset-all" onclick="resetAll()">         <span class="reset-icon"> </span>         <span class="reset-btn-text">Reset All Settings</span>         </button>         <a href="https://www.ux4g.gov.in" target="_blank" class="copyright-text" contenteditable="false" style="cursor: pointer;">         <span class="uwaw-features__item__name ux4g-copy ux4g-copyright">Created by</span>         <img src="https://www.ux4g.gov.in/assets/img/logo/ux4g-logo.svg" alt="logo" loading="lazy">         </a>      </div>   </div></div><button   id="uw-widget-custom-trigger"   class="uw-widget-custom-trigger"   aria-label="Accessibility Widget"   data-uw-trigger="true"   aria-haspopup="dialog"><img src="data:image/svg+xml,%0A%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_1506)'%3E%3Cpath d='M16 7C15.3078 7 14.6311 6.79473 14.0555 6.41015C13.4799 6.02556 13.0313 5.47894 12.7664 4.83939C12.5015 4.19985 12.4322 3.49612 12.5673 2.81719C12.7023 2.13825 13.0356 1.51461 13.5251 1.02513C14.0146 0.535644 14.6383 0.202301 15.3172 0.0672531C15.9961 -0.0677952 16.6999 0.00151652 17.3394 0.266423C17.9789 0.53133 18.5256 0.979934 18.9101 1.55551C19.2947 2.13108 19.5 2.80777 19.5 3.5C19.499 4.42796 19.1299 5.31762 18.4738 5.97378C17.8176 6.62994 16.928 6.99901 16 7Z' fill='white'/%3E%3Cpath d='M27 7.05L26.9719 7.0575L26.9456 7.06563C26.8831 7.08313 26.8206 7.10188 26.7581 7.12125C25.595 7.4625 19.95 9.05375 15.9731 9.05375C12.2775 9.05375 7.14313 7.67875 5.50063 7.21188C5.33716 7.14867 5.17022 7.09483 5.00063 7.05063C3.81313 6.73813 3.00063 7.94438 3.00063 9.04688C3.00063 10.1388 3.98188 10.6588 4.9725 11.0319V11.0494L10.9238 12.9081C11.5319 13.1413 11.6944 13.3794 11.7738 13.5856C12.0319 14.2475 11.8256 15.5581 11.7525 16.0156L11.39 18.8281L9.37813 29.84C9.37188 29.87 9.36625 29.9006 9.36125 29.9319L9.34688 30.0112C9.20188 31.0206 9.94313 32 11.3469 32C12.5719 32 13.1125 31.1544 13.3469 30.0037C13.5813 28.8531 15.0969 20.1556 15.9719 20.1556C16.8469 20.1556 18.6494 30.0037 18.6494 30.0037C18.8838 31.1544 19.4244 32 20.6494 32C22.0569 32 22.7981 31.0162 22.6494 30.0037C22.6363 29.9175 22.6206 29.8325 22.6019 29.75L20.5625 18.8294L20.2006 16.0169C19.9387 14.3788 20.1494 13.8375 20.2206 13.7106C20.2225 13.7076 20.2242 13.7045 20.2256 13.7013C20.2931 13.5763 20.6006 13.2963 21.3181 13.0269L26.8981 11.0763C26.9324 11.0671 26.9662 11.0563 26.9994 11.0438C27.9994 10.6688 28.9994 10.15 28.9994 9.04813C28.9994 7.94625 28.1875 6.73813 27 7.05Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_1506'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A" alt="Accessibility Options" /><span>Accessibility Options</span></button><!-- accessibility panel end--> 
+                                                                                    <script src="https://img1.digitallocker.gov.in/ux4g/UX4G-CDN-accessibility/js/weights-v1.js"></script>
+                                                                                    <script>
+                                                                                        document.getElementById('uw-widget-custom-trigger2').addEventListener('click', function() {
+                                                                                        openMain();
+                                                                                      });
+                                                                                    </script>  
+<div id="stop" class="scrollTop hvr-bounce-in"></div>
+<!-- -------------------- footer bottom end -------------------- -->
+<!--<script type="text/javascript">
+   /*window.onload = function () {
+       document.getElementById('button').onclick = function () {
+           document.getElementById('modal').style.display = "none"
+       };
+   };*/
+   </script>-->
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"hi\/","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"hi"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"blazy\/bio.ajax,blazy\/blazy,blazy\/classlist,blazy\/load,blazy\/loading,blazy\/polyfill,blazy\/promise,blazy\/raf,blazy\/webp,clientside_validation_jquery\/cv.jquery.ife,clientside_validation_jquery\/cv.jquery.validate,core\/drupal.collapse,core\/drupal.dialog.ajax,core\/drupal.entity-form,core\/drupal.form,core\/drupal.vertical-tabs,core\/internal.jquery.form,csir\/unee-scripts,csir\/unee-styling,node\/drupal.node,node\/form,password_encrypt\/password_encrypt,simple_popup_blocks\/simple_popup_blocks,slick\/slick.load,superfish\/superfish,superfish\/superfish_hoverintent,superfish\/superfish_smallscreen,superfish\/superfish_supersubs,superfish\/superfish_supposition,system\/base,unee_header\/design,video_embed_field\/responsive-video,views\/views.ajax,views\/views.module,views\/views.responsive-grid","theme":"csir","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/hi\/node?ajax_form=1":true,"\/hi\/search\/node":true},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"simple_popup_blocks":{"settings":[{"uid":"homepage_popup","type":0,"css_selector":"1","identifier":"block-csir-popuphomepage-2","layout":"5","visit_counts":"0","overlay":"1","trigger_method":0,"trigger_selector":"#custom-css-id","delay":0,"enable_escape":false,"trigger_width":null,"minimize":false,"close":"1","use_time_frequency":false,"time_frequency":"3600","show_minimized_button":false,"width":"700","cookie_expiry":0,"status":"1"},{"uid":"property_return","type":0,"css_selector":"1","identifier":"block-csir-propertyreturnsubmission","layout":"5","visit_counts":"0","overlay":"1","trigger_method":0,"trigger_selector":"#custom-css-id","delay":"3","enable_escape":"1","trigger_width":null,"minimize":false,"close":"1","use_time_frequency":false,"time_frequency":"3600","show_minimized_button":false,"width":"400","cookie_expiry":"100","status":"1"}]},"password_encrypt":{"passkey":"f1a0a94e80c8311e"},"ajax":{"edit-submit--2":{"callback":"newsletter_form_ajax_callback","wrapper":"newsletter-form-wrapper","event":"click","progress":{"type":"throbber"},"url":"\/hi\/node?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"\u0938\u0902\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902"}}},"views":{"ajax_path":"\/hi\/views\/ajax","ajaxViews":{"views_dom_id:327004c26faf9b3eca56a185506d30e81fb737eaf1bfa9620cfd95774fec86c0":{"view_name":"video_gallery","view_display_id":"block_1","view_args":"","view_path":"\/node","view_base_path":"video-gallery","view_dom_id":"327004c26faf9b3eca56a185506d30e81fb737eaf1bfa9620cfd95774fec86c0","pager_element":0},"views_dom_id:cbace6143d92da2c71520c4dff0dd5c554c556758c29611f0d291ff4c85c15f4":{"view_name":"video_gallery","view_display_id":"block_2","view_args":"","view_path":"\/node","view_base_path":"video-gallery","view_dom_id":"cbace6143d92da2c71520c4dff0dd5c554c556758c29611f0d291ff4c85c15f4","pager_element":0}}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"smallscreen":{"mode":"window_width","expandText":"\u0935\u093f\u0938\u094d\u0924\u0943\u0924 \u0915\u0930\u0947\u0902","title":"Main navigation"},"supposition":true,"supersubs":true}}},"user":{"uid":0,"permissionsHash":"36633424e14a7b153d7669eaaea4eedd62b86e7390c5f1bdf4f8c46880e66edf"}}</script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?tnlry8"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.0"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?tnlry8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/default/files/languages/hi_ajgNvbukRFrtGt1SJjOFRRbhyej31J1xitWxsGPLO1k.js?tnlry8"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.1.2"></script>
+<script src="/core/misc/drupal.js?v=10.1.2"></script>
+<script src="/core/misc/drupal.init.js?v=10.1.2"></script>
+<script src="/core/misc/debounce.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.1.2"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.loading.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?tnlry8"></script>
+<script src="/libraries/slick/slick/slick.min.js?v=1.x"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/blazy.load.min.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/blazy.compat.min.js?tnlry8"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.1.2"></script>
+<script src="/core/misc/vertical-tabs.js?v=10.1.2"></script>
+<script src="/modules/contrib/simple_popup_blocks/js/simple_popup_blocks.js?v=10.1.2"></script>
+<script src="/themes/csir/js/popper.min.js?v=1.x"></script>
+<script src="/themes/csir/js/slick.min.js?v=1.x"></script>
+<script src="/themes/csir/js/bootstrap.bundle.min.js?v=1.x"></script>
+<script src="/themes/csir/js/acmeticker.js?v=1.x"></script>
+<script src="/themes/csir/js/eocjs-newsticker.js?v=1.x"></script>
+<script src="/themes/csir/js/bootstrap.min.js?v=1.x"></script>
+<script src="/themes/csir/js/jquery.easy-ticker.js?v=1.x"></script>
+<script src="/themes/csir/js/jquery.flexslider-min.js?v=1.x"></script>
+<script src="/themes/csir/js/site.js?v=1.x"></script>
+<script src="/themes/csir/js/development.js?v=1.x"></script>
+<script src="/themes/csir/js/custom.js?v=1.x"></script>
+<script src="/modules/custom/unee_header/js/framework.js?v=1.x"></script>
+<script src="/modules/custom/unee_header/js/font-size.js?v=1.x"></script>
+<script src="/modules/custom/unee_header/js/swithcer.js?v=1.x"></script>
+<script src="/modules/custom/unee_header/js/unee_design.js?v=1.x"></script>
+<script src="/modules/custom/password_encrypt/js/password_encrypt.js?v=10.1.2"></script>
+<script src="/libraries/CryptoJS/aes.js?v=10.1.2"></script>
+<script src="/core/misc/progress.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/misc/announce.js?v=10.1.2"></script>
+<script src="/core/misc/message.js?v=10.1.2"></script>
+<script src="/core/misc/ajax.js?v=10.1.2"></script>
+<script src="/core/misc/displace.js?v=10.1.2"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.1.2"></script>
+<script src="/core/misc/position.js?v=10.1.2"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.1.2"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.1.2"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.1.2"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.1.2"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.1.2"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.3.0"></script>
+<script src="/core/misc/form.js?v=10.1.2"></script>
+<script src="/core/misc/details-summarized-content.js?v=10.1.2"></script>
+<script src="/core/misc/details-aria.js?v=10.1.2"></script>
+<script src="/core/misc/details.js?v=10.1.2"></script>
+<script src="/core/misc/entity-form.js?v=10.1.2"></script>
+<script src="/core/modules/node/node.js?v=10.1.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+<script src="/modules/contrib/clientside_validation/clientside_validation_jquery/js/cv.jquery.validate.js?tnlry8"></script>
+<script src="/modules/contrib/clientside_validation/clientside_validation_jquery/js/cv.jquery.ife.js?tnlry8"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.ajax.min.js?tnlry8"></script>
+<script src="/core/modules/views/js/base.js?v=10.1.2"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=10.1.2"></script>
+<script src="/modules/contrib/slick/js/slick.load.min.js?v=10.1.2"></script>
+<script src="/libraries/superfish/superfish.js?tnlry8"></script>
+<script src="/libraries/superfish/jquery.hoverIntent.minified.js?tnlry8"></script>
+<script src="/libraries/superfish/sfsmallscreen.js?tnlry8"></script>
+<script src="/libraries/superfish/supposition.js?tnlry8"></script>
+<script src="/libraries/superfish/supersubs.js?tnlry8"></script>
+<script src="/modules/custom/superfish/js/superfish.js?v=2.0"></script>
+
+	
+	
+
+  </body>
+</html>

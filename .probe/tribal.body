@@ -1,0 +1,1524 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head> 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YDDQHY3HE8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YDDQHY3HE8');
+</script>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Bootstrap CSS -->
+<link rel="icon" href="images/favicon.png" type="image/x-icon" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" /><link rel="stylesheet" href="css/style.css" />
+<!-- icon fonts-->
+<link rel="stylesheet" href="fonts/css/all.min.css" />
+<!-- <link rel="stylesheet" href="css/fontAwesome.css" /> -->
+<link rel="stylesheet" href="css/owl.carousel.min.css" /><title>
+	Ministry of Tribal Affairs - Government of India
+</title><meta name="description" content="The Ministry was set up in 1999 after the bifurcation of Ministry of Social Justice and Empowerment with the objective of providing more focused approach on the integrated socio-economic development of the Scheduled Tribes (STs), the most underprivileged of the Indian Society, in a coordinated and planned manner. Before the formation of the Ministry, tribal affairs were handled by different Ministries at different points in time" /><meta property="og:title" content="Ministry of Tribal Affairs, Government of India" /><meta property="og:url" content="https://tribal.nic.in/" /><meta property="og:image" itemprop="image primaryImageOfPage" content="images/tribal.jpg" /><meta name="keywords" content="Tribal Affairs, Ministry" /><meta name="author" content="MoTA" />
+<!-- Chatbot CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" /><link rel="stylesheet" href="chatbot.css" /><link rel="canonical" href="https://tribal.nic.in/" />
+
+    <script type="text/javascript">
+
+    function ExternalWebsiteLink() {
+
+        var tick = confirm("External Website Link  that opens in a new window!");
+        if (tick == true)
+            return true;
+        else
+            return false;
+    }
+
+
+    function myFunction() {
+
+        var tick = confirm("External Website Link  that opens in a new window!");
+        if (tick == true)
+            return true;
+        else
+            return false;
+    }
+</script>
+</head>
+<body>
+   
+         <a aria-label="bck" href="#" class="bck"></a> 
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="align-items-center fixed-top">
+  <div class="container-fluid d-flex">
+    <div class="contact-info mr-auto text-dark small font-weight-bold pt-2  d-none d-sm-none d-lg-block"> <span class="mr-2"> भारत सरकार <span> &nbsp;&nbsp; | &nbsp;&nbsp; <span class="ml-2">जनजातीय कार्य मंत्रालय</span> </span></span> </div>
+    <div id="nav" class="d-flex flex-row bd-highlight mb-0">
+      <ul class="first mb-0">
+        <li class="d-none d-sm-none  d-lg-block"> <a href="#">मुख्य विषयवस्तु पर जाएँ</a> </li>
+        <li class="d-none d-sm-none  d-lg-block"> <a href="ScreenReaderAccessh.aspx">स्क्रीन रीडर एक्सेस </a> </li>
+        <li> <a aria-label="acce" href="#"><img src="./images/ico-accessibility.png" alt="Accesibility"/></a>
+          <ul class="second shadow-lg" style="background-color: #ffffff;">
+            <li><a aria-label="dec" href="javascript:void(0);"><button id="btn-decrease" class="border-0" style="font-size: 12px;"  onclick="set_font_size('decrease');">A-</button></a></li>
+            <li><a aria-label="org" href="javascript:void(0);"><button id="btn-orig" class="border-0" style="font-size: 12px;"  onclick="set_font_size('');">A</button></a></li>
+            <li><a aria-label="Ince" href="javascript:void(0);"><button id="btn-increase" class="border-0" style="font-size: 12px;"  onclick="set_font_size('increase');">A+</button></a></li>
+            <li><a aria-label="Inc1" href="javascript:void(0);"><button id="btn-increase" class="border-0 high-contrast bgdark" style="font-size: 12px;">A</button></a></li>
+            <li><a aria-label="Inc2" href="javascript:void(0);"><button id="btn-increase" class="border-0 high-contrast bglight" style="font-size: 12px;">A</button></a></li>
+          </ul>
+        </li>
+        <li> <a href="" aria-label="dec"> <img src="./images/ico-social.png" title="Social media" alt="Social media"></a>
+          <ul class="second shadow-lg" style="background-color: #ffffff;">
+            <li>
+			
+			  <a href="https://www.facebook.com/TribalAffairsIn/" id="btn-decrease1" target="_blank" class="border-0" aria-label="btn_orig"  style="font-size: 12px;;" onclick="return ExternalWebsiteLink();"> <span class="fab fa-facebook"></span></a>
+			  </li>
+            <li>
+			
+			<a href="https://www.instagram.com/tribalaffairsin/?hl=en" target="_blank" id="btn-orig1" aria-label="btn_orig1" class="border-0" style="font-size: 12px;;" onclick="return ExternalWebsiteLink();"> <span class="fab fa-instagram"></span></a>
+			  </li>
+            
+          </ul>
+              <form name="aspnetForm" method="post" action="./Homeh.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="G4uyoraDuLXBsyRl6zaqAv5J6wryuq4KWhlRj/PUUaxcMZoZsH7vvwQOm34Q4RMOCO0lzD4Aog1S2Nl8SnKOPIqiCxo42Trg0A7OoQYKiG5yttAfpbUtjpd82Cc/kg3OV+lnM30FWe9ImluKpYik6cVO5cElDPFnbta/rtFuAKxpWnfJKXPJFYS/TRDkVdp1K3WeJGWEn7kA7TYT+7oci0gX/aMYEYrZpktOqbXC1ghnWm2kjc/zG/xs+d7wc8X0Kug6wzyrYmjsi8ewe39gqB3+JdMt4pd6XsqhioQVwV8CO7vF3vxFB0TAyCiRHNXJ9ySPNfMRYIqqOAsleTbx4/ntXvN8esQwyTr+uYj+e23zt1sWyq/drgkyVTs0osMMk7BAdcm/qezNFdI3PVbPC0dCMflmuDm1fOYfv4xGAG+e2TPezxFfBoMYS3d6KPmggMlEAUoxEe9zEwD/weECBnAI4JV1DyMOYM/OjuYsevNQeNY6ylJWjNdqCU4h90SQa1CBAXK85HohinSMpL6dJ3dMjyUGDezs7jx6N0gKX9OgV/WIaBFnzL9bNB7pSA3e5RbMz53taOeAu0eYE9Xns0iCEdoSvf5R9dGvkPynI/O7C7ZlMuZiXjZTCCSinfSUlnZ4/+ki+SxtMnpd9rGlplCQ0V5suol1IHzJfXgY77T9wOESjYC7JfEP4rmBMyu5CDpF8T0E2vo0fc4SQz+kLeq8VOsNdUNgbceArbjVkybcXWQmqBkfCG/NEcSJwjiD+aclqgWtfAWdVzwQ/7kQhq0jWIIsU2AKAgAoflzuJaDiEzNZQULAVq2hknbiHdYjJaZl2t/eV4jVYVsuNHB042oriHA0DwTFRDJx5doY4UffP8aTwRYiuPQFgkkvGcpGhtkRjqIyOhPNRTZAxN/BQvPcc8rR9oSsHi3QcjtUw1vsGFUHro+RWaDIFN65C4+feVTSwpxluPOXE9sRbVrpzrbSh8NdiRqwjWymcls8udzt72vn1cnJXOrrLMe2iVdzRiDxX3VDHS64SsZlttynor50saHUDrepynA0B868TPemawzHHjx8vHXpE9QPqxwdH+Z0e/xxGbL8545ZHqHWP9t+jHZ3MQqtesoMjZDbisGPVeNnu+CWAxNJXGfQFVzcY+Ty6bNzuHzepFn56AZuYo+eF+j6AIFitJIqxdoRqRlaSjIMzUKLCunwvEV/IZoSSO5bLG4Ixa3AYF+tORmQiHrznZSOxAjdF/Wzp9Y4n2kKUNhV0ChXVwU7l9O+ONYjTjQhGasUvMyvTogUDnJkSzaYjermSpfp+1FcqhH53FG0ywtJ1jkPPV8wLvls0bM0WIL7CoyNmz81Au676TgjMzTUnXWB4sV2W3JBFh+hXzvMXgs6xpNMTkPkAFwNvjdkDHKNHOKbqxRVXnD12X5zXLKv1urfmW2VbMW3juhphpI0lpEd1sZmfH8ZJR1JTvYijbtrekjO0bwKTUv08vD/bDPsXdfgDE5M0HJz7DN/GgIFn/rkY15zL2Qbsn+jxBix/0ctNety4hcnKTznt9ucx0f2mL9X/d3cWLUpJeYxD8tF9pTsavR2l0h8AbT1famwTmOcUFLNP1moWqDAnem59FsQ+MFjksoEoyyDvpzK6XgUEKRWfvuozztUFXv7qeOfNhAvWZ82H5tdn1tj7yhrAtSZwRiDNanxM2H/c2A6WiiWKCLvjdgq4JTrHybVTiLkKnfejp1aQNOk8ii173z0ONG1/ShJxpbytZhktszA8yrYaBAkXyF+5fiezDZwLayQsl4TXBqi1yClC1HJBz5QIrJ1eE6EBY5xSBBblfEKLWvu0jNHkjMvCi3RD9GXIRHP12n/zs7CSJLU+mjiIPC0xPdibarsno1K/m4KNdIM20tOzjkcAWga6Hxy1VB81pFKsUkz/UMa5dA6zU/CbJbvEtpKX0XrlN6P4vNLx2Gc0eq1EoYnPD3xTTJ5+b0+dN1lAR0ylxfkRGsjS1JVf4w25R++Ws8yLMY6xmtAomtBveHxHm9mpO2IVnwn9zBvFOxuOrfuJ9Dtc9MgIhlZFEo1DlkSeEG+6eHVQ6rPjT/wnscInzuYbU0NIsZNmu44vbr/5jFhWC4x87PuaoFbML68Lo+lnpaJa53hH6kiNHBxylu44G7aOxnSork3dNToO5AKbLwgUv7SAv3Vx2567vt66UCbrG+hFGn2OYrQnjkvSpKLeCmldpQGc3SYXuUa07HbEdIPzCileKPHt6r2dOdf0D4OTDcnas1A3oP0qGRJvt3PnGYiXl7K5FE2ytUPTpapDcrzXHX64hTFXnHoyzhK8tn6QyI0O6udzx4NLqK4wFL9I6Ydl9sSK9DmX5bd6i0vDky8oBENHJngj4YA6YTu6+AF5tNMcqNDb3TY7Aj1sIAmrcvd2hj/qOLM0Ra68TfJDQjloUUnRgfBblcF6poxdl2hBhND8T4ArkqMUAoGAyXdROJG332OgPPYbLI0a2yCh+7yhX1IP/zD/40zjlS5u5EauQfiSAIHl3FXyHKPIpbWO/tMzTQAQuBBxrzljhHHMKGgeEmbpRW3nW+9vxu496nq71OkuQW6FGc4s8y6xjNyuu66VKkkKzS+X8wqaLaDCqYfaMvkJcjkxMhVhnE0HVMqX7aGaLQXDuMQpXBB7ONHHWZgkGDUl9gur1Adh3to" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=XcuHHV8sgPsWkAy_LBw1ZwyMqfnkAjVPgFr3WGNNF0kA25taJuUx64PIDg8KOKK46Cs7ghrRobZ5l4CGoySWSiu0tvxJPGOefJmYPq6dQLE1&amp;t=639202794265548063" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1924BF09" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="UqdwNDEAa/YtH5YY0MaRVo4TuwJNK4CZGgykb6b8r3ebXaySkKCsWqOdxJeusme5yYW3Z1XsuNlvEbwKrsZdbNyrGfvDm+SRqcBTCTgjLCX9zAk5A+3Te3ZrUL5ckutsdIxHORDKGymchOs2UJDOznDUB5PeszfrX2hpfPXLHKPdF4a+p6cG5KWLezyuvxH10yLYxLKiRD2G+bYI5y/+W9Xv7/k5xtcmcAiuxbjt39g=" />
+</div>
+        </li>
+        
+        <!-- <li class="text-dark"><img src="./images/ico-accessibility.png"/></li> -->
+        
+		<li class="text-dark  d-none d-sm-none d-lg-block"> <a href="Homeh.aspx"> <img src="/images/ico-site-search.png" title="Search" alt="search box"> </a> 
+            <ul class="search-drop toggle-cont">
+                   <li>   
+                        <input type="hidden" name="ctl00$cx" id="ctl00_cx" value="008437022747522014363:e99jdhctf6w" />
+                        <input type="hidden" name="ctl00$cof" id="ctl00_cof" value="FORID:9" />
+						 
+                        <input name="ctl00$q" type="text" id="ctl00_q" aria-label="btn" />
+                        <input type="submit" name="ctl00$Button1" value="Button" id="ctl00_Button1" title="Site Search" class="bttn-search" />
+                   </li>
+             </ul>
+        </li>
+        <li class="text-dark"> <a aria-label="sitemap" href="SiteMapHindi.aspx"> <img src="./images/ico-sitemap.png" title="Sitemap" alt="Sitemap"></a> </li>
+        <li> 
+		
+
+
+<li> <a href="" aria-label="dec"> भाषा</a>
+          <ul class="second shadow-lg" style="background-color: #ffffff;">
+            <li>
+			<a id="ctl00_LinkButton1" class="hindi" href="javascript:__doPostBack(&#39;ctl00$LinkButton1&#39;,&#39;&#39;)">English</a>
+	
+			</li>
+
+          </ul>
+              
+        </li>
+
+
+
+      </ul>
+    </div>
+  </div>
+</div>
+     
+<!-- ======= Header ======= -->
+<div id="header" class="fixed-top progress-container">
+  <div class="d-none d-md-none d-lg-block">
+    <div class="container-fluid d-flex align-items-center mb-0 mt-0 pt-0 pb-0"> 
+      <a href="Homeh.aspx" class="">
+        <img src="images/MoTA_logo.jpg" alt="MoTA Logo" class="img-fluid d-none d-sm-block pl-5">
+      </a> 
+        <a aria-label="home" href="Homeh.aspx" class="">
+ </div>
+  </div>
+  <div class="d-block d-sm-none d-md-none d-lg-none">
+    <div class="container-fluid d-flex align-items-center mb-1 mt-1 pt-1 pb-1"> <a aria-label="homeh" href="Helph.aspx" class=""><img src="images/mobile-logo-400.jpg" alt="Mobile Logo 2" class="img-fluid"></a> </div>
+  </div>
+  <header class="dark">
+    <nav> <a aria-label="tab" href="javascript:void(0);" class="ic menu" tabindex="1"> <span class="line"></span> <span
+            class="line"></span> <span class="line"></span> </a> <a aria-label="close" href="javascript:void(0);" class="ic close"></a>
+      <ul class="main-nav ml-5">
+        <li class="top-level-link"> <a class="active" href="Homeh.aspx"><i class="fas fa-home"></i> <span>होम</span></a> </li>
+        <li class="top-level-link"> <a class="mega-menu" href="#"> <span class="fa fa-info-circle"></span> <span> <span> </span>हमारे बारे में</span></a>
+          <div class="sub-menu-block d-print-none">
+            <ul class="sub-menu-lists">
+              <li> <a href="AboutMinistryh.aspx" class="pagescroll"> मंत्रालय के बारे में</a></li>
+              <li> <a href="downloads/Tribal/Orgchart19122025.pdf" class="pagescroll"> संगठनात्मक चार्ट</a></li>
+             <li> <a href="../downloads/Tribal/Workallocation31072026.pdf" class="pagescroll"> कार्य आवंटन </a></li>
+             
+                             
+              <li> <a href="https://tribal.gov.in/downloads/Tribal/levelofdisposal19042021new.pdf" class="pagescroll"> प्रस्तुत करने का चैनल और निपटान का स्तर </a></li>
+              <li> <a href="https://tribal.gov.in/DivisionsFiles/CitizensCharter19052026.pdf" class="pagescroll"> नागरिक / ग्राहक का चार्टर </a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="top-level-link"> <a class="mega-menu" href="#"> <span class="fas fa-bars"></span> <span> <span> </span>अनुभाग</span></a>
+          <div class="sub-menu-block d-print-none">
+            <div class="row">
+              <div class="col-xl-6 pr-xl-0">
+                <ul class="sub-menu-lists">
+                  <li> <a href="ScholarshiPh.aspx" class="pagescroll"> छात्रवृत्ति  </a></li>
+                  <li> <a href="TRIh.aspx" class="pagescroll"> टीआरआई, अनुसंधान और मीडिया</a></li>
+                  <li> <a href="EMRSh.aspx" class="pagescroll"> ईएमआरएस</a></li>
+                  <li> <a href="Livelihoodh.aspx" class="pagescroll"> जीविकोपार्जन </a></li>
+                  <li> <a href="STWelfareGranth.aspx" class="pagescroll"> अनु० ज० कल्याण अनुदान </a></li>
+                  <li> <a href="NGOh.aspx" class="pagescroll"> एनजीओ </a></li>
+                  <li> <a href="FRAh.aspx" class="pagescroll"> एफआरए </a></li>
+                  <li> <a href="STCMonitoringh.aspx" class="pagescroll"> एसटीसी निगरानी </a></li>
+                </ul>
+              </div>
+              <div class="col-xl-6 pl-xl-0">
+                <ul class="sub-menu-lists">
+                  <li> <a href="clmh.aspx" class="pagescroll"> संवैधानिक और कानूनी मामले </a></li>
+                  <li> <a href="PNCh.aspx" class="pagescroll"> संसद और समन्वय </a></li>
+                  <li> <a href="estvigilanceh.aspx" class="pagescroll"> स्थापना  </a></li>
+                  <li> <a href="vigilanceh.aspx" class="pagescroll"> सतर्कता  </a></li>
+                  <!-- <li> <a href="#" class="pagescroll"> नीति और शिकायतें </a></li>-->
+                  <li> <a href="Statisticsh.aspx" class="pagescroll"> सांख्यिकी </a></li>
+                  <li> <a href="Financeh.aspx" class="pagescroll">वित्तीय </a></li>
+                  <li> <a href="OfficialLanguageh.aspx" class="pagescroll"> राजभाषा</a></li>
+                  <li> <a href="NCSTh.aspx" class="pagescroll">एन.सी.एस.टी</a></li>
+                  <li> <a href="nstfdch.aspx" class="pagescroll"> एन.एस.टी.एफ.डी.सी</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="top-level-link"> <a href="https://dashboard.tribal.gov.in/" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fas fa-tachometer-alt"></span> <span>डैशबोर्ड</span></a> </li>
+        <li class="top-level-link"> <a href="#"><span class="fas fa-bars"></span> <span>आईटी पहल</span></a>
+		      <div class="sub-menu-block d-print-none">
+            <div class="row">
+              <div class="col-xl-6 pr-xl-0">
+                <ul class="sub-menu-lists">
+                  <li> <a href="https://swasthya.tribal.gov.in" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink();"> स्वास्थ पोर्टल </a></li>
+                  <li> <a href="https://dbttribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> डीबीटी (मैट्रिक-पूर्व और मौट्रिकोत्तर छात्रवृत्ति)</a></li>
+                  <li> <a href="https://fellowship.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> राष्ट्रीय अध्येतावृत्ति स्कीम</a></li>
+                  <li> <a href="https://overseas.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> राष्ट्रीय समुद्रपारीय छात्रवृत्ति</a></li>
+                  <li> <a href="http://ngo.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> गैर-सरकारी संगठन अनुदान</a></li>
+                  <li> <a href="http://forestrights.nic.in" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> वन अधिकार अधिनियम </a></li>
+                  <li> <a href="https://stcmis.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> एसटीसीएमआईएस </a></li>
+                  <li> <a href="https://statetsp.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> स्टेट -टीएसपी </a></li>
+                  <li> <a href="https://scdiec.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> एससीडी-आईईसी </a></li>
+                </ul>
+              </div>
+              <div class="col-xl-6 pl-xl-0">
+                <ul class="sub-menu-lists">
+       		        <li> <a href="https://grants.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> अदिग्राम्स</a></li>
+                  <li> <a href="https://tritribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> जनजातीय अनुसंधान संस्थान </a></li>
+                  <li> <a href="https://repository.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> जनजातीय डिजिटल दस्तावेज़ भंडार</a></li>
+                  <li> <a href="https://tribal.nic.in/repository/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> जनजातीय निधान (संग्रह) (रिपोजिटरी)</a></li>
+                  <li> <a href="https://thespringsportal.org/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()">1000 स्प्रिंग पहलें</a></li>
+                  <li> <a href="https://tribal.gov.in/mtad/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> प्रलेख प्रबन्धन तंत्र </a></li>
+                  <li> <a href="https://adiprasaran.tribal.gov.in" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> आदि-प्रसारण </a></li>
+                  <li> <a href="http://nests.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> एनईएसटीएस </a></li>
+                  <li> <a aria-label="pagescroll" href="https://shramshakti.tribal.gov.in/" class="pagescroll" target="_blank" onclick="return ExternalWebsiteLink()"> आदिवासी प्रवास </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		    </li>
+        <li class="top-level-link"> <a href="KnowledgeHubh.aspx"><span class="fas fa-laptop-code"></span> <span class="menutext">ज्ञान केन्द्र </span></a> </li> 
+        <li class="top-level-link"> <a aria-label="Adi Karmayogi" href="https://adiprasaran.tribal.gov.in/adikarmayogi/" target="_blank" onclick="return ExternalWebsiteLink()"><span class="fas fa-globe"></span> <span>आदि कर्मयोगी</span></a></li>      
+        <li class="top-level-link"> <a aria-label="JJGD"  href="https://adiprasaran.tribal.gov.in/jjgu/" target="_blank" onclick="return ExternalWebsiteLink()"><span class="fas fa-globe" style="color: yellow;"></span> <span style="color: yellow;">जे जे जी डी</span></a></li>
+        <li class="top-level-link"> <a href="ReviewMeeting.aspx"><span class="fas fa-users"></span> <span>समीक्षा बैठक</span></a></li>
+        <li class="top-level-link"> <a href="#"><span class="far fa-check-circle"></span> <span class="menutext">स्वीकृति आदेश</span></a>
+		      <div class="sub-menu-block d-print-none"> 
+		        <div class="row">
+              <div class="col-xl-6 pr-xl-0">
+                <ul class="sub-menu-lists">
+                  <li> <a aria-label="2025-26"  href="PFMS_SentionDtSchemewise2627.aspx" class="pagescroll"> 2026-27</a></li>
+                  <li> <a aria-label="2025-26"  href="PFMS_SentionDtSchemewise2526.aspx" class="pagescroll"> 2025-26</a></li>
+                  <li> <a aria-label="2024-25"  href="PFMS_SentionDtSchemewise2425.aspx" class="pagescroll"> 2024-25</a></li>
+                  <li> <a aria-label="2023-24" href="PFMS_SentionDtSchemewise2324.aspx" class="pagescroll"> 2023-24</a></li>
+                  <li> <a aria-label="2022-23" href="PFMS_SentionDtSchemewise2223.aspx" class="pagescroll"> 2022-23</a></li>
+                  <li> <a aria-label="2021-22" href="PFMS_SentionDtSchemewise2122.aspx" class="pagescroll"> 2021-22</a></li>
+                  <li> <a aria-label="2020-21" href="PFMS_SentionDtSchemewise2021.aspx" class="pagescroll"> 2020-21</a></li>
+                  <li> <a aria-label="2019-20" href="PFMS_SentionDtSchemewise1920.aspx" class="pagescroll"> 2019-20</a></li>                   
+                  <li> <a aria-label="2018-19" href="PFMS_SentionDtSchemewise1819.aspx" class="pagescroll"> 2018-19</a></li>     
+                  <li> <a aria-label="2017-18" href="PFMS_SentionDtSchemewise.aspx" class="pagescroll"> 2017-18</a></li>
+                  <li> <a href="SanctionOrder.aspx" class="pagescroll"> संग्रह</a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+		    </li>
+        <li class="top-level-link"> <a href="ContactUsh.aspx"><span class="fas fa-address-card"></span> <span>हमसे संपर्क करें</span></a> </li> 
+      </ul>
+    </nav>
+  </header>
+  <div class="progress-bar" id="myBar"></div>
+</div>
+
+<!-- End Header --> 
+<!-- End Header --> 
+    <div style="min-height:450px;">
+        
+    <!-- banner  -->
+<style>
+.carousel-indicators li
+{
+   height:15px;
+   width:15px;
+   border-radius:100%;
+   background-color:#000000;
+}
+</style>
+
+<div class="top-bottomspace" id="home">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000"> 
+    <ol class="carousel-indicators indicatorsTop">
+
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+     <div class="carousel-inner">
+<div class="carousel-item   text-center active "> <img src="./images/Slider/BannerMTAMessage.jpg" class="text-center img-fluid" alt="Slider Image2"/>  </div>
+<div class="carousel-item   text-center  "> <a href="https://tribal.gov.in/tribex.aspx"><img src="./images/Slider/TribeXBannerNew.jpg" class="text-center img-fluid" alt="Slider Image2"/> </a> </div>
+<div class="carousel-item   text-center  "> <img src="./images/Slider/12SaalWebBanner.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+
+<div class="carousel-item   text-center  "> <img src="./images/Slider/WebBannerJGU2026-1.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+	<div class="carousel-item   text-center  "><a href='https://bharatinnovates.in/'  onclick="return ExternalWebsiteLink();" target="_blank"> <img src="./images/Slider/Bharat_innovates_banner.jpeg" class="text-center img-fluid" alt="Slider Image2"></a>v  </div>
+	<div class="carousel-item   text-center  "> <img src="./images/Slider/WebBannerJGU2026-2.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+	<div class="carousel-item   text-center  "> <img src="./images/Slider/WebBannerJGU2026-3.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+
+
+<div class="carousel-item   text-center "> <img src="./images/Slider/WebBannerJGU2026-4.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+<div class="carousel-item   text-center "> <img src="./images/Slider/WebBannerJGU2026-5.jpg" class="text-center img-fluid" alt="Slider Image2">  </div>
+	<div class="carousel-item  text-center"><a href="https://cbpssubscriber.mygov.in/aff/AwKMbTcBYoYAEojB" onclick="return ExternalWebsiteLink();" target="_blank"><img src="https://cbpssubscriber.mygov.in/assets/uploads/juGajmc1gOVBUtt5?90" alt ="myGov" id="_AwKMbTcBYoYAEojB" height="386" width="1440" style="cursor:pointer"  onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)" draggable="false"></a></div>		 
+	
+     
+ 
+	 
+    </div>
+    <a class="carousel-control-prev" title="पीछे" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span
+          class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a
+        class="carousel-control-next" title="आगे" href="#carouselExampleIndicators" role="button" data-slide="next"> <span
+          class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+<!-- <marquee>    <p class="text-center"> <span style="font-size:16pt;align:center; color:orangered;"><a href="https://pmindiawebcast.nic.in"  onclick="return WebExternalLink();" target="_blank"><b>Webcast link for Hon'ble Prime Minister’s address on Jan Jatiya Gaurav Diwas Celebration 2025 held at Dediyapada, Gujarat on 15th November 2025 01:00 PM IST) : https://pmindiawebcast.nic.in</b></a></span></p>  </marquee>  -->
+
+
+  
+
+<section id="message">
+  <div class="container-fluid shadow-lg">
+    <div class="row">
+      <div class="col-xl-12 ">
+        <div class=" projects-content2">
+          <div class="container-fluid">
+            <div class="row">
+
+
+
+              <div class="col-xl-2 col-md-12 text-xl-right text-md-right ">
+           
+           <div class="card" style="border-radius: 1rem !important;">
+
+                  <div class="card-body p-0">
+                    <div class="text-center"><a href="#" title="MoTA-Profile" onclick="return ExternalWebsiteLink();" target="_blank"> <img src="images/minister_JO.png" class="img-fluid" alt="Card image cap" style="border-top-left-radius: 1rem !important; border-top-right-radius: 1rem !important;"> </a> </div>
+                <div class="p-2">
+                    <h5 class="card-title text-left text-dark mt-0 mb-0" style="font-size: 14px;">श्री जुएल ओराम</h5>
+                    <p class="card-text text-left text-dark mb-0">माननीय मंत्री</p>
+                    <ul class="social-icons float-left">
+                      <li><a aria-label="MoTAf" href="#" target="_blank" onclick="return ExternalWebsiteLink();"><i class="fab fa-facebook"></i></a></li>
+                      <li><a aria-label="MoTAt" href="#" target="_blank" onclick="return ExternalWebsiteLink();"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                  </div>
+                  </div>
+                </div>
+               </div>
+
+
+
+              <div class="col-xl-6 col-md-12">
+                <h2 class="mb- font-weight-bold" style="font-size:22px; color: #005073;">मंत्रालय के बारे में</h2>
+                <p>ऐतिहासिक पृष्ठभूमि</p>
+<p>जनजातीय कार्य मंत्रालय का गठन 1999 में सामाजिक न्याय एवं अधिकारिता मंत्रालय के द्वि-विभाजन के उपरांत किया गया था और इसका उद्देश्य एक समन्वित और सुनियोजित तरीके से भारतीय समाज के अत्यंत शोषित वर्ग अर्थात् अनुसूचित जनजातियों (एसटी) के समेकित सामाजिक-आर्थिक विकास पर अधिक ध्यान केन्द्रित करना है। इस मंत्रालय के गठन से पहले जनजातीय मामले अलग-अलग समय में विभिन्न मंत्रालयों द्वारा निपटाए जाते थे।</p>
+<p>जनजातीय कार्य मंत्रालय अनुसूचित जनजातियों के विकास कार्यक्रमों की समग्र नीति, आयोजना एवं समन्वयन के लिए एक नोडल मंत्रालय है। इस उद्देश्य हेतु जनजातीय कार्य मंत्रालय, भारत सरकार ने (कार्य आबंटन) नियमावली, 1961 तथा इसके पश्चात् संशोधनों के तहत आबंटित विषयों के अंतर्गत आने वाले क्रियाकलाप किए हैं।</p>               
+               <p style="float:right";> <a href="AboutMinistryh.aspx"><b style="color: rgb(0, 0, 255);">और देखें...</b></a></p>
+              </div>
+              <div class="col-xl-4 col-md-12 text-xl-right text-md-right ">
+                <div class="row">
+            
+                  <div class="col-xl-12 col-md-6">
+
+                    <div class="row">
+                     
+                        <div class="col-xl-6 col-md-6">
+                          <div class="card h-100" style="border-radius: 1rem !important;">
+  
+                            <div class="card-body p-0">
+                              <div class="text-center"> <a href="https://sansad.in/ls/hi/members/biography/5057" title="MOS-BT-Profile" onclick="return ExternalWebsiteLink();" target="_blank"> <img src="images/MoS_DU.png" class="img-fluid" alt="Card image cap" style="border-top-left-radius: 1rem !important; border-top-right-radius: 1rem !important;"> </a></div>
+                          <div class="p-2">
+                              <h5 class="card-title text-left text-dark mt-0 mb-0" style="font-size: 14px;">श्री दुर्गादास उइके</h5>
+                              <p class="card-text text-left text-dark mb-0">माननीय राज्य मंत्री</p>
+                              <ul class="social-icons float-left">
+                                <li><a aria-label="facebook" href="#" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a aria-label="twitter" href="#" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                              </ul>
+                            </div>
+                            </div>
+                          </div>
+                     
+                          </div>
+				<!--		   <div class="col-xl-6 col-md-6">
+                        <div class="card h-100" style="border-radius: 1rem !important;">
+
+                          <div class="card-body p-0">
+                            <div class="text-center"> <a href="https://sansad.in/ls/members/biography/5201?from=search"  title="MOS-BPP-Profile" onclick="return ExternalWebsiteLink();" target="_blank">  <img src="images/mosBPP_1.jpeg" class="img-fluid" alt="Card image cap" style="border-top-left-radius: 1rem !important; border-top-right-radius: 1rem !important;"> </a></div>
+                        <div class="p-2">
+                            <h5 class="card-title text-left text-dark mt-0 mb-0" style="font-size: 14px;">डॉ. भारती प्रवीण पवार</h5>
+                            <p class="card-text text-left text-dark mb-0">माननीय राज्य मंत्री</p>
+                            <ul class="social-icons float-left">
+                               <li><a href="https://www.facebook.com/drbhartipawar" title="facebook" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fab fa-facebook"></span></a></li>
+                              <li><a href="https://twitter.com/DrBharatippawar" title="twitter" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                              </ul>
+                          </div>
+                          </div>
+                        </div>
+                   
+                        </div>
+                     
+                    </div>
+               
+                  </div>-->
+                </div>
+                
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Specities -->
+<section id="newsletter" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"
+    class="aos-init aos-animate">
+  <div class="subscribe-newsletter" id="call-to-action">
+    <div class="container-fluid pl-5 pr-5">
+      <div class="row">
+        <div class="col-xl-7 mt-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4  col-md-4 col-sm-6 mb-3">
+              <div class="card  border-0 shadow h-100 card-hover" style="border-radius: 1em;">
+                <a href="WhatsNewh.aspx" target="_blank" class="text-white"><figure class="snip1174 red shadow h-100" style="border-radius:1rem !important;"> <img src="./images/explore-bg.png" class="w-100" alt="sq-sample33" />
+                  <figcaption class="text-center">
+                    <h4 class="font-weight-bold text-center text-white mb-0">नया क्या है</h4>
+                    <p class="font-weight-normal text-center mt-2"> सभी का अन्वेषण करें</a> </p>
+                  </figcaption>
+                </figure></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4  col-md-4 col-sm-6 mb-3">
+              <div class="card h-100 shadow-lg border-0 card-hover " style="border-radius: 1rem;">
+                <div class="card-header text-dark">
+                  <ul class="list-unstyled mb-0">
+<!--                    <li class="media"> <img src="images/word-icon.png" class="mr-2" alt="word icon">-->
+                      <div class="media-body" style="font-size: 15px;"> 30/09/2025 को पोस्ट किया गया </div> 
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body text-content">
+		 
+				 
+				 <p class="mb-0" style="font-size: 16px;">आवेदन जमा करने की अंतिम तिथि का विस्तार - अनुसूचित जनजाति के छात्रों की उच्चतर शिक्षा के लिए राष्ट्रीय अध्येतावृत्ति (एनएफएसटी) 2025-26</p>
+			      <br>
+
+
+  <div class="text-left mb-2" style="position: absolute; bottom:10px; ;left:20px;"><a href="https://tribal.gov.in/writereaddata/News/202509301210579396847ExtenLastDate4OnlineSubmissionApplications25-26-15102025.pdf" 
+                        class="font-weight-normal text-blue" target="_blank" onclick="return" ><b style="color: rgb(0, 0, 255);">अन्वेषण करें</b></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-3">
+              <div class="card h-100 shadow-lg border-0 card-hover" style="border-radius: 1rem;">
+                <div class="card-header text-dark">
+                  <ul class="list-unstyled mb-0">
+                   <!-- <li class="media"> <img src="images/pdf-icon.png" class="mr-2" alt="pdf icon">-->
+                      <div class="media-body" style="font-size: 15px;"> 31/08/2025 को पोस्ट किया गया  </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body text-content">
+            
+				     <p class="mb-0" style="font-size: 16px;">संग्रह परामर्श </p>
+                    <div class="text-left mb-2" style="position: absolute; bottom:10px; ;left:20px;"><a href="https://tribal.gov.in/downloads/Tribal/FINAL-AK-Compendium-Advisories-31082025.pdf" 
+                        class="font-weight-normal text-blue" target="_blank" ><b style="color: rgb(0, 0, 255);"> अन्वेषण करें</b></a> </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5">
+          <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-6">
+              <div class="card" style="border-radius: 1rem;">
+                <div class="card-body">
+                  <div class="twitterContainer"> <a class="twitter-timeline" data-height="300"
+                        href="https://twitter.com/TribalAffairsIn?ref_src=twsrc%5Etfw">Tweets by TribalAffairsIn</a> </div>
+                </div>
+                </div>
+              </div>
+            
+            <div class="col-xl-6 col-md-6 col-sm-6">
+              <div class="card" style="border-radius: 1rem;">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9" style="height:19rem;">
+                    
+                      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftribalaffairsin&tabs=timeline&width=250&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- END OF TESTIMONIALS -->
+<section id="featured-services" class="featured-services section-bg pb-0" style="background-color: #046b99;">
+  <div class=" aos-init aos-animate" data-aos="fade-up"> </div>
+  <div class="container-fluid aos-init aos-animate pt-5 pb-5" data-aos="fade-up">
+    <div class="row">
+      <div class="col-xl-12 pl-5">
+        <div class="heading">
+          <h4> प्रभाग और योजनाएँ</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-12 pl-5 pr-5 pt-2">
+        <div class="row">
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3  col-3"> <img src="images/icons/icon_scholarship.png" alt="icon_scholarship" /></div>
+                    <div class="col-xl-9 col-sm-9  col-9 text-left">
+                      <h6 class="text-white mb-2">छात्रवृत्ति </h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="#" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_tri.png" alt="icon_tri" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> टीआरआई, अनुसंधान और मीडिया</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="#" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_emrs.png" alt="icon_emrs" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> ईएमआरएस</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="#" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3  col-3"> <img src="images/icons/icon_livelyhood.png" alt="icon_livelyhood" /></div>
+                    <div class="col-xl-9 col-sm-9  col-9 text-left">
+                      <h6 class="text-white mb-2"> जीविकोपार्जन</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="Livelihoodh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_grant.png" alt="icon_grant" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> अनुदान </h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="STWelfareGranth.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_ngo.png" alt="icon_ngo" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> एनजीओ</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="NGOh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3  col-3"> <img src="images/icons/icon_fra.png" alt="icon_fra" /></div>
+                    <div class="col-xl-9 col-sm-9  col-9 text-left">
+                      <h6 class="text-white mb-2"> एफआरए</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="FRAh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_legal.png" alt="icon_legal" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> संवैधानिक और कानूनी मामले</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="Clmh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_parliament.png" alt="icon_parliament" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> संसद और समन्वय</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="PNCh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3  col-3"> <img src="images/icons/icon_stc.png" alt="icon_stc" /></div>
+                    <div class="col-xl-9 col-sm-9  col-9 text-left">
+                      <h6 class="text-white mb-2">एसटीसी निगरानी</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="STCMonitoringh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_finance.png" alt="icon_finance" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2">वित्त </h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="Financeh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_establishment.png" alt="icon_establishment" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2">स्थापना और सतर्कता</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="estVigilanceh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3  col-3"> <img src="images/icons/icon_policy.png" alt="icon_policy" /></div>
+                    <div class="col-xl-9 col-sm-9  col-9 text-left">
+                      <h6 class="text-white mb-2">नीति और शिकायतें</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="#" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_language.png" alt="icon_language" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> राजभाषा</h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="OfficialLanguageh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6  col-sm-12 h-100">
+            <div class="section-title">
+              <div class="card bgColor border-0 rounded-0 h-100">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 col-sm-3 col-3"> <img src="images/icons/icon_ncst.png" alt="icon_ncst" /></div>
+                    <div class="col-xl-9 col-sm-9 col-9 text-left">
+                      <h6 class="text-white mb-2"> एनसीएसटी </h6>
+                      <div class="line"></div>
+                      <h6 class="text-white text-un"><a href="NCSTh.aspx" class="text-white"><u>अन्वेषण करें</u></a></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-xl-12 p-0 mb-0">
+        <div class="ml-5 mr-5 pt-5 pb-5" id="portfolio">
+          <div class="">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="iconBoxheading">
+                  <h4>अभिनव पहलें</h4>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="boxContent">
+              <div class="row">
+                <div class="col-xl-2  col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox1 shadow-lg"> <a href="PerformanceDashboardh.aspx"><img src="./images/icons/icon_dashboard.png" alt="icon_dashboard"/></a> </div>
+                  <h5>प्रदर्शन डैशबोर्ड</h5>
+                </div>
+                <div class="col-xl-2  col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox2 shadow-lg"> <a href="geeth.aspx"><img src="./images/icons/icon_geet.png" alt="icon_geet"/></a></div>
+                  <h5> जीईईटी (गीत)</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox3 shadow-lg"> <a href="Goalh.aspx"><img src="./images/icons/icon_goal.png" alt="icon_goal"/></a></div>
+                  <h5>जीओएएल</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox4 shadow-lg"> <a href="pri-awareness-programh.aspx"><img src="./images/icons/icon_health.png" alt="icon_health"/></a></div>
+                  <h5> पीआरआई जागरूकता कार्यक्रम</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox5 shadow-lg"> <a href="swasthya-portalh.aspx"><img src="./images/icons/icon_swsthya.png" alt="icon_swsthya"/></a></div>
+                  <h5>स्वास्थ्य पोर्टल</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox7 shadow-lg"> <a href="sickle-cell-disease-piramal-swasthyah.aspx"><img src="./images/icons/icon_sickle.png" alt="icon_sickle"/></a></div>
+                  <h5> सिकल सेल सपोर्ट कॉर्नर</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox8 shadow-lg"> <a href="IceStupah.aspx"><img src="./images/icons/icon_ice.png" alt="icon_ice"/></a></div>
+                  <h5> आइस स्तूप</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox9 shadow-lg"> <a href="Model-villageh.aspx"><img src="./images/icons/icon_model.png" alt="icon_model"/></a></div>
+                  <h5>मॉडल गांव</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox10 shadow-lg"> <a href="1000-springs-initiativeh.aspx"><img src="./images/icons/icon_1000springs.png" alt="icon_1000springs"/></a></div>
+                  <h5> 1000 स्प्रिंग्स पहल</h5>
+                </div>
+                <div class="col-xl-2  col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox11 shadow-lg"> <a href="MOUSh.aspx"><img src="./images/icons/icon_MoU.png" alt="icon_MoU"/></a></div>
+                  <h5> समझौता ज्ञापन</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox12 shadow-lg"> <a href="GapAnalysish.aspx"><img src="./images/icons/icn_gap.png" alt="inc_gap"/></a></div>
+                  <h5>अंतर विश्लेषण</h5>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-6 text-center mb-3">
+                  <div class="iconBox iconBox13 shadow-lg"> <a href="atmanirbhar-bharath.aspx"><img src="./images/icons/icon_atmanirbhar.png" alt="icon_atmanirbhar"/></a></div>
+                  <h5>आत्मनिर्भर भारत</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section style="background-color: #f1f1f1;">
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-xl-12 p-0 mb-0">
+        <div class="" id="portfolio">
+          <div class="container mb-5 mt-5">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6  mb-4">
+                <article class="card  h-100  border-0 shadow-lg" style="border-radius: 1rem;">
+                  <div class="card-body p-0 hoverBox"> <a aria-label="adiprasaran" href="https://adiprasaran.tribal.gov.in/photoAlbum1.aspx" target="_blank">
+                    <div class="card1 "> <img src="images/PhotoGallery_16022023.jpg" alt="photo gallery" class="img-fluid h-100 w-100" style="border-radius: 1em;" />
+                      <div class="card-info">
+                       प्रधानमंत्री ने दिल्ली स्थित मेजर ध्यान चंद राष्ट्रीय स्टेडियम में आदि महोत्सव का उद्घाटन किया
+                        <p class="card-text mb-0"> <a href="https://adiprasaran.tribal.gov.in/photoAlbum1.aspx" target="_blank">फोटो गैलरी अन्वेषण करें</a> </p>
+                      </div>
+                    </div>
+                    </a>
+                    <p>
+                    
+                    <div class="text-right" style="position: absolute; bottom:20px; right:20px;">
+				<a aria-label="Photo" href="https://adiprasaran.tribal.gov.in/photoAlbum1.aspx" target="_blank" class="font-weight-bold"> <i class="fas fa-chevron-circle-right" style="font-size:20px; color: #f07331 !important;"></i></a></div>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6  mb-4">
+                <article class="card  h-100  border-0 shadow-lg" style="border-radius: 1rem;">
+                  <div class="card-body p-0 hoverBox"> <a aria-label="Ytube" href="#" target="_blank">
+                     <div class="card1 "> 
+
+
+						<!-- <iframe class="img-fluid h-100 w-100" src="https://www.youtube.com/embed/gnr0uB2RyrQ?cc_load_policy=1" title="Shri Arjun Munda, Hon. Union Minister of Tribal Affairs, speaks on the Budget 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	 
+<iframe class="img-fluid h-100 w-100"  src="https://www.youtube.com/embed/z6Gt4oLFhmM" title="Hon’ble President of India will confer #NAT2023 to 75 selected awardees." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
+            
+                      <div class="card-info">
+                       <a aria-label="youtube" href="https://www.youtube.com/embed/Tu5tE9kKiAo?rel=0"  onclick="return ExternalWebsiteLink();">
+					
+					 Hon’ble President of India Smt. Droupadi Murmu will confer #NAT2023 to 75 selected awardees.
+                        <p class="card-text mb-0"> <a aria-label="ytube" href=""https://www.youtube.com/embed/Tu5tE9kKiAo?rel=0" " onclick="return ExternalWebsiteLink();">वीडियो गैलरी अन्वेषण करें</a> </p>
+                      </div>
+                    </div>
+                    </a>
+                    <p>
+                    
+                    <div class="text-right" style="position: absolute; bottom:20px; right:20px;"><a aria-label="fbold" href="#"
+                          class="font-weight-bold"> <i class="fas fa-chevron-circle-right"
+                            style="font-size:20px; color: #f07331 !important;"></i></a></div>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  mb-4">
+                <article class="card  h-100 border-0 shadow-lg" style="border-radius: 1rem;">
+                  <div class="card-body p-0 hoverBox"> <a aria-label="Asearch" href="https://pib.gov.in/AdvanceSearch.aspx" target="_blank" onclick="return ExternalWebsiteLink();">
+                    <div class="card1 "> <img src="./images/media.png" alt="media" class="img-fluid h-100 w-100"
+                            style="border-radius: 1em;" />
+                      <div class="card-info">
+                        <h2>मीडिया कवरेज / पीआईबी</h2>
+                        <p class="card-text mb-0"> <a href="https://pib.gov.in/AdvanceSearch.aspx" onclick="return ExternalWebsiteLink();">अन्वेषण करें</a> </p>
+                      </div>
+                    </div>
+                    </a>
+                    <p>
+                    
+                    <div class="text-right" style="position: absolute; bottom:20px; right:20px;"><a aria-label="Asearch"  href="https://pib.gov.in/AdvanceSearch.aspx" onclick="return ExternalWebsiteLink();"
+                          class="font-weight-bold"> <i aria-label="chevron" class="fas fa-chevron-circle-right"
+                            style="font-size:20px; color: #f07331 !important;"></i></a></div>
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<section>
+  <div class="container-fluid shadow-lg">
+    <div class="row">
+      <div class="col-xl-12 ">
+        <div class="carousel-wrapper">
+          <div id="client-logos" class="owl-carousel text-center">
+            <!-- <div class="item">
+              <div class="client-inners"> <a href="https://digitalindiaawards.gov.in/" target="_blank" onclick="ExternalWebsiteLink();"><img
+                      src="images/Client-logo/DIA.png" alt="DIA" /> </a></div>
+            </div> -->
+            <div class="item">
+              <div class="client-inners"> <a aria-label="IndiaGov" href="https://services.india.gov.in/" target="_blank" onclick="return ExternalWebsiteLink();"><img
+                      src="images/Client-logo/india-gov.png" alt="India Gov" /></a> </div>
+            </div>
+            <div class="item">
+              <div class="client-inners"> <a aria-label="IndiaCode" href="https://www.indiacode.nic.in/" target="_blank" onclick="return ExternalWebsiteLink();"><img
+                      src="images/Client-logo/IndiaCode.png" alt="India Code" /> </a></div>
+            </div>
+           
+            <div class="item">
+              <div class="client-inners"> <a aria-label="digital" href="http://www.digitalindia.gov.in/" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/digital-india.png"
+                      alt="Digital India" /></a> </div>
+            </div>
+            <div class="item">
+              <div class="client-inners"> <a aria-label="ngodarpan" href="http://ngodarpan.gov.in/" target="_blank" onclick="return  ExternalWebsiteLink();"><img
+                      src="images/Client-logo/ngo.png" alt="NGO" /></a> </div>
+            </div>
+            <div class="item">
+              <div class="client-inners"> <a  aria-label="nvsp" href="https://www.nvsp.in/" target="_blank" onclick="return  ExternalWebsiteLink();"><img
+                      src="./images/Client-logo/nvsp.png" alt="NVSP" /> </a></div>
+            </div>
+            <div class="item">
+              <div class="client-inners"><a aria-label="tribes" href="https://www.tribesindia.com/" target="_blank" onclick="return ExternalWebsiteLink();"> <img src="images/Client-logo/tribes.png"
+                      alt="Tribes" /> </a></div>
+            </div>
+			
+			<div class="item">
+              <div class="client-inners"><a aria-label="utsav" href="https://utsav.gov.in/" target="_blank" onclick="return ExternalWebsiteLink();"> <img src="images/Client-logo/Utsav-logo2.png"
+                      alt="Tribes" /> </a></div>
+            </div>
+			
+            <div class="item">
+              <div class="client-inners"> <a aria-label="Bhuvan" href="http://bhuvan.nrsc.gov.in/bhuvan_links.php" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/logo_bhuvan.png"
+                      alt="Bhuvan" /> </a></div>
+            </div>
+            <div class="item">
+              <div class="client-inners"> <a aria-label="NCST" href="https://www.ncst.nic.in/" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/ncst.png"
+                      alt="NCST" /> </a></div>
+            </div>
+            <div class="item">
+              <div class="client-inners"> <a aria-label="NSTFDC" href="http://nstfdc.tribal.gov.in" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/nstfdc.png"
+                      alt="NSTFDC" /> </a></div>
+            </div>
+			<div class="item">
+              <div class="client-inners" style="height=100%"> <a href="https://data.gov.in/" aria-label="datagov" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/datagov.png"
+                      alt="datagov" /> </a></div>
+            </div>
+			<div class="item">
+              <div class="client-inners" style="height=100%"> <a href="https://mygov.in/" aria-label="mygov" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/mygov.png"
+                      alt="mygov" /> </a></div>
+            </div>
+			<div class="item">
+              <div class="client-inners" style="height=100%"> <a href="https://pib.gov.in/indexd.aspx" aria-label="PIBINDIA" target="_blank" onclick="return ExternalWebsiteLink();"><img src="images/Client-logo/pib_logo.png"
+                      alt="PIBINDIA" /> </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+        <section>
+  
+  <div style="background:url('./images/1.png') repeat;height:30px"></div>
+  <div style="height: auto; background-color: #1078a7;">
+    <ul class="list-unstyled list-inline text-center pt-2 pb-2 mb-0 text-white" >
+      <li class="list-inline-item"> <a href="PublicGrievancesh.aspx" class="text-white">लोक शिकायतें</a> </li>
+      &nbsp;|
+      <li class="list-inline-item"> <a href="RTIh.aspx" class="text-white">सूचना का अधिकार</a> </li>
+       &nbsp;|
+      <li class="list-inline-item"> <a href="WebsitePolicyh.aspx"  class="text-white">वेबसाइट नीति</a> </li>
+	   &nbsp;|
+	  <li class="list-inline-item"> <a href="CopyrightPolicyh.aspx"  class="text-white">सर्वाधिकार  नीति</a> </li>
+	  
+      &nbsp;|
+      <li class="list-inline-item"> <a class="tooltiplink text-white" data-title="पीडीएफ अंग्रेजी में है " href="/downloads/tribal/FAQ.pdf" target="_blank" class="text-white">सामान्य प्रश्न</a> </li>
+      &nbsp;|
+      <li class="list-inline-item"> <a href="RealtedWebsitesh.aspx" class="text-white">संबंधित वेबसाइट</a> </li>
+      &nbsp;| 
+      <li class="list-inline-item"> <a href="TendersAdvertismenth.aspx" class="text-white"> निविदाएं और विज्ञापन </a> </li>
+	   &nbsp;|
+      <li class="list-inline-item"> <a href="wimh.aspx" class="text-white">वेब सूचना प्रबंधक</a> </li>
+      &nbsp;|
+      <li class="list-inline-item"> <a href="Feedbackh.aspx" class="text-white">प्रतिक्रिया</a> </li>
+      &nbsp;|
+	  <li class="list-inline-item"> <a href="disclaimerh.aspx" class="text-white">डिस्क्लेमर</a> </li>
+	      &nbsp;|
+      <li class="list-inline-item"> <a href="Helph.aspx" class="text-white"> सहायता </a> </li>
+    </ul>
+  </div>
+</section>
+ <footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="footer-bottom-wrapper  d-lg-block">
+          <div class="container footer-bottom-container">
+            <div class="footer-content clearfix ">
+              <div class="logo-cmf"> <a href="../DivisionsFiles/STQC13022023.pdf" target="_blank"><img src="./images/stqc_icon.png" alt="STQC Logo" alt="STQC"></a> </div>
+              <div class="logo-cmf"> <a href="http://cmf.gov.in/" onclick="return ExternalWebsiteLink();" target="_blank" role="link"><img src="./images/cmf-logo.png" alt="Built on Common Minimum Framework"></a> </div>
+              <div class="copyright-content">
+			  <strong> वेबसाइट सामग्री जनजातीय कार्य मंत्रालय, भारत सरकार के स्वामित्व में है </strong> 
+			  <span> अभिकल्पित, विकसित और परिचारित  <a href="http://www.nic.in/" onclick="return ExternalWebsiteLink();" title="NIC, External Link that opens in a new window" target="_blank" role="link" onClick="return myFunction();"style="color:black;">
+			  <strong> राष्ट्रीय सूचना विज्ञान केन्द्र </strong></a> </span> 
+			  <span class="lastupdated"> अंतिम अद्यतन: <strong>01 Nov 2026    
+			  </div>
+			
+			  
+			  
+            </div>
+            <div class="copyright-content">
+              <div class="social-links mt-3"> <span class="social-container"> <span class="d-inline-block text-Black" style="font-size: 14px;">अनुसरण करें</span>
+                <ul class="social-icons">
+                  <li class="text-white"></li>
+                  <li><a aria-label="Instagram" href="https://www.instagram.com/tribalaffairsin/?hl=en" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <!-- <li><a aria-label="twitter" href="https://twitter.com/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fa-brands fa-x-twitter"></span></a></li> 
+				  <li><a aria-label="twitter" href="https://twitter.com/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><img height ="10" width="10" src="images/icons/TwitterXLogoVector.svg"/></a></li> -->
+				   <li><a aria-label="twitter" href="https://twitter.com/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fa-brands fa-x-twitter"></span></a></li>
+                  <li><a aria-label="youtube" href="https://www.youtube.com/c/MinistryofTribalAffairs/videos" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  <li><a aria-label="facebook" href="https://www.facebook.com/TribalAffairsIn/" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-facebook"></i></a></li>
+<!-- 				  <li><a aria-label="koo" class="instagram" href="https://www.kooapp.com/profile/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab "><img src="images/icons/koo.svg" height="15" width="12" alt="Koo"/></i> </a></li> -->
+                </ul>
+                </span>
+			  </div>
+			  <span id="ctl00_lblCountMessage" style="display:inline-block;color:Black;border-width:0px;right:5px;text-align:center;bottom: 1px;height:30px;width:80px;">आगंतुक गिनती  </span><span id="ctl00_lblCount" style="display:inline-block;color:White;background-color:Black;border-width:1px;border-style:solid;right:5px;font-size:15px;text-align:center;bottom:1px;height:30px;width:80px;">3404983</span>
+			</div>
+			
+			
+			
+              
+              
+              
+			  
+			
+			
+			
+			
+			
+		
+	
+          </div>
+        </div>
+	
+        <div class="d-none">
+          <ul class="list-unstyled list-inline text-center pt-2 pb-2 mb-0 text-white" >
+            <li class="list-inline-item"> <a aria-label="stqc" href="#" target="_blank"> <img src="./images/stqc_icon.png" class="img-fluid" alt="sct_icon" /> </a> </li>
+            <li class="list-inline-item"> <a aria-label="cmf" href="https://cmf.gov.in/" target="_blank" onclick="return ExternalWebsiteLink()"> <img src="./images/cmf-logo.png" class="img-fluid" alt="cmf-logo" /> </a> </li>
+            <li class="list-inline-item">
+              <div class="copyright-content pt-4"> विषयवस्तु प्रबंधन <strong> जनजातीय कार्य मंत्रालय, भारत सरकार </strong> <span> अभिकल्पित, विकसित और परिचारित <!-- <a aria-label="AVP" href="http://www.nic.in/"
+              title="NIC, External Link that opens in a new window" target="_blank" role="link"
+              onclick="return myFunction();style="color:black;"><strong>National Informatics Centre( NIC )</strong></a> --></span> <span
+            class="lastupdated">Last Updated: <strong>01 Nov 2026 | 
+			
+			
+		 </span></strong></span> </div>
+            </li>
+            <li class="list-inline-item">
+              <div class="social-links"> <span class="social-container">
+                <ul class="social-icons">
+                  <!-- <li class="text-white">Follow Us</li>-->
+                  <li><a aria-label="Instagram" href="https://www.instagram.com/tribalaffairsin/?hl=en" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a aria-label="Twitter" href="https://twitter.com/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fa-brands fa-x-twitter"></span></a></li>
+                  <li><a aria-label="youtube" href="https://www.youtube.com/c/MinistryofTribalAffairs/videos" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  <li><a aria-label="facebook" href="https://www.facebook.com/TribalAffairsIn/" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-facebook"></i></a></li>
+<!--				  <li><a aria-label="koo" class="instagram" href="https://www.kooapp.com/profile/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab "><img src="images/icons/koo.svg" height="15" width="12" alt="Koo" /></i> </a></li> -->
+                </ul>
+                </span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</footer>
+ <ul class="social-nav model-0 wow fadeInUp d-none d-xl-block d-lg-block d-sm-block d-md-block">
+  <li><a aria-label="Facebook" class="facebook" href="https://www.facebook.com/TribalAffairsIn/" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-facebook"></i></a></li>
+  <li><a aria-label="twitter" class="twitter" href="https://twitter.com/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><span class="fa-brands fa-x-twitter"></span></a></li>
+  <li><a aria-label="youtube" class="pinterest" href="https://www.youtube.com/c/MinistryofTribalAffairs/videos" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-youtube"></i></a></li>
+  <li><a aria-label="instagram" class="instagram" href="https://www.instagram.com/tribalaffairsin/?hl=en" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab fa-instagram"></i></a></li>
+<!--   <li><a aria-label="Koo" class="instagram" href="https://www.kooapp.com/profile/TribalAffairsIn" onclick="return ExternalWebsiteLink();" target="_blank"><i class="fab "><img src="images/icons/koo.svg" height="15" width="12" alt="Koo"/></i> </a></li> -->
+</ul>
+
+<!--  Chatbot Function --->
+<section>
+    <!-- Floating Chatbot Toggle -->
+    <!-- Floating Chatbot Toggle -->
+    <div class="floating-chat-btn" id="floatingChatBtn">
+        <div class="floating-vid-wrapper">
+            <video src="images/tribot.mp4" autoplay loop muted playsinline class="floating-bot-vid"></video>
+        </div>
+        <span class="floating-chat-label">TriBot</span>
+    </div>
+
+    <!-- Chatbot Widget Component -->
+    <div class="chatbot-panel" id="chatbotPanel">
+        <!-- 1. Header -->
+        <div class="chat-header">
+            <div class="tricolor-bar"></div>
+            <div class="chat-identity">
+                <div class="avatar-container">
+                    <div class="avatar-img-wrapper">
+                        <video src="images/tribot.mp4" autoplay loop muted playsinline class="avatar-vid"></video>
+                    </div>
+                    <span class="status-dot"></span>
+                </div>
+                <div class="chat-info">
+                    <h3 class="chat-name">TriBot</h3>
+                    <p class="chat-status-text">Official Assist</p>
+                </div>
+            </div>
+            <div class="chat-actions">
+                <select id="languageSelect" title="Select Language">
+                    <option value="en">EN</option>
+                    <option value="hi">HI</option>
+                    <option value="te">TE</option>
+                    <option value="ta">TA</option>
+                </select>
+                <button type="button" class="header-btn" id="expandBtn" title="Expand">
+                    <i class="ri-expand-left-right-line"></i>
+                </button>
+                <button type="button" class="header-btn" id="newChatBtn" title="New Chat" style="display: none;">
+                    <i class="ri-refresh-line"></i>
+                </button>
+                <button type="button" class="header-btn" id="closeChatBtn" title="Close">
+                    <i class="ri-subtract-line"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- 2. Body (Messages) -->
+        <div class="chat-body" id="messagesArea">
+            <div class="security-notice">
+                <i class="ri-shield-check-fill notice-icon"></i>
+                <p class="notice-text">Official Government Assistant. Your conversation is secure and private.</p>
+            </div>
+
+            <!-- Welcome Card -->
+            <div class="welcome-card">
+                <p class="welcome-greeting">Namaste! 🙏</p>
+                <p class="welcome-text">I am <strong>TriBot</strong>, your official AI assistant for the Ministry of Tribal Affairs. Ask me about schemes, scholarships, eligibility, or any tribal welfare programme.</p>
+            </div>
+
+            <div class="suggestions-container" id="quickQueries" style="margin-top: auto;">
+                <span class="suggestions-label">SUGGESTED QUERIES</span>
+                <div class="suggestions-list">
+                    <button type="button" class="suggestion-chip quick-query-btn">What is PM-JANMAN?</button>
+                    <button type="button" class="suggestion-chip quick-query-btn">Apply for Scholarship</button>
+                    <button type="button" class="suggestion-chip quick-query-btn">FRA Claims Process</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Input Bar -->
+        <div class="chat-input-bar">
+            <!-- Typing Indicator -->
+            <div class="typing-indicator-bar" id="typingIndicator" style="display: none;">
+                <span class="typing-dots">
+                    <span>•</span><span>•</span><span>•</span>
+                </span>
+                <span style="margin-left: 6px;">Tribot is typing...</span>
+            </div>
+
+            <div class="input-wrapper">
+                <button type="button" class="icon-btn" id="voiceBtn" title="Voice Input">
+                    <i class="ri-mic-line"></i>
+                </button>
+                <input type="text" class="chat-input" id="chatInput" placeholder="Ask about schemes, scholarships...">
+                <button type="button" class="send-btn" id="sendMessageBtn" title="Send Message">
+                    <i class="ri-send-plane-fill"></i>
+                </button>
+            </div>
+
+            <div class="security-footer">
+                <i class="ri-government-line"></i> Ministry of Tribal Affairs · <i class="ri-sparkling-2-fill"></i> AI Powered
+            </div>
+        </div>
+    </div>
+    
+    <!-- API Service for Backend Connection -->
+    <!-- API Service for Backend Connection -->
+</section>
+
+        <!-- Modal HTML --> 
+<!--<script src="js/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<!-- <script src="js/popper.min.js"></script>  -->
+<script src="js/bootstrap.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script> 
+
+
+
+
+
+
+<script>
+    !(function ($) {
+      "use strict";
+      // Smooth scroll for the navigation menu and links with .scrollto classes
+      var scrolltoOffset = $('#header').outerHeight() - 1;
+      $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          if (target.length) {
+            e.preventDefault();
+            var scrollto = target.offset().top - scrolltoOffset;
+            if ($(this).attr("href") == '#header') {
+              scrollto = 0;
+            }
+            $('html, body').animate({
+              scrollTop: scrollto
+            }, 1500, 'easeInOutExpo');
+            if ($(this).parents('.nav-menu, .mobile-nav').length) {
+              $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+              $(this).closest('li').addClass('active');
+            }
+            if ($('body').hasClass('mobile-nav-active')) {
+              $('body').removeClass('mobile-nav-active');
+              $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+              $('.mobile-nav-overly').fadeOut();
+            }
+            return false;
+          }
+        }
+      });
+      // Activate smooth scroll on page load with hash links in the url
+      $(document).ready(function () {
+        if (window.location.hash) {
+          var initial_nav = window.location.hash;
+          if ($(initial_nav).length) {
+            var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+            $('html, body').animate({
+              scrollTop: scrollto
+            }, 1500, 'easeInOutExpo');
+          }
+        }
+      });
+      // Navigation active state on scroll
+      var nav_sections = $('section');
+      var main_nav = $('.nav-menu, .mobile-nav');
+      $(window).on('scroll', function () {
+        var cur_pos = $(this).scrollTop() + 200;
+
+        nav_sections.each(function () {
+          var top = $(this).offset().top,
+            bottom = top + $(this).outerHeight();
+
+          if (cur_pos >= top && cur_pos <= bottom) {
+            if (cur_pos <= bottom) {
+              main_nav.find('li').removeClass('active');
+            }
+            main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+          }
+          if (cur_pos < 300) {
+            $(".nav-menu ul:first li:first, .mobile-nav ul:first li:first").addClass('active');
+          }
+        });
+      });
+      // Mobile Navigation
+      if ($('.nav-menu').length) {
+        var $mobile_nav = $('.nav-menu').clone().prop({
+          class: 'mobile-nav d-lg-none'
+        });
+        $('body').append($mobile_nav);
+        $('body').prepend('<button type="button" aria-label="pre"  class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars"></i></button>');
+        $('body').append('<div class="mobile-nav-overly"></div>');
+
+        $(document).on('click', '.mobile-nav-toggle', function (e) {
+          $('body').toggleClass('mobile-nav-active');
+          $('.mobile-nav-toggle i').toggleClass('fas fa-times');
+          $('.mobile-nav-overly').toggle();
+        });
+
+        $(document).on('click', '.mobile-nav .drop-down > a', function (e) {
+          e.preventDefault();
+          $(this).next().slideToggle(300);
+          $(this).parent().toggleClass('active');
+        });
+
+        $(document).click(function (e) {
+          var container = $(".mobile-nav, .mobile-nav-toggle");
+          if (!container.is(e.target) && container.has(e.target).length === 0) {
+            if ($('body').hasClass('mobile-nav-active')) {
+              $('body').removeClass('mobile-nav-active');
+              $('.mobile-nav-toggle i').toggleClass('fas fa-times');
+              $('.mobile-nav-overly').fadeOut();
+            }
+          }
+        });
+      } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
+        $(".mobile-nav, .mobile-nav-toggle").hide();
+      }
+      // Toggle .header-scrolled class to #header when page is scrolled
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('#header').addClass('header-scrolled');
+          $('#topbar').addClass('topbar-scrolled');
+        } else {
+          $('#header').removeClass('header-scrolled');
+          $('#topbar').removeClass('topbar-scrolled');
+        }
+      });
+
+      if ($(window).scrollTop() > 100) {
+        $('#header').addClass('header-scrolled');
+        $('#topbar').addClass('topbar-scrolled');
+      }
+      // Back to top button
+      /* $(window).scroll(function() {
+         if ($(this).scrollTop() > 100) {
+           $('.back-to-top').fadeIn('slow');
+         } else {
+           $('.back-to-top').fadeOut('slow');
+         }
+       });
+     
+       $('.back-to-top').click(function() {
+         $('html, body').animate({
+           scrollTop: 0
+         }, 1500, 'easeInOutExpo');
+         return false;
+       });*/
+    })(jQuery);
+  </script> 
+<script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script> 
+<script src="js/jquery.back-to-top.js"></script> 
+<script>
+    $(function () {
+      $('.bck').backToTop({
+        iconName: 'fas fa-arrow-up',
+        fxName: 'rightToLeft'
+      });
+    });
+  </script> 
+<script src='js/owl.carousel.min.js'></script> 
+<script>
+    (function () {
+      "use strict";
+      var carousels = function () {
+        $(".owl-carousel1").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          center: true,
+          margin: 0,
+          responsiveClass: true,
+          nav: false,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false
+            },
+
+            680: {
+              items: 2,
+              nav: false,
+              loop: false
+            },
+
+            1000: {
+              items: 3,
+              nav: true
+            }
+          }
+        });
+      };
+      (function ($) {
+        carousels();
+      })(jQuery);
+    })();
+
+  </script> 
+<script>
+    $.fn.jQuerySimpleCounter = function (options) {
+      var settings = $.extend({
+        start: 0,
+        end: 100,
+        easing: 'swing',
+        duration: 400,
+        complete: ''
+      },
+        options);
+
+      var thisElement = $(this);
+
+      $({ count: settings.start }).animate({ count: settings.end }, {
+        duration: settings.duration,
+        easing: settings.easing,
+        step: function () {
+          var mathCount = Math.ceil(this.count);
+          thisElement.text(mathCount);
+        },
+        complete: settings.complete
+      });
+    };
+    $('#number1').jQuerySimpleCounter({ end: 12, duration: 3000 });
+    $('#number2').jQuerySimpleCounter({ end: 55, duration: 3000 });
+    $('#number3').jQuerySimpleCounter({ end: 359, duration: 2000 });
+    $('#number4').jQuerySimpleCounter({ end: 246, duration: 2500 });
+    /* AUTHOR LINK */
+    $('.about-me-img').hover(function () {
+      $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+    }, function () {
+      $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+    });
+  //# sourceURL=pen.js
+  </script> 
+<script src="js/tabs.js"></script> 
+<script>
+    $(document).ready(function () {
+      $('#client-logos').owlCarousel({
+        loop: true,
+        margin: 3,
+        nav: true,
+        autoplay: true,
+        navText: [" ", " "],
+        responsive: {
+          0: {
+            items: 2
+          },
+          600: {
+            items: 4
+          },
+          1000: {
+            items: 6
+          }
+        },
+        // navText: ["<img src='http://pixsector.com/cache/a8009c95/av8a49a4f81c3318dc69d.png' alt='pixsector'/>","<img src='http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png' alt='pixsector1'/>"]
+      });
+    });
+  </script> 
+<!-- <script type="text/javascript">
+    $(window).scroll(function () {
+      var navTop = $(window).scrollTop();
+      $('.model-0').css("top", navTop + 300);
+    });
+  </script>  --> 
+<script>
+    function showTooltip(evt, text) {
+      let tooltip = document.getElementById("tooltip");
+      tooltip.innerHTML = text;
+      tooltip.style.display = "block";
+      tooltip.style.left = evt.pageX + 10 + 'px';
+      tooltip.style.top = evt.pageY + 10 + 'px';
+    }
+    function hideTooltip() {
+      var tooltip = document.getElementById("tooltip");
+      tooltip.style.display = "none";
+    }
+  </script> 
+<script>
+    $('.pagescroll').on('click', function () {
+      $('html, body').animate({ scrollTop: $(this.hash).offset().top - 150 }, 700);
+      return false;
+    })
+  </script> 
+   <script>
+		$(".owl-dot").attr('aria-label',"slide-dot");
+   </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+</body>
+</html>

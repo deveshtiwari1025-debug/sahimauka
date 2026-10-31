@@ -1,0 +1,130 @@
+=== NTA raw around first notice ===
+_blank"><i class="fa fa-mobile"></i> Abhyas</a>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="row mt50">
+                <div class="">
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        
+                        <div class="marker marker-ribbon marker-primary pos-absolute align_centre" style="margin-top: -26px;"><h5 style="color:white">About NTA</h5></div>
+                        <div class="box-part box-part-home-about">
+                            <p class="text-justify title-p">
+                                National Testing Agency (NTA) has been established as a premier, specialist, autonomous and self-sustained testing organization to conduct entrance examinations for admission/fellowship in higher educational institutions.
+                            </p>
+                            <p>To assess competence of candidates for admissions has always been a challenge in terms of matching with research based international standards, efficiency, transparency and error free delivery.</p>
+
+                            <div class="align_right" style="margin-top:10px!important">
+                                <a class="btn green-theme-btn mt10" href="/about" type="button">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                        
+                        <div class="marker marker-ribbon marker-primary pos-absolute align_centre" style="margin-top: -26px;"><h5 style="color:white">Latest @ NTA</h5></div>
+                        <div class="box-part box-part-home-latest">
+                            
+                            <marquee onmouseover="this.stop();" onmouseout="this.start();" direction="up" behavior="scroll" scrollamount="1" style="height:180px!important" white-space:normal!important" class="latestPart">
+                                        <p>
+                                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                                <content style="color:#012B55">Extension of Registration Dates of Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) July 2026 Semester Exam reg.&nbsp;</content>
+                                                                                            <a href="/Download/Notice/Notice_20261031153254.pdf" class="orange-text" target="_blank">
+                                                    <strong>Read More&nbsp;</strong>
+                                                </a>
+                                                                                 
+
+=== NTA list item structure search ===
+latestPart 1
+noticeList 0
+latest 2
+ul class 8
+li class 12
+
+=== Unstop ===
+<!DOCTYPE html>
+<html lang="en" data-beasties-container>
+
+  <head>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NNBT7L');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+      window.prerenderReady = false;
+    </script>
+    <script>
+      function getCookie(cookieName) {
+        const name = cookieName + "=";
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const cookieArray = decodedCookie.split(';');
+
+        for (let i = 0; i < cookieArray.length; i++) {
+          let cookie = cookieArray[i].trim();
+          if (cookie.indexOf(name) === 0) {
+            return cookie.substring(name.length, cookie.length);
+          }
+        }
+
+        return null;
+      }
+        const countryCookie = getCookie('country');
+        window['userCountry'] = countryCookie ? countryCookie : null;
+      </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <!-- <meta name="viewport" content="height=device-height,
+  width=device
+PAT api 0 nextf 0 cloudflare 1
+
+=== AICTE stipend contexts ===
+ r="10"> Remote &amp; Hybrid Work from your hostel room <span class
+---
+ight="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-4 w-4"> Highest Stipend ₹₹₹ Best-paid postings first <svg xmlns="htt
+---
+ath> Remote &amp; Hybrid Work from your hostel room Highest Stipend 
+---
+ext-white"> Highest Stipend Best-paid postings first <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.
+---
+-between gap-2"> 04 Paid monthly Shortlisted, then salaried Employers respond inside the portal. Stipends are declared upfront and paid to your bank account — never negotiated in DMs. <div class="flex items-center justify-between gap
+---
+
+=== AICTE chunk urls ===
+/_next/static/chunks/fd9d1056-23c17cadedfe856e.js
+/_next/static/chunks/2117-7ec33b06c0dd3a2c.js
+/_next/static/chunks/main-app-d70563ab9cbe03bd.js
+/_next/static/chunks/2972-50fc83a74ade3239.js
+/_next/static/chunks/8217-5049a28a1c874d10.js
+/_next/static/chunks/781-a90d7e9b3cf58520.js
+/_next/static/chunks/1685-fc2cc309fd82a433.js
+/_next/static/chunks/908-dc495b61d3406dc8.js
+/_next/static/chunks/9116-22fdf3f8e6339717.js
+/_next/static/chunks/812-23a2fdf79e8414f6.js
+/_next/static/chunks/8834-114423d981885cbb.js
+/_next/static/chunks/app/page-c9058ad08d68e475.js
+/_next/static/chunks/3524-f39505ee22cdf225.js
+/_next/static/chunks/3628-e3a3dc5d8cbfcb10.js
+/_next/static/chunks/3274-a485cece259cad6a.js
+/_next/static/chunks/app/layout-07afa70afe57af31.js
+/_next/static/chunks/app/error-ecc37dcb4f7aa899.js
+/_next/static/chunks/app/not-found-bb6a05081599ded3.js
+/_next/static/chunks/app/loading-6cfc383c0ad33632.js
+/_next/static/chunks/polyfills-42372ed130431b0a.js
+/_next/static/chunks/webpack-acc10395d94dbe32.js
+
+=== Edu homepage links ===

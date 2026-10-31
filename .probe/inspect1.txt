@@ -1,0 +1,98 @@
+NEXT_DATA found: True len 23690
+candidate cards: 18
+PATH root.props.pageProps.dehydratedState.queries[0].state.data.open_hackathons[0]
+{
+ "uuid": "d957bc2099f945e99edfae0c2972bed9",
+ "slug": "devnexus2",
+ "name": "DevNexus 2.0",
+ "type": "HACKATHON",
+ "starts_at": "2026-11-27T18:30:00+00:00",
+ "ends_at": "2026-11-28T18:30:00+00:00",
+ "is_online": false,
+ "devfolio_official": null,
+ "rating": 0,
+ "timezone": "Asia/Calcutta",
+ "participants_count": 1193
+}
+PATH root.props.pageProps.dehydratedState.queries[0].state.data.open_hackathons[1]
+{
+ "uuid": "c4045a4afcb94f6f89cfb8c48dfdf892",
+ "slug": "hacknauts26",
+ "name": "Hacknauts 2.0",
+ "type": "HACKATHON",
+ "starts_at": "2026-11-14T07:30:00+00:00",
+ "ends_at": "2026-11-15T07:30:00+00:00",
+ "is_online": false,
+ "devfolio_official": null,
+ "rating": 0,
+ "timezone": "Asia/Calcutta",
+ "participants_count": 1458
+}
+PATH root.props.pageProps.dehydratedState.queries[0].state.data.open_hackathons[2]
+{
+ "uuid": "0dab52b6085941a6b366b2425310d8b8",
+ "slug": "the-big-hack-2",
+ "name": "THE BIG HACK 2.0",
+ "type": "HACKATHON",
+ "starts_at": "2026-11-20T03:30:00+00:00",
+ "ends_at": "2026-11-20T19:15:00+00:00",
+ "is_online": false,
+ "devfolio_official": null,
+ "rating": 0,
+ "timezone": "Asia/Calcutta",
+ "participants_count": 170
+}
+PATH root.props.pageProps.dehydratedState.queries[0].state.data.open_hackathons[3]
+{
+ "uuid": "50e23a48e3964f43878279a3bf81339d",
+ "slug": "haxfinity",
+ "name": "haxfinity",
+ "type": "HACKATHON",
+ "starts_at": "2026-12-12T05:00:00+00:00",
+ "ends_at": "2026-12-13T05:00:00+00:00",
+ "is_online": false,
+ "devfolio_official": null,
+ "rating": 0,
+ "timezone": "Asia/Calcutta",
+ "participants_count": 393
+}
+top props keys: ['dehydratedState']
+--- nta.html links 0 ---
+matches shown 0
+--- cbse.html links 397 ---
+{"href": "#carouselExampleIndicators", "title": "", "text": "Previous"}
+{"href": "#carouselExampleIndicators", "title": "", "text": "Next"}
+{"href": "documents/Experience_Centre_Opening_Circular_30102026.pdf", "title": "", "text": "Visit of Students of CBSE - Affiliated Schools to the CBSE Experience Centre - reg. (919 KB)"}
+{"href": "https://cbseacademic.nic.in/web_material/Circulars/2026/70_Circular_2026.pdf", "title": "", "text": "Scheme of Studies for Class IX 2026-27 – reg."}
+{"href": "documents/Date_Sheet_Special_Examinations_09102026.pdf", "title": "", "text": "Date Sheet for Class XII : Special Examinations for West Asia - 2026 (631 KB) 09/10/2026"}
+{"href": "https://apps.cbseit.in/comptt/", "title": "", "text": "Click here to download Admit Card 12/10/2026"}
+{"href": "documents/SUBMISSION_FORMS_PRIVATE_XII_2627_07102026.pdf", "title": "", "text": "Submission of Examination forms by Private Candidates for Senior Secondary (Class XII) Examinations 2026-2027 (6.28 MB)"}
+{"href": "documents/SUBMISSION_FORMS_PRIVATE_X_2627_07102026.pdf", "title": "", "text": "Submission of Examination forms by Private Candidates for Class-X Examinations 2026-2027 (5.57 MB)"}
+{"href": "documents/21_Circular_2026_07102026.pdf", "title": "", "text": "Rerun of Second Cycle of NISHTHA Courses during 2026-27– reg. (1.53 MB)"}
+{"href": "documents/20_Circular_2026_05102026.pdf", "title": "", "text": "Screening of Sensitization Module on Inclusive Education for School Staff on 7th Oct, 2026- reg. (1.41 MB)"}
+{"href": "documents/Press_Release_LOC_Webinar_29092026.pdf", "title": "", "text": "CBSE Holds Live Q&A Webinar on Registration and LOC for Board Examinations 2027 Webinar highlights CBSE’s focus on making examination-related processes more student-friendly and transparent (296 KB)"}
+{"href": "documents/PUBLIC_NOTICE_Rev_NSP_22092026.pdf", "title": "", "text": "Revised National Scholarship Portal (NSP) Framework for Academic Year 2026-27 (1.13 MB)"}
+{"href": "documents/LOC_2627_21092026.pdf", "title": "", "text": "Submission of List of Candidates (LOC) for Class X and Class XII Main Examinations- 2026-27 - reg. (15.8 MB)"}
+{"href": "documents/Submission_LOC_XII_2026_West_Asia_15092026.pdf", "title": "", "text": "Submission of List of Candidates (LOC) for Class XII-2026 Special Examinations for students in West Asia only-reg. (1.22 MB) 15/09/2026"}
+{"href": "documents/LOC_Prior_Information_10092026.pdf", "title": "", "text": "Prior Intimation of Submission of List of Candidates (LOC) for Class X/XII Examination-2026-27 (0.98 MB)"}
+{"href": "documents/18_Circular_2026_01092026.pdf", "title": "", "text": "Extension of Date for Registration for CBSE National Teachers' Conference (NTC) 2026 on ‘Computational Thinking and Understanding Artificial Intelligence’ – reg. (1.53 MB)"}
+{"href": "documents/NOTICE_POST_RESULT_DECLARATION_FACILITIES_XII_SUPPLEMENTARY_2026_27082026.pdf", "title": "", "text": "Notice for Post Result Declaration Facilities to the Students, Class XII Supplementary Examination 2026 (2.72 MB)"}
+{"href": "documents/CTET_Public_Notice_Date_Ete_25082026.pdf", "title": "", "text": "Public Notice : \"Re opening of Online Application window for the 22nd Edition of CTET (from 25.08.2026 to 01.09.2026).\" (409 KB)"}
+{"href": "https://examinationservices.nic.in/ExamSysCTET/root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFfEytN2I3LFrLvNrMJcZJNmO/XE3+xNuu3rFt9agQvt0", "title": "", "text": "Click here to apply"}
+{"href": "documents/16_Circular_2026_13082026.pdf", "title": "", "text": "Dissemination of 845+ Curriculum-Aligned Virtual Labs and Digital Resources Available on DIKSHA– reg. (1.53 MB)"}
+{"href": "documents/15_Circular_2026_13082026.pdf", "title": "", "text": "‘Enrollment in NISHTHA Courses during 2026-27 Cycle 1 – reg. (1.53 MB)"}
+{"href": "documents/Press_Release_Supplementary_2026_12082026.pdf", "title": "", "text": "Press Release : CBSE Declares Class XII Supplementary Examination Results-2026 (638 KB)"}
+{"href": "documents/PressNote_07082026.pdf", "title": "", "text": "Results of Tier-II Recruitment Examinations of Kendriya Vidyalaya Sangathan (KVS), Navodaya Vidyalaya Samiti (NVS) and Eklavya Model Residential Schools (EMRS), will be released soon (306 KB)"}
+{"href": "documents/Post_Result_declaration_Facilities_Class_X_05082026.pdf", "title": "", "text": "Post-result declaration facilities to the students of Class-X, Main and Second Board Examinations-2026 (2.59 MB)"}
+{"href": "documents/14_Circular_2026_05082026.pdf", "title": "", "text": "‘3030 Eklavya-Computational Thinking (CT) and Artificial Intelligence (AI)’ - Online Series. (1.49 MB)"}
+{"href": "documents/Guidelines_Conducting_Practical_Examinations_Supplementary_22072026.pdf", "title": "", "text": "Guidelines for conducting Practical Examinations with the Supplementary Examination, 2026 -reg (1.02 MB)"}
+{"href": "documents/13_Circular_2026_21072026.pdf", "title": "", "text": "“NEP 2020: Empowering SEDGs” (27 to 31 July 2026) Online Training Programme – reg. (1.71 MB)"}
+{"href": "documents/Issuance_Admit_card_Supplementary_2026_21072026.pdf", "title": "", "text": "Issuance of Admit Cards for Supplementary Examinations, 2026 (346 KB)"}
+{"href": "documents/Press_Release_18072026.pdf", "title": "", "text": "Press Release : CBSE Declares Class X Second Board Examination Results 2026 (380 KB)"}
+{"href": "documents/Supplementary_Datesheet_XII_17072026.pdf", "title": "", "text": "Datesheet for Senior Secondary Supplementary Examination - 2026 (832 KB)"}
+{"href": "documents/Extension_Last_Date_LOC_Regular_Students_XII_Supplementary_2026_07072026.pdf", "title": "", "text": "Extension of Last Date For Filling List Of Candidates (LOC) For Regular Students For Class XII Supplemenatry Examinations 2026 (328 KB)"}
+{"href": "documents/Extension_Last_Date_Private_Students_XII_Supplementary_2026_07072026.pdf", "title": "", "text": "Extension of Last Date For Filling Examination Forms For Private Candidates For Class XII Supplemenatry Examinations 2026-reg. (323 KB)"}
+{"href": "documents/12_Circular_2026_02072026.pdf", "title": "", "text": "Extension of last date for submission of applications/nominations for engagement of Principal as Director and engagement of Teachers as Mentors, PRERANA (1.32 MB)"}
+{"href": "documents/Online_Submission_List_Candidates_XII_Supplementary_2026_30062026.pdf", "title": "", "text": "Online submission of List of Candidates for Class XII Supplementary Examination 2026 reg. (3.97 MB)"}
+{"href": "documents/Private_Online_Submission_XII_Supplementary_2026_30062026.pdf", "title": "", "text": "Online submission of forms by Private Candidates of Class XII, Supplementary Examination- 2026 for Compartment (3rd chance) reg. (4.42 MB)"}
+matches shown 35

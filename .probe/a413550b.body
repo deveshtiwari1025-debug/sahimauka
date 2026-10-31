@@ -1,0 +1,1 @@
+{"error":{"type":"UnprocessableRequestError","status":422,"title":"Unprocessable Request","message":"The server received a request that could not be processed.","source":{"filter":{"location":"query","param":"filter","value":"open","msg":"hackathon_filter should be from [upcoming,past,live,application_open,application_close,devfolio_official,featured,all,online]"}}}}

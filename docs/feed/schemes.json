@@ -1,73 +1,89 @@
 {
- "generated_at": "2026-10-31T17:56:30Z",
+ "generated_at": "2026-10-31T21:04:11Z",
  "items": [
   {
-   "id": "4eab4738b281fb05",
-   "title": "'माई भारत' के ‘विकसित भारत युवा संवाद: अपने वोट को जानें’ अभियान में 16 राज्यों/केंद्र शासित प्रदेशों में आयोजित 62 कार्यक्रमों के माध्यम से 11,000 से अधिक युवा जुड़े",
-   "org": "Press Information Bureau",
+   "id": "46a242ea6714ac20",
+   "title": "BARC OCES and DGFS Graduate Training",
+   "org": "Bhabha Atomic Research Centre",
    "category": "schemes",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331030",
+   "url": "https://www.barc.gov.in/careers/training.html",
    "deadline": null,
-   "description": "",
-   "source": "pib",
-   "source_label": "PIB, Government of India (official RSS)",
-   "fetched_at": "2026-10-31T17:56:30Z",
+   "deadline_status": "check_official",
+   "description": "BARC's graduate training and fellowship pathways for engineering, science and health students. Confirm the current cycle, disciplines and eligibility on the official page.",
+   "source": "programs",
+   "source_label": "Official programme page — Bhabha Atomic Research Centre",
+   "fetched_at": "2026-10-31T21:04:11Z",
    "published_at": null,
    "tags": [
-    "government",
-    "official"
+    "BARC",
+    "graduate training",
+    "stipend",
+    "government"
    ],
    "verification": {
-    "domain": "pib.gov.in",
+    "domain": "www.barc.gov.in",
     "source_verified": true,
     "deadline_future": null,
-    "flags": []
+    "flags": [],
+    "deadline_status": "check_official",
+    "checked_at": "2026-11-01",
+    "official_program": true
    }
   },
   {
-   "id": "31c3d59692ebef07",
-   "title": "उपराष्ट्रपति श्री सी. पी. राधाकृष्णन ने उप-राष्ट्रपति भवन में ‘सरदार कथा’ कार्यक्रम में भाग लिया; राष्ट्रीय एकता दिवस पर सरदार वल्लभभाई पटेल को श्रद्धांजलि अर्पित की",
-   "org": "Press Information Bureau",
+   "id": "ce7d3b6c949bd221",
+   "title": "Free Coaching for SC, OBC and PM CARES Children",
+   "org": "Department of Social Justice & Empowerment",
    "category": "schemes",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2330980",
+   "url": "https://socialjustice.gov.in/schemes/30",
    "deadline": null,
-   "description": "",
-   "source": "pib",
-   "source_label": "PIB, Government of India (official RSS)",
-   "fetched_at": "2026-10-31T17:56:30Z",
+   "deadline_status": "check_official",
+   "description": "Free coaching scheme for eligible SC, OBC and PM CARES children preparing for competitive examinations. Check available courses and the current intake on the official page.",
+   "source": "programs",
+   "source_label": "Official programme page — Department of Social Justice & Empowerment",
+   "fetched_at": "2026-10-31T21:04:11Z",
    "published_at": null,
    "tags": [
-    "government",
-    "official"
+    "free coaching",
+    "competitive exams",
+    "government"
    ],
    "verification": {
-    "domain": "pib.gov.in",
+    "domain": "socialjustice.gov.in",
     "source_verified": true,
     "deadline_future": null,
-    "flags": []
+    "flags": [],
+    "deadline_status": "check_official",
+    "checked_at": "2026-11-01",
+    "official_program": true
    }
   },
   {
-   "id": "0a5b09e18747bf58",
-   "title": "संसदीय कार्य मंत्रालय ने स्वच्छता, रिकॉर्ड प्रबंधन और डिजिटल शासन पर ध्यान केंद्रित करते हुए 'विशेष अभियान 6.0' का समापन किया",
-   "org": "Press Information Bureau",
+   "id": "e7c06ceea070fb06",
+   "title": "National Apprenticeship Promotion Scheme",
+   "org": "Apprenticeship India, Government of India",
    "category": "schemes",
-   "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2330914",
+   "url": "https://www.apprenticeshipindia.gov.in/",
    "deadline": null,
-   "description": "",
-   "source": "pib",
-   "source_label": "PIB, Government of India (official RSS)",
-   "fetched_at": "2026-10-31T17:56:30Z",
+   "deadline_status": "check_official",
+   "description": "Official portal for apprenticeship opportunities and the National Apprenticeship Promotion Scheme. Search live openings, eligibility and employer details on the portal.",
+   "source": "programs",
+   "source_label": "Official programme page — Apprenticeship India, Government of India",
+   "fetched_at": "2026-10-31T21:04:11Z",
    "published_at": null,
    "tags": [
-    "government",
-    "official"
+    "apprenticeship",
+    "NSQF",
+    "government"
    ],
    "verification": {
-    "domain": "pib.gov.in",
+    "domain": "www.apprenticeshipindia.gov.in",
     "source_verified": true,
     "deadline_future": null,
-    "flags": []
+    "flags": [],
+    "deadline_status": "check_official",
+    "checked_at": "2026-11-01",
+    "official_program": true
    }
   }
  ]
