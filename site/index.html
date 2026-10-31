@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SahiMauka — Sahi mauka, sahi samay</title>
+<meta name="description" content="Verified opportunities for students — scholarships, hackathons, exams. Every item links to its official source. Sahi mauka, sahi samay.">
+<style>
+  :root{
+    --ink:#1c1330; --paper:#fffdf8; --accent:#7c3aed; --accent2:#f59e0b;
+    --line:#e7e1f4; --muted:#6b6478;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header.site{background:linear-gradient(135deg,#1c1330 0%,#4c1d95 55%,#7c3aed 100%);color:#fff;padding:64px 0 56px}
+  header.site .tag{color:#fbbf24;font-weight:700;letter-spacing:.12em;font-size:12px;text-transform:uppercase}
+  header.site h1{font-size:clamp(30px,5vw,46px);line-height:1.15;margin:10px 0 14px}
+  header.site p.sub{color:#d9cffc;max-width:640px;font-size:17px}
+  .badge-row{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+  .pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:6px 14px;border-radius:999px;font-size:13px}
+  section{padding:44px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:22px;margin-bottom:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{font-size:15px;margin-bottom:6px}
+  .card p{font-size:13.5px;color:var(--muted)}
+  .feedstat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-top:14px;font-size:14px;display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+  .feedstat b{font-size:20px;color:var(--accent)}
+  a.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 22px;border-radius:12px;font-weight:600;margin-top:16px}
+  footer{padding:28px 0;color:var(--muted);font-size:13px}
+  footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="tag">Sahi mauka, sahi samay</div>
+    <h1>Verified opportunities for students.<br>Never miss the deadline.</h1>
+    <p class="sub">SahiMauka aggregates scholarships, hackathons, exams and government schemes
+    <b>directly from official sources</b> — every item links to its official page and carries its
+    verification evidence. No pay-to-apply scams. No stale listings.</p>
+    <div class="badge-row">
+      <span class="pill">✅ Verified sources only</span>
+      <span class="pill">⏰ Deadline engine</span>
+      <span class="pill">🇮🇳 Official government releases</span>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="wrap">
+    <h2>Live, verified feed</h2>
+    <p>The app consumes this public feed. It is regenerated on a schedule directly from official
+    sources — what you see below is the real current state, not a demo.</p>
+    <div class="feedstat" id="stat">Loading live feed status…</div>
+    <div class="grid" id="cats"></div>
+    <p style="margin-top:14px;font-size:13px;color:var(--muted)">Raw feeds:
+      <a href="feed/all.json">all.json</a> ·
+      <a href="feed/index.json">index.json</a> ·
+      <a href="feed/hackathons.json">hackathons.json</a> ·
+      <a href="feed/scholarships.json">scholarships.json</a>
+    </p>
+  </div>
+  <div class="wrap">
+    <h2 style="margin-top:34px">How it works</h2>
+    <ol style="margin:12px 0 0 20px;font-size:14.5px;color:#3d3350">
+      <li>Ingestion pulls from official APIs/RSS on a schedule (Devpost official API, PIB Govt. of India RSS).</li>
+      <li>Every item is verified: source-domain allowlist, deadline sanity, pay-to-apply scam flags.</li>
+      <li>Flagged or expired items never render. A failing source contributes nothing — honesty over vanity.</li>
+      <li>The app adds what boards don't: deadline countdowns, reminders, and a first-run tour.</li>
+    </ol>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2>Business model</h2>
+    <p style="font-size:14.5px">Free forever for students. <b>SahiMauka Plus</b> (₹49/mo, ₹299/yr)
+    for unlimited trackers and personalised alerts. Colleges and employers pay per
+    <b>verified posting</b> (₹499/post) with source attestation. Details in
+    <a href="https://github.com/deveshtiwari1025-debug/sahimauka/blob/main/BUSINESS_MODEL.md">BUSINESS_MODEL.md</a>.</p>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    © 2026 SahiMauka · <a href="privacy.html">Privacy Policy</a> ·
+    Built from official sources only. If a source is down, we show less — not fake data.
+  </div>
+</footer>
+<script>
+fetch('feed/index.json').then(r=>r.json()).then(d=>{
+  document.getElementById('stat').innerHTML =
+    '<span><b>'+d.total+'</b> verified opportunities</span>'+
+    '<span>updated <b>'+d.generated_at.slice(0,10)+'</b></span>'+
+    '<span>sources: <b>'+Object.keys(d.sources).join(', ')+'</b></span>';
+  const names = {hackathons:'Hackathons', scholarships:'Scholarships', exams:'Exams', schemes:'Schemes'};
+  document.getElementById('cats').innerHTML = Object.entries(d.counts).map(([k,v])=>
+    '<div class="card"><h3>'+names[k]+'</h3><p>'+v+' verified live</p></div>').join('');
+}).catch(()=>{ document.getElementById('stat').textContent = 'Feed temporarily unavailable — the app retries automatically.'; });
+</script>
+</body>
+</html>

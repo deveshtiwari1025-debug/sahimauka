@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-10-31T17:56:30Z",
+ "total": 31,
+ "counts": {
+  "hackathons": 27,
+  "scholarships": 1,
+  "exams": 0,
+  "schemes": 3
+ },
+ "sources": {
+  "devpost": {
+   "status": "ok",
+   "items": 27,
+   "label": "Devpost"
+  },
+  "pib": {
+   "status": "ok",
+   "items": 4,
+   "label": "Press Information Bureau, Govt. of India"
+  }
+ },
+ "honesty_note": "Only items parsed from the listed official sources this run. A failing source contributes nothing rather than fake data."
+}

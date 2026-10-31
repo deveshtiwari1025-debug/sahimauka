@@ -1,0 +1,624 @@
+{
+ "generated_at": "2026-10-31T17:56:30Z",
+ "items": [
+  {
+   "id": "29178969c50af980",
+   "title": "AQX Sports Analytics Data Bowl 4.0",
+   "org": "Devpost",
+   "category": "hackathons",
+   "url": "https://aqxanalyticsfour.devpost.com/",
+   "deadline": "2026-11-01",
+   "description": "Devpost hackathon on Devpost — prize pool $<span data-currency-value>50</span>. Themes: Beginner Friendly, Databases, Gaming.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Beginner Friendly",
+    "Databases",
+    "Gaming"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "50ab6eca909021bc",
+   "title": "Codex x TwitchCon Hackathon",
+   "org": "Twitch",
+   "category": "hackathons",
+   "url": "https://twitchcon-codex.devpost.com/",
+   "deadline": "2026-11-02",
+   "description": "Twitch hackathon on Devpost — prize pool $<span data-currency-value>25,000</span>. Themes: Communication, Gaming, Machine Learning/AI.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Communication",
+    "Gaming",
+    "Machine Learning/Ai"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "5a0a84ec0287a4dc",
+   "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
+   "org": "Perfect Corp",
+   "category": "hackathons",
+   "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+   "deadline": "2026-11-02",
+   "description": "Perfect Corp hackathon on Devpost — prize pool $<span data-currency-value>6,000</span>. Themes: AR/VR, E-commerce/Retail, Machine Learning/AI.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Ar/Vr",
+    "E-Commerce/Retail",
+    "Machine Learning/Ai"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "c0632b82f9d727b8",
+   "title": "Pumpkin Playground",
+   "org": "ACM Long Beach",
+   "category": "hackathons",
+   "url": "https://pumpkin-playground.devpost.com/",
+   "deadline": "2026-11-06",
+   "description": "ACM Long Beach hackathon on Devpost — prize pool $<span data-currency-value>50</span>. Themes: Design, Gaming, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Design",
+    "Gaming",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "92978ac69ff7b766",
+   "title": "Next Byte Hacks V5",
+   "org": "Next Byte Hacks",
+   "category": "hackathons",
+   "url": "https://next-byte-hacks-v5.devpost.com/",
+   "deadline": "2026-11-07",
+   "description": "Next Byte Hacks hackathon on Devpost — prize pool $<span data-currency-value>100</span>. Themes: Beginner Friendly, Low/No Code, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "0ed478768d2db9d5",
+   "title": "Learn AR with SPECS",
+   "org": "Devpost",
+   "category": "hackathons",
+   "url": "https://learn-specs.devpost.com/",
+   "deadline": "2026-11-09",
+   "description": "Devpost hackathon on Devpost — prize pool $<span data-currency-value>2,500</span>. Themes: AR/VR, Machine Learning/AI, Design.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Ar/Vr",
+    "Machine Learning/Ai",
+    "Design"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "755af1d6e005de95",
+   "title": "Herhack",
+   "org": "Echelon institute of technology",
+   "category": "hackathons",
+   "url": "https://herhack.devpost.com/",
+   "deadline": "2026-11-10",
+   "description": "Echelon institute of technology hackathon on Devpost — prize pool ₹ <span data-currency-value>200,000</span>. Themes: Beginner Friendly, Blockchain, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Beginner Friendly",
+    "Blockchain",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "b7ed40bf1e55a797",
+   "title": "PayPal AI Hackathon",
+   "org": "PayPal",
+   "category": "hackathons",
+   "url": "https://paypalaihackathon.devpost.com/",
+   "deadline": "2026-11-12",
+   "description": "PayPal hackathon on Devpost — prize pool $<span data-currency-value>67,500</span>. Themes: Low/No Code, Machine Learning/AI, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Low/No Code",
+    "Machine Learning/Ai",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "3e9584f63fce305c",
+   "title": "DSH Hacks V2 ($100k+ in prizes!)",
+   "org": "STEMise",
+   "category": "hackathons",
+   "url": "https://dsh-hacks-v2.devpost.com/",
+   "deadline": "2026-11-15",
+   "description": "STEMise hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Beginner Friendly, Low/No Code, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "1fd29384af69bfe4",
+   "title": "Mathematics for systems security",
+   "org": "Software Engineering Club (DEV)",
+   "category": "hackathons",
+   "url": "https://mathematics-systems-security.devpost.com/",
+   "deadline": "2026-11-15",
+   "description": "Software Engineering Club (DEV) hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Communication, Cybersecurity, Machine Learning/AI.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Communication",
+    "Cybersecurity",
+    "Machine Learning/Ai"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "76a71d166949b935",
+   "title": "STEMergent Hacks 2026",
+   "org": "STEMergent",
+   "category": "hackathons",
+   "url": "https://stemergent-hacks.devpost.com/",
+   "deadline": "2026-11-15",
+   "description": "STEMergent hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Low/No Code, Machine Learning/AI, Social Good.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Low/No Code",
+    "Machine Learning/Ai",
+    "Social Good"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "1555aaa332c1307a",
+   "title": "UGREEN Hackathon 2026 on AI NAS",
+   "org": "UGREEN",
+   "category": "hackathons",
+   "url": "https://ugreenhackathon.devpost.com/",
+   "deadline": "2026-11-16",
+   "description": "UGREEN hackathon on Devpost — prize pool $<span data-currency-value>46,000</span>. Themes: Lifehacks, Machine Learning/AI, Productivity.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Lifehacks",
+    "Machine Learning/Ai",
+    "Productivity"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "30e6d3ac26dbf4c3",
+   "title": "Green Shift Hacks",
+   "org": "HackathonForEveryone",
+   "category": "hackathons",
+   "url": "https://green-shift-hacks.devpost.com/",
+   "deadline": "2026-11-17",
+   "description": "HackathonForEveryone hackathon on Devpost — prize pool $<span data-currency-value>125</span>. Themes: Beginner Friendly, Social Good.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Beginner Friendly",
+    "Social Good"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "2cbd6e58d02f5268",
+   "title": "Meta VR Start Developer Competition 2026",
+   "org": "Meta",
+   "category": "hackathons",
+   "url": "https://start-developer-competition-26.devpost.com/",
+   "deadline": "2026-11-18",
+   "description": "Meta hackathon on Devpost — prize pool $<span data-currency-value>1,000,000</span>. Themes: AR/VR, Machine Learning/AI, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Ar/Vr",
+    "Machine Learning/Ai",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "6bc9dda70790f1c2",
+   "title": "AccessED Hacks",
+   "org": "AccessEDnpo",
+   "category": "hackathons",
+   "url": "https://accessed-hacks.devpost.com/",
+   "deadline": "2026-11-20",
+   "description": "AccessEDnpo hackathon on Devpost — prize pool $<span data-currency-value>225</span>. Themes: Beginner Friendly, Education, Social Good.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Beginner Friendly",
+    "Education",
+    "Social Good"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "f5f3271e3efa084b",
+   "title": "LaunchPad Hacks",
+   "org": "Hack4TodayOrg",
+   "category": "hackathons",
+   "url": "https://launchpad-hacks.devpost.com/",
+   "deadline": "2026-11-20",
+   "description": "Hack4TodayOrg hackathon on Devpost — prize pool $<span data-currency-value>300</span>. Themes: Beginner Friendly, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "d3be428eb4e1137d",
+   "title": "STEM2Connect AI Hackathon",
+   "org": "STEM2Connect",
+   "category": "hackathons",
+   "url": "https://stem2connect-online-hackathon.devpost.com/",
+   "deadline": "2026-11-21",
+   "description": "STEM2Connect hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Beginner Friendly, Education, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Beginner Friendly",
+    "Education",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "8d3dd1908ee98c24",
+   "title": "SafeSpace Hacks",
+   "org": "SafeSpace",
+   "category": "hackathons",
+   "url": "https://safespace-hacks.devpost.com/",
+   "deadline": "2026-11-22",
+   "description": "SafeSpace hackathon on Devpost — prize pool $<span data-currency-value>280</span>. Themes: Beginner Friendly, Cybersecurity, Social Good.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Social Good"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "4159dbf55a37e982",
+   "title": "HackWithAditya",
+   "org": "Aditya University",
+   "category": "hackathons",
+   "url": "https://hackwithaditya.devpost.com/",
+   "deadline": "2026-11-25",
+   "description": "Aditya University hackathon on Devpost — prize pool ₹ <span data-currency-value>500,000</span>. Themes: Education, Health, Machine Learning/AI.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Education",
+    "Health",
+    "Machine Learning/Ai"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "d0a9f96c4d431bf0",
+   "title": "Build Your First AI App",
+   "org": "Yasir Insights",
+   "category": "hackathons",
+   "url": "https://build-your-first-ai-app.devpost.com/",
+   "deadline": "2026-11-27",
+   "description": "Yasir Insights hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Education, Machine Learning/AI, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:28Z",
+   "tags": [
+    "Education",
+    "Machine Learning/Ai",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "f392ff5368c92c39",
+   "title": "Kiroween 2026",
+   "org": "Kiro",
+   "category": "hackathons",
+   "url": "https://kiroween.devpost.com/",
+   "deadline": "2026-12-04",
+   "description": "Kiro hackathon on Devpost — prize pool $<span data-currency-value>100,000</span>. Themes: Beginner Friendly, Machine Learning/AI, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Beginner Friendly",
+    "Machine Learning/Ai",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "a4a07c9a4b8ad5ef",
+   "title": "Arbiter Hacks V1",
+   "org": "Arbiter ",
+   "category": "hackathons",
+   "url": "https://arbiter-hacks-v1.devpost.com/",
+   "deadline": "2026-12-21",
+   "description": "Arbiter  hackathon on Devpost — prize pool $<span data-currency-value>7,800</span>. Themes: Beginner Friendly, Machine Learning/AI, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Beginner Friendly",
+    "Machine Learning/Ai",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "c93326a3ec1fe83d",
+   "title": "Codegeist 2026: Build with context. Ship with confidence.",
+   "org": "Atlassian",
+   "category": "hackathons",
+   "url": "https://codegeist2026.devpost.com/",
+   "deadline": "2026-12-22",
+   "description": "Atlassian hackathon on Devpost — prize pool $<span data-currency-value>120,000</span>. Themes: Machine Learning/AI, Enterprise, Productivity.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:25Z",
+   "tags": [
+    "Machine Learning/Ai",
+    "Enterprise",
+    "Productivity"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "ed9631d4ea0adeb0",
+   "title": "InnovArt 2027: Art and Technology Hack Day",
+   "org": "Binnovative",
+   "category": "hackathons",
+   "url": "https://innovart2027.devpost.com/",
+   "deadline": "2027-01-02",
+   "description": "Binnovative hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Music/Art, Beginner Friendly, Open Ended.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Music/Art",
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "193c81b167f08e00",
+   "title": "Syntax Summit",
+   "org": "Student Organization",
+   "category": "hackathons",
+   "url": "https://syntax-summit.devpost.com/",
+   "deadline": "2027-01-14",
+   "description": "Student Organization hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: DevOps, Machine Learning/AI, Robotic Process Automation.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Devops",
+    "Machine Learning/Ai",
+    "Robotic Process Automation"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "23b77377ae82e44f",
+   "title": "Code for Humanity",
+   "org": "nill",
+   "category": "hackathons",
+   "url": "https://code-for-humanity.devpost.com/",
+   "deadline": "2027-01-15",
+   "description": "nill hackathon on Devpost — prize pool $<span data-currency-value>0</span>. Themes: Education, Machine Learning/AI, Web.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Education",
+    "Machine Learning/Ai",
+    "Web"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  },
+  {
+   "id": "0c658c1edafe4c94",
+   "title": "MineArena 1.0",
+   "org": "Code commit",
+   "category": "hackathons",
+   "url": "https://minearena-1-0.devpost.com/",
+   "deadline": "2027-10-15",
+   "description": "Code commit hackathon on Devpost — prize pool ₹ <span data-currency-value>75,000</span>. Themes: Machine Learning/AI, Fintech, Health.",
+   "source": "devpost",
+   "source_label": "Devpost (official API)",
+   "fetched_at": "2026-10-31T17:56:26Z",
+   "tags": [
+    "Machine Learning/Ai",
+    "Fintech",
+    "Health"
+   ],
+   "verification": {
+    "domain": "devpost.com",
+    "source_verified": true,
+    "deadline_future": true,
+    "flags": []
+   }
+  }
+ ]
+}
