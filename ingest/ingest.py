@@ -12,7 +12,7 @@ deadline sanity, scam-flag regexes). Items that fail parsing or sanity checks
 are dropped — the feed never contains filler. Sources that fail at runtime are
 reported in the manifest and simply contribute nothing that run.
 
-Outputs (written to site/feed/):
+Outputs (written to docs/feed/):
   index.json   {generated_at, counts, sources}   - small, fetched first
   all.json     {generated_at, items: [...]}
   hackathons.json / scholarships.json / exams.json / schemes.json
@@ -34,7 +34,7 @@ from pathlib import Path
 
 UTC = timezone.utc
 ROOT = Path(__file__).resolve().parents[1]
-FEED_DIR = ROOT / "site" / "feed"
+FEED_DIR = ROOT / "docs" / "feed"
 MAX_XML_BYTES = 2_000_000
 
 ALLOWED_DOMAINS = {
