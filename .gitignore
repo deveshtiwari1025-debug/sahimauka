@@ -1,0 +1,10 @@
+.mimosa/
+__pycache__/
+node_modules/
+.expo/
+*.log
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+*.keystore
+store/keystore/
